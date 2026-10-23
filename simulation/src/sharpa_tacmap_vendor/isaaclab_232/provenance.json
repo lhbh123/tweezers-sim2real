@@ -1,0 +1,66 @@
+{
+  "upstream": "https://github.com/isaac-sim/IsaacLab",
+  "commit": "37ddf626871758333d6ed89cf64ad702aef127d0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "df351ebfa8af317bf5a9ad83df63a8b68e4f5c04b71f30767cdb27aa434eac62",
+      "bytes": 1630,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/LICENSE"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py",
+      "sha256": "8ec8313b9cd6068e65f41057d569f1d303ced1859860e77368b27d7fc6cf815b",
+      "bytes": 19796,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_cfg.py",
+      "sha256": "46066ef99f81073605b6cf3726180d12f417b00912ad5fc158c56f6dd895236a",
+      "bytes": 2688,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_cfg.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_data.py",
+      "sha256": "002d629a93b1ab9b12b77c19c0f4d6fbeed7ae30260b7799f0a3f2f0dc126aad",
+      "bytes": 620,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_data.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py",
+      "sha256": "fe585b817897f2d6e1c58a99c266436a2d7242b737e544997c164bbaee621f84",
+      "bytes": 1859,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py",
+      "sha256": "b6a84cb0e506f4a4724d3262e0f533ccb31d75128e1e46282220fcfa688e286c",
+      "bytes": 19411,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/sim/utils/transforms.py",
+      "sha256": "5ec30a60599aff82725f43c8968c3d8619adb4b94ccc141f552bf69b683371d0",
+      "bytes": 19773,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/sim/utils/transforms.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/utils/mesh.py",
+      "sha256": "ff1d7ba23e26b5c2eea4ae63e4ef9df0e4b3c7d8c7554658d0d4677a51ff0db2",
+      "bytes": 6763,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/utils/mesh.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/utils/warp/kernels.py",
+      "sha256": "b38780baabb26b035595e6b6710e26381a18e99ed3bfbbc82887321aee7f82bf",
+      "bytes": 20898,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/utils/warp/kernels.py"
+    },
+    {
+      "path": "source/isaaclab/isaaclab/utils/warp/ops.py",
+      "sha256": "6202538ae05e3f424a0dfdd4df7e00cc272e4213827cceafa5a0a72df8baea84",
+      "bytes": 16810,
+      "url": "https://github.com/isaac-sim/IsaacLab/blob/37ddf626871758333d6ed89cf64ad702aef127d0/source/isaaclab/isaaclab/utils/warp/ops.py"
+    }
+  ]
+}

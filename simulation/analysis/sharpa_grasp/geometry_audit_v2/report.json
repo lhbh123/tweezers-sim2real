@@ -1,0 +1,866 @@
+{
+  "fit": "analysis/sharpa_grasp/collision_aware_fit.json",
+  "fit_sha256": "d9d9803b0e67792f4becdd4a6f7d9387b2f22780edc117d01155c49071d862e1",
+  "candidate": 0,
+  "q": {
+    "right_middle_MCP_FE": -0.12,
+    "right_middle_MCP_AA": 0.12,
+    "right_middle_PIP": 0.04,
+    "right_middle_DIP": 0.04,
+    "right_ring_MCP_FE": -0.12,
+    "right_ring_MCP_AA": 0.24,
+    "right_ring_PIP": 0.04,
+    "right_ring_DIP": 0.04,
+    "right_pinky_MCP_FE": -0.12,
+    "right_pinky_MCP_AA": 0.33,
+    "right_pinky_PIP": 0.04,
+    "right_pinky_DIP": 0.04,
+    "right_pinky_CMC": 0.0,
+    "right_thumb_CMC_FE": 1.9196999758146698,
+    "right_thumb_CMC_AA": 0.28959923892535966,
+    "right_thumb_MCP_FE": -0.27797952095265693,
+    "right_thumb_MCP_AA": 0.2800357555217427,
+    "right_thumb_IP": 0.03421265586208017,
+    "right_index_MCP_FE": 0.3998811237519332,
+    "right_index_MCP_AA": 0.20275686831920267,
+    "right_index_PIP": 0.8870784330435774,
+    "right_index_DIP": 0.34988438438006114
+  },
+  "T_hand_tool": [
+    [
+      -0.40170449324619706,
+      0.010004911906092352,
+      0.9157146945657079,
+      0.0378949537657861
+    ],
+    [
+      -0.1343433960946672,
+      -0.989765808605215,
+      -0.04811960143035813,
+      0.019112640065270383
+    ],
+    [
+      0.9058616627452382,
+      -0.14235008202953905,
+      0.3989374664212627,
+      0.11796452820640706
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tool_geometry": {
+    "length_m": 0.18,
+    "tip_length_m": 0.015,
+    "thickness_m": 0.001,
+    "width_m": 0.014,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "tail_length_m": 0.01,
+    "pinch_z_m": 0.04
+  },
+  "mesh_count": 26,
+  "mesh_details": {
+    "right_hand_C_MC": {
+      "link": "right_hand_C_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_hand_C_MC.STL",
+      "triangles": 3482,
+      "watertight": true
+    },
+    "right_thumb_MC": {
+      "link": "right_thumb_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_thumb_MC.STL",
+      "triangles": 2990,
+      "watertight": true
+    },
+    "right_thumb_PP": {
+      "link": "right_thumb_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_thumb_PP.STL",
+      "triangles": 1716,
+      "watertight": true
+    },
+    "right_thumb_DP": {
+      "link": "right_thumb_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "triangles": 3792,
+      "watertight": true
+    },
+    "right_thumb_elastomer": {
+      "link": "right_thumb_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "triangles": 4226,
+      "watertight": true
+    },
+    "right_index_MCP_VL": {
+      "link": "right_index_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_index_PP": {
+      "link": "right_index_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_index_MP": {
+      "link": "right_index_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_index_DP": {
+      "link": "right_index_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_index_elastomer": {
+      "link": "right_index_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_middle_MCP_VL": {
+      "link": "right_middle_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_middle_PP": {
+      "link": "right_middle_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_middle_MP": {
+      "link": "right_middle_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_middle_DP": {
+      "link": "right_middle_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_middle_elastomer": {
+      "link": "right_middle_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_ring_MCP_VL": {
+      "link": "right_ring_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_ring_PP": {
+      "link": "right_ring_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_ring_MP": {
+      "link": "right_ring_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_ring_DP": {
+      "link": "right_ring_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_ring_elastomer": {
+      "link": "right_ring_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_pinky_MC": {
+      "link": "right_pinky_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_pinky_MC.STL",
+      "triangles": 836,
+      "watertight": true
+    },
+    "right_pinky_MCP_VL": {
+      "link": "right_pinky_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_pinky_PP": {
+      "link": "right_pinky_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_pinky_MP": {
+      "link": "right_pinky_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_pinky_DP": {
+      "link": "right_pinky_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_pinky_elastomer": {
+      "link": "right_pinky_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    }
+  },
+  "self_collision_pairs": [
+    {
+      "pair": [
+        "right_hand_C_MC",
+        "right_thumb_MC"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 3.468431841563757,
+      "contact_count": 291,
+      "points_m": [
+        [
+          0.018294571470330076,
+          -0.002377117613478661,
+          0.04776537382836328
+        ],
+        [
+          0.01829493244275067,
+          -0.0023746606186152964,
+          0.04777098904253814
+        ],
+        [
+          0.014294184675601762,
+          0.0027853238129891614,
+          0.037625754993181056
+        ],
+        [
+          0.015674180764318674,
+          -0.0005672940407099851,
+          0.043099165771537946
+        ],
+        [
+          0.01443666580511533,
+          0.0022682011528025485,
+          0.04130694666462077
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_DP",
+        "right_index_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 1.8774103911371187,
+      "contact_count": 222,
+      "points_m": [
+        [
+          0.05159885385878797,
+          0.008617715473773406,
+          0.14911991450135262
+        ],
+        [
+          0.053447917209727996,
+          0.02319072433315964,
+          0.15117159870925087
+        ],
+        [
+          0.053447917209727996,
+          0.02319072433315964,
+          0.15117159870925087
+        ],
+        [
+          0.053447917209727996,
+          0.02319072433315964,
+          0.15117159870925087
+        ],
+        [
+          0.053447917209727996,
+          0.02319072433315964,
+          0.15117159870925087
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_DP",
+        "right_index_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.3123817104803833,
+      "contact_count": 502,
+      "points_m": [
+        [
+          0.05808035418251524,
+          0.02335815393411779,
+          0.1441412344262375
+        ],
+        [
+          0.05720416294671088,
+          0.010256530688859353,
+          0.14190633577621256
+        ],
+        [
+          0.05808035418251524,
+          0.02335815393411779,
+          0.1441412344262375
+        ],
+        [
+          0.05720416294671088,
+          0.010256530688859353,
+          0.14190633577621256
+        ],
+        [
+          0.05712136285225995,
+          0.023105681113706384,
+          0.14275411138919528
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_MCP_VL",
+        "right_index_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.24204460889697083,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.003131660175757608,
+          0.029034283250882118,
+          0.10567862816814262
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_MP",
+        "right_index_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 4.593404632771279,
+      "contact_count": 64,
+      "points_m": [
+        [
+          0.02282691102240017,
+          0.012785044237946687,
+          0.13551207536288137
+        ],
+        [
+          0.019952388068463715,
+          0.0142300738578847,
+          0.13931367413832474
+        ],
+        [
+          0.021343761663895684,
+          0.016068857658652874,
+          0.13819389149900907
+        ],
+        [
+          0.016756849738576753,
+          0.015463147434804586,
+          0.1434456380778556
+        ],
+        [
+          0.016752021192185475,
+          0.015468603726176575,
+          0.14346534994535506
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_middle_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 1.6335051515928567,
+      "contact_count": 216,
+      "points_m": [
+        [
+          -0.011774468401446334,
+          -0.007180740516044611,
+          0.17873748499897285
+        ],
+        [
+          -0.01198651380322632,
+          0.007512834539084031,
+          0.18049643041575178
+        ],
+        [
+          -0.011774468401446334,
+          -0.007180740516044611,
+          0.17873748499897285
+        ],
+        [
+          -0.01198651380322632,
+          0.007512834539084031,
+          0.18049643041575178
+        ],
+        [
+          -0.011280329499239447,
+          0.00744207135212923,
+          0.18117269206763884
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_middle_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.3124041122244889,
+      "contact_count": 906,
+      "points_m": [
+        [
+          -0.007195761346255962,
+          -0.007701862238171493,
+          0.18904549301730858
+        ],
+        [
+          -0.007195761346255962,
+          -0.007701862238171493,
+          0.18904549301730858
+        ],
+        [
+          -0.006878939647719701,
+          -0.007584103950915777,
+          0.18807008242943357
+        ],
+        [
+          -0.007195761346255962,
+          -0.007701862238171493,
+          0.18904549301730858
+        ],
+        [
+          -0.007513030460025534,
+          -0.007846917351351207,
+          0.19002025004410505
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MCP_VL",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.23973782458669746,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.0006092746122964565,
+          0.00915801937595737,
+          0.10892881807428376
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MP",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.288702312958694,
+      "contact_count": 87,
+      "points_m": [
+        [
+          -0.01187623373133511,
+          -0.0002731284742521845,
+          0.14415569647793844
+        ],
+        [
+          -0.011745789016732129,
+          -0.004093884498759513,
+          0.14370441906489856
+        ],
+        [
+          -0.011745132147119709,
+          -0.004094107464201631,
+          0.14370444529282445
+        ],
+        [
+          -0.011742675049117409,
+          -0.004152987264615998,
+          0.1436975491740939
+        ],
+        [
+          -0.011744370013317917,
+          -0.004094366159305019,
+          0.14370447572390954
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_DP",
+        "right_pinky_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 1.6335051515928567,
+      "contact_count": 215,
+      "points_m": [
+        [
+          -0.008132861525611828,
+          -0.06472085679284371,
+          0.16142208188913362
+        ],
+        [
+          -0.008707121450449138,
+          -0.05071943643172127,
+          0.16618343185969803
+        ],
+        [
+          -0.008132861525611828,
+          -0.06472085679284371,
+          0.16142208188913362
+        ],
+        [
+          -0.008707121450449138,
+          -0.05071943643172127,
+          0.16618343185969803
+        ],
+        [
+          -0.007997623577550843,
+          -0.0509109737712227,
+          0.16683224596062984
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_DP",
+        "right_pinky_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.31238171048035557,
+      "contact_count": 502,
+      "points_m": [
+        [
+          -0.0019233247708646869,
+          -0.05301835436501838,
+          0.17134728243133623
+        ],
+        [
+          -0.0016626319826647776,
+          -0.065672492977872,
+          0.16719760413595627
+        ],
+        [
+          -0.0019233247708646869,
+          -0.05301835436501838,
+          0.17134728243133623
+        ],
+        [
+          -0.0016626319826647776,
+          -0.065672492977872,
+          0.16719760413595627
+        ],
+        [
+          -0.0005071270388832105,
+          -0.053260861185322875,
+          0.17042908221216785
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MCP_VL",
+        "right_pinky_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.2433272709659487,
+      "contact_count": 1,
+      "points_m": [
+        [
+          2.6189595959206636e-05,
+          -0.033680266330102265,
+          0.09618768390278667
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MP",
+        "right_pinky_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.288702312958702,
+      "contact_count": 87,
+      "points_m": [
+        [
+          -0.008497545405136189,
+          -0.050810349702378396,
+          0.12901852721113635
+        ],
+        [
+          -0.008272922179240527,
+          -0.05445050739567993,
+          0.12778660184806334
+        ],
+        [
+          -0.008272259880838108,
+          -0.054450714488917466,
+          0.12778658307581459
+        ],
+        [
+          -0.008268351432244869,
+          -0.054506812083747594,
+          0.12776765667719142
+        ],
+        [
+          -0.008271491448296395,
+          -0.05445095476831452,
+          0.12778656129556043
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_DP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 1.633505151592829,
+      "contact_count": 215,
+      "points_m": [
+        [
+          -0.009958865092472251,
+          -0.03701471743948241,
+          0.17011954574263344
+        ],
+        [
+          -0.010379961244339972,
+          -0.02263890103115036,
+          0.1736121924120141
+        ],
+        [
+          -0.009958865092472251,
+          -0.03701471743948241,
+          0.17011954574263344
+        ],
+        [
+          -0.010379961244339972,
+          -0.02263890103115036,
+          0.1736121924120141
+        ],
+        [
+          -0.009672258161870102,
+          -0.02277940962221466,
+          0.17427585437757953
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_DP",
+        "right_ring_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.31238171048036945,
+      "contact_count": 502,
+      "points_m": [
+        [
+          -0.003618859786711779,
+          -0.024540800586133463,
+          0.17896387989752716
+        ],
+        [
+          -0.003496504238434667,
+          -0.03751682730218605,
+          0.17596008654538467
+        ],
+        [
+          -0.003618859786711779,
+          -0.024540800586133463,
+          0.17896387989752716
+        ],
+        [
+          -0.003496504238434667,
+          -0.03751682730218605,
+          0.17596008654538467
+        ],
+        [
+          -0.0022057961470895067,
+          -0.024879520178955086,
+          0.17807167061475726
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_MCP_VL",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.2366477304488416,
+      "contact_count": 1,
+      "points_m": [
+        [
+          -0.0007678583384780999,
+          -0.01215733213436632,
+          0.10243595851258293
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_MP",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.288702312958703,
+      "contact_count": 87,
+      "points_m": [
+        [
+          -0.01018914202637825,
+          -0.02604814776275538,
+          0.1366037751312477
+        ],
+        [
+          -0.010004340601521694,
+          -0.02978592302510562,
+          0.13570170626057845
+        ],
+        [
+          -0.010003680581878949,
+          -0.02978613809077123,
+          0.135701706364828
+        ],
+        [
+          -0.010000385815505377,
+          -0.029843739639710293,
+          0.13568786328874866
+        ],
+        [
+          -0.010002914793262352,
+          -0.029786387620166877,
+          0.13570170648598293
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thumb_DP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 3.892956497873257,
+      "contact_count": 88,
+      "points_m": [
+        [
+          0.07388968029466703,
+          0.009698766148740445,
+          0.10112250102518498
+        ],
+        [
+          0.07399553906237114,
+          0.01007774522437958,
+          0.10096564253013848
+        ],
+        [
+          0.07392334657137584,
+          0.010102289289537188,
+          0.10101435157930008
+        ],
+        [
+          0.07393910761597351,
+          0.010405925911442083,
+          0.10094010106292295
+        ],
+        [
+          0.07384769187992918,
+          0.010418877595848752,
+          0.10100551244461789
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thumb_DP",
+        "right_thumb_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.03894630746456573,
+      "contact_count": 386,
+      "points_m": [
+        [
+          0.07083190682825372,
+          0.008580492907168044,
+          0.11826228667023171
+        ],
+        [
+          0.07083190682825372,
+          0.008580492907168044,
+          0.11826228667023171
+        ],
+        [
+          0.0708082791035415,
+          0.008588696613354695,
+          0.11826912871467475
+        ],
+        [
+          0.06941542076248827,
+          0.009372185333272609,
+          0.1185737065379155
+        ],
+        [
+          0.06946316206814257,
+          0.009396126416735512,
+          0.11863446225488207
+        ]
+      ]
+    }
+  ],
+  "nonmechanism_self_collision_pairs": [],
+  "hand_tool_intersections": [],
+  "non_pinch_hand_tool_intersections": [],
+  "nearest_hand_tool_distances": [
+    {
+      "tool": "joined_tail",
+      "nearest_hand_link": "right_index_PP",
+      "distance_m": 0.004288456969883029
+    },
+    {
+      "tool": "left_blade",
+      "nearest_hand_link": "right_thumb_elastomer",
+      "distance_m": 7.999926874060016e-05
+    },
+    {
+      "tool": "left_tip",
+      "nearest_hand_link": "right_thumb_DP",
+      "distance_m": 0.11292232946410698
+    },
+    {
+      "tool": "right_blade",
+      "nearest_hand_link": "right_index_elastomer",
+      "distance_m": 7.999925950264252e-05
+    },
+    {
+      "tool": "right_tip",
+      "nearest_hand_link": "right_thumb_DP",
+      "distance_m": 0.11573931827847685
+    }
+  ],
+  "method": "Full original URDF collision triangle meshes, rigid FK, FCL triangle collision; point-in-solid sample on watertight meshes. Visualization triangle subsampling only. Static geometry, no solver or dynamics.",
+  "limits": [
+    "Adjacent collision links and fixed assemblies are marked mechanical interfaces; they remain listed for inspection.",
+    "FCL mesh depth and sparse inside samples are diagnostic, not a guaranteed maximum penetration bound.",
+    "No arm/table/trajectory collisions are evaluated."
+  ]
+}

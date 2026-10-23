@@ -1,0 +1,15 @@
+{
+  "sha": "1b7d78ceb69a9be0451a68985967a3e288407c02",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-avatar-ae01-firmware/git/trees/1b7d78ceb69a9be0451a68985967a3e288407c02",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50c58c07955c699746fcf95d243803c06fc895e",
+      "size": 641,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-avatar-ae01-firmware/git/blobs/c50c58c07955c699746fcf95d243803c06fc895e"
+    }
+  ],
+  "truncated": false
+}

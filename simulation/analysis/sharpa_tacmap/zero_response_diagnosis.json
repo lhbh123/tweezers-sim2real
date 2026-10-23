@@ -1,0 +1,54 @@
+{
+  "findings": [
+    "Installed official SharpaTacmap and the vendored official dynamic ray engine successfully produce positive depth controls. Task zero response is not an import or update failure.",
+    "All 1538 recorded natural-v6d control endpoints, all five fingers and full 240x240 published maps have no map point inside exact tool geometry; independent two-pass CPD plus published quantization/blur predicts zero output in every phase.",
+    "The published maps match the official TacMap demonstration paired USD far more closely than the currently used newer official W01 elastomer CAD. Paired USD surface normal offsets are near zero in the sample. This rules out a universal approximately 1mm inward skin-map offset as the sole explanation.",
+    "The actual task also uses rigid contact, while the official example explicitly configures compliant_contact_stiffness=280, damping=20 and negative rest offsets. Geometry alignment and physically justified compliance are separate issues."
+  ],
+  "limits": [
+    "Offline task prediction uses recorded actual sensor poses at every 60Hz control endpoint, not all 480Hz within-interval states.",
+    "Surface comparison uses 256 distributed valid points plus up to512 unique map points nearest real contacts per finger, not every map point.",
+    "Existing force-contact projection remains a different measurement; no force-to-depth conversion is used here."
+  ],
+  "valid_remediation_options": [
+    {
+      "option": "Use paired official TacMap geometry and maps",
+      "details": "Extract the paired right-hand elastomer surfaces in sensor frame; use those collision/visual assets with original TH/4F maps. Refit/verify hand-tool grasp and shell clearances since changing surfaces changes the task geometry. Then use the official compliant material only as a declared physical model with validated units/stability, rerun all task/geometry checks."
+    },
+    {
+      "option": "Geometric calibration to current W01 CAD",
+      "details": "Derive a surface correspondence from published map UV topology to the current elastomer CAD, recompute valid normals, measure distance/orientation residuals and keep full mapping provenance. The official sensor class can remain unchanged, but inputs must be labeled calibrated maps, not unmodified published maps. Rigid surface coincidence alone does not promise a strong deformation signal."
+    },
+    {
+      "option": "Official compliant rigid contact",
+      "details": "Official env_cfg configures stiffness280/damping20 and rest offsets, allowing geometry overlap under loading. This can produce penetration maps, but it is not FEM or a measured W01 material calibration. It cannot by itself establish that mismatched source maps are correctly registered; do not adjust stiffness or offsets just to color the image."
+    }
+  ],
+  "not_valid_remediation": [
+    "Arbitrary outward sensor-point offset chosen to manufacture nonzero maps.",
+    "Force-proportional synthetic depth substituted for official raycast output.",
+    "Calling all observed source mesh overlap physical elastomer deformation without identifying compliant contact and actual source surfaces."
+  ],
+  "evidence": [
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/smoke_v3_geometry.json",
+      "sha256": "61b1c2ebcd60f3ad1d99a65e55afaf9692c81c4954ebbf3889994eaf36ebffa0"
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/natural_v6d_geometry.json",
+      "sha256": "7fe23505188116566e39420f0839deb76b2a5a1d3bd98abd2f1eefeec433a38a"
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/surface_alignment.json",
+      "sha256": "817e31fa7914e4cdddf39c88b423d7cf1999fb3cf8d2a7f2cbd85bebc4029552"
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/official_elastomer_meshes.npz",
+      "sha256": "e41fa2c94c59b9bbc5af0f0763921a9ba8b1ad82caca3340273ba7ef22e16287"
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/official_elastomer_meshes.json",
+      "sha256": "5345a934987d7c102479d801a48a6278325d4c86c8f65a9e1a29f8c53b859dd6"
+    }
+  ]
+}

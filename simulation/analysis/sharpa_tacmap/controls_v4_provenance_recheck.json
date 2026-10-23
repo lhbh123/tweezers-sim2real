@@ -1,0 +1,936 @@
+{
+  "valid": true,
+  "geometry_controls": {
+    "archive": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/runs/sharpa_official_tacmap_controls_v4/controls.npz",
+    "sha256": "681e5a223f890187e46c3e2d099cffe0205f99a987e115f37774775fd74f9086",
+    "cases": [
+      {
+        "case": "TH_clear",
+        "model": "TH",
+        "nominal_indent_m": -0.001,
+        "actual_peak_code": 0,
+        "nonzero_pixels": 0,
+        "independent_depth_max_m": 0.0,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "TH_indent_0.1mm",
+        "model": "TH",
+        "nominal_indent_m": 0.0001,
+        "actual_peak_code": 19,
+        "nonzero_pixels": 421,
+        "independent_depth_max_m": 0.0001000048141577281,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "TH_indent_0.5mm",
+        "model": "TH",
+        "nominal_indent_m": 0.0005,
+        "actual_peak_code": 99,
+        "nonzero_pixels": 1630,
+        "independent_depth_max_m": 0.0005000240635126829,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "TH_indent_1mm",
+        "model": "TH",
+        "nominal_indent_m": 0.001,
+        "actual_peak_code": 116,
+        "nonzero_pixels": 2971,
+        "independent_depth_max_m": 0.0010015732841566205,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "4F_clear",
+        "model": "4F",
+        "nominal_indent_m": -0.001,
+        "actual_peak_code": 0,
+        "nonzero_pixels": 0,
+        "independent_depth_max_m": 0.0,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "4F_indent_0.1mm",
+        "model": "4F",
+        "nominal_indent_m": 0.0001,
+        "actual_peak_code": 19,
+        "nonzero_pixels": 506,
+        "independent_depth_max_m": 0.00010008939716499299,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "4F_indent_0.5mm",
+        "model": "4F",
+        "nominal_indent_m": 0.0005,
+        "actual_peak_code": 99,
+        "nonzero_pixels": 2256,
+        "independent_depth_max_m": 0.0005004470003768802,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      },
+      {
+        "case": "4F_indent_1mm",
+        "model": "4F",
+        "nominal_indent_m": 0.001,
+        "actual_peak_code": 116,
+        "nonzero_pixels": 4183,
+        "independent_depth_max_m": 0.0010008958633989096,
+        "max_code_difference": 0,
+        "mean_code_difference": 0.0
+      }
+    ],
+    "scope": "Geometric sensing controls using fixed fixtures, not physical-contact or task-success evidence."
+  },
+  "checks": {
+    "control_surface_provenance_kind_known": {
+      "passed": true,
+      "kind": "unmodified_official_TacMap_surface"
+    },
+    "control_official_surface_tactileSensor_map_TH_point.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_point.npy",
+      "sha256": "e7d2ddaaf2b593d36e5ce8b9e2d1816ec0b424004ca74915742fff1bced65fc9",
+      "git_blob_sha": "9b08307e2c2734e4ab52b55b4d8288ef874e2b60"
+    },
+    "control_official_surface_tactileSensor_map_TH_normal.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_normal.npy",
+      "sha256": "5fc140b821332299fbea7f85d7e4ee5f6c2faec713dcbe77d0bf1b574843ad1e",
+      "git_blob_sha": "b16712616a47e09bb78d0feed6d6a42a66da0407"
+    },
+    "control_official_surface_tactileSensor_map_4F_point_origin.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_point_origin.npy",
+      "sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b",
+      "git_blob_sha": "11de704dc8f4b5de779d1a88480e5bc02ae76a04"
+    },
+    "control_official_surface_tactileSensor_map_4F_normal_origin.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_normal_origin.npy",
+      "sha256": "af8fd81dacb4b45b009f1806c59eebba31cb3f07ce1422031ab9a90969a6b708",
+      "git_blob_sha": "f0e97f0191d1892deb6a1ce63bde813850c5bcff"
+    },
+    "control_four_surface_assets_verified": {
+      "passed": true
+    },
+    "geometry_controls_are_separate_fixed_fixtures": {
+      "passed": true
+    },
+    "geometry_control_shape_uint8": {
+      "passed": true,
+      "shape": [
+        8,
+        2,
+        240,
+        240
+      ],
+      "dtype": "uint8"
+    },
+    "geometry_control_case_names": {
+      "passed": true
+    },
+    "control_runtime_engine_source_hash_0": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/LICENSE"
+    },
+    "control_runtime_engine_source_hash_1": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py"
+    },
+    "control_runtime_engine_source_hash_2": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_cfg.py"
+    },
+    "control_runtime_engine_source_hash_3": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_data.py"
+    },
+    "control_runtime_engine_source_hash_4": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py"
+    },
+    "control_runtime_engine_source_hash_5": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py"
+    },
+    "control_runtime_engine_source_hash_6": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sim/utils/transforms.py"
+    },
+    "control_runtime_engine_source_hash_7": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/mesh.py"
+    },
+    "control_runtime_engine_source_hash_8": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/kernels.py"
+    },
+    "control_runtime_engine_source_hash_9": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/ops.py"
+    },
+    "control_runtime_engine_source_hash_10": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py"
+    },
+    "control_runtime_engine_source_hash_11": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py"
+    },
+    "control_runtime_engine_source_hash_12": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/ops.py"
+    },
+    "control_runtime_engine_source_hash_13": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/kernels.py"
+    },
+    "control_runtime_engine_source_hash_14": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/src/sharpa_tacmap_compat.py"
+    },
+    "geometry_controls_cover_both_surface_models_and_all_depths": {
+      "passed": true
+    },
+    "geometry_controls_official_frame_advancement": {
+      "passed": true
+    },
+    "geometry_controls_repeat_deterministically": {
+      "passed": true
+    },
+    "control_TH_clear_official_method": {
+      "passed": true
+    },
+    "control_TH_clear_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_clear_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_clear_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_clear_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_TH_clear_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_TH_clear_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0
+    },
+    "control_TH_clear_clear_zero": {
+      "passed": true,
+      "maximum_code": 0,
+      "nonzero_pixels": 0
+    },
+    "control_TH_indent_0.1mm_official_method": {
+      "passed": true
+    },
+    "control_TH_indent_0.1mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.1mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.1mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.1mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_TH_indent_0.1mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_TH_indent_0.1mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0001000048141577281
+    },
+    "control_TH_indent_0.1mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 19,
+      "nonzero_pixels": 421
+    },
+    "control_TH_indent_0.5mm_official_method": {
+      "passed": true
+    },
+    "control_TH_indent_0.5mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.5mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.5mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_0.5mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_TH_indent_0.5mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_TH_indent_0.5mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0005000240635126829
+    },
+    "control_TH_indent_0.5mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 99,
+      "nonzero_pixels": 1630
+    },
+    "control_TH_indent_1mm_official_method": {
+      "passed": true
+    },
+    "control_TH_indent_1mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_1mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_1mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_TH_indent_1mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_TH_indent_1mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_TH_indent_1mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0010015732841566205
+    },
+    "control_TH_indent_1mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 116,
+      "nonzero_pixels": 2971
+    },
+    "control_4F_clear_official_method": {
+      "passed": true
+    },
+    "control_4F_clear_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_clear_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_clear_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_clear_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_4F_clear_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_4F_clear_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0
+    },
+    "control_4F_clear_clear_zero": {
+      "passed": true,
+      "maximum_code": 0,
+      "nonzero_pixels": 0
+    },
+    "control_4F_indent_0.1mm_official_method": {
+      "passed": true
+    },
+    "control_4F_indent_0.1mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.1mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.1mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.1mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_4F_indent_0.1mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_4F_indent_0.1mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.00010008939716499299
+    },
+    "control_4F_indent_0.1mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 19,
+      "nonzero_pixels": 506
+    },
+    "control_4F_indent_0.5mm_official_method": {
+      "passed": true
+    },
+    "control_4F_indent_0.5mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.5mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.5mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_0.5mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 2.682209016002801e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_4F_indent_0.5mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_4F_indent_0.5mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0005004470003768802
+    },
+    "control_4F_indent_0.5mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 99,
+      "nonzero_pixels": 2256
+    },
+    "control_4F_indent_1mm_official_method": {
+      "passed": true
+    },
+    "control_4F_indent_1mm_archived_source_points": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_1mm_archived_source_normals": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_1mm_identity_pose_rotation": {
+      "passed": true,
+      "actual_shape": [
+        4
+      ],
+      "expected_shape": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "control_4F_indent_1mm_actual_ray_starts": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 3.218650812542023e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "control_4F_indent_1mm_actual_ray_directions": {
+      "passed": true,
+      "actual_shape": [
+        240,
+        240,
+        3
+      ],
+      "expected_shape": [
+        240,
+        240,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 2e-06
+    },
+    "control_4F_indent_1mm_independent_geometric_response": {
+      "passed": true,
+      "maximum_uint8_code_error": 0,
+      "mean_uint8_code_error": 0.0,
+      "mismatching_pixels": 0,
+      "tolerance": "max 2 codes and mean <=0.1 code",
+      "expected_depth_max_m": 0.0010008958633989096
+    },
+    "control_4F_indent_1mm_pressed_nonzero": {
+      "passed": true,
+      "maximum_code": 116,
+      "nonzero_pixels": 4183
+    },
+    "control_TH_response_increases_with_indent": {
+      "passed": true,
+      "peak_codes": [
+        0,
+        19,
+        99,
+        116
+      ],
+      "nonzero_pixels": [
+        0,
+        421,
+        1630,
+        2971
+      ]
+    },
+    "control_4F_response_increases_with_indent": {
+      "passed": true,
+      "peak_codes": [
+        0,
+        19,
+        99,
+        116
+      ],
+      "nonzero_pixels": [
+        0,
+        506,
+        2256,
+        4183
+      ]
+    }
+  },
+  "warnings": [],
+  "validator_sha256": "6bc236791d7b4d507548a0473c79978f303b317ae71434ca20be09f64324eb85"
+}

@@ -1,0 +1,15 @@
+{
+  "sha": "1c48c44ab7aa08e495bf603e8b68dc5290d01328",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-wave-sdk/git/trees/1c48c44ab7aa08e495bf603e8b68dc5290d01328",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dedaa8126ed8180a9434c7271ee64d85e53a75c",
+      "size": 9279,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-wave-sdk/git/blobs/0dedaa8126ed8180a9434c7271ee64d85e53a75c"
+    }
+  ],
+  "truncated": false
+}

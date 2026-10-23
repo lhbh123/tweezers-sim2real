@@ -1,0 +1,26 @@
+[
+  {
+    "digit": "thumb",
+    "source_mesh_patch_to_current_reader_map_m": 0.0013089802351833565,
+    "accepted": true,
+    "taxel_index": 1888,
+    "map_metadata": {
+      "point_file": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_point.npy",
+      "normal_file": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_normal.npy",
+      "point_sha256": "e7d2ddaaf2b593d36e5ce8b9e2d1816ec0b424004ca74915742fff1bced65fc9",
+      "normal_sha256": "5fc140b821332299fbea7f85d7e4ee5f6c2faec713dcbe77d0bf1b574843ad1e"
+    }
+  },
+  {
+    "digit": "index",
+    "source_mesh_patch_to_current_reader_map_m": 0.001121150031211473,
+    "accepted": true,
+    "taxel_index": 1826,
+    "map_metadata": {
+      "point_file": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_point_origin.npy",
+      "normal_file": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_normal_origin.npy",
+      "point_sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b",
+      "normal_sha256": "af8fd81dacb4b45b009f1806c59eebba31cb3f07ce1422031ab9a90969a6b708"
+    }
+  }
+]

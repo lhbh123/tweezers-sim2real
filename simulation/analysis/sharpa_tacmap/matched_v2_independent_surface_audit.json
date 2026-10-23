@@ -1,0 +1,339 @@
+{
+  "valid": true,
+  "checks": {
+    "surface_provenance_kind_known": {
+      "passed": true,
+      "kind": "current_W01_CAD_derived_surface"
+    },
+    "derived_manifest_hash": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/manifest.json",
+      "sha256": "ec3b4d1c03828cd51bafe4024bd513f4776ae748fd4ddd714aeca6f3508c2971"
+    },
+    "derived_manifest_matches_recorded_details": {
+      "passed": true
+    },
+    "derived_surface_not_algorithm_or_force_fit": {
+      "passed": true
+    },
+    "derived_two_surface_models": {
+      "passed": true
+    },
+    "derived_evidence_hash_0": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/build_w01_matched_maps_v2.py",
+      "sha256": "7e96c76a483804f7af858eac564b8f6d445b5c3e211250c099eb0bdb07600e83"
+    },
+    "derived_evidence_hash_1": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_point.npy",
+      "sha256": "e7d2ddaaf2b593d36e5ce8b9e2d1816ec0b424004ca74915742fff1bced65fc9"
+    },
+    "derived_evidence_hash_2": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_normal.npy",
+      "sha256": "5fc140b821332299fbea7f85d7e4ee5f6c2faec713dcbe77d0bf1b574843ad1e"
+    },
+    "derived_evidence_hash_3": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "sha256": "437f363ca7a40b6e9b9152ebb81db249c51de71565cdb44b7df6e2cdf0da3312"
+    },
+    "derived_evidence_hash_4": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_point.npy",
+      "sha256": "f755cc213b1562c2418af4a5dd9c94165eeaf56f1e7803c073c1fffff7dd9807"
+    },
+    "derived_evidence_hash_5": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_normal.npy",
+      "sha256": "4cee495eff89faef6c2fca915b460b520932edebc5a8abe1e40e4393e247347e"
+    },
+    "derived_evidence_hash_6": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/TH_correspondence.npz",
+      "sha256": "c94e999c18a92b06a6442944ff685784f8f59ce24058e5b0c8630b0ff53f5258"
+    },
+    "derived_evidence_hash_7": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_point_origin.npy",
+      "sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b"
+    },
+    "derived_evidence_hash_8": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_normal_origin.npy",
+      "sha256": "af8fd81dacb4b45b009f1806c59eebba31cb3f07ce1422031ab9a90969a6b708"
+    },
+    "derived_evidence_hash_9": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "sha256": "88b214c5c614b4b5f0c7cf195a90825b41e20745b1b65442854b371ff065e858"
+    },
+    "derived_evidence_hash_10": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_point_origin.npy",
+      "sha256": "2c4fa3430c9075ed3f7bc0cd6575d4d4c7014218ac9ff6004684eb64776e4d24"
+    },
+    "derived_evidence_hash_11": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_normal_origin.npy",
+      "sha256": "942c762b0ac8582084ad3b0e8f32f0fed25eec1376a006da4e50670b5613f383"
+    },
+    "derived_evidence_hash_12": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/4F_correspondence.npz",
+      "sha256": "923ed059423418aac59afeb19a95a4d7b7da42e0ac1dcb4dce0530108d227c5b"
+    },
+    "derived_generator_and_CAD_evidence_present": {
+      "passed": true
+    },
+    "derived_TH_no_data_fit_or_offset": {
+      "passed": true
+    },
+    "derived_TH_source_map_official_blob": {
+      "passed": true
+    },
+    "derived_TH_source_normals_official_blob": {
+      "passed": true
+    },
+    "derived_TH_mask_matches_correspondence": {
+      "passed": true,
+      "original_valid_count": 45211,
+      "derived_valid_count": 35419
+    },
+    "derived_TH_source_points_match_original_map": {
+      "passed": true,
+      "actual_shape": [
+        45211,
+        3
+      ],
+      "expected_shape": [
+        45211,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "derived_TH_exported_points_equal_unoffset_source_projection": {
+      "passed": true,
+      "actual_shape": [
+        35419,
+        3
+      ],
+      "expected_shape": [
+        35419,
+        3
+      ],
+      "maximum_error": 9.536566362988719e-10,
+      "absolute_tolerance": 2e-09
+    },
+    "derived_TH_exported_normals_equal_source_interpolation": {
+      "passed": true,
+      "actual_shape": [
+        35419,
+        3
+      ],
+      "expected_shape": [
+        35419,
+        3
+      ],
+      "maximum_error": 2.9802265211209544e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "derived_TH_valid_normals_are_unit": {
+      "passed": true,
+      "actual_shape": [
+        35419
+      ],
+      "expected_shape": [
+        35419
+      ],
+      "maximum_error": 5.960464477539063e-08,
+      "absolute_tolerance": 2e-06
+    },
+    "derived_TH_unsupported_cells_have_zero_normals": {
+      "passed": true
+    },
+    "derived_TH_barycentric_projection": {
+      "passed": true,
+      "actual_shape": [
+        45211,
+        3
+      ],
+      "expected_shape": [
+        45211,
+        3
+      ],
+      "maximum_error": 4.329181978179886e-12,
+      "absolute_tolerance": 2e-09
+    },
+    "derived_TH_barycentric_sum": {
+      "passed": true,
+      "actual_shape": [
+        45211
+      ],
+      "expected_shape": [
+        45211
+      ],
+      "maximum_error": 2.220446049250313e-16,
+      "absolute_tolerance": 1e-07
+    },
+    "derived_TH_projection_inside_source_triangle": {
+      "passed": true,
+      "minimum": -2.6807526761706132e-11,
+      "maximum": 1.0
+    },
+    "derived_TH_correspondence_triangles_belong_to_actual_CAD": {
+      "passed": true,
+      "maximum_corner_error_m": 0.0,
+      "triangle_count": 45211
+    },
+    "derived_TH_derived_normals_point_out_of_source_CAD": {
+      "passed": true,
+      "minimum_outward_dot": 0.5721133855228322
+    },
+    "derived_TH_mask_uses_declared_geometry_only_rules": {
+      "passed": true,
+      "maximum_displacement_m": 0.0024999760374355817,
+      "maximum_normal_angle_deg": 59.97558395550261
+    },
+    "derived_4F_no_data_fit_or_offset": {
+      "passed": true
+    },
+    "derived_4F_source_map_official_blob": {
+      "passed": true
+    },
+    "derived_4F_source_normals_official_blob": {
+      "passed": true
+    },
+    "derived_4F_mask_matches_correspondence": {
+      "passed": true,
+      "original_valid_count": 41971,
+      "derived_valid_count": 39037
+    },
+    "derived_4F_source_points_match_original_map": {
+      "passed": true,
+      "actual_shape": [
+        41971,
+        3
+      ],
+      "expected_shape": [
+        41971,
+        3
+      ],
+      "maximum_error": 0.0,
+      "absolute_tolerance": 1e-10
+    },
+    "derived_4F_exported_points_equal_unoffset_source_projection": {
+      "passed": true,
+      "actual_shape": [
+        39037,
+        3
+      ],
+      "expected_shape": [
+        39037,
+        3
+      ],
+      "maximum_error": 9.535915980463106e-10,
+      "absolute_tolerance": 2e-09
+    },
+    "derived_4F_exported_normals_equal_source_interpolation": {
+      "passed": true,
+      "actual_shape": [
+        39037,
+        3
+      ],
+      "expected_shape": [
+        39037,
+        3
+      ],
+      "maximum_error": 2.9801419554331687e-08,
+      "absolute_tolerance": 1e-07
+    },
+    "derived_4F_valid_normals_are_unit": {
+      "passed": true,
+      "actual_shape": [
+        39037
+      ],
+      "expected_shape": [
+        39037
+      ],
+      "maximum_error": 5.960464477539063e-08,
+      "absolute_tolerance": 2e-06
+    },
+    "derived_4F_unsupported_cells_have_zero_normals": {
+      "passed": true
+    },
+    "derived_4F_barycentric_projection": {
+      "passed": true,
+      "actual_shape": [
+        41971,
+        3
+      ],
+      "expected_shape": [
+        41971,
+        3
+      ],
+      "maximum_error": 1.5113717569126273e-12,
+      "absolute_tolerance": 2e-09
+    },
+    "derived_4F_barycentric_sum": {
+      "passed": true,
+      "actual_shape": [
+        41971
+      ],
+      "expected_shape": [
+        41971
+      ],
+      "maximum_error": 2.220446049250313e-16,
+      "absolute_tolerance": 1e-07
+    },
+    "derived_4F_projection_inside_source_triangle": {
+      "passed": true,
+      "minimum": -1.1735955719306767e-10,
+      "maximum": 1.0
+    },
+    "derived_4F_correspondence_triangles_belong_to_actual_CAD": {
+      "passed": true,
+      "maximum_corner_error_m": 0.0,
+      "triangle_count": 41971
+    },
+    "derived_4F_derived_normals_point_out_of_source_CAD": {
+      "passed": true,
+      "minimum_outward_dot": 0.5638512087078662
+    },
+    "derived_4F_mask_uses_declared_geometry_only_rules": {
+      "passed": true,
+      "maximum_displacement_m": 0.0024995839617560204,
+      "maximum_normal_angle_deg": 59.9971167535854
+    },
+    "derived_runtime_surface_tactileSensor_map_TH_point.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_point.npy",
+      "sha256": "f755cc213b1562c2418af4a5dd9c94165eeaf56f1e7803c073c1fffff7dd9807"
+    },
+    "derived_runtime_surface_tactileSensor_map_TH_normal.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_normal.npy",
+      "sha256": "4cee495eff89faef6c2fca915b460b520932edebc5a8abe1e40e4393e247347e"
+    },
+    "derived_runtime_surface_tactileSensor_map_4F_point_origin.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_point_origin.npy",
+      "sha256": "2c4fa3430c9075ed3f7bc0cd6575d4d4c7014218ac9ff6004684eb64776e4d24"
+    },
+    "derived_runtime_surface_tactileSensor_map_4F_normal_origin.npy": {
+      "passed": true,
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_normal_origin.npy",
+      "sha256": "942c762b0ac8582084ad3b0e8f32f0fed25eec1376a006da4e50670b5613f383"
+    },
+    "four_surface_assets_verified": {
+      "passed": true
+    }
+  },
+  "warnings": [
+    "Input surface maps are derived from current W01 CAD with recorded geometry provenance; they are not the original published TacMap map assets or a hardware-taxel calibration."
+  ],
+  "manifest_sha256": "ec3b4d1c03828cd51bafe4024bd513f4776ae748fd4ddd714aeca6f3508c2971",
+  "validator_sha256": "b5147ee0a28d6f30af8f480512a5f180040a48935b65a7c8e8ea2654502909b3"
+}

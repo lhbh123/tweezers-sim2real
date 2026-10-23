@@ -1,0 +1,45 @@
+[
+  {
+    "name": "overview",
+    "env": 0,
+    "eye": [
+      1.4,
+      -1.45,
+      1.75
+    ],
+    "target": [
+      0.32,
+      -0.04,
+      1.02
+    ],
+    "focal_length_m": 0.029,
+    "purpose": "Task context; same overview as the previous W01 recording."
+  },
+  {
+    "name": "task",
+    "env": 0,
+    "eye": [
+      0.79,
+      -0.44,
+      1.08
+    ],
+    "target": [
+      0.49,
+      0.0,
+      0.88
+    ],
+    "focal_length_m": 0.04,
+    "follow_tip": true,
+    "eye_offset": [
+      0.3,
+      -0.44,
+      0.2
+    ],
+    "target_offset": [
+      -0.045,
+      0.0,
+      0.12
+    ],
+    "purpose": "Primary full-task hand view: complete palm, curled fingers, tweezers and the released block remain visible after withdrawal. Enlarged field compared with the 45 mm cold-reset diagnostic camera."
+  }
+]

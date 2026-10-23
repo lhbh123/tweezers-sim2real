@@ -1,0 +1,108 @@
+{
+  "sha": "865530a98a0ca0e69d177f2121833f8bb3ed94de",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/trees/865530a98a0ca0e69d177f2121833f8bb3ed94de",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6733ffcfe354782b2a4f730f2c19c74fb8009b8a",
+      "size": 9665,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/6733ffcfe354782b2a4f730f2c19c74fb8009b8a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d317d68db25cbb2e86a7f96baf0043b6f40b699c",
+      "size": 904,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/d317d68db25cbb2e86a7f96baf0043b6f40b699c"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db0d366103468b0bf6d1f796e4e0455c6b6ff7c1",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/trees/db0d366103468b0bf6d1f796e4e0455c6b6ff7c1"
+    },
+    {
+      "path": "doc/example.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "316ab859620510a23d8638b545efef8bdffb5ffd",
+      "size": 92156,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/316ab859620510a23d8638b545efef8bdffb5ffd"
+    },
+    {
+      "path": "script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9126e19d7d80ce4840c478bb6bca183fce554880",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/trees/9126e19d7d80ce4840c478bb6bca183fce554880"
+    },
+    {
+      "path": "script/visualize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd069ca1911f22dfe233db7e7f7b35d7cc863d7",
+      "size": 1871,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/efd069ca1911f22dfe233db7e7f7b35d7cc863d7"
+    },
+    {
+      "path": "wave_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5359e58bea12bcc7af351cbc1aaa35044f45b6d4",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/trees/5359e58bea12bcc7af351cbc1aaa35044f45b6d4"
+    },
+    {
+      "path": "wave_01/tactileSensor_4F.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c99bfdbf4dd0fefd745dd4925e4d5dbe88431b7",
+      "size": 298693,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/3c99bfdbf4dd0fefd745dd4925e4d5dbe88431b7"
+    },
+    {
+      "path": "wave_01/tactileSensor_TH.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56204910b48b10bae74ffd5562bd73a6b2af8306",
+      "size": 392531,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/56204910b48b10bae74ffd5562bd73a6b2af8306"
+    },
+    {
+      "path": "wave_01/tactileSensor_map_4F_normal.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c838a5b5e2be342bdc8903dc0b4787fc95a7744e",
+      "size": 691328,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/c838a5b5e2be342bdc8903dc0b4787fc95a7744e"
+    },
+    {
+      "path": "wave_01/tactileSensor_map_4F_point.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a10d90e38c9f6954817b3324843c554ef37f4948",
+      "size": 691328,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/a10d90e38c9f6954817b3324843c554ef37f4948"
+    },
+    {
+      "path": "wave_01/tactileSensor_map_TH_normal.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8fdc0f80638e131fe3aa821f658a57dceb0ef77",
+      "size": 691328,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/b8fdc0f80638e131fe3aa821f658a57dceb0ef77"
+    },
+    {
+      "path": "wave_01/tactileSensor_map_TH_point.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c09262149a110e7ce58a9228347f9b6c658d10",
+      "size": 691328,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-tactile-sensor-assets/git/blobs/10c09262149a110e7ce58a9228347f9b6c658d10"
+    }
+  ],
+  "truncated": false
+}

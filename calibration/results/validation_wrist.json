@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "type": "validation",
+  "created_utc": "2026-10-23T09:38:49.905460+00:00",
+  "passed": true,
+  "source_session": "/home/haojinkun/xqh_work/xhand-camera-calibration/data/validation_wrist",
+  "result_source": "results/handeye.json",
+  "thresholds": {
+    "reprojection_rms_px": 2.0,
+    "translation_m": 0.005,
+    "rotation_deg": 2.0
+  },
+  "statistics": {
+    "translation_m": {
+      "count": 10,
+      "mean": 0.0024198929683434682,
+      "median": 0.0024547734505919886,
+      "p95": 0.003424376054704271,
+      "max": 0.003569238861552815
+    },
+    "rotation_deg": {
+      "count": 10,
+      "mean": 0.3569024483378313,
+      "median": 0.2443683304669398,
+      "p95": 0.6414196013304315,
+      "max": 0.7132918436329293
+    },
+    "predicted_reprojection_rms_px": {
+      "count": 10,
+      "mean": 1.0416937161634112,
+      "median": 0.9981223234971123,
+      "p95": 1.5293528587388678,
+      "max": 1.6291882524356505
+    }
+  },
+  "views": [
+    {
+      "sample_id": "0000",
+      "translation_m": 0.0018367002818091235,
+      "rotation_deg": 0.2321136567390022,
+      "predicted_reprojection_rms_px": 1.6291882524356505
+    },
+    {
+      "sample_id": "0001",
+      "translation_m": 0.001722289126997344,
+      "rotation_deg": 0.150226632935606,
+      "predicted_reprojection_rms_px": 1.3723752228276875
+    },
+    {
+      "sample_id": "0002",
+      "translation_m": 0.0017454617307777922,
+      "rotation_deg": 0.22816488311447422,
+      "predicted_reprojection_rms_px": 1.2806522176211754
+    },
+    {
+      "sample_id": "0003",
+      "translation_m": 0.0024787124806697376,
+      "rotation_deg": 0.7132918436329293,
+      "predicted_reprojection_rms_px": 1.4073318219983562
+    },
+    {
+      "sample_id": "0004",
+      "translation_m": 0.003209158070837628,
+      "rotation_deg": 0.24830190619138406,
+      "predicted_reprojection_rms_px": 1.1835517449151542
+    },
+    {
+      "sample_id": "0005",
+      "translation_m": 0.003247321513000496,
+      "rotation_deg": 0.2404347547424955,
+      "predicted_reprojection_rms_px": 0.7693382364622366
+    },
+    {
+      "sample_id": "0006",
+      "translation_m": 0.0028890725434875197,
+      "rotation_deg": 0.2363442907251058,
+      "predicted_reprojection_rms_px": 0.7017602963725211
+    },
+    {
+      "sample_id": "0007",
+      "translation_m": 0.0010701406537879895,
+      "rotation_deg": 0.42160371997549206,
+      "predicted_reprojection_rms_px": 0.5479528055066349
+    },
+    {
+      "sample_id": "0008",
+      "translation_m": 0.003569238861552815,
+      "rotation_deg": 0.5449670456944449,
+      "predicted_reprojection_rms_px": 0.8126929020790703
+    },
+    {
+      "sample_id": "0009",
+      "translation_m": 0.002430834420514239,
+      "rotation_deg": 0.553575749627379,
+      "predicted_reprojection_rms_px": 0.7120936614156247
+    }
+  ],
+  "rejected": [],
+  "note": "Thresholds are user-adjustable checks, not an accuracy guarantee. Board must not have moved."
+}

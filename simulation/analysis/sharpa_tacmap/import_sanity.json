@@ -1,0 +1,92 @@
+{
+  "import_passed": true,
+  "class_module": "sharpa_official_tacmap.tacmap_sensor.sharpa_tacmap_vbts",
+  "config_class_type": "<class '_sharpa_isaaclab232.sensors.ray_caster.multi_mesh_ray_caster.MultiMeshRayCaster'>",
+  "compatibility": {
+    "mode": "isolated_missing_api_backport",
+    "active_isaaclab_path": "/cpfs/user/lvzhaoyang/apps/IsaacLab-2.2.1/source/isaaclab/isaaclab/__init__.py",
+    "active_isaaclab_version": "0.45.9",
+    "upstream_isaaclab_commit": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "added_apis": [
+      "isaaclab.sim.views.XformPrimView (Sim 5.0 adapter)",
+      "isaaclab.sim.resolve_prim_pose",
+      "isaaclab.sim.resolve_prim_scale",
+      "isaaclab.utils.mesh",
+      "isaaclab.utils.warp.raycast_dynamic_meshes",
+      "isaaclab.sensors.ray_caster.ray_cast_utils",
+      "isaaclab.sensors.ray_caster.multi_mesh_ray_caster_data",
+      "isaaclab.sensors.ray_caster.multi_mesh_ray_caster",
+      "isaaclab.sensors.ray_caster.multi_mesh_ray_caster_cfg"
+    ],
+    "unmodified_upstream_files": [
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/LICENSE",
+        "sha256": "df351ebfa8af317bf5a9ad83df63a8b68e4f5c04b71f30767cdb27aa434eac62"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py",
+        "sha256": "8ec8313b9cd6068e65f41057d569f1d303ced1859860e77368b27d7fc6cf815b"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_cfg.py",
+        "sha256": "46066ef99f81073605b6cf3726180d12f417b00912ad5fc158c56f6dd895236a"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_data.py",
+        "sha256": "002d629a93b1ab9b12b77c19c0f4d6fbeed7ae30260b7799f0a3f2f0dc126aad"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py",
+        "sha256": "fe585b817897f2d6e1c58a99c266436a2d7242b737e544997c164bbaee621f84"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py",
+        "sha256": "b6a84cb0e506f4a4724d3262e0f533ccb31d75128e1e46282220fcfa688e286c"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sim/utils/transforms.py",
+        "sha256": "5ec30a60599aff82725f43c8968c3d8619adb4b94ccc141f552bf69b683371d0"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/mesh.py",
+        "sha256": "ff1d7ba23e26b5c2eea4ae63e4ef9df0e4b3c7d8c7554658d0d4677a51ff0db2"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/kernels.py",
+        "sha256": "b38780baabb26b035595e6b6710e26381a18e99ed3bfbbc82887321aee7f82bf"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/ops.py",
+        "sha256": "6202538ae05e3f424a0dfdd4df7e00cc272e4213827cceafa5a0a72df8baea84"
+      }
+    ],
+    "loaded_engine_modules": {
+      "MultiMeshRayCaster": {
+        "module": "_sharpa_isaaclab232.sensors.ray_caster.multi_mesh_ray_caster",
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py",
+        "sha256": "8ec8313b9cd6068e65f41057d569f1d303ced1859860e77368b27d7fc6cf815b"
+      },
+      "obtain_world_pose_from_view": {
+        "module": "_sharpa_isaaclab232.sensors.ray_caster.ray_cast_utils",
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py",
+        "sha256": "fe585b817897f2d6e1c58a99c266436a2d7242b737e544997c164bbaee621f84"
+      },
+      "raycast_dynamic_meshes": {
+        "module": "_sharpa_isaaclab232.warp.ops",
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/ops.py",
+        "sha256": "6202538ae05e3f424a0dfdd4df7e00cc272e4213827cceafa5a0a72df8baea84"
+      },
+      "dynamic_warp_kernels": {
+        "module": "_sharpa_isaaclab232.warp.kernels",
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/kernels.py",
+        "sha256": "b38780baabb26b035595e6b6710e26381a18e99ed3bfbbc82887321aee7f82bf"
+      }
+    },
+    "compatibility_adapter": {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_compat.py",
+      "sha256": "865f646e9b8302d01380c9e3ce41ee528e5ebf2477f63b4e86d2b801c689bc44"
+    },
+    "system_installation_modified": false,
+    "sharpa_source_modified": false
+  }
+}

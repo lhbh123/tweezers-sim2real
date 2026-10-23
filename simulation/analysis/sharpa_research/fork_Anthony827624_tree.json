@@ -1,0 +1,2588 @@
+{
+  "sha": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+  "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+  "tree": [
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f25be800f19b4aee922e2517c918fe8d204f074",
+      "size": 556,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9f25be800f19b4aee922e2517c918fe8d204f074"
+    },
+    {
+      "path": "NOTICE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a83f58ba4d6719abfa89cde0d981fd54dd40ec",
+      "size": 842,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b6a83f58ba4d6719abfa89cde0d981fd54dd40ec"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "888b38eef94ae080edc8790fc7f476c866f46ff3",
+      "size": 3530,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/888b38eef94ae080edc8790fc7f476c866f46ff3"
+    },
+    {
+      "path": "wave_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e260f7b045993c7061c8f7ea5eb7aba8d07b2675",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e260f7b045993c7061c8f7ea5eb7aba8d07b2675"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72251ae65785600789dce604d62b2899451e4483",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/72251ae65785600789dce604d62b2899451e4483"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173a46ebc453e56ebc0d238f6c124f7900ccd720",
+      "size": 77756,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/173a46ebc453e56ebc0d238f6c124f7900ccd720"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c151615bd5d75037f966d84d363d586f9c530e",
+      "size": 55013,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/22c151615bd5d75037f966d84d363d586f9c530e"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e9bfb2411d6c683b26a3e3a543971d19f3b8718",
+      "size": 57498,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7e9bfb2411d6c683b26a3e3a543971d19f3b8718"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2bb340f5e4694a1c91aeb72ee131d95aece3e9f",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e2bb340f5e4694a1c91aeb72ee131d95aece3e9f"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90e9df6b3a8c1e053621c5c868528a45ebb66a75",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/90e9df6b3a8c1e053621c5c868528a45ebb66a75"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a59d14f7f4f9c60c5e725365979cc596fcb2ab0a",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/a59d14f7f4f9c60c5e725365979cc596fcb2ab0a"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/configuration/dual_sharpa_wave_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34999cde16a3f7f44cf16adc9c37bac93fe8f8e",
+      "size": 16136502,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e34999cde16a3f7f44cf16adc9c37bac93fe8f8e"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/configuration/dual_sharpa_wave_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bcd000f080a9375b0ee154391f091398a333eec",
+      "size": 16699,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6bcd000f080a9375b0ee154391f091398a333eec"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/configuration/dual_sharpa_wave_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "979298b2fa15c1eb170b69c1d5355dd6ca931926",
+      "size": 4630,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/979298b2fa15c1eb170b69c1d5355dd6ca931926"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/configuration/dual_sharpa_wave_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2901c247001bbf6bcb7db7e71d1b14bf9568d9b6",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2901c247001bbf6bcb7db7e71d1b14bf9568d9b6"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave/dual_sharpa_wave.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "612b81e7ebc9cb806ed965d0e1593df471be4dde",
+      "size": 1463,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/612b81e7ebc9cb806ed965d0e1593df471be4dde"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b7554bfcf42a0ceae4fb2a9b54680c6eebb657",
+      "size": 55988,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b6b7554bfcf42a0ceae4fb2a9b54680c6eebb657"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05bb75eb482d937d7b827a9d7d6179e7c2d1c6c",
+      "size": 81635,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d05bb75eb482d937d7b827a9d7d6179e7c2d1c6c"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab20dfce10865bcfcbd1ed131b1b740a86389406",
+      "size": 55809,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ab20dfce10865bcfcbd1ed131b1b740a86389406"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d53e3c503dac900bc1d55b54d2ad180dd7a8a2",
+      "size": 59094,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e7d53e3c503dac900bc1d55b54d2ad180dd7a8a2"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20673c317619810c67e102b17b898ad0f06fd80c",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/20673c317619810c67e102b17b898ad0f06fd80c"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67c3d4f26bfd1e6c871d7d8aa9ab68036d6ac26",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a67c3d4f26bfd1e6c871d7d8aa9ab68036d6ac26"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d37dae82b2a13c888007818a8f5589b19915ee59",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/d37dae82b2a13c888007818a8f5589b19915ee59"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/configuration/dual_sharpa_wave_with_flange_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf50567fbae2b620cc286bf4200fabff6275b22",
+      "size": 17253237,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/adf50567fbae2b620cc286bf4200fabff6275b22"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/configuration/dual_sharpa_wave_with_flange_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef2ea693ee9cca13274fdbd1f436d64c9d2691f",
+      "size": 17450,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/bef2ea693ee9cca13274fdbd1f436d64c9d2691f"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/configuration/dual_sharpa_wave_with_flange_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "962b66c49b25f7d3cf3a7ed1a6f825be5459ee2f",
+      "size": 4812,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/962b66c49b25f7d3cf3a7ed1a6f825be5459ee2f"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/configuration/dual_sharpa_wave_with_flange_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2901c247001bbf6bcb7db7e71d1b14bf9568d9b6",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2901c247001bbf6bcb7db7e71d1b14bf9568d9b6"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange/dual_sharpa_wave_with_flange.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46eb0ed588c38a78f5e5e774b34f8c3a59f8be3b",
+      "size": 1475,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/46eb0ed588c38a78f5e5e774b34f8c3a59f8be3b"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_flange_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0ee4f38581947f26621e9eab0f097c66e8502e2",
+      "size": 56784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d0ee4f38581947f26621e9eab0f097c66e8502e2"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e628e1eee808969e0d8b0d726901a42bffedeaa",
+      "size": 79902,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0e628e1eee808969e0d8b0d726901a42bffedeaa"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e52afa9e3036dc75db2b2838212ca1838068079",
+      "size": 55856,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2e52afa9e3036dc75db2b2838212ca1838068079"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56de69f9a2141489585468daab5319248c141fb1",
+      "size": 58536,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/56de69f9a2141489585468daab5319248c141fb1"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baab17073444dfefddb6edee5c78efcfe9252a42",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/baab17073444dfefddb6edee5c78efcfe9252a42"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91169dc5e61ad64347c385f9d486888f845bd1d",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a91169dc5e61ad64347c385f9d486888f845bd1d"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "948c2c199d6f17bc87dbedd37f3bba7eed189612",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/948c2c199d6f17bc87dbedd37f3bba7eed189612"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/configuration/dual_sharpa_wave_with_wrist_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e46207093b99df6113afaa00efce1c2f1dae7a57",
+      "size": 16893027,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e46207093b99df6113afaa00efce1c2f1dae7a57"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/configuration/dual_sharpa_wave_with_wrist_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0be889399cf2968a81b566c8a56b5975429d3936",
+      "size": 17285,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0be889399cf2968a81b566c8a56b5975429d3936"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/configuration/dual_sharpa_wave_with_wrist_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f49a75d414c50b34644732ff4d65e0268e39f7a6",
+      "size": 4728,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f49a75d414c50b34644732ff4d65e0268e39f7a6"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/configuration/dual_sharpa_wave_with_wrist_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2901c247001bbf6bcb7db7e71d1b14bf9568d9b6",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2901c247001bbf6bcb7db7e71d1b14bf9568d9b6"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist/dual_sharpa_wave_with_wrist.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9e7af1af7be078aa481444cf957556ccdcd1ad",
+      "size": 1474,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ee9e7af1af7be078aa481444cf957556ccdcd1ad"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/dual_sharpa_wave_with_wrist_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa12d2cf8dcfe6f18dd61f25f19f53b1a66969e9",
+      "size": 56831,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fa12d2cf8dcfe6f18dd61f25f19f53b1a66969e9"
+    },
+    {
+      "path": "wave_01/dual_sharpa_wave/package.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccc6fc6eb0f1ef17c4d93d164b493d9aae1ab4ce",
+      "size": 731,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ccc6fc6eb0f1ef17c4d93d164b493d9aae1ab4ce"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8a0ae194082422f4e0bc58c7ea0743b05fb3195",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/d8a0ae194082422f4e0bc58c7ea0743b05fb3195"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "048d55c32f8c755b5c8ff85d2d733c3dc6008a70",
+      "size": 402,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/048d55c32f8c755b5c8ff85d2d733c3dc6008a70"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "144b3625f6b3315586bdc7aa70de7270f2afcd4d",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/144b3625f6b3315586bdc7aa70de7270f2afcd4d"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/config/joint_names_Left_Sharpa_HA4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ced50a2fb3f8d47c9e6efbea349306740e527b",
+      "size": 463,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/33ced50a2fb3f8d47c9e6efbea349306740e527b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/config/sharpa.rviz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e63448b5dda3f0d69923d421cc7b8b99406e39",
+      "size": 1970,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/93e63448b5dda3f0d69923d421cc7b8b99406e39"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/launch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82a37740724ef3558dc6efc34084d3f69960a1f0",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/82a37740724ef3558dc6efc34084d3f69960a1f0"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/launch/display.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b799bae7a18bc8ffcd4e83f07f2eb1449e7041b9",
+      "size": 1551,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b799bae7a18bc8ffcd4e83f07f2eb1449e7041b9"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/launch/gazebo.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47be90c277c2b72f77f21c83610f7513cb9b1e49",
+      "size": 1343,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/47be90c277c2b72f77f21c83610f7513cb9b1e49"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126e41d6ed464cccdfe528aaee9e473f9276ce8b",
+      "size": 34493,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/126e41d6ed464cccdfe528aaee9e473f9276ce8b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8640aa56f615faf4bf72019d974d0f46c5ecd59",
+      "size": 26206,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c8640aa56f615faf4bf72019d974d0f46c5ecd59"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f3071a06472df1ff2fb5e81548b51525b9cb0d",
+      "size": 23543,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/83f3071a06472df1ff2fb5e81548b51525b9cb0d"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e517a59a0da131ffaa124d2c7125617cb9b5d2f5",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e517a59a0da131ffaa124d2c7125617cb9b5d2f5"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4fa25ee442f55cac44ab945428a830fa83616f",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ef4fa25ee442f55cac44ab945428a830fa83616f"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af9ba480bb9e50411f6465054704fd14ce450973",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/af9ba480bb9e50411f6465054704fd14ce450973"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/configuration/left_sharpa_wave_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78915a7854917524235d1ff414bb8418dad9d2a7",
+      "size": 9012443,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/78915a7854917524235d1ff414bb8418dad9d2a7"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/configuration/left_sharpa_wave_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56351a48e1ad388104a9af82daa207ac73149041",
+      "size": 9156,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/56351a48e1ad388104a9af82daa207ac73149041"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/configuration/left_sharpa_wave_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edbca99e68deb5dfcd5e36734604c54db085874",
+      "size": 2679,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2edbca99e68deb5dfcd5e36734604c54db085874"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/configuration/left_sharpa_wave_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave/left_sharpa_wave.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9840346c3860e55df2cf6eeae0d7a2f34d7602b",
+      "size": 1463,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a9840346c3860e55df2cf6eeae0d7a2f34d7602b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734f96954bc5ff9fc13e42f93efe2c1b86c97c93",
+      "size": 26196,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/734f96954bc5ff9fc13e42f93efe2c1b86c97c93"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe92520e98e34ab77b6998e6219fadb0181ed2b",
+      "size": 36425,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5fe92520e98e34ab77b6998e6219fadb0181ed2b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7102d3e7f875ffa3411665e662c32194fb684bcb",
+      "size": 26807,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7102d3e7f875ffa3411665e662c32194fb684bcb"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56cdf781e318bdcd69b2f6372000e0098dc1267",
+      "size": 24161,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c56cdf781e318bdcd69b2f6372000e0098dc1267"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "177be5dd1ae231156b317821a3f38a6133ff7e55",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/177be5dd1ae231156b317821a3f38a6133ff7e55"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac2270b927a5e5b20b4bd3d41361593d5c50dab8",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ac2270b927a5e5b20b4bd3d41361593d5c50dab8"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9188a410d8b5a4bb520554607b006723e986bf4d",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/9188a410d8b5a4bb520554607b006723e986bf4d"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/configuration/left_sharpa_wave_with_flange_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481103789b3b18b9f07c201ee95286bec4e8721f",
+      "size": 10128695,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/481103789b3b18b9f07c201ee95286bec4e8721f"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/configuration/left_sharpa_wave_with_flange_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f472753ce80e74b8040c6cc713d8f3b6f791d9",
+      "size": 9596,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/54f472753ce80e74b8040c6cc713d8f3b6f791d9"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/configuration/left_sharpa_wave_with_flange_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51301795a4fe88b2d473302231bc1030e9d9519a",
+      "size": 2760,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/51301795a4fe88b2d473302231bc1030e9d9519a"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/configuration/left_sharpa_wave_with_flange_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange/left_sharpa_wave_with_flange.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f81467e941e1fce0465775c1570e0ec3608d8b",
+      "size": 1475,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f7f81467e941e1fce0465775c1570e0ec3608d8b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_flange_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3da672506fe610e939618c5c31612d3dce9fbda",
+      "size": 26797,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e3da672506fe610e939618c5c31612d3dce9fbda"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7786c5102099f324c9bf7142ea797420a9aeb1e4",
+      "size": 35562,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7786c5102099f324c9bf7142ea797420a9aeb1e4"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df39065311cdf72ca7d507f4c55a03e162d4462",
+      "size": 26514,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3df39065311cdf72ca7d507f4c55a03e162d4462"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12eeaf1a9699f46dd9b8ccb95fd270a66ce7e0cf",
+      "size": 23956,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/12eeaf1a9699f46dd9b8ccb95fd270a66ce7e0cf"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fbdbb5a7d0bc20b207f25f921d4bee7b14b4dc5",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/1fbdbb5a7d0bc20b207f25f921d4bee7b14b4dc5"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9499a370d062b7fe7d9fe08b6e36ed63448ab07a",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9499a370d062b7fe7d9fe08b6e36ed63448ab07a"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9120396da1c7c9e7b0d905b0c18c71f8fc957b7d",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/9120396da1c7c9e7b0d905b0c18c71f8fc957b7d"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/configuration/left_sharpa_wave_with_wrist_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9a840c57f60698783625b51a0615f072e01cee",
+      "size": 9768682,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/8b9a840c57f60698783625b51a0615f072e01cee"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/configuration/left_sharpa_wave_with_wrist_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a0a89f9214f6d73471300715c924a0fbb831bd",
+      "size": 9408,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/09a0a89f9214f6d73471300715c924a0fbb831bd"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/configuration/left_sharpa_wave_with_wrist_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d6ae9cd7405514b8f6159732596609e6085aaa",
+      "size": 2717,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/67d6ae9cd7405514b8f6159732596609e6085aaa"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/configuration/left_sharpa_wave_with_wrist_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist/left_sharpa_wave_with_wrist.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd70f404840ff77e9de4734df2d4959ccfda3aab",
+      "size": 1474,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dd70f404840ff77e9de4734df2d4959ccfda3aab"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/left_sharpa_wave_with_wrist_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c9ed41a3d7c35ad063b60ca083c39b24cbd00c",
+      "size": 26504,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a9c9ed41a3d7c35ad063b60ca083c39b24cbd00c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc05ced1348b84ccd9d8449f33dac1cfd47a4919",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/dc05ced1348b84ccd9d8449f33dac1cfd47a4919"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30c46a5251b00a0ce79ecd2cfc2d426f60305d3",
+      "size": 191684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c30c46a5251b00a0ce79ecd2cfc2d426f60305d3"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29250f09fc1a457615b01650effa248542278fe1",
+      "size": 189684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/29250f09fc1a457615b01650effa248542278fe1"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_Visual_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3070955d8616e1fcb2ad3bd8fb5cdfad25f43e21",
+      "size": 336184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3070955d8616e1fcb2ad3bd8fb5cdfad25f43e21"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9a089b97b14b63516afd9d7f38f511f5688a5f",
+      "size": 136684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2d9a089b97b14b63516afd9d7f38f511f5688a5f"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_elastomer_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32511ce728aa1ef30a77300dcbabb4c5105d8552",
+      "size": 286384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/32511ce728aa1ef30a77300dcbabb4c5105d8552"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_elastomer_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300907e5bd3c136ce5f577634fbda23f74fb673b",
+      "size": 310184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/300907e5bd3c136ce5f577634fbda23f74fb673b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/DP_visual_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "442c00f311f59bdfe39f9990ef2b7ab9270286e2",
+      "size": 398784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/442c00f311f59bdfe39f9990ef2b7ab9270286e2"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/MCP_VL.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f94f1cb775bef372056a5b98fcc8fae17bb30e03",
+      "size": 75184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f94f1cb775bef372056a5b98fcc8fae17bb30e03"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd464b71f63c4c5781032e87ab6bb0ca66872bce",
+      "size": 271584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dd464b71f63c4c5781032e87ab6bb0ca66872bce"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d15d8e667cd51cc86abd56c9a64f39d33df405e",
+      "size": 149884,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4d15d8e667cd51cc86abd56c9a64f39d33df405e"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07c8d61d63f72d0fdfb540680cccfd1546017fc",
+      "size": 211384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a07c8d61d63f72d0fdfb540680cccfd1546017fc"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4",
+      "size": 362534,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/flange_A.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28297d13612ce195973dc6efdbe6e7df9916d32b",
+      "size": 300784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/28297d13612ce195973dc6efdbe6e7df9916d32b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/flange_B.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f2589c4fa3f2659678b11d6b42e4048a970b71",
+      "size": 249784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b5f2589c4fa3f2659678b11d6b42e4048a970b71"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cad2977382df4f7dac93ff29b8e18fa561f78ae",
+      "size": 101684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2cad2977382df4f7dac93ff29b8e18fa561f78ae"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41714d32210706632ebb14423246d43d9d217f4c",
+      "size": 320284,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/41714d32210706632ebb14423246d43d9d217f4c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fec8facc64a0c19d9c146c9dc98489888a924b79",
+      "size": 322584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fec8facc64a0c19d9c146c9dc98489888a924b79"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_MP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56eaa1ed64f45d6abf640750b487c788e482b751",
+      "size": 37084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/56eaa1ed64f45d6abf640750b487c788e482b751"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_MP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03a7768e5969991782ee8b73f0dc773ea2391f5",
+      "size": 369384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c03a7768e5969991782ee8b73f0dc773ea2391f5"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9305c67c529dc1cd24515d50f8b7a929a155e93e",
+      "size": 82484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9305c67c529dc1cd24515d50f8b7a929a155e93e"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8ce85f002890582a1ee8db267d4520e24a1d32",
+      "size": 559934,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dc8ce85f002890582a1ee8db267d4520e24a1d32"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_hand_C_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e972ff9280ce0000f1af6f47b8b9fe8fcca6a4b",
+      "size": 174184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9e972ff9280ce0000f1af6f47b8b9fe8fcca6a4b"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_hand_C_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62e64621a36ef1395811b09eb1a4c9800f488734",
+      "size": 689384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/62e64621a36ef1395811b09eb1a4c9800f488734"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_hand_C_MC_visual_.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62e64621a36ef1395811b09eb1a4c9800f488734",
+      "size": 689384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/62e64621a36ef1395811b09eb1a4c9800f488734"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_pinky_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5959485f2b5e4f16915460e28b4030f3e0d0bca0",
+      "size": 41984,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5959485f2b5e4f16915460e28b4030f3e0d0bca0"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_pinky_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a697c8be7675275b3752d7693aa22ca98d6b04c",
+      "size": 193684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6a697c8be7675275b3752d7693aa22ca98d6b04c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_CMC_VL.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c051e67e4100c5455c742b7ff495d2e75e9b04",
+      "size": 317984,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/34c051e67e4100c5455c742b7ff495d2e75e9b04"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee856b86e51993322b2f860b4cf7be1fe6ece03c",
+      "size": 66484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ee856b86e51993322b2f860b4cf7be1fe6ece03c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025636087a57c8de50f2a16fbab6719f3e894b68",
+      "size": 335484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/025636087a57c8de50f2a16fbab6719f3e894b68"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "785b7486fe877dd865fa79152d041b62bb9756f2",
+      "size": 171084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/785b7486fe877dd865fa79152d041b62bb9756f2"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9c0ed1842496f1ddc5e711878bc04440c65625",
+      "size": 300784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6e9c0ed1842496f1ddc5e711878bc04440c65625"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7beb79bd5532ce2129faa95f035d8046454c3592",
+      "size": 580084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7beb79bd5532ce2129faa95f035d8046454c3592"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48125faa5ccfc40260a22cbae57d783ff4b8de86",
+      "size": 83784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/48125faa5ccfc40260a22cbae57d783ff4b8de86"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/left_thumb_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7416f3476ab6bbe54aea39a495ea213ee6797a39",
+      "size": 772184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7416f3476ab6bbe54aea39a495ea213ee6797a39"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/thumb_DP_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e399cceeab74c366e902f0efbe49b15c89e0a3",
+      "size": 124184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/05e399cceeab74c366e902f0efbe49b15c89e0a3"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/thumb_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d59beb54f85cba38f795e8902ff2a2152e9f38",
+      "size": 270684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/49d59beb54f85cba38f795e8902ff2a2152e9f38"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/thumb_elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afcb28d8a5027aa1a5ffb824982d3978d6c3911",
+      "size": 506484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9afcb28d8a5027aa1a5ffb824982d3978d6c3911"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/wrist_A.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bcbad044b5ff8cdcdb7ae36354b41aa681e68e4",
+      "size": 516484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9bcbad044b5ff8cdcdb7ae36354b41aa681e68e4"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/wrist_B.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8dc40fbeca0d1201181e6382eda9447d564c14c",
+      "size": 513084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e8dc40fbeca0d1201181e6382eda9447d564c14c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/meshes/wrist_collision.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f0316a064720c713b5dafea0cc0acbe74dcf5c",
+      "size": 11684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/98f0316a064720c713b5dafea0cc0acbe74dcf5c"
+    },
+    {
+      "path": "wave_01/left_sharpa_wave/package.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e7f91025e6e3e22b1d58714248f3586203e44d",
+      "size": 765,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/69e7f91025e6e3e22b1d58714248f3586203e44d"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e2a855116eb9ccba5f3cf8b97a4379a7424c2aa",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/2e2a855116eb9ccba5f3cf8b97a4379a7424c2aa"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48d4da0f75d4d68445f7306869b71eef78c75f8",
+      "size": 387,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f48d4da0f75d4d68445f7306869b71eef78c75f8"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf4dc772fd5c3e1aff2ca8d72aef85fb4614033c",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/cf4dc772fd5c3e1aff2ca8d72aef85fb4614033c"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/config/joint_names_Right_Sharpa_HA4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e510e34498a6e0dcfaef3e2d55d01897330d8098",
+      "size": 485,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e510e34498a6e0dcfaef3e2d55d01897330d8098"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/config/sharpa.rviz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "558a6f98eb9ca71438df836ace589ecaf448fc5e",
+      "size": 1971,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/558a6f98eb9ca71438df836ace589ecaf448fc5e"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/launch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd96f623b7ee3e41612d71786ca1661573e8fa57",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/fd96f623b7ee3e41612d71786ca1661573e8fa57"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/launch/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfa15190a299f3e2ed870ae49f78c9df2549e2e0",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/dfa15190a299f3e2ed870ae49f78c9df2549e2e0"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/launch/__pycache__/display.launch.cpython-310.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3550969b59a2f43b4b2e49f221ca03caf33e094",
+      "size": 1188,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b3550969b59a2f43b4b2e49f221ca03caf33e094"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/launch/display.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7fa87ea24f103a6a7b3455f5df430cd5b17c135",
+      "size": 1504,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d7fa87ea24f103a6a7b3455f5df430cd5b17c135"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/launch/gazebo.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0f7ae675fda7e612cd3f46665a636b6048e8411",
+      "size": 1346,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d0f7ae675fda7e612cd3f46665a636b6048e8411"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "112c229d81155b18bedb4da8b3e261f44a85d629",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/112c229d81155b18bedb4da8b3e261f44a85d629"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30c46a5251b00a0ce79ecd2cfc2d426f60305d3",
+      "size": 191684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c30c46a5251b00a0ce79ecd2cfc2d426f60305d3"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29250f09fc1a457615b01650effa248542278fe1",
+      "size": 189684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/29250f09fc1a457615b01650effa248542278fe1"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_Visual_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "649ffb4cce24e3bcd33a50c2fc8fe542361bced9",
+      "size": 336184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/649ffb4cce24e3bcd33a50c2fc8fe542361bced9"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9a089b97b14b63516afd9d7f38f511f5688a5f",
+      "size": 136684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2d9a089b97b14b63516afd9d7f38f511f5688a5f"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_elastomer_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32511ce728aa1ef30a77300dcbabb4c5105d8552",
+      "size": 286384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/32511ce728aa1ef30a77300dcbabb4c5105d8552"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_elastomer_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300907e5bd3c136ce5f577634fbda23f74fb673b",
+      "size": 310184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/300907e5bd3c136ce5f577634fbda23f74fb673b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/DP_visual_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "442c00f311f59bdfe39f9990ef2b7ab9270286e2",
+      "size": 398784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/442c00f311f59bdfe39f9990ef2b7ab9270286e2"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d12d9f34509fd5c83ee9c98f79eaef6997e0f617",
+      "size": 75184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d12d9f34509fd5c83ee9c98f79eaef6997e0f617"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd464b71f63c4c5781032e87ab6bb0ca66872bce",
+      "size": 271584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dd464b71f63c4c5781032e87ab6bb0ca66872bce"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d15d8e667cd51cc86abd56c9a64f39d33df405e",
+      "size": 149884,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4d15d8e667cd51cc86abd56c9a64f39d33df405e"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07c8d61d63f72d0fdfb540680cccfd1546017fc",
+      "size": 211384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a07c8d61d63f72d0fdfb540680cccfd1546017fc"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4",
+      "size": 362534,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/flange_A.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28297d13612ce195973dc6efdbe6e7df9916d32b",
+      "size": 300784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/28297d13612ce195973dc6efdbe6e7df9916d32b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/flange_B.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5f2589c4fa3f2659678b11d6b42e4048a970b71",
+      "size": 249784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b5f2589c4fa3f2659678b11d6b42e4048a970b71"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cad2977382df4f7dac93ff29b8e18fa561f78ae",
+      "size": 101684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2cad2977382df4f7dac93ff29b8e18fa561f78ae"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41714d32210706632ebb14423246d43d9d217f4c",
+      "size": 320284,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/41714d32210706632ebb14423246d43d9d217f4c"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c296133ecdb9d783f886a06f98bfc23cad3dfc1",
+      "size": 322584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6c296133ecdb9d783f886a06f98bfc23cad3dfc1"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4ac46c65be8db0559956a3e3558dbc5556771b",
+      "size": 37084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0f4ac46c65be8db0559956a3e3558dbc5556771b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_MP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d17763d618ec50ad539328a7f39b8f395ba991c0",
+      "size": 369384,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d17763d618ec50ad539328a7f39b8f395ba991c0"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81016f8f013d1995b8a99a795c9cb9ad5fb2bbbb",
+      "size": 81784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/81016f8f013d1995b8a99a795c9cb9ad5fb2bbbb"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e391ee4cce1267c7cdc78ac6299ff8720341cf0",
+      "size": 560734,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4e391ee4cce1267c7cdc78ac6299ff8720341cf0"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_hand_C_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b224a1fc7f2f7ffa82e9bfb8eb3f5bee5f0fb8",
+      "size": 174184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/53b224a1fc7f2f7ffa82e9bfb8eb3f5bee5f0fb8"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_hand_C_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3685a3b5a79917d9f1af8385ee8e318858f90a68",
+      "size": 692184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3685a3b5a79917d9f1af8385ee8e318858f90a68"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_hand_C_MC_visual_.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3685a3b5a79917d9f1af8385ee8e318858f90a68",
+      "size": 692184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3685a3b5a79917d9f1af8385ee8e318858f90a68"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_pinky_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0476b8162b5dab4bc907a60d3d2497e8bacd37b",
+      "size": 41884,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a0476b8162b5dab4bc907a60d3d2497e8bacd37b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_pinky_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921ce00ff1e5bbf9dbb62e5839500fb6c547c536",
+      "size": 218284,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/921ce00ff1e5bbf9dbb62e5839500fb6c547c536"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_CMC_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14b2d3bc56c7f56abc5baca7577baf434dbba5fd",
+      "size": 317984,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/14b2d3bc56c7f56abc5baca7577baf434dbba5fd"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee856b86e51993322b2f860b4cf7be1fe6ece03c",
+      "size": 66484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ee856b86e51993322b2f860b4cf7be1fe6ece03c"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025636087a57c8de50f2a16fbab6719f3e894b68",
+      "size": 335484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/025636087a57c8de50f2a16fbab6719f3e894b68"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df77b3a89ad8ce1ec597039bc118dfd8eb9df2ab",
+      "size": 149584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/df77b3a89ad8ce1ec597039bc118dfd8eb9df2ab"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4fbb3e9b7f9019bb3ce453420857fabf33f0dc",
+      "size": 300784,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5a4fbb3e9b7f9019bb3ce453420857fabf33f0dc"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b5e87de62e347907427fe71260c6afd2073610",
+      "size": 625334,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/86b5e87de62e347907427fe71260c6afd2073610"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a58f188235aa66c257c17b1d04fbb9765b0141",
+      "size": 85884,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/47a58f188235aa66c257c17b1d04fbb9765b0141"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/right_thumb_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0054c2c24d127f5beec9c2f9ec0bf7f0ddf67c4",
+      "size": 719834,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a0054c2c24d127f5beec9c2f9ec0bf7f0ddf67c4"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/thumb_DP_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e399cceeab74c366e902f0efbe49b15c89e0a3",
+      "size": 124184,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/05e399cceeab74c366e902f0efbe49b15c89e0a3"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/thumb_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d59beb54f85cba38f795e8902ff2a2152e9f38",
+      "size": 270684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/49d59beb54f85cba38f795e8902ff2a2152e9f38"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/thumb_elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afcb28d8a5027aa1a5ffb824982d3978d6c3911",
+      "size": 506484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9afcb28d8a5027aa1a5ffb824982d3978d6c3911"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/wrist_A.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bcbad044b5ff8cdcdb7ae36354b41aa681e68e4",
+      "size": 516484,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9bcbad044b5ff8cdcdb7ae36354b41aa681e68e4"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/wrist_B.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8dc40fbeca0d1201181e6382eda9447d564c14c",
+      "size": 513084,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e8dc40fbeca0d1201181e6382eda9447d564c14c"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/meshes/wrist_collision.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f0316a064720c713b5dafea0cc0acbe74dcf5c",
+      "size": 11684,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/98f0316a064720c713b5dafea0cc0acbe74dcf5c"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/package.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a918201e9b207d838eaae5d371185135e7325da6",
+      "size": 740,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a918201e9b207d838eaae5d371185135e7325da6"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4619079e00140ff6151530683b73289c5e03310a",
+      "size": 34545,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4619079e00140ff6151530683b73289c5e03310a"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c743c98d529b8420aa2900369720824c3d9f2336",
+      "size": 28136,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c743c98d529b8420aa2900369720824c3d9f2336"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37b480031962fc2003363eabf90b5e9070091bcb",
+      "size": 23569,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/37b480031962fc2003363eabf90b5e9070091bcb"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c19cd7730ca8e52c0b6164d53081930a01b7140b",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/c19cd7730ca8e52c0b6164d53081930a01b7140b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eea701a86c020352f6aafbabb4bee195df52b802",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/eea701a86c020352f6aafbabb4bee195df52b802"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2db3df120deedd642badfd0744c75ae1963da11",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/b2db3df120deedd642badfd0744c75ae1963da11"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f371b18fe3993d1f1a44ddf899405a750ef53833",
+      "size": 9013902,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f371b18fe3993d1f1a44ddf899405a750ef53833"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cfa89242b6927e3c1f18535b9354908d0688108",
+      "size": 9204,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5cfa89242b6927e3c1f18535b9354908d0688108"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620dd4094a245b07742f986b441bffce9c5c4111",
+      "size": 2682,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/620dd4094a245b07742f986b441bffce9c5c4111"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave/right_sharpa_wave.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c217d4da85ef2174f07a79a22681fee01d66e9",
+      "size": 1464,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/68c217d4da85ef2174f07a79a22681fee01d66e9"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c892f4ec87fbbe9791bbdc00f4d02be4cc3316",
+      "size": 26589,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/50c892f4ec87fbbe9791bbdc00f4d02be4cc3316"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29a679136404870790b56de40e47672b1026cc2",
+      "size": 36489,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e29a679136404870790b56de40e47672b1026cc2"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2a495b2c23bb1e4d4d298263f2aea3f3ea1b43",
+      "size": 26732,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/2a2a495b2c23bb1e4d4d298263f2aea3f3ea1b43"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dfbd3aa74ee97926d70455c326f7b6b91ed93a4",
+      "size": 24187,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0dfbd3aa74ee97926d70455c326f7b6b91ed93a4"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6d08cf586e2534a4a5b5b9217f4d427211d7655",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e6d08cf586e2534a4a5b5b9217f4d427211d7655"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9322e5665cd76502cec65ca3562faf2a1635c378",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9322e5665cd76502cec65ca3562faf2a1635c378"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc3221e4afd878c96de869c4a384d4fc527f5770",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/dc3221e4afd878c96de869c4a384d4fc527f5770"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/configuration/right_sharpa_wave_with_flange_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9612dafa68f85654de2a5c2a1e37c16094c744",
+      "size": 10130125,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/db9612dafa68f85654de2a5c2a1e37c16094c744"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/configuration/right_sharpa_wave_with_flange_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4880e13378fc2e27ac3adc4b76483d5802cec608",
+      "size": 9673,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4880e13378fc2e27ac3adc4b76483d5802cec608"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/configuration/right_sharpa_wave_with_flange_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "577e5d7ba4c4e7cd497b72dbd61907bf99271f20",
+      "size": 2763,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/577e5d7ba4c4e7cd497b72dbd61907bf99271f20"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/configuration/right_sharpa_wave_with_flange_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/right_sharpa_wave_with_flange.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c265016b6eccfe7a0e2fb75920a2ece5ad43e4",
+      "size": 1476,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/36c265016b6eccfe7a0e2fb75920a2ece5ad43e4"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1961aa13a2ea7e9d14d713289b1764a1df2252",
+      "size": 26722,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/ae1961aa13a2ea7e9d14d713289b1764a1df2252"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9653a8626ce5235234fd67fa5312930191c2920",
+      "size": 35623,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c9653a8626ce5235234fd67fa5312930191c2920"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a43dffa745f5ac32964c0435ad5264e08cccd5",
+      "size": 26594,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/73a43dffa745f5ac32964c0435ad5264e08cccd5"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d991c649c0f1932201d16d814a640687af8f903",
+      "size": 23982,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3d991c649c0f1932201d16d814a640687af8f903"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3520f146113316c632a896b1ae3ffdee2581c888",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/3520f146113316c632a896b1ae3ffdee2581c888"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9256c323a24fb51012507ed7997089dfc66c214b",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9256c323a24fb51012507ed7997089dfc66c214b"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c37f6580ac504f59cb605e3f115e0923d81c34e",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/0c37f6580ac504f59cb605e3f115e0923d81c34e"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/configuration/right_sharpa_wave_with_wrist_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca7b6c68bf2220d96f96f38be0d041fba70eb7e",
+      "size": 9770125,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dca7b6c68bf2220d96f96f38be0d041fba70eb7e"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/configuration/right_sharpa_wave_with_wrist_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eceebe476bb8b3e4d49bcb298407d50d9cd2d2e",
+      "size": 9465,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9eceebe476bb8b3e4d49bcb298407d50d9cd2d2e"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/configuration/right_sharpa_wave_with_wrist_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951c35a8295a29412debbecaf919f0052de2b856",
+      "size": 2720,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/951c35a8295a29412debbecaf919f0052de2b856"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/configuration/right_sharpa_wave_with_wrist_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist/right_sharpa_wave_with_wrist.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c705c0d437b4b92249d15f167cf9b5084f521df7",
+      "size": 1475,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c705c0d437b4b92249d15f167cf9b5084f521df7"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_wrist_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31141e8ea32c849e8e5b3c0db6c634b64f124a30",
+      "size": 26584,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/31141e8ea32c849e8e5b3c0db6c634b64f124a30"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58d8ca2dbd5ffc8a668e6aae40f6f8af7c11f8af",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/58d8ca2dbd5ffc8a668e6aae40f6f8af7c11f8af"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e15e15b69793654a70e2f7d5993da7892b0abf1",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/1e15e15b69793654a70e2f7d5993da7892b0abf1"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb29d097623ea1f36a847c40f9e4ff93123a5d8",
+      "size": 37713,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fcb29d097623ea1f36a847c40f9e4ff93123a5d8"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc78b47e79afb5807430f1a01b6e9b7444b0eed",
+      "size": 30450,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0cc78b47e79afb5807430f1a01b6e9b7444b0eed"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46aa945a0aef608266b84e1c9d54d07569dad32a",
+      "size": 27765,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/46aa945a0aef608266b84e1c9d54d07569dad32a"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6064fa0f158e59b193d6edde3e22c5e2d4784516",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/6064fa0f158e59b193d6edde3e22c5e2d4784516"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b8806345a90a440203ab96a9750e608621fa383",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/8b8806345a90a440203ab96a9750e608621fa383"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5165e578cba976c11c27e7452218573c77d54c2",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/b5165e578cba976c11c27e7452218573c77d54c2"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/configuration/left_sharpa_wave_with_float_base_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d971f24290fa0ec41c314d4bd57357de227930",
+      "size": 9013047,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/51d971f24290fa0ec41c314d4bd57357de227930"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/configuration/left_sharpa_wave_with_float_base_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9979cc16c2f803a89f41895cd787fdb3bf0d6a",
+      "size": 10124,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7d9979cc16c2f803a89f41895cd787fdb3bf0d6a"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/configuration/left_sharpa_wave_with_float_base_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bfa9c5dfe99880b18aac1a705698a4c0a2ff7c",
+      "size": 2876,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/70bfa9c5dfe99880b18aac1a705698a4c0a2ff7c"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/configuration/left_sharpa_wave_with_float_base_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0d42fc9b8aee513af826fd9648a7da0582fdfab",
+      "size": 1478,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a0d42fc9b8aee513af826fd9648a7da0582fdfab"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a79d4caddb771888ec7e092ad69ab7a787f95db",
+      "size": 31245,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0a79d4caddb771888ec7e092ad69ab7a787f95db"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58851b956e007022db01bc2fc91cf99641285362",
+      "size": 39647,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/58851b956e007022db01bc2fc91cf99641285362"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b698cb032187bef1e0654eab8109227fb46820c9",
+      "size": 30895,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b698cb032187bef1e0654eab8109227fb46820c9"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75701e361b1dfa17ce4b1aa1f1017ce754d24f8f",
+      "size": 28785,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/75701e361b1dfa17ce4b1aa1f1017ce754d24f8f"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5f6f65bbbdd7073e4f8a6e92d104500529151d6",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e5f6f65bbbdd7073e4f8a6e92d104500529151d6"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a7c4a62eb92823ea90516196673fe54146cc4d",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/20a7c4a62eb92823ea90516196673fe54146cc4d"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06863f4be0ec98e2bbd999984f5172de520cea5d",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/06863f4be0ec98e2bbd999984f5172de520cea5d"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/configuration/left_sharpa_wave_with_float_base_with_flange_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d094dd88f27d27c785a7e3e2a092e0eb162af0",
+      "size": 10129262,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/58d094dd88f27d27c785a7e3e2a092e0eb162af0"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/configuration/left_sharpa_wave_with_float_base_with_flange_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863d7b2f9516e84e31922c237e2e039c6addf880",
+      "size": 10596,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/863d7b2f9516e84e31922c237e2e039c6addf880"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/configuration/left_sharpa_wave_with_float_base_with_flange_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3324d7f6b86cfdd76b7a3e280d68a8a02270e8f7",
+      "size": 2951,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/3324d7f6b86cfdd76b7a3e280d68a8a02270e8f7"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/configuration/left_sharpa_wave_with_float_base_with_flange_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange/left_sharpa_wave_with_float_base_with_flange.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84385a96bd5fc5ad14047faa4b3e20fc03a9db21",
+      "size": 1485,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/84385a96bd5fc5ad14047faa4b3e20fc03a9db21"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_flange_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88527af57792580b29309ac095bdeae84ec9ebbd",
+      "size": 31690,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/88527af57792580b29309ac095bdeae84ec9ebbd"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d74d05cecfa0914047287961c2cac60ee08b59",
+      "size": 38783,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/02d74d05cecfa0914047287961c2cac60ee08b59"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dadcd39414f3c8d140bcf1bdca1b45f9177e77f0",
+      "size": 29568,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/dadcd39414f3c8d140bcf1bdca1b45f9177e77f0"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a206b35a1d657003632d26e82363dd0b6c659f",
+      "size": 28553,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b3a206b35a1d657003632d26e82363dd0b6c659f"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fbf8361b1dda0870b68a5b8c53b211c8584b6b8",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/7fbf8361b1dda0870b68a5b8c53b211c8584b6b8"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6812db4ce7b5bac2a6956151908cd202d450efa3",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6812db4ce7b5bac2a6956151908cd202d450efa3"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b2783fb3820112fa7ca2bfe2486cd32a53ab668",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/9b2783fb3820112fa7ca2bfe2486cd32a53ab668"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/configuration/left_sharpa_wave_with_float_base_with_wrist_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e94a87e592d64c07486bed4a75b8922e8e180d77",
+      "size": 9769266,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e94a87e592d64c07486bed4a75b8922e8e180d77"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/configuration/left_sharpa_wave_with_float_base_with_wrist_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c51a23f08a2f0fb50a954bf794305ed7c577ac24",
+      "size": 10407,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/c51a23f08a2f0fb50a954bf794305ed7c577ac24"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/configuration/left_sharpa_wave_with_float_base_with_wrist_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a3c103eff996c263e0abba9d212e1b1709a341",
+      "size": 2911,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/77a3c103eff996c263e0abba9d212e1b1709a341"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/configuration/left_sharpa_wave_with_float_base_with_wrist_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbccfa773b805da98056b1f25a7ff962106c7b8e",
+      "size": 656,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fbccfa773b805da98056b1f25a7ff962106c7b8e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist/left_sharpa_wave_with_float_base_with_wrist.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b68fed28fa71cdbc3a802e8379ee9d355bd818f",
+      "size": 1486,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5b68fed28fa71cdbc3a802e8379ee9d355bd818f"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/left_sharpa_wave_with_float_base/left_sharpa_wave_with_float_base_with_wrist_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474d1a01cf498b553e4f6c3fb4bdfd4c85ee8de5",
+      "size": 30363,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/474d1a01cf498b553e4f6c3fb4bdfd4c85ee8de5"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "419f0045fd10b3750f427f76f2e314a93815ef18",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/419f0045fd10b3750f427f76f2e314a93815ef18"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47457e4a0a8433f9e0335e8106484452810af7e2",
+      "size": 37796,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/47457e4a0a8433f9e0335e8106484452810af7e2"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70737f5d66d4d15f4fd07aca382bc1da3bdbd56e",
+      "size": 29036,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/70737f5d66d4d15f4fd07aca382bc1da3bdbd56e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b6c2877cb3838a65e556d7770497ef3c89ad9e",
+      "size": 27727,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/75b6c2877cb3838a65e556d7770497ef3c89ad9e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "259599873ca32bbd546b2fe10986a808e4d441cc",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/259599873ca32bbd546b2fe10986a808e4d441cc"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e42481134e6e8ead9199058d4e0d5c2f6447a9b",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/4e42481134e6e8ead9199058d4e0d5c2f6447a9b"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75545681304fce1893bb7b1528dba6c4b822cf60",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/75545681304fce1893bb7b1528dba6c4b822cf60"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/configuration/right_sharpa_wave_with_float_base_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56dae826090e67d57b13b5a46576d532f591069d",
+      "size": 9014514,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/56dae826090e67d57b13b5a46576d532f591069d"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/configuration/right_sharpa_wave_with_float_base_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955ba0329966a9b6eba9636f04ac4adc718304c3",
+      "size": 10171,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/955ba0329966a9b6eba9636f04ac4adc718304c3"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/configuration/right_sharpa_wave_with_float_base_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efadd641040bd6a6071174cce43f7383d38316d3",
+      "size": 2885,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/efadd641040bd6a6071174cce43f7383d38316d3"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/configuration/right_sharpa_wave_with_float_base_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2a33f40cd843f151137f423a61cbeba095a502",
+      "size": 1480,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fa2a33f40cd843f151137f423a61cbeba095a502"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d61dbefe5cd205ad980985aa19ff874ba399b755",
+      "size": 29831,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d61dbefe5cd205ad980985aa19ff874ba399b755"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "705614d284d50922b2518867b1fe72cf31d2ff28",
+      "size": 39741,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/705614d284d50922b2518867b1fe72cf31d2ff28"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199bf60e83b1230062104bf9e6e526272cfd3022",
+      "size": 29483,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/199bf60e83b1230062104bf9e6e526272cfd3022"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c6f7b3392b9a34ebf25411c3be5df869384b0b",
+      "size": 28753,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/95c6f7b3392b9a34ebf25411c3be5df869384b0b"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c6449d0bbf828e81bb8ab1db1aeabb2a1aa4432",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/4c6449d0bbf828e81bb8ab1db1aeabb2a1aa4432"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9937b3cd1883b14f208734190476f69b9fa71f09",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9937b3cd1883b14f208734190476f69b9fa71f09"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3eb8d4440563da90b8fd75da8f78ff62a3da1e19",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/3eb8d4440563da90b8fd75da8f78ff62a3da1e19"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/configuration/right_sharpa_wave_with_float_base_with_flange_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3adbbf121e456e66643a81ccd8aeb82938e1d4b",
+      "size": 10130674,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/d3adbbf121e456e66643a81ccd8aeb82938e1d4b"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/configuration/right_sharpa_wave_with_float_base_with_flange_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ba1db07f0187db150dc46f0cdad45337648756",
+      "size": 10642,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/64ba1db07f0187db150dc46f0cdad45337648756"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/configuration/right_sharpa_wave_with_float_base_with_flange_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fac2489a4a3889e01a696a25921268bb3aee2666",
+      "size": 2960,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fac2489a4a3889e01a696a25921268bb3aee2666"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/configuration/right_sharpa_wave_with_float_base_with_flange_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange/right_sharpa_wave_with_float_base_with_flange.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c7b6615cf28806cadfdeb83d8c897becdde5d2e",
+      "size": 1487,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/7c7b6615cf28806cadfdeb83d8c897becdde5d2e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_flange_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c08a7833c6f37bc71dfd886c733b0343491ecee",
+      "size": 30278,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6c08a7833c6f37bc71dfd886c733b0343491ecee"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "825a3638bfaafdc8a2f4fb94f29316ff939890b7",
+      "size": 38872,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/825a3638bfaafdc8a2f4fb94f29316ff939890b7"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fcd192cabcfe0cbd82e9cd8547bb195d5b6c519",
+      "size": 29345,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9fcd192cabcfe0cbd82e9cd8547bb195d5b6c519"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13c127398da558397e022d4801d21949ae861053",
+      "size": 28518,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/13c127398da558397e022d4801d21949ae861053"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4fc0f4968fbdf4234a34996fb82a30303d4263c",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/e4fc0f4968fbdf4234a34996fb82a30303d4263c"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/.asset_hash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df37c88ae5f5782697c821be589ef313f40a4ae5",
+      "size": 32,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/df37c88ae5f5782697c821be589ef313f40a4ae5"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e61729bb6482cb2ea43f41781e15cf76d3d36c1",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/5e61729bb6482cb2ea43f41781e15cf76d3d36c1"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/configuration/right_sharpa_wave_with_float_base_with_wrist_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb610c21915567870acf175b8de7a8c632a53248",
+      "size": 9770693,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fb610c21915567870acf175b8de7a8c632a53248"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/configuration/right_sharpa_wave_with_float_base_with_wrist_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c358bba5cb81cab71817f1fdab4a4e7f0a8acb",
+      "size": 10452,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/17c358bba5cb81cab71817f1fdab4a4e7f0a8acb"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/configuration/right_sharpa_wave_with_float_base_with_wrist_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "287d2506b0121b95ef539eb8e71c6b5b07e36630",
+      "size": 2920,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/287d2506b0121b95ef539eb8e71c6b5b07e36630"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/configuration/right_sharpa_wave_with_float_base_with_wrist_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist/right_sharpa_wave_with_float_base_with_wrist.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bfc7e6bf2cbf5abb191f9daed6d0cb4b112dd2c",
+      "size": 1488,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5bfc7e6bf2cbf5abb191f9daed6d0cb4b112dd2c"
+    },
+    {
+      "path": "wave_01/sharpa_wave_float_base_urdf_usd/right_sharpa_wave_with_float_base/right_sharpa_wave_with_float_base_with_wrist_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0efe1ae51459b471d7ebd134d020b2424233c509",
+      "size": 30140,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/0efe1ae51459b471d7ebd134d020b2424233c509"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d74152ce8d1fdadededf61f133e4e2194fad2ede",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/d74152ce8d1fdadededf61f133e4e2194fad2ede"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f0874d05d5046a716763becde67a2c83acbd58e",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/5f0874d05d5046a716763becde67a2c83acbd58e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/left_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf9f1009d849d7320201504fa7abb0385c14bfc",
+      "size": 29071,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/adf9f1009d849d7320201504fa7abb0385c14bfc"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/left_sharpa_wave_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353ee80fef88c45c84d3969a5fdc23e997d826bd",
+      "size": 29061,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/353ee80fef88c45c84d3969a5fdc23e997d826bd"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74af5f241a3eab732ae747fa1d68ad27b79e0a54",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/74af5f241a3eab732ae747fa1d68ad27b79e0a54"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/left_sharpa_wave_hiRes.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6422d60df5206498b5d7d190f271bfb944da4268",
+      "size": 32416733,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/6422d60df5206498b5d7d190f271bfb944da4268"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b481a810a5b36e9dd16376df85787a558e428082",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/b481a810a5b36e9dd16376df85787a558e428082"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/DefaultMaterial_Base_color.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "075b466f122238afc95ab950cc141cd067fc76e1",
+      "size": 545978,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/075b466f122238afc95ab950cc141cd067fc76e1"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/DefaultMaterial_Normal_OpenGL.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efad02b22a5e977002273ef43d6402654521b96b",
+      "size": 650323,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/efad02b22a5e977002273ef43d6402654521b96b"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/DefaultMaterial_Roughness.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a866d546e3f18c81488b57e5120f0f0de8543edb",
+      "size": 410843,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a866d546e3f18c81488b57e5120f0f0de8543edb"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/Default_Base_color.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb3a4b735e8121b7b69163436b7ce2a14071af4",
+      "size": 514975,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/afb3a4b735e8121b7b69163436b7ce2a14071af4"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/Default_Normal_OpenGL.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500d1211d3ec9ffa4e6c1b096fa3bd0660f98127",
+      "size": 1963998,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/500d1211d3ec9ffa4e6c1b096fa3bd0660f98127"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/Default_Roughness.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4723a3d0188c1d1575360e749a62050a9f32f9e",
+      "size": 314284,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f4723a3d0188c1d1575360e749a62050a9f32f9e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/T_Camera_BC001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cba41eac2cf97fb6f79db24662ca9d6c048458",
+      "size": 3029901,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/85cba41eac2cf97fb6f79db24662ca9d6c048458"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/T_Metal_N001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfaf51f61d6ad84d621d413a5bb73b8fcecde98e",
+      "size": 22396210,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/bfaf51f61d6ad84d621d413a5bb73b8fcecde98e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/T_Screw_BC001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19bf83c02619d93e205133552e14736d7add5b6",
+      "size": 29468,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a19bf83c02619d93e205133552e14736d7add5b6"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/T_Screw_N001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90085bf399f5a9167759696d682c294c9b1ee4f2",
+      "size": 222221,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/90085bf399f5a9167759696d682c294c9b1ee4f2"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/left_sharpa_wave_high_fidelity/src/textures/T_Screw_ORM001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bf48f41d8942c93d0aa21baa5a90395e2896737",
+      "size": 29467,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9bf48f41d8942c93d0aa21baa5a90395e2896737"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a00e60763fd9bb70cfe978d7d865b40030ec0fb",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/8a00e60763fd9bb70cfe978d7d865b40030ec0fb"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/right_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d7818a6e077e011f9529d818a2eb5709b4bcc1f",
+      "size": 29160,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/5d7818a6e077e011f9529d818a2eb5709b4bcc1f"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/right_sharpa_wave_MITmode.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe1e1ac76de9a5742ec0bd99692461a138a1b2c4",
+      "size": 29150,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/fe1e1ac76de9a5742ec0bd99692461a138a1b2c4"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fe88488695889fa8f7aa465cfe22603dd73ea6c",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/4fe88488695889fa8f7aa465cfe22603dd73ea6c"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/right_hand_HB_HiRes.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e978ef4bc204fa610d03832d2f4292865d0d5200",
+      "size": 32407341,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/e978ef4bc204fa610d03832d2f4292865d0d5200"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "366c6fc0dfe36dd513771d9fc8412ed634d0e498",
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/trees/366c6fc0dfe36dd513771d9fc8412ed634d0e498"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/DefaultMaterial_Base_color.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "075b466f122238afc95ab950cc141cd067fc76e1",
+      "size": 545978,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/075b466f122238afc95ab950cc141cd067fc76e1"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/DefaultMaterial_Normal_OpenGL.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efad02b22a5e977002273ef43d6402654521b96b",
+      "size": 650323,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/efad02b22a5e977002273ef43d6402654521b96b"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/DefaultMaterial_Roughness.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a866d546e3f18c81488b57e5120f0f0de8543edb",
+      "size": 410843,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a866d546e3f18c81488b57e5120f0f0de8543edb"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/Default_Base_color.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb3a4b735e8121b7b69163436b7ce2a14071af4",
+      "size": 514975,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/afb3a4b735e8121b7b69163436b7ce2a14071af4"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/Default_Normal_OpenGL.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500d1211d3ec9ffa4e6c1b096fa3bd0660f98127",
+      "size": 1963998,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/500d1211d3ec9ffa4e6c1b096fa3bd0660f98127"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/Default_Roughness.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4723a3d0188c1d1575360e749a62050a9f32f9e",
+      "size": 314284,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/f4723a3d0188c1d1575360e749a62050a9f32f9e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/T_Camera_BC001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cba41eac2cf97fb6f79db24662ca9d6c048458",
+      "size": 3029901,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/85cba41eac2cf97fb6f79db24662ca9d6c048458"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/T_Metal_N001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfaf51f61d6ad84d621d413a5bb73b8fcecde98e",
+      "size": 22396210,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/bfaf51f61d6ad84d621d413a5bb73b8fcecde98e"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/T_Screw_BC001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19bf83c02619d93e205133552e14736d7add5b6",
+      "size": 29468,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/a19bf83c02619d93e205133552e14736d7add5b6"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/T_Screw_N001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90085bf399f5a9167759696d682c294c9b1ee4f2",
+      "size": 222221,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/90085bf399f5a9167759696d682c294c9b1ee4f2"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/T_Screw_ORM001.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bf48f41d8942c93d0aa21baa5a90395e2896737",
+      "size": 29467,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9bf48f41d8942c93d0aa21baa5a90395e2896737"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/WireframeBlur_basecolor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b128285ad27c404decb217725cd1a2cb7075695",
+      "size": 436257,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/9b128285ad27c404decb217725cd1a2cb7075695"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/WireframeBlur_blue.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b5c9c983fddbd3f438d98a5ea4db34b246bf01",
+      "size": 1474958,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/b3b5c9c983fddbd3f438d98a5ea4db34b246bf01"
+    },
+    {
+      "path": "wave_01/sharpa_wave_high_fidelity/right_sharpa_wave_high_fidelity/source/textures/Wireframe_blue.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03b3c5f59df3c98241201ed22fe768dd6b926b8a",
+      "size": 111895,
+      "url": "https://api.github.com/repos/Anthony827624/sharpa-urdf-usd-xml/git/blobs/03b3c5f59df3c98241201ed22fe768dd6b926b8a"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,3978 @@
+{
+  "run": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/runs/sharpa_w01_natural_v6d_video",
+  "method": "Full 240x240 official original surface; actual recorded elastomer-frame poses at each selected control endpoint; exact authored closed-box geometry; independent analytic two-pass ray/box CPD and nonlinear quantization/Gaussian blur. Predictions, not a rerun of SharpaTacmap.",
+  "control_stride": 1,
+  "control_samples": 30,
+  "physics_substeps_per_control": 8,
+  "surface_asset_source": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2",
+  "representative_phase_first_middle_last": true,
+  "summary": {
+    "thumb": {
+      "states": 30,
+      "states_with_inside_map_points": 30,
+      "states_with_nonzero_official_reference_output": 30,
+      "max_code": 26,
+      "max_raw_cpd_mm": 0.1364619880914688,
+      "min_clearance_mm": -0.13645221552917616,
+      "nearest_state": {
+        "control_step": 1290,
+        "time_s": 21.516666666666666,
+        "phase": 8,
+        "fingers": [
+          {
+            "finger": "thumb",
+            "raw_cpd_nonzero_taxels": 761,
+            "raw_cpd_max_mm": 0.1364619880914688,
+            "output_nonzero_taxels": 899,
+            "output_max_code": 26,
+            "map_points_inside_tool": 761,
+            "minimum_signed_box_clearance_mm": -0.13645221552917616,
+            "nearest_map_index": 27718,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              -0.0009820546256378293,
+              -0.023312149569392204,
+              -0.004634344018995762
+            ],
+            "nearest_map_world_m": [
+              0.6854340769883971,
+              0.07889555144691791,
+              0.8447449717582244
+            ]
+          },
+          {
+            "finger": "index",
+            "raw_cpd_nonzero_taxels": 58,
+            "raw_cpd_max_mm": 0.0363924540579319,
+            "output_nonzero_taxels": 77,
+            "output_max_code": 4,
+            "map_points_inside_tool": 58,
+            "minimum_signed_box_clearance_mm": -0.03638339513854593,
+            "nearest_map_index": 28421,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              -0.0003019831783603877,
+              -0.023475658148527145,
+              -0.004594989120960236
+            ],
+            "nearest_map_world_m": [
+              0.686839861048305,
+              0.06747366913493719,
+              0.8431652253074329
+            ]
+          },
+          {
+            "finger": "middle",
+            "raw_cpd_nonzero_taxels": 51,
+            "raw_cpd_max_mm": 0.2133508175611496,
+            "output_nonzero_taxels": 177,
+            "output_max_code": 19,
+            "map_points_inside_tool": 51,
+            "minimum_signed_box_clearance_mm": -0.16138681485355716,
+            "nearest_map_index": 31978,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.0019447061931714416,
+              -0.026729168370366096,
+              0.0006937065627425909
+            ],
+            "nearest_map_world_m": [
+              0.6828438826056932,
+              0.06684199790856629,
+              0.8279708789435217
+            ]
+          },
+          {
+            "finger": "ring",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 27.80275889949197,
+            "nearest_map_index": 50587,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006686304695904255,
+              -0.012021047994494438,
+              -0.0017272745026275516
+            ],
+            "nearest_map_world_m": [
+              0.6616873452258267,
+              0.09349467926710471,
+              0.8127848620117466
+            ]
+          },
+          {
+            "finger": "pinky",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 51.9755570681427,
+            "nearest_map_index": 48915,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006481937598437071,
+              -0.011424004100263119,
+              -0.0018942971946671605
+            ],
+            "nearest_map_world_m": [
+              0.6475018578084405,
+              0.1119741288201098,
+              0.7996970119548189
+            ]
+          }
+        ]
+      }
+    },
+    "index": {
+      "states": 30,
+      "states_with_inside_map_points": 22,
+      "states_with_nonzero_official_reference_output": 12,
+      "max_code": 5,
+      "max_raw_cpd_mm": 0.039531052112579346,
+      "min_clearance_mm": -0.039519660369400994,
+      "nearest_state": {
+        "control_step": 1289,
+        "time_s": 21.5,
+        "phase": 7,
+        "fingers": [
+          {
+            "finger": "thumb",
+            "raw_cpd_nonzero_taxels": 727,
+            "raw_cpd_max_mm": 0.12962393462657928,
+            "output_nonzero_taxels": 855,
+            "output_max_code": 25,
+            "map_points_inside_tool": 727,
+            "minimum_signed_box_clearance_mm": -0.1296129931662236,
+            "nearest_map_index": 27718,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              -0.0009820546256378293,
+              -0.023312149569392204,
+              -0.004634344018995762
+            ],
+            "nearest_map_world_m": [
+              0.6850289588511737,
+              0.07885085844635663,
+              0.8448141837671113
+            ]
+          },
+          {
+            "finger": "index",
+            "raw_cpd_nonzero_taxels": 68,
+            "raw_cpd_max_mm": 0.039531052112579346,
+            "output_nonzero_taxels": 86,
+            "output_max_code": 5,
+            "map_points_inside_tool": 68,
+            "minimum_signed_box_clearance_mm": -0.039519660369400994,
+            "nearest_map_index": 28421,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              -0.0003019831783603877,
+              -0.023475658148527145,
+              -0.004594989120960236
+            ],
+            "nearest_map_world_m": [
+              0.6864360283734463,
+              0.06743701564699084,
+              0.8432335086707059
+            ]
+          },
+          {
+            "finger": "middle",
+            "raw_cpd_nonzero_taxels": 44,
+            "raw_cpd_max_mm": 0.20370453596115112,
+            "output_nonzero_taxels": 151,
+            "output_max_code": 17,
+            "map_points_inside_tool": 44,
+            "minimum_signed_box_clearance_mm": -0.14622590600606378,
+            "nearest_map_index": 31977,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.001972517929971218,
+              -0.026730336248874664,
+              0.0007534549804404378
+            ],
+            "nearest_map_world_m": [
+              0.6824911146450098,
+              0.06678177784573494,
+              0.8280440965615237
+            ]
+          },
+          {
+            "finger": "ring",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 27.882454175970814,
+            "nearest_map_index": 50587,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006686304695904255,
+              -0.012021047994494438,
+              -0.0017272745026275516
+            ],
+            "nearest_map_world_m": [
+              0.6612896669464625,
+              0.09345682340168703,
+              0.8128502002148025
+            ]
+          },
+          {
+            "finger": "pinky",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 52.06846353574842,
+            "nearest_map_index": 48915,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006481937598437071,
+              -0.011424004100263119,
+              -0.0018942971946671605
+            ],
+            "nearest_map_world_m": [
+              0.6471069161996716,
+              0.11193741778422263,
+              0.7997608493288234
+            ]
+          }
+        ]
+      }
+    },
+    "middle": {
+      "states": 30,
+      "states_with_inside_map_points": 8,
+      "states_with_nonzero_official_reference_output": 8,
+      "max_code": 31,
+      "max_raw_cpd_mm": 0.2959655225276947,
+      "min_clearance_mm": -0.2171241862596033,
+      "nearest_state": {
+        "control_step": 1391,
+        "time_s": 23.2,
+        "phase": 8,
+        "fingers": [
+          {
+            "finger": "thumb",
+            "raw_cpd_nonzero_taxels": 745,
+            "raw_cpd_max_mm": 0.13122299313545227,
+            "output_nonzero_taxels": 866,
+            "output_max_code": 25,
+            "map_points_inside_tool": 745,
+            "minimum_signed_box_clearance_mm": -0.1312198213280144,
+            "nearest_map_index": 27958,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              -0.0008357191691175103,
+              -0.023303912952542305,
+              -0.004650121554732323
+            ],
+            "nearest_map_world_m": [
+              0.6847670446789094,
+              0.07740342134274823,
+              0.8609048096401316
+            ]
+          },
+          {
+            "finger": "index",
+            "raw_cpd_nonzero_taxels": 54,
+            "raw_cpd_max_mm": 0.03361674025654793,
+            "output_nonzero_taxels": 72,
+            "output_max_code": 4,
+            "map_points_inside_tool": 54,
+            "minimum_signed_box_clearance_mm": -0.033605544362645866,
+            "nearest_map_index": 28421,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              -0.0003019831783603877,
+              -0.023475658148527145,
+              -0.004594989120960236
+            ],
+            "nearest_map_world_m": [
+              0.686172484386815,
+              0.0658375700028642,
+              0.8594978614687893
+            ]
+          },
+          {
+            "finger": "middle",
+            "raw_cpd_nonzero_taxels": 81,
+            "raw_cpd_max_mm": 0.2959655225276947,
+            "output_nonzero_taxels": 235,
+            "output_max_code": 31,
+            "map_points_inside_tool": 81,
+            "minimum_signed_box_clearance_mm": -0.2171241862596033,
+            "nearest_map_index": 31977,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.001972517929971218,
+              -0.026730336248874664,
+              0.0007534549804404378
+            ],
+            "nearest_map_world_m": [
+              0.6820920073282708,
+              0.06534721856922529,
+              0.8444222742472934
+            ]
+          },
+          {
+            "finger": "ring",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 27.47259264506052,
+            "nearest_map_index": 50587,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006686304695904255,
+              -0.012021047994494438,
+              -0.0017272745026275516
+            ],
+            "nearest_map_world_m": [
+              0.6610119857045664,
+              0.09193194797180797,
+              0.8291569382748247
+            ]
+          },
+          {
+            "finger": "pinky",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 51.52402785503615,
+            "nearest_map_index": 48915,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006481937598437071,
+              -0.011424004100263119,
+              -0.0018942971946671605
+            ],
+            "nearest_map_world_m": [
+              0.6468273944325752,
+              0.11041230037821397,
+              0.8160698505389172
+            ]
+          }
+        ]
+      }
+    },
+    "ring": {
+      "states": 30,
+      "states_with_inside_map_points": 0,
+      "states_with_nonzero_official_reference_output": 0,
+      "max_code": 0,
+      "max_raw_cpd_mm": 0.0,
+      "min_clearance_mm": 27.47259264506052,
+      "nearest_state": {
+        "control_step": 1391,
+        "time_s": 23.2,
+        "phase": 8,
+        "fingers": [
+          {
+            "finger": "thumb",
+            "raw_cpd_nonzero_taxels": 745,
+            "raw_cpd_max_mm": 0.13122299313545227,
+            "output_nonzero_taxels": 866,
+            "output_max_code": 25,
+            "map_points_inside_tool": 745,
+            "minimum_signed_box_clearance_mm": -0.1312198213280144,
+            "nearest_map_index": 27958,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              -0.0008357191691175103,
+              -0.023303912952542305,
+              -0.004650121554732323
+            ],
+            "nearest_map_world_m": [
+              0.6847670446789094,
+              0.07740342134274823,
+              0.8609048096401316
+            ]
+          },
+          {
+            "finger": "index",
+            "raw_cpd_nonzero_taxels": 54,
+            "raw_cpd_max_mm": 0.03361674025654793,
+            "output_nonzero_taxels": 72,
+            "output_max_code": 4,
+            "map_points_inside_tool": 54,
+            "minimum_signed_box_clearance_mm": -0.033605544362645866,
+            "nearest_map_index": 28421,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              -0.0003019831783603877,
+              -0.023475658148527145,
+              -0.004594989120960236
+            ],
+            "nearest_map_world_m": [
+              0.686172484386815,
+              0.0658375700028642,
+              0.8594978614687893
+            ]
+          },
+          {
+            "finger": "middle",
+            "raw_cpd_nonzero_taxels": 81,
+            "raw_cpd_max_mm": 0.2959655225276947,
+            "output_nonzero_taxels": 235,
+            "output_max_code": 31,
+            "map_points_inside_tool": 81,
+            "minimum_signed_box_clearance_mm": -0.2171241862596033,
+            "nearest_map_index": 31977,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.001972517929971218,
+              -0.026730336248874664,
+              0.0007534549804404378
+            ],
+            "nearest_map_world_m": [
+              0.6820920073282708,
+              0.06534721856922529,
+              0.8444222742472934
+            ]
+          },
+          {
+            "finger": "ring",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 27.47259264506052,
+            "nearest_map_index": 50587,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006686304695904255,
+              -0.012021047994494438,
+              -0.0017272745026275516
+            ],
+            "nearest_map_world_m": [
+              0.6610119857045664,
+              0.09193194797180797,
+              0.8291569382748247
+            ]
+          },
+          {
+            "finger": "pinky",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 51.52402785503615,
+            "nearest_map_index": 48915,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006481937598437071,
+              -0.011424004100263119,
+              -0.0018942971946671605
+            ],
+            "nearest_map_world_m": [
+              0.6468273944325752,
+              0.11041230037821397,
+              0.8160698505389172
+            ]
+          }
+        ]
+      }
+    },
+    "pinky": {
+      "states": 30,
+      "states_with_inside_map_points": 0,
+      "states_with_nonzero_official_reference_output": 0,
+      "max_code": 0,
+      "max_raw_cpd_mm": 0.0,
+      "min_clearance_mm": 51.383950341290934,
+      "nearest_state": {
+        "control_step": 1515,
+        "time_s": 25.266666666666666,
+        "phase": 9,
+        "fingers": [
+          {
+            "finger": "thumb",
+            "raw_cpd_nonzero_taxels": 712,
+            "raw_cpd_max_mm": 0.12250567972660065,
+            "output_nonzero_taxels": 824,
+            "output_max_code": 23,
+            "map_points_inside_tool": 712,
+            "minimum_signed_box_clearance_mm": -0.12248253000663313,
+            "nearest_map_index": 29398,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              -2.1241173726593843e-06,
+              -0.02332540787756443,
+              -0.00467622559517622
+            ],
+            "nearest_map_world_m": [
+              0.6829845267598751,
+              0.06931869979365382,
+              0.9220143623472818
+            ]
+          },
+          {
+            "finger": "index",
+            "raw_cpd_nonzero_taxels": 3,
+            "raw_cpd_max_mm": 0.002664939733222127,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 3,
+            "minimum_signed_box_clearance_mm": -0.0026643392892613865,
+            "nearest_map_index": 29381,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.0003057876310776919,
+              -0.02347724325954914,
+              -0.004593865945935249
+            ],
+            "nearest_map_world_m": [
+              0.6846935025001749,
+              0.058942267796628055,
+              0.9219575434894386
+            ]
+          },
+          {
+            "finger": "middle",
+            "raw_cpd_nonzero_taxels": 75,
+            "raw_cpd_max_mm": 0.2892701029777527,
+            "output_nonzero_taxels": 231,
+            "output_max_code": 31,
+            "map_points_inside_tool": 75,
+            "minimum_signed_box_clearance_mm": -0.20595453753865095,
+            "nearest_map_index": 32937,
+            "nearest_box_index": 3,
+            "nearest_map_local_m": [
+              0.00251770974136889,
+              -0.026544824242591858,
+              0.0009457533014938235
+            ],
+            "nearest_map_world_m": [
+              0.6806336114828693,
+              0.059908361359774356,
+              0.9064556716542628
+            ]
+          },
+          {
+            "finger": "ring",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 27.66826913770793,
+            "nearest_map_index": 51303,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006764515768736601,
+              -0.012314192950725555,
+              -0.001645267358981073
+            ],
+            "nearest_map_world_m": [
+              0.6594385634348332,
+              0.08462798050943286,
+              0.891057623915301
+            ]
+          },
+          {
+            "finger": "pinky",
+            "raw_cpd_nonzero_taxels": 0,
+            "raw_cpd_max_mm": 0.0,
+            "output_nonzero_taxels": 0,
+            "output_max_code": 0,
+            "map_points_inside_tool": 0,
+            "minimum_signed_box_clearance_mm": 51.383950341290934,
+            "nearest_map_index": 48915,
+            "nearest_box_index": 1,
+            "nearest_map_local_m": [
+              0.006481937598437071,
+              -0.011424004100263119,
+              -0.0018942971946671605
+            ],
+            "nearest_map_world_m": [
+              0.6450773106270261,
+              0.10284768165267963,
+              0.877996577476438
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "states": [
+    {
+      "control_step": 0,
+      "time_s": 0.016666666666666666,
+      "phase": 0,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.0606103390455246,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.06060670914088029,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.4400525731370769,
+            0.0022255469975939173,
+            0.9298501334477902
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0005152193580908052,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.4368157729665979,
+            -0.009340317783443167,
+            0.9292961649987299
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15715509253359364,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.43591140464340494,
+            -0.009775979357676245,
+            0.9145684635270277
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.337866032449785,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.41332857963366265,
+            0.01695784356095422,
+            0.8984658584794989
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.04987732601076,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.3989721249284085,
+            0.03517885358702478,
+            0.88540242594619
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 15,
+      "time_s": 0.26666666666666666,
+      "phase": 0,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.06061829626560211,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.0606146628260027,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.4400525389715987,
+            0.002225481062868486,
+            0.9298501373575007
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0004955622156439278,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.43681584571692594,
+            -0.009340364542959126,
+            0.9292961601346724
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.157236219737884,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.43591143580640723,
+            -0.00977609667415421,
+            0.91456838448385
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.33778723944545,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.41332857963366265,
+            0.01695784356095422,
+            0.8984658584794989
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.04977593965921,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.39897212021159784,
+            0.03517884822399567,
+            0.8854024885042736
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 30,
+      "time_s": 0.5166666666666666,
+      "phase": 0,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.060582876205444336,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.06057923660988018,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.4400525389823278,
+            0.0022255014403449146,
+            0.9298501393358576
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0005895566477490035,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.4368158448169742,
+            -0.009340394763819676,
+            0.9292961612873837
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15721076266290213,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.43591142035404434,
+            -0.009776038915562347,
+            0.9145684469347197
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.33772259056007,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.41332857963366265,
+            0.01695784356095422,
+            0.8984658584794989
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.04972473965397,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.39897212021159784,
+            0.03517884822399567,
+            0.8854024885042736
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 31,
+      "time_s": 0.5333333333333333,
+      "phase": 1,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.06065697968006134,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.060653344191756074,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.44005253783785686,
+            0.0022254921222742106,
+            0.9298502032029301
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0005734650989697773,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.43681586900664565,
+            -0.009340369816448195,
+            0.9292962227216709
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.157161466183878,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.43591145601956816,
+            -0.009776051772814686,
+            0.9145683845358253
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.337799587740598,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.41332857963366265,
+            0.01695784356095422,
+            0.8984658584794989
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.049799606253075,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.39897212021159784,
+            0.03517884822399567,
+            0.8854024885042736
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 129,
+      "time_s": 2.1666666666666665,
+      "phase": 1,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 235,
+          "raw_cpd_max_mm": 0.05986020341515541,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 235,
+          "minimum_signed_box_clearance_mm": -0.05985656802806773,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.47542133957693167,
+            -0.049299415245107475,
+            0.9315438233901192
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 2,
+          "raw_cpd_max_mm": 6.0954193031648174e-05,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 2,
+          "minimum_signed_box_clearance_mm": -6.089389459904351e-05,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.4721868524768636,
+            -0.0608646050643215,
+            0.9309921002553586
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15414376998176302,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.47128366975030245,
+            -0.061302831756564154,
+            0.9162611042092216
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.338662329230942,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.44869583848238787,
+            -0.034572279499675465,
+            0.9001585977982753
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.050939102248286,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.4343364881979717,
+            -0.01635390140689704,
+            0.8870943950067147
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 227,
+      "time_s": 3.8,
+      "phase": 1,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.0602700337767601,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.060266363621696836,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.5116164112766816,
+            -0.10200368322631129,
+            0.9331465401677467
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.000652897593638054,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5083797816702769,
+            -0.11356905980950223,
+            0.9325959449652407
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15326200872118484,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.5074778363620261,
+            -0.11400841919968273,
+            0.9178644598450832
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.33829220049753,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48489407605326823,
+            -0.08727467962744478,
+            0.9017603725447776
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.05100012453398,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.4705379437473122,
+            -0.06905455607259924,
+            0.8886952762500979
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 228,
+      "time_s": 3.8166666666666664,
+      "phase": 2,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 235,
+          "raw_cpd_max_mm": 0.05976109951734543,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 235,
+          "minimum_signed_box_clearance_mm": -0.059757367112726084,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.5121218486397002,
+            -0.10250276507051403,
+            0.9331480209450387
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 2,
+          "raw_cpd_max_mm": 7.847021333873272e-05,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 2,
+          "minimum_signed_box_clearance_mm": -7.839197752436758e-05,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5088851028429102,
+            -0.11406756855429305,
+            0.9325977098236957
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.1560071190256278,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.5079812323133548,
+            -0.11450664905043828,
+            0.9178660869386086
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.338623088425383,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48539654570742136,
+            -0.08777248203271074,
+            0.9017645653975589
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.05066753337106,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47103943844818696,
+            -0.06955197608979669,
+            0.8887009191830306
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 340,
+      "time_s": 5.683333333333334,
+      "phase": 2,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 230,
+          "raw_cpd_max_mm": 0.05835140869021416,
+          "output_nonzero_taxels": 275,
+          "output_max_code": 10,
+          "map_points_inside_tool": 230,
+          "minimum_signed_box_clearance_mm": -0.05834763352909164,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.5147369390843854,
+            -0.1032179538637664,
+            0.8919589263003905
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 2,
+          "raw_cpd_max_mm": 0.00019360650912858546,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 2,
+          "minimum_signed_box_clearance_mm": -0.0001934117725520398,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5115012967204675,
+            -0.11478528922812224,
+            0.8914094450443462
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15347375178690623,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.5105980458058114,
+            -0.1152237331204164,
+            0.8766781112249622
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.33567222408253,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.4880087318685319,
+            -0.08849540066358882,
+            0.8605756764727304
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.047059233742374,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.4736486121535159,
+            -0.07027843587520796,
+            0.8475113420004339
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 451,
+      "time_s": 7.533333333333333,
+      "phase": 2,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 236,
+          "raw_cpd_max_mm": 0.059939295053482056,
+          "output_nonzero_taxels": 282,
+          "output_max_code": 10,
+          "map_points_inside_tool": 236,
+          "minimum_signed_box_clearance_mm": -0.05993526553439937,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.511551344047813,
+            -0.10210903693951658,
+            0.8560356899777121
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0008328554684933339,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5083170176467829,
+            -0.1136764254084125,
+            0.8554862005774604
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.15024919797174294,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.5074125374787721,
+            -0.11411272708898226,
+            0.8407546403970306
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.32613814854473,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48482420308749447,
+            -0.08738509860610486,
+            0.8246522786284904
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.03622528662971,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47046392736074755,
+            -0.06916786175336372,
+            0.8115873274392433
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 452,
+      "time_s": 7.55,
+      "phase": 3,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 231,
+          "raw_cpd_max_mm": 0.05887516587972641,
+          "output_nonzero_taxels": 279,
+          "output_max_code": 10,
+          "map_points_inside_tool": 231,
+          "minimum_signed_box_clearance_mm": -0.058871261267385545,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.5115451024864046,
+            -0.10214974025430777,
+            0.8557873485710017
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 2,
+          "raw_cpd_max_mm": 3.451914744800888e-05,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 2,
+          "minimum_signed_box_clearance_mm": -3.4484252086990595e-05,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5083096811815809,
+            -0.11371736898373443,
+            0.8552372139372995
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.14929938694445316,
+          "nearest_map_index": 36282,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003712076460942626,
+            -0.025906560942530632,
+            0.0031065091025084257
+          ],
+          "nearest_map_world_m": [
+            0.5074074873778992,
+            -0.11415506397699272,
+            0.8405055375648274
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.329992371277587,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.4848202783985227,
+            -0.08742631556587062,
+            0.8244008861303186
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.041336359705255,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47046143209786856,
+            -0.06920884887679934,
+            0.8113351466010535
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 483,
+      "time_s": 8.066666666666666,
+      "phase": 3,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 336,
+          "raw_cpd_max_mm": 0.08453914523124695,
+          "output_nonzero_taxels": 410,
+          "output_max_code": 15,
+          "map_points_inside_tool": 336,
+          "minimum_signed_box_clearance_mm": -0.0845265816897179,
+          "nearest_map_index": 28895,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0005098137771710753,
+            -0.025998473167419434,
+            -0.0030207401141524315
+          ],
+          "nearest_map_world_m": [
+            0.5115133371399372,
+            -0.10250158330905423,
+            0.855164684873486
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.0017491753753818597,
+          "nearest_map_index": 28191,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005220598541200161,
+            -0.022093500941991806,
+            -0.005298170726746321
+          ],
+          "nearest_map_world_m": [
+            0.5082730340373601,
+            -0.11374213666959705,
+            0.8546695378100642
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.1445786647757472,
+          "nearest_map_index": 36043,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0037001457531005144,
+            -0.0259231086820364,
+            0.002954180585220456
+          ],
+          "nearest_map_world_m": [
+            0.50733405034915,
+            -0.11433396564539193,
+            0.8399382064792046
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.544164935199014,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.4847565484130994,
+            -0.08756927591408371,
+            0.823830821412943
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.350870640889795,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.4704053798071653,
+            -0.06934741889216214,
+            0.810762171416871
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 513,
+      "time_s": 8.566666666666666,
+      "phase": 3,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 346,
+          "raw_cpd_max_mm": 0.0873861312866211,
+          "output_nonzero_taxels": 426,
+          "output_max_code": 16,
+          "map_points_inside_tool": 346,
+          "minimum_signed_box_clearance_mm": -0.08738328288717735,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.511582701259802,
+            -0.1025518795868246,
+            0.8554653228450758
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 3,
+          "raw_cpd_max_mm": 0.0002912838535849005,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 3,
+          "minimum_signed_box_clearance_mm": -0.0002909584053236488,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5090282211265641,
+            -0.1136995414033991,
+            0.8543355381172884
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.17288850245860865,
+          "nearest_map_index": 36043,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0037001457531005144,
+            -0.0259231086820364,
+            0.002954180585220456
+          ],
+          "nearest_map_world_m": [
+            0.5073406413744138,
+            -0.1143349502456625,
+            0.8399500096066764
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.60326545485865,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.4847642280583113,
+            -0.08756810847302388,
+            0.823841589438355
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.40170750832549,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47041502257825085,
+            -0.06934592644768782,
+            0.8107719769248365
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 514,
+      "time_s": 8.583333333333334,
+      "phase": 4,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 348,
+          "raw_cpd_max_mm": 0.08748788386583328,
+          "output_nonzero_taxels": 426,
+          "output_max_code": 16,
+          "map_points_inside_tool": 348,
+          "minimum_signed_box_clearance_mm": -0.0874850438353642,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.5115827563224828,
+            -0.10255204447689789,
+            0.8554652360964003
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 3,
+          "raw_cpd_max_mm": 0.00026164730661548674,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 3,
+          "minimum_signed_box_clearance_mm": -0.00026135504089456855,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5090283644555121,
+            -0.11369959501154753,
+            0.8543355988093125
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.17292301245855182,
+          "nearest_map_index": 36043,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0037001457531005144,
+            -0.0259231086820364,
+            0.002954180585220456
+          ],
+          "nearest_map_world_m": [
+            0.5073406482145992,
+            -0.11433497533447133,
+            0.8399500074348178
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.603374896332767,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.4847642280583113,
+            -0.08756810847302388,
+            0.823841589438355
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.40181431633037,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47041502257825085,
+            -0.06934592644768782,
+            0.8107719769248365
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 575,
+      "time_s": 9.6,
+      "phase": 4,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 388,
+          "raw_cpd_max_mm": 0.094812773168087,
+          "output_nonzero_taxels": 473,
+          "output_max_code": 18,
+          "map_points_inside_tool": 388,
+          "minimum_signed_box_clearance_mm": -0.09480648973349996,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.5121760251108586,
+            -0.10178247605954908,
+            0.8931913763125423
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 15,
+          "raw_cpd_max_mm": 0.010067525319755077,
+          "output_nonzero_taxels": 2,
+          "output_max_code": 1,
+          "map_points_inside_tool": 15,
+          "minimum_signed_box_clearance_mm": -0.010060437402511667,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5096136308659944,
+            -0.1129088140953059,
+            0.8921205542842193
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11888126507934099,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.5079636167550847,
+            -0.11367924453760768,
+            0.8777496895411397
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.689392929831932,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48533483349365675,
+            -0.08683201773768408,
+            0.8616632701328062
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.56545272263265,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47097456430971457,
+            -0.06861363248591998,
+            0.8486003872878428
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 636,
+      "time_s": 10.616666666666667,
+      "phase": 4,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 382,
+          "raw_cpd_max_mm": 0.0935092493891716,
+          "output_nonzero_taxels": 462,
+          "output_max_code": 17,
+          "map_points_inside_tool": 382,
+          "minimum_signed_box_clearance_mm": -0.09350307642995638,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.5121227887635847,
+            -0.10097112110715752,
+            0.9330335633719036
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 18,
+          "raw_cpd_max_mm": 0.011110791936516762,
+          "output_nonzero_taxels": 3,
+          "output_max_code": 1,
+          "map_points_inside_tool": 18,
+          "minimum_signed_box_clearance_mm": -0.011102959230412254,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5095606644848029,
+            -0.11209766196057618,
+            0.9319619658036
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11455959528894233,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.5079095841661585,
+            -0.11286744263746018,
+            0.9175887805553341
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.684461738742705,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48527823796626435,
+            -0.08602115459572444,
+            0.9015055921566656
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.559163198748045,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47091627790490387,
+            -0.06780344192669081,
+            0.8884439141874009
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 637,
+      "time_s": 10.633333333333333,
+      "phase": 5,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 381,
+          "raw_cpd_max_mm": 0.09261315315961838,
+          "output_nonzero_taxels": 458,
+          "output_max_code": 17,
+          "map_points_inside_tool": 381,
+          "minimum_signed_box_clearance_mm": -0.09260692563986041,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.5124330783761661,
+            -0.10091667433168637,
+            0.9336060607463392
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 24,
+          "raw_cpd_max_mm": 0.012192958034574986,
+          "output_nonzero_taxels": 9,
+          "output_max_code": 1,
+          "map_points_inside_tool": 24,
+          "minimum_signed_box_clearance_mm": -0.012184410661310612,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5098702952194807,
+            -0.11204304254442018,
+            0.9325351317591167
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11493204245951295,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.5082195256463273,
+            -0.11281571046815699,
+            0.9181621782597603
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.685902452214357,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.48558661843666806,
+            -0.08596797272429862,
+            0.9020802132913793
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.561389000264946,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.47122380466337344,
+            -0.06775035822144285,
+            0.8890192519433878
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 813,
+      "time_s": 13.566666666666666,
+      "phase": 5,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 385,
+          "raw_cpd_max_mm": 0.09377193450927734,
+          "output_nonzero_taxels": 465,
+          "output_max_code": 17,
+          "map_points_inside_tool": 385,
+          "minimum_signed_box_clearance_mm": -0.09376491068419958,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.5935417170492946,
+            -0.013433941114224144,
+            0.9375714412292481
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 18,
+          "raw_cpd_max_mm": 0.011680944822728634,
+          "output_nonzero_taxels": 7,
+          "output_max_code": 1,
+          "map_points_inside_tool": 18,
+          "minimum_signed_box_clearance_mm": -0.011673060953876192,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.5909752389104405,
+            -0.024559172397574158,
+            0.9365063486449867
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11572625954269376,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.589329131910674,
+            -0.025340532568594018,
+            0.9221262953463955
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.68995953180159,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.5666990902112709,
+            0.0015118766081245946,
+            0.906044414240367
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.568709342230754,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.5523396041626789,
+            0.019729773650480207,
+            0.8929816504481277
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 989,
+      "time_s": 16.5,
+      "phase": 5,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 385,
+          "raw_cpd_max_mm": 0.09346885234117508,
+          "output_nonzero_taxels": 465,
+          "output_max_code": 17,
+          "map_points_inside_tool": 385,
+          "minimum_signed_box_clearance_mm": -0.09346185103019579,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.6663772150691588,
+            0.07211290411135166,
+            0.9340506621309652
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 19,
+          "raw_cpd_max_mm": 0.011737878434360027,
+          "output_nonzero_taxels": 7,
+          "output_max_code": 1,
+          "map_points_inside_tool": 19,
+          "minimum_signed_box_clearance_mm": -0.011729956013478812,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.6638095715408532,
+            0.060987876595507834,
+            0.9329860723624503
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11415017244111196,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.6621621931650643,
+            0.060206001483450136,
+            0.9186073642768222
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.686789148452412,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6395336789861649,
+            0.08705984358210717,
+            0.9025258033220639
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.56471685235886,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.625175096680165,
+            0.10527849431829883,
+            0.8894631530457622
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 990,
+      "time_s": 16.516666666666666,
+      "phase": 6,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 387,
+          "raw_cpd_max_mm": 0.09450467675924301,
+          "output_nonzero_taxels": 470,
+          "output_max_code": 17,
+          "map_points_inside_tool": 387,
+          "minimum_signed_box_clearance_mm": -0.09449731042442788,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.666408844565807,
+            0.07267425366970955,
+            0.9340741650465803
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 15,
+          "raw_cpd_max_mm": 0.010864262469112873,
+          "output_nonzero_taxels": 2,
+          "output_max_code": 1,
+          "map_points_inside_tool": 15,
+          "minimum_signed_box_clearance_mm": -0.010857032958785408,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.6638398847186757,
+            0.0615496058740189,
+            0.9330108237930255
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11635224415205625,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.6621941552914554,
+            0.060763117461485466,
+            0.918632116760965
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.69080630327998,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6395655752003611,
+            0.08762051623512523,
+            0.9025501004220868
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.5705830384404,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6252076120497054,
+            0.1058393900692868,
+            0.8894870534704871
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1096,
+      "time_s": 18.28333333333333,
+      "phase": 6,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 386,
+          "raw_cpd_max_mm": 0.09469624608755112,
+          "output_nonzero_taxels": 473,
+          "output_max_code": 18,
+          "map_points_inside_tool": 386,
+          "minimum_signed_box_clearance_mm": -0.09468931192357471,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.6685218771915779,
+            0.07396175300723783,
+            0.894311990259324
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 15,
+          "raw_cpd_max_mm": 0.010388624854385853,
+          "output_nonzero_taxels": 2,
+          "output_max_code": 1,
+          "map_points_inside_tool": 15,
+          "minimum_signed_box_clearance_mm": -0.010381563358045062,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.6659550119288846,
+            0.06283689728180981,
+            0.8932460639602797
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11402823896976744,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.6643074399592385,
+            0.06205422345508125,
+            0.878870003523796
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.683231318429137,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6416769452749748,
+            0.08891085592266255,
+            0.8627890250895398
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.560220726293586,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6273171856385014,
+            0.10712972953080226,
+            0.8497263249244724
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1202,
+      "time_s": 20.05,
+      "phase": 6,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 385,
+          "raw_cpd_max_mm": 0.09346826374530792,
+          "output_nonzero_taxels": 464,
+          "output_max_code": 17,
+          "map_points_inside_tool": 385,
+          "minimum_signed_box_clearance_mm": -0.09346130832652992,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.6658341797774373,
+            0.07233577119004687,
+            0.8566341731009064
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 19,
+          "raw_cpd_max_mm": 0.011779673397541046,
+          "output_nonzero_taxels": 7,
+          "output_max_code": 1,
+          "map_points_inside_tool": 19,
+          "minimum_signed_box_clearance_mm": -0.011771704214549948,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.6632666539576182,
+            0.06121109545451357,
+            0.8555677573355399
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11242032730709864,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.661620426360882,
+            0.06042735640774353,
+            0.8411917936191247
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.68511711419704,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6389915019975491,
+            0.08728614457781733,
+            0.8251101912772193
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.562766115174455,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6246335009140596,
+            0.10550571094708312,
+            0.8120476446330004
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1203,
+      "time_s": 20.066666666666666,
+      "phase": 7,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 385,
+          "raw_cpd_max_mm": 0.09297674149274826,
+          "output_nonzero_taxels": 461,
+          "output_max_code": 17,
+          "map_points_inside_tool": 385,
+          "minimum_signed_box_clearance_mm": -0.09297003143001978,
+          "nearest_map_index": 28415,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007805534405633807,
+            -0.025972062721848488,
+            -0.0030167531222105026
+          ],
+          "nearest_map_world_m": [
+            0.6655842629100726,
+            0.07246733009344938,
+            0.8563072586194725
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 20,
+          "raw_cpd_max_mm": 0.011944579891860485,
+          "output_nonzero_taxels": 7,
+          "output_max_code": 1,
+          "map_points_inside_tool": 20,
+          "minimum_signed_box_clearance_mm": -0.011936415434342243,
+          "nearest_map_index": 28186,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0005279300967231393,
+            -0.022811029106378555,
+            -0.004966932814568281
+          ],
+          "nearest_map_world_m": [
+            0.663017997429267,
+            0.06134214726916587,
+            0.8552402234800692
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.11234650002316204,
+          "nearest_map_index": 36283,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.003704006550833583,
+            -0.025918519124388695,
+            0.0029988286551088095
+          ],
+          "nearest_map_world_m": [
+            0.6613701082079835,
+            0.0605611844175443,
+            0.8408641781104722
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.681532965931083,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6387411485500081,
+            0.08741815125344943,
+            0.8247837345369683
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 54.55752578203613,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6243822730319272,
+            0.10563746116530263,
+            0.811721416069141
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1246,
+      "time_s": 20.78333333333333,
+      "phase": 7,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 453,
+          "raw_cpd_max_mm": 0.08945927768945694,
+          "output_nonzero_taxels": 533,
+          "output_max_code": 16,
+          "map_points_inside_tool": 453,
+          "minimum_signed_box_clearance_mm": -0.089458850442932,
+          "nearest_map_index": 28192,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0007604873972013593,
+            -0.02402724325656891,
+            -0.004263789393007755
+          ],
+          "nearest_map_world_m": [
+            0.6734037112330961,
+            0.07722164652654921,
+            0.8500056323084607
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 0.08296010134088326,
+          "nearest_map_index": 28661,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.00018338626250624657,
+            -0.023426242172718048,
+            -0.004630005918443203
+          ],
+          "nearest_map_world_m": [
+            0.6739024750046487,
+            0.06611295564295105,
+            0.8487674068033807
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 33,
+          "raw_cpd_max_mm": 0.10737794637680054,
+          "output_nonzero_taxels": 120,
+          "output_max_code": 7,
+          "map_points_inside_tool": 33,
+          "minimum_signed_box_clearance_mm": -0.0706198111014465,
+          "nearest_map_index": 34844,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.00313103967346251,
+            -0.026305964216589928,
+            0.002719287993386388
+          ],
+          "nearest_map_world_m": [
+            0.6714174798731424,
+            0.06568191742295659,
+            0.8338689891921077
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 29.28613270048596,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6489493655932164,
+            0.09212740283865292,
+            0.8182491368638368
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 53.89295379105459,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.634594048041293,
+            0.11034703177310994,
+            0.805181335475602
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1289,
+      "time_s": 21.5,
+      "phase": 7,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 727,
+          "raw_cpd_max_mm": 0.12962393462657928,
+          "output_nonzero_taxels": 855,
+          "output_max_code": 25,
+          "map_points_inside_tool": 727,
+          "minimum_signed_box_clearance_mm": -0.1296129931662236,
+          "nearest_map_index": 27718,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0009820546256378293,
+            -0.023312149569392204,
+            -0.004634344018995762
+          ],
+          "nearest_map_world_m": [
+            0.6850289588511737,
+            0.07885085844635663,
+            0.8448141837671113
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 68,
+          "raw_cpd_max_mm": 0.039531052112579346,
+          "output_nonzero_taxels": 86,
+          "output_max_code": 5,
+          "map_points_inside_tool": 68,
+          "minimum_signed_box_clearance_mm": -0.039519660369400994,
+          "nearest_map_index": 28421,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0003019831783603877,
+            -0.023475658148527145,
+            -0.004594989120960236
+          ],
+          "nearest_map_world_m": [
+            0.6864360283734463,
+            0.06743701564699084,
+            0.8432335086707059
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 44,
+          "raw_cpd_max_mm": 0.20370453596115112,
+          "output_nonzero_taxels": 151,
+          "output_max_code": 17,
+          "map_points_inside_tool": 44,
+          "minimum_signed_box_clearance_mm": -0.14622590600606378,
+          "nearest_map_index": 31977,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.001972517929971218,
+            -0.026730336248874664,
+            0.0007534549804404378
+          ],
+          "nearest_map_world_m": [
+            0.6824911146450098,
+            0.06678177784573494,
+            0.8280440965615237
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.882454175970814,
+          "nearest_map_index": 50587,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006686304695904255,
+            -0.012021047994494438,
+            -0.0017272745026275516
+          ],
+          "nearest_map_world_m": [
+            0.6612896669464625,
+            0.09345682340168703,
+            0.8128502002148025
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 52.06846353574842,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6471069161996716,
+            0.11193741778422263,
+            0.7997608493288234
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1290,
+      "time_s": 21.516666666666666,
+      "phase": 8,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 761,
+          "raw_cpd_max_mm": 0.1364619880914688,
+          "output_nonzero_taxels": 899,
+          "output_max_code": 26,
+          "map_points_inside_tool": 761,
+          "minimum_signed_box_clearance_mm": -0.13645221552917616,
+          "nearest_map_index": 27718,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0009820546256378293,
+            -0.023312149569392204,
+            -0.004634344018995762
+          ],
+          "nearest_map_world_m": [
+            0.6854340769883971,
+            0.07889555144691791,
+            0.8447449717582244
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 58,
+          "raw_cpd_max_mm": 0.0363924540579319,
+          "output_nonzero_taxels": 77,
+          "output_max_code": 4,
+          "map_points_inside_tool": 58,
+          "minimum_signed_box_clearance_mm": -0.03638339513854593,
+          "nearest_map_index": 28421,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0003019831783603877,
+            -0.023475658148527145,
+            -0.004594989120960236
+          ],
+          "nearest_map_world_m": [
+            0.686839861048305,
+            0.06747366913493719,
+            0.8431652253074329
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 51,
+          "raw_cpd_max_mm": 0.2133508175611496,
+          "output_nonzero_taxels": 177,
+          "output_max_code": 19,
+          "map_points_inside_tool": 51,
+          "minimum_signed_box_clearance_mm": -0.16138681485355716,
+          "nearest_map_index": 31978,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0019447061931714416,
+            -0.026729168370366096,
+            0.0006937065627425909
+          ],
+          "nearest_map_world_m": [
+            0.6828438826056932,
+            0.06684199790856629,
+            0.8279708789435217
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.80275889949197,
+          "nearest_map_index": 50587,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006686304695904255,
+            -0.012021047994494438,
+            -0.0017272745026275516
+          ],
+          "nearest_map_world_m": [
+            0.6616873452258267,
+            0.09349467926710471,
+            0.8127848620117466
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.9755570681427,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6475018578084405,
+            0.1119741288201098,
+            0.7996970119548189
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1391,
+      "time_s": 23.2,
+      "phase": 8,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 745,
+          "raw_cpd_max_mm": 0.13122299313545227,
+          "output_nonzero_taxels": 866,
+          "output_max_code": 25,
+          "map_points_inside_tool": 745,
+          "minimum_signed_box_clearance_mm": -0.1312198213280144,
+          "nearest_map_index": 27958,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -0.0008357191691175103,
+            -0.023303912952542305,
+            -0.004650121554732323
+          ],
+          "nearest_map_world_m": [
+            0.6847670446789094,
+            0.07740342134274823,
+            0.8609048096401316
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 54,
+          "raw_cpd_max_mm": 0.03361674025654793,
+          "output_nonzero_taxels": 72,
+          "output_max_code": 4,
+          "map_points_inside_tool": 54,
+          "minimum_signed_box_clearance_mm": -0.033605544362645866,
+          "nearest_map_index": 28421,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            -0.0003019831783603877,
+            -0.023475658148527145,
+            -0.004594989120960236
+          ],
+          "nearest_map_world_m": [
+            0.686172484386815,
+            0.0658375700028642,
+            0.8594978614687893
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 81,
+          "raw_cpd_max_mm": 0.2959655225276947,
+          "output_nonzero_taxels": 235,
+          "output_max_code": 31,
+          "map_points_inside_tool": 81,
+          "minimum_signed_box_clearance_mm": -0.2171241862596033,
+          "nearest_map_index": 31977,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.001972517929971218,
+            -0.026730336248874664,
+            0.0007534549804404378
+          ],
+          "nearest_map_world_m": [
+            0.6820920073282708,
+            0.06534721856922529,
+            0.8444222742472934
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.47259264506052,
+          "nearest_map_index": 50587,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006686304695904255,
+            -0.012021047994494438,
+            -0.0017272745026275516
+          ],
+          "nearest_map_world_m": [
+            0.6610119857045664,
+            0.09193194797180797,
+            0.8291569382748247
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.52402785503615,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6468273944325752,
+            0.11041230037821397,
+            0.8160698505389172
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1492,
+      "time_s": 24.883333333333333,
+      "phase": 8,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 714,
+          "raw_cpd_max_mm": 0.122772715985775,
+          "output_nonzero_taxels": 831,
+          "output_max_code": 23,
+          "map_points_inside_tool": 714,
+          "minimum_signed_box_clearance_mm": -0.12274946751682128,
+          "nearest_map_index": 29398,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -2.1241173726593843e-06,
+            -0.02332540787756443,
+            -0.00467622559517622
+          ],
+          "nearest_map_world_m": [
+            0.6832687873073949,
+            0.07020975162372148,
+            0.9205765719355241
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 2,
+          "raw_cpd_max_mm": 0.00223023840226233,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 2,
+          "minimum_signed_box_clearance_mm": -0.0022297363352110884,
+          "nearest_map_index": 29381,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0003057876310776919,
+            -0.02347724325954914,
+            -0.004593865945935249
+          ],
+          "nearest_map_world_m": [
+            0.684979610687805,
+            0.05983553270669878,
+            0.9205192449220413
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 75,
+          "raw_cpd_max_mm": 0.2874445617198944,
+          "output_nonzero_taxels": 229,
+          "output_max_code": 31,
+          "map_points_inside_tool": 75,
+          "minimum_signed_box_clearance_mm": -0.20417028744654953,
+          "nearest_map_index": 32937,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.00251770974136889,
+            -0.026544824242591858,
+            0.0009457533014938235
+          ],
+          "nearest_map_world_m": [
+            0.6809234936604738,
+            0.0607999050544559,
+            0.90501545734447
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.67044602433222,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6597295626556485,
+            0.08552004201809486,
+            0.8896136060476815
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.38699139102993,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6453695936493755,
+            0.10373868723844167,
+            0.8765498221851553
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1493,
+      "time_s": 24.9,
+      "phase": 9,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 710,
+          "raw_cpd_max_mm": 0.12233853340148926,
+          "output_nonzero_taxels": 822,
+          "output_max_code": 23,
+          "map_points_inside_tool": 710,
+          "minimum_signed_box_clearance_mm": -0.12231517349567585,
+          "nearest_map_index": 29398,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -2.1241173726593843e-06,
+            -0.02332540787756443,
+            -0.00467622559517622
+          ],
+          "nearest_map_world_m": [
+            0.6831780943249257,
+            0.06995654769210222,
+            0.9210113520558197
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 3,
+          "raw_cpd_max_mm": 0.0028608604334294796,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 3,
+          "minimum_signed_box_clearance_mm": -0.0028602212238587133,
+          "nearest_map_index": 29381,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0003057876310776919,
+            -0.02347724325954914,
+            -0.004593865945935249
+          ],
+          "nearest_map_world_m": [
+            0.6848885693103626,
+            0.05958224812554113,
+            0.920954325901284
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 75,
+          "raw_cpd_max_mm": 0.2895197570323944,
+          "output_nonzero_taxels": 235,
+          "output_max_code": 31,
+          "map_points_inside_tool": 75,
+          "minimum_signed_box_clearance_mm": -0.20571605418548491,
+          "nearest_map_index": 32937,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.00251770974136889,
+            -0.026544824242591858,
+            0.0009457533014938235
+          ],
+          "nearest_map_world_m": [
+            0.6808313619395221,
+            0.06054585781667661,
+            0.905451164771442
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.670601930537746,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.65963515931486,
+            0.08526491131647962,
+            0.8900507675428874
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.38785610967023,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6452733963710143,
+            0.10348293132732263,
+            0.8769877674844854
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1515,
+      "time_s": 25.266666666666666,
+      "phase": 9,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 712,
+          "raw_cpd_max_mm": 0.12250567972660065,
+          "output_nonzero_taxels": 824,
+          "output_max_code": 23,
+          "map_points_inside_tool": 712,
+          "minimum_signed_box_clearance_mm": -0.12248253000663313,
+          "nearest_map_index": 29398,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -2.1241173726593843e-06,
+            -0.02332540787756443,
+            -0.00467622559517622
+          ],
+          "nearest_map_world_m": [
+            0.6829845267598751,
+            0.06931869979365382,
+            0.9220143623472818
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 3,
+          "raw_cpd_max_mm": 0.002664939733222127,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 3,
+          "minimum_signed_box_clearance_mm": -0.0026643392892613865,
+          "nearest_map_index": 29381,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0003057876310776919,
+            -0.02347724325954914,
+            -0.004593865945935249
+          ],
+          "nearest_map_world_m": [
+            0.6846935025001749,
+            0.058942267796628055,
+            0.9219575434894386
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 75,
+          "raw_cpd_max_mm": 0.2892701029777527,
+          "output_nonzero_taxels": 231,
+          "output_max_code": 31,
+          "map_points_inside_tool": 75,
+          "minimum_signed_box_clearance_mm": -0.20595453753865095,
+          "nearest_map_index": 32937,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.00251770974136889,
+            -0.026544824242591858,
+            0.0009457533014938235
+          ],
+          "nearest_map_world_m": [
+            0.6806336114828693,
+            0.059908361359774356,
+            0.9064556716542628
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.66826913770793,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6594385634348332,
+            0.08462798050943286,
+            0.891057623915301
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.383950341290934,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6450773106270261,
+            0.10284768165267963,
+            0.877996577476438
+          ]
+        }
+      ]
+    },
+    {
+      "control_step": 1537,
+      "time_s": 25.633333333333333,
+      "phase": 9,
+      "fingers": [
+        {
+          "finger": "thumb",
+          "raw_cpd_nonzero_taxels": 712,
+          "raw_cpd_max_mm": 0.12247536331415176,
+          "output_nonzero_taxels": 823,
+          "output_max_code": 23,
+          "map_points_inside_tool": 712,
+          "minimum_signed_box_clearance_mm": -0.1224522476106342,
+          "nearest_map_index": 29398,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            -2.1241173726593843e-06,
+            -0.02332540787756443,
+            -0.00467622559517622
+          ],
+          "nearest_map_world_m": [
+            0.6829844005315844,
+            0.06931867805085652,
+            0.9220142903733984
+          ]
+        },
+        {
+          "finger": "index",
+          "raw_cpd_nonzero_taxels": 3,
+          "raw_cpd_max_mm": 0.002660601632669568,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 3,
+          "minimum_signed_box_clearance_mm": -0.002660001598007132,
+          "nearest_map_index": 29381,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.0003057876310776919,
+            -0.02347724325954914,
+            -0.004593865945935249
+          ],
+          "nearest_map_world_m": [
+            0.6846935025001749,
+            0.058942267796628055,
+            0.9219575434894386
+          ]
+        },
+        {
+          "finger": "middle",
+          "raw_cpd_nonzero_taxels": 75,
+          "raw_cpd_max_mm": 0.2894355356693268,
+          "output_nonzero_taxels": 232,
+          "output_max_code": 31,
+          "map_points_inside_tool": 75,
+          "minimum_signed_box_clearance_mm": -0.20595879978190543,
+          "nearest_map_index": 32937,
+          "nearest_box_index": 3,
+          "nearest_map_local_m": [
+            0.00251770974136889,
+            -0.026544824242591858,
+            0.0009457533014938235
+          ],
+          "nearest_map_world_m": [
+            0.6806336759157803,
+            0.059908339964646846,
+            0.9064556689266143
+          ]
+        },
+        {
+          "finger": "ring",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 27.668310571005225,
+          "nearest_map_index": 51303,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006764515768736601,
+            -0.012314192950725555,
+            -0.001645267358981073
+          ],
+          "nearest_map_world_m": [
+            0.6594385634348332,
+            0.08462798050943286,
+            0.891057623915301
+          ]
+        },
+        {
+          "finger": "pinky",
+          "raw_cpd_nonzero_taxels": 0,
+          "raw_cpd_max_mm": 0.0,
+          "output_nonzero_taxels": 0,
+          "output_max_code": 0,
+          "map_points_inside_tool": 0,
+          "minimum_signed_box_clearance_mm": 51.38396218026052,
+          "nearest_map_index": 48915,
+          "nearest_box_index": 1,
+          "nearest_map_local_m": [
+            0.006481937598437071,
+            -0.011424004100263119,
+            -0.0018942971946671605
+          ],
+          "nearest_map_world_m": [
+            0.6450773106270261,
+            0.10284768165267963,
+            0.877996577476438
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_sha256": {
+    "runs/sharpa_w01_natural_v6d_video/trajectory.npz": "919d4c760be11ae11989cc31dc34fb548ff2b7a571110815992bf3b612ec0472",
+    "runs/sharpa_w01_natural_v6d_video/tactile.npz": "cb192aa5005d353c0fe981822fe14d3eea7a0b2428420581a3ea15fa385bbdc8",
+    "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/runs/sharpa_w01_official_tacmap_smoke_v3/tacmap.json": "df1734543f18a12d4ef8656f9cb7f25bb6e1f86daf20486a5f8f22b9d2566ca7"
+  }
+}

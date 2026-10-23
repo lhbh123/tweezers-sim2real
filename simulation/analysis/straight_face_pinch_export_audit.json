@@ -1,0 +1,32 @@
+[
+  {
+    "config": "configs/human_grasp_straight_face_pinch_seed12.json",
+    "seed": 12,
+    "open_self_clear": true,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": -0.003746972886753741,
+    "tail_palm_gap_m": 0.030320472064158038,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_seed13.json",
+    "seed": 13,
+    "open_self_clear": true,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": -0.004288401679258369,
+    "tail_palm_gap_m": 0.031736628411201374,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_seed17.json",
+    "seed": 17,
+    "open_self_clear": true,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": -0.0011795937181879879,
+    "tail_palm_gap_m": 0.028450901778865265,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  }
+]

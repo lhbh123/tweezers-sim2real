@@ -1,0 +1,1124 @@
+[
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.019999999999999907
+    },
+    "norm_rad": 0.019999999999999907,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0010219948868441036,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006555286429541729,
+      "nontarget_gap_m": 0.0010219948868441036,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.02499999999999991
+    },
+    "norm_rad": 0.02499999999999991,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0012651442424103747,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006627973750549772,
+      "nontarget_gap_m": 0.0012651442424103747,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.029999999999999916
+    },
+    "norm_rad": 0.029999999999999916,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0015128091463508782,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006698452698341208,
+      "nontarget_gap_m": 0.0015128091463508782,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.03499999999999992
+    },
+    "norm_rad": 0.03499999999999992,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0017673231224812965,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006769697544618288,
+      "nontarget_gap_m": 0.0017673231224812965,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.039999999999999925
+    },
+    "norm_rad": 0.039999999999999925,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0020330438402451326,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006842592889407173,
+      "nontarget_gap_m": 0.0020330438402451326,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.04
+    },
+    "norm_rad": 0.04,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0011556602322214742,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0011556602322214742,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.04499999999999993
+    },
+    "norm_rad": 0.04499999999999993,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.002312165810005628,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.000691729528744639,
+      "nontarget_gap_m": 0.002312165810005628,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.045
+    },
+    "norm_rad": 0.045,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0013429149890924156,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0013429149890924156,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.04999999999999993
+    },
+    "norm_rad": 0.04999999999999993,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.002594417198727579,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006993981345590075,
+      "nontarget_gap_m": 0.002594417198727579,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.049999999999999996
+    },
+    "norm_rad": 0.049999999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0015366178908250566,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0015366178908250566,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.05499999999999994
+    },
+    "norm_rad": 0.05499999999999994,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0028926983222089795,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007072851049023403,
+      "nontarget_gap_m": 0.0028926983222089795,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.055
+    },
+    "norm_rad": 0.055,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.001730738602205354,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.001730738602205354,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.05999999999999994
+    },
+    "norm_rad": 0.05999999999999994,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0031912531121365472,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007154131771736746,
+      "nontarget_gap_m": 0.0031912531121365472,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.05999999999999994
+    },
+    "norm_rad": 0.05999999999999994,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.001074221055379131,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.001074221055379131,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.06
+    },
+    "norm_rad": 0.06,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0019310170548601552,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0019310170548601552,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.06499999999999995
+    },
+    "norm_rad": 0.06499999999999995,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0034931174308262284,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007238083141175657,
+      "nontarget_gap_m": 0.0034931174308262284,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.06499999999999995
+    },
+    "norm_rad": 0.06499999999999995,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0011941429898809678,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0011941429898809678,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.065
+    },
+    "norm_rad": 0.065,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0021377351166856715,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0021377351166856715,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.06999999999999995
+    },
+    "norm_rad": 0.06999999999999995,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0038091584155973434,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007325002976933673,
+      "nontarget_gap_m": 0.0038091584155973434,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.06999999999999995
+    },
+    "norm_rad": 0.06999999999999995,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0013189581755591743,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0013189581755591743,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.07
+    },
+    "norm_rad": 0.07,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0023460712754475076,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0023460712754475076,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.07499999999999996
+    },
+    "norm_rad": 0.07499999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004124671679287703,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004124671679287703,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.07499999999999996
+    },
+    "norm_rad": 0.07499999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0014468782520499874,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0014468782520499874,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.07500000000000001
+    },
+    "norm_rad": 0.07500000000000001,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.00255455734315146,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.00255455734315146,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.07999999999999996
+    },
+    "norm_rad": 0.07999999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004446255679916263,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004446255679916263,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.07999999999999996
+    },
+    "norm_rad": 0.07999999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0015843909574291153,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0015843909574291153,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.08
+    },
+    "norm_rad": 0.08,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.002765878288288854,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.002765878288288854,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.08499999999999996
+    },
+    "norm_rad": 0.08499999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004771590872349933,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004771590872349933,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.08499999999999996
+    },
+    "norm_rad": 0.08499999999999996,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0017235284846978264,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0017235284846978264,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.085
+    },
+    "norm_rad": 0.085,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0029809714716550625,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0029809714716550625,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.08999999999999997
+    },
+    "norm_rad": 0.08999999999999997,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.005105229446279396,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.005105229446279396,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.08999999999999997
+    },
+    "norm_rad": 0.08999999999999997,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0018722726611208156,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0018722726611208156,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.09000000000000001
+    },
+    "norm_rad": 0.09000000000000001,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.003197881983342356,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.003197881983342356,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.09499999999999997
+    },
+    "norm_rad": 0.09499999999999997,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.005441636676828245,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.09499999999999997
+    },
+    "norm_rad": 0.09499999999999997,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0020284847386384626,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0020284847386384626,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.095
+    },
+    "norm_rad": 0.095,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.003417422076122895,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.003417422076122895,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.09999999999999998
+    },
+    "norm_rad": 0.09999999999999998,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.00578342858680801,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.09999999999999998
+    },
+    "norm_rad": 0.09999999999999998,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0021895494692806094,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0021895494692806094,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.1
+    },
+    "norm_rad": 0.1,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0036393649654829184,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0036393649654829184,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.10499999999999998
+    },
+    "norm_rad": 0.10499999999999998,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.00612313402018376,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.10499999999999998
+    },
+    "norm_rad": 0.10499999999999998,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.002350198907742364,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.002350198907742364,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.10500000000000001
+    },
+    "norm_rad": 0.10500000000000001,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0038618934901870584,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0038618934901870584,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.10999999999999999
+    },
+    "norm_rad": 0.10999999999999999,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.006463786363132277,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.10999999999999999
+    },
+    "norm_rad": 0.10999999999999999,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0025095349237952936,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0025095349237952936,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.11
+    },
+    "norm_rad": 0.11,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004084788902508581,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004084788902508581,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.11499999999999999
+    },
+    "norm_rad": 0.11499999999999999,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.006806460648039896,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.11499999999999999
+    },
+    "norm_rad": 0.11499999999999999,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0026783978992570845,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0026783978992570845,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.115
+    },
+    "norm_rad": 0.115,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004309501313737066,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004309501313737066,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_FE": -0.12
+    },
+    "norm_rad": 0.12,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.007152530672728067,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.0053305599297505946,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_PIP": -0.12
+    },
+    "norm_rad": 0.12,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.0028505475302297374,
+      "middle_pair": [
+        "right_middle_elastomer",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0006275960153563745,
+      "nontarget_gap_m": 0.0028505475302297374,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  },
+  {
+    "offset_rad": {
+      "right_middle_MCP_AA": 0.12000000000000001
+    },
+    "norm_rad": 0.12000000000000001,
+    "endpoint": {
+      "closure": 0.75,
+      "fraction": 1.0,
+      "jaw_extra_angle_rad": 0.0,
+      "middle_gap_m": 0.004536204575724563,
+      "middle_pair": [
+        "right_middle_DP",
+        "right_blade"
+      ],
+      "self_gap_m": 0.0007334880266257756,
+      "nontarget_gap_m": 0.004536204575724563,
+      "self_intersections": [],
+      "nontarget_intersections": [],
+      "limit_violations": [],
+      "extrapolated_joint_limit_clipping": []
+    }
+  }
+]

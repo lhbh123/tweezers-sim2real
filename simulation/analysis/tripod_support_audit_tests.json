@@ -1,0 +1,266 @@
+{
+  "run": "runs/rl_tripod_supported_zero05",
+  "baseline": {
+    "accepted": true,
+    "failed_checks": [],
+    "support_gate_fraction": 0.022222222222222223,
+    "evidence": {
+      "required": true,
+      "temporal_aggregation": "mean_over_every_physics_substep_in_control_interval",
+      "gate_semantics": "Reconstruct forces/counts per sample, arithmetic-average values, then apply support thresholds. Boolean gates are never averaged for acceptance.",
+      "physics_samples_reconstructed": 1440,
+      "samples_per_control_interval_min_max": [
+        8,
+        8
+      ],
+      "max_reconstruction_errors": {
+        "substep_clock_s": 0.0,
+        "last_substep_endpoint": 0.0,
+        "last_substep_raw_contact_disagreements": 0.0,
+        "role_classification_disagreements": 0.0,
+        "hand_point_coordinates_m": 6.270569874690032e-07,
+        "web_classification_disagreements": 0.0,
+        "radial_offset_m": 7.295506713328459e-08,
+        "role_normal_force_w": 1.9371509552001953e-07,
+        "role_friction_force_w": 9.685754776000977e-08,
+        "role_contact_strength_N": 2.1108422854076991e-07,
+        "role_support_z_N": 5.774199962615967e-08,
+        "web_contact_count": 0.0,
+        "web_normal_force_w": 3.725290298461914e-09,
+        "web_friction_force_w": 3.259629011154175e-09,
+        "middle_under_contact_count": 0.0
+      },
+      "active_support_fraction": 0.022222222222222223,
+      "active_contact_fraction_thumb_index_middle": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "active_middle_upward_force_N_min_max": [
+        -0.059661847626557574,
+        0.02082986805908149
+      ],
+      "active_web_upward_force_N_min_max": [
+        0.016222442558500916,
+        0.037853956329854554
+      ],
+      "active_individual_sample_gate_fraction_diagnostic_only": 0.009722222222222222,
+      "limitations": [
+        "Contact data describe cooked collision shapes; source STL surface fidelity is audited separately.",
+        "Acceptance uses the control-interval mean. It does not assert simultaneous support in every individual physics substep.",
+        "Internal consistency checks cannot establish authenticity of coherently altered raw telemetry."
+      ]
+    }
+  },
+  "mutations": [
+    {
+      "name": "raw_role_metadata_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "raw_contact_roles_match_source_URDF_links"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "raw_normal_force_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "support_force_sums_match_raw_normal_and_friction_points"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "raw_web_ROI_membership_flag_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "raw_web_contacts_are_tail_in_anatomical_ROI"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "anatomical_ROI_center_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "raw_web_contacts_are_tail_in_anatomical_ROI",
+          "support_force_sums_match_raw_normal_and_friction_points",
+          "support_acceptance_recomputed_matches_log"
+        ],
+        "support_gate_fraction": 0.0
+      }
+    },
+    {
+      "name": "tail_contact_relabelled_as_blade",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "raw_contact_radial_offsets_match_actual_tool_bodies",
+          "raw_web_contacts_are_tail_in_anatomical_ROI",
+          "support_force_sums_match_raw_normal_and_friction_points"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "unknown_robot_body_with_valid_looking_role",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "exception_type": "ValueError",
+        "exception": "Unknown source URDF robot link: fake_thumb_link"
+      }
+    },
+    {
+      "name": "logged_support_pass_flag_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "support_acceptance_recomputed_matches_log"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "one_physics_substep_omitted",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "exception_type": "ValueError",
+        "exception": "Missing/extra physics substeps: expected 8"
+      }
+    },
+    {
+      "name": "one_physics_substep_duplicated",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "exception_type": "ValueError",
+        "exception": "Missing, duplicated, or unordered physics substep timestamps"
+      }
+    },
+    {
+      "name": "mean_metadata_downgraded_to_legacy",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "exception_type": "ValueError",
+        "exception": "Substep records require explicit mean temporal-aggregation metadata"
+      }
+    },
+    {
+      "name": "all_substeps_omitted",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "exception_type": "ValueError",
+        "exception": "Missing/extra physics substeps: expected 8"
+      }
+    },
+    {
+      "name": "last_endpoint_state_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "support_last_substep_matches_recorded_endpoint"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "substep_joint_pose_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "raw_contact_hand_coordinates_match_source_FK"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    },
+    {
+      "name": "logged_mean_force_changed",
+      "correctly_rejected": true,
+      "result": {
+        "accepted": false,
+        "failed_checks": [
+          "support_force_sums_match_raw_normal_and_friction_points"
+        ],
+        "support_gate_fraction": 1.0
+      }
+    }
+  ],
+  "legacy_run": "runs/rl_tripod_webtail_zero04",
+  "legacy": {
+    "accepted": true,
+    "failed_checks": [],
+    "support_gate_fraction": 0.0,
+    "evidence": {
+      "required": true,
+      "temporal_aggregation": "legacy_instantaneous",
+      "gate_semantics": "Reconstruct forces/counts per sample, arithmetic-average values, then apply support thresholds. Boolean gates are never averaged for acceptance.",
+      "physics_samples_reconstructed": 120,
+      "samples_per_control_interval_min_max": [
+        1,
+        1
+      ],
+      "max_reconstruction_errors": {
+        "role_classification_disagreements": 0.0,
+        "hand_point_coordinates_m": 4.6815707447842025e-07,
+        "web_classification_disagreements": 0.0,
+        "radial_offset_m": 5.787065767565158e-08,
+        "role_normal_force_w": 1.1920928955078125e-07,
+        "role_friction_force_w": 2.9802322387695312e-08,
+        "role_contact_strength_N": 2.0779386722402649e-07,
+        "role_support_z_N": 7.450580596923828e-08,
+        "web_contact_count": 0.0,
+        "web_normal_force_w": 0.0,
+        "web_friction_force_w": 1.862645149230957e-09,
+        "middle_under_contact_count": 0.0
+      },
+      "active_support_fraction": 0.0,
+      "active_contact_fraction_thumb_index_middle": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "active_middle_upward_force_N_min_max": [
+        0.0,
+        0.0
+      ],
+      "active_web_upward_force_N_min_max": [
+        0.013607379049062729,
+        0.05049802549183369
+      ],
+      "active_individual_sample_gate_fraction_diagnostic_only": 0.0,
+      "limitations": [
+        "Contact data describe cooked collision shapes; source STL surface fidelity is audited separately.",
+        "Legacy raw samples are at the control rate, not every physics substep.",
+        "Internal consistency checks cannot establish authenticity of coherently altered raw telemetry."
+      ]
+    }
+  },
+  "input_sha256": {
+    "runs/rl_tripod_supported_zero05/trajectory.json": "c9b11782fd9959bd86dbf6333603ce7f9102615c5a2ecc9c9f8ae4839bdbb5c8",
+    "runs/rl_tripod_supported_zero05/task.json": "c6a0c16b7d0f3eee7d5cfe4d7d5d783082e43b27dd1acc4d4307fea4c8522553",
+    "runs/rl_tripod_supported_zero05/final_scene.usda": "9822ed84bb9421e0e2a04aae3e99a74025e82f7402ba4f8bd5bafd9b4cc778d0",
+    "runs/rl_tripod_webtail_zero04/trajectory.json": "bd52af2a94a424ddb3c1f185375b39d11b5313874be19281ab3e2127641a10d9",
+    "runs/rl_tripod_webtail_zero04/task.json": "80f1dba871178faf4844b62b0ffd04217be771e58723f7f016b9d76faacef3da",
+    "runs/rl_tripod_webtail_zero04/final_scene.usda": "ffa385a07a659f1b8046a9e2e123cba9bd710add5e398b6868b43259b5e37ff7"
+  },
+  "original_records_unchanged": true,
+  "auditor_sha256": "5d9fbe9ba9e301ad135cb3fc06735b6b176c867870fb5584d83b8e0066b85c33",
+  "all_tests_passed": true
+}

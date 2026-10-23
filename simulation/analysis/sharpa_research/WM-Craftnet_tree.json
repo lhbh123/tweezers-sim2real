@@ -1,0 +1,2156 @@
+{
+  "sha": "7a200ba759f981b7540acffe930d4036bbb3159e",
+  "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/7a200ba759f981b7540acffe930d4036bbb3159e",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e37a142a4663b4e98f25fc93eefa046a7f0e66bb",
+      "size": 358,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e37a142a4663b4e98f25fc93eefa046a7f0e66bb"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96ad9cdccf9bb6624035dce9a9afc01deb1efba4",
+      "size": 11911,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/96ad9cdccf9bb6624035dce9a9afc01deb1efba4"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0281d2a93e618f6868e9c9940ba3250be7bbcc5",
+      "size": 29365,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b0281d2a93e618f6868e9c9940ba3250be7bbcc5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ad1c16a80e275cfa181ea0415192a8e9654d047",
+      "size": 15425,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4ad1c16a80e275cfa181ea0415192a8e9654d047"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f219f403aa3e343957033527c648e5abc10cda",
+      "size": 2479,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e0f219f403aa3e343957033527c648e5abc10cda"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8cf9fff6fffbb99708f9ad38684049fd2e169d5",
+      "size": 3713,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d8cf9fff6fffbb99708f9ad38684049fd2e169d5"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c1f8a00a16d89868037b0cc91b944d3cd6388df",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/3c1f8a00a16d89868037b0cc91b944d3cd6388df"
+    },
+    {
+      "path": "assets/urdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68d2ddcfb500cc079ec2ae5b265a08d4dbdf2c8a",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/68d2ddcfb500cc079ec2ae5b265a08d4dbdf2c8a"
+    },
+    {
+      "path": "assets/urdf/objects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6751b4a2fa044fe87a0f5631a44a36819bfa7331",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/6751b4a2fa044fe87a0f5631a44a36819bfa7331"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "219a168d856dc53ae7af465489d676a6cc0f3da0",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/219a168d856dc53ae7af465489d676a6cc0f3da0"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/apple",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "607fb6e29a35f0609f835085359da006be0cdebb",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/607fb6e29a35f0609f835085359da006be0cdebb"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/apple/apple.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a957f8155b5a50c1116fbf88ac7730bef998565c",
+      "size": 3145684,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a957f8155b5a50c1116fbf88ac7730bef998565c"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/apple/apple.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e4e2df228d1ea9be1a3575a4a15d892bd5029d5",
+      "size": 548,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4e4e2df228d1ea9be1a3575a4a15d892bd5029d5"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/flashlight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2241ec5145a37e2a5ceccd49bbfe88c7642014d0",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/2241ec5145a37e2a5ceccd49bbfe88c7642014d0"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/flashlight/flashlight.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863c85a38dba9f12a32782802bad5819396fd5a9",
+      "size": 21484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/863c85a38dba9f12a32782802bad5819396fd5a9"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/flashlight/flashlight_y_axis.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43f15999bb5fd982cfbe2add21e982444fcddb6f",
+      "size": 546,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/43f15999bb5fd982cfbe2add21e982444fcddb6f"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/piggy_bank",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bdda0036736e84325c3da24d256123456a4d2ec9",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/bdda0036736e84325c3da24d256123456a4d2ec9"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/piggy_bank/piggy_bank.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d5946026f4bd41405b66b4f821e705dc91c829",
+      "size": 4108884,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f0d5946026f4bd41405b66b4f821e705dc91c829"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/piggy_bank/piggy_bank.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c8cc8f1c1b573ff18110c44b385fe47ecbdabb8",
+      "size": 557,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1c8cc8f1c1b573ff18110c44b385fe47ecbdabb8"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/toothpaste",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5d6160b4f7982aec6479ccb0d396a635f7cad15",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/d5d6160b4f7982aec6479ccb0d396a635f7cad15"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/toothpaste/toothpaste.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed7fc3295a17de0ff97ebf45d7648c31f9b35cc",
+      "size": 68384,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/7ed7fc3295a17de0ff97ebf45d7648c31f9b35cc"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/toothpaste/toothpaste.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ce749137ba0cf35e01825e39d3e91d147d6279",
+      "size": 544,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e6ce749137ba0cf35e01825e39d3e91d147d6279"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/water_bottle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e31eb614e097b94a8369f5304dcc89524250a8c4",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/e31eb614e097b94a8369f5304dcc89524250a8c4"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/water_bottle/water_bottle.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34626b6896fcc3b8c39604fb8a781b4191bd664a",
+      "size": 132384,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/34626b6896fcc3b8c39604fb8a781b4191bd664a"
+    },
+    {
+      "path": "assets/urdf/objects/contactdb/water_bottle/water_bottle.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb0b0b86efd49520a6109022ef73d5488ba44fc",
+      "size": 613,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/afb0b0b86efd49520a6109022ef73d5488ba44fc"
+    },
+    {
+      "path": "assets/urdf/objects/daily",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df1c072f5dbc7b99db981102372bca7eafb68077",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/df1c072f5dbc7b99db981102372bca7eafb68077"
+    },
+    {
+      "path": "assets/urdf/objects/daily/coca_can",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b5025472e3c75d6e4619f507140a32371d28a1c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/0b5025472e3c75d6e4619f507140a32371d28a1c"
+    },
+    {
+      "path": "assets/urdf/objects/daily/coca_can/coca_can.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad8a89debcbf3148667f580d3b8c6bf72079a040",
+      "size": 4704084,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ad8a89debcbf3148667f580d3b8c6bf72079a040"
+    },
+    {
+      "path": "assets/urdf/objects/daily/coca_can/coca_can.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3108fccf490299ddfcb3e3eee0a035ae54521428",
+      "size": 598,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3108fccf490299ddfcb3e3eee0a035ae54521428"
+    },
+    {
+      "path": "assets/urdf/objects/daily/coca_can/coca_can_y_axis.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74badb1d28f72d16e1e1294ed89d092c34916724",
+      "size": 595,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/74badb1d28f72d16e1e1294ed89d092c34916724"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f7cc90aa8f55d929239c0e3794bfc6fc6c9b47c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/1f7cc90aa8f55d929239c0e3794bfc6fc6c9b47c"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dfbbb7035a2c1169a3662cc5337873308cde341",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/1dfbbb7035a2c1169a3662cc5337873308cde341"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver/short_screwdriver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be9aa5a9ef779290f8c0f3008215bd690b490e3b",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/be9aa5a9ef779290f8c0f3008215bd690b490e3b"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver/short_screwdriver/material.mtl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ae06fa8e839967671fd51750c930a2eb869997",
+      "size": 198,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/76ae06fa8e839967671fd51750c930a2eb869997"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver/short_screwdriver/material_0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41ba06ceefd9580fbb2088252d7d97be26c3ff2d",
+      "size": 876556,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/41ba06ceefd9580fbb2088252d7d97be26c3ff2d"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver/short_screwdriver/short_screwdriver.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6df0f39a69e3821741f8464b45d5d6bc0e7ccfb",
+      "size": 249670,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f6df0f39a69e3821741f8464b45d5d6bc0e7ccfb"
+    },
+    {
+      "path": "assets/urdf/objects/dextoolbench/screwdriver/short_screwdriver/short_screwdriver.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144e8cd4ebcaf24ecc3533b00d3aa50c83c20b97",
+      "size": 640,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/144e8cd4ebcaf24ecc3533b00d3aa50c83c20b97"
+    },
+    {
+      "path": "assets/urdf/objects/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c910dab6f283f2b0e533c1794d03e782613cea5",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/8c910dab6f283f2b0e533c1794d03e782613cea5"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e651264d7f66a3d1db55c8f65d5dc4127b1124ba",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/e651264d7f66a3d1db55c8f65d5dc4127b1124ba"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj12_cylinder_corner.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab5ed7ed4df6bd528527b30b312fdce758bcc9c",
+      "size": 15070,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6ab5ed7ed4df6bd528527b30b312fdce758bcc9c"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj12_cylinder_corner_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6314953915fa7ff1f1d9f5aa6d785535468c8f52",
+      "size": 3683,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6314953915fa7ff1f1d9f5aa6d785535468c8f52"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj14_irregular_block_cross.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31c53a88a46567414caea7883264b585ed4bd94",
+      "size": 2905,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b31c53a88a46567414caea7883264b585ed4bd94"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj14_irregular_block_cross_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71b8652f4ecf7a7ec12a9ea7e8c1ebc7fc0fbe5",
+      "size": 640,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e71b8652f4ecf7a7ec12a9ea7e8c1ebc7fc0fbe5"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj14_irregular_block_cross_1decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1143a15b15b167dc0d30eb2f90e72996420b43",
+      "size": 870,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3b1143a15b15b167dc0d30eb2f90e72996420b43"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj14_irregular_block_cross_2decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22fdc20175775d3537a26cee7a7adc0f98bf2c52",
+      "size": 427,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/22fdc20175775d3537a26cee7a7adc0f98bf2c52"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc63e3c964bff76c6f9eb206c46242187ad72fe2",
+      "size": 11308,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/bc63e3c964bff76c6f9eb206c46242187ad72fe2"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d5ef077ecc34c274b733e7dd76c024e02247cb9",
+      "size": 1140,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1d5ef077ecc34c274b733e7dd76c024e02247cb9"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_1decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcfd348d85ebb45d19c5b4f76dc3d4ba49b8f461",
+      "size": 1651,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/fcfd348d85ebb45d19c5b4f76dc3d4ba49b8f461"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_2decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4f4e071eed5dc70d21b188a5a78adfec35813d",
+      "size": 1679,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3e4f4e071eed5dc70d21b188a5a78adfec35813d"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_3decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5fba594b380a620104516cf1f20aa5fe2af2429",
+      "size": 1221,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/c5fba594b380a620104516cf1f20aa5fe2af2429"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_4decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5935297156873c3ad0233ac9d217d264766e27d5",
+      "size": 1160,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/5935297156873c3ad0233ac9d217d264766e27d5"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_5decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769f754208885525b0c9b12489c76d13c8fa49ec",
+      "size": 1683,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/769f754208885525b0c9b12489c76d13c8fa49ec"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_6decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a1bda9461eb36ec9211be98b08f0750a58eb8d1",
+      "size": 1711,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8a1bda9461eb36ec9211be98b08f0750a58eb8d1"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj16_cylinder_axis_7decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506ed0dbeb446cb7c8d4488f507658eb5bfea095",
+      "size": 1181,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/506ed0dbeb446cb7c8d4488f507658eb5bfea095"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj1_regular_block.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d26b595b2bc4b561a5224738cb897df0907115b",
+      "size": 989,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0d26b595b2bc4b561a5224738cb897df0907115b"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj1_regular_block_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999acac085d90f8b95ce0c7b610e79e50da2b854",
+      "size": 423,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/999acac085d90f8b95ce0c7b610e79e50da2b854"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj2_block.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d195be837afa978f90725e6c0bff0cdb8e62eac",
+      "size": 1419,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2d195be837afa978f90725e6c0bff0cdb8e62eac"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj2_block_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23db39e4c398be28028febef1fd252b4dd40ea91",
+      "size": 587,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/23db39e4c398be28028febef1fd252b4dd40ea91"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj6_block_corner.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f947fdf020ab9110917ecb4aa1ac46f7d6d644e",
+      "size": 3241,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0f947fdf020ab9110917ecb4aa1ac46f7d6d644e"
+    },
+    {
+      "path": "assets/urdf/objects/meshes/set2/set_obj6_block_corner_0decompose.obj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b0eef54857e6b3264b1df8e217caa39e638d101",
+      "size": 1400,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0b0eef54857e6b3264b1df8e217caa39e638d101"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj12_cylinder_corner_y_axis.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f998d5fac1fd9d20201683366d3378362949b76a",
+      "size": 727,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f998d5fac1fd9d20201683366d3378362949b76a"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj14_irregular_block_cross.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afcbaa7206850b00aa81350032e62a0928ed37f2",
+      "size": 1555,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/afcbaa7206850b00aa81350032e62a0928ed37f2"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj16_cylinder_axis.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c97995188f37b258859622e07b8ffdc9f6a96119",
+      "size": 2977,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/c97995188f37b258859622e07b8ffdc9f6a96119"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj1_regular_block.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87d33094d27a717684bcfdc8158642ff04746b64",
+      "size": 1009,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/87d33094d27a717684bcfdc8158642ff04746b64"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj2_block.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683c72d86ac6031cc5ee231a4f520075ba9b1ef7",
+      "size": 987,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/683c72d86ac6031cc5ee231a4f520075ba9b1ef7"
+    },
+    {
+      "path": "assets/urdf/objects/set_obj6_block_corner.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86835890a9e9d7fa99b07bd0f677accd336614a2",
+      "size": 1002,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/86835890a9e9d7fa99b07bd0f677accd336614a2"
+    },
+    {
+      "path": "assets/urdf/objects/trashcan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f608de024bb50f7c8db9982538dd22c9efb13f16",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/f608de024bb50f7c8db9982538dd22c9efb13f16"
+    },
+    {
+      "path": "assets/urdf/objects/trashcan/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20f1a84f374346e33639996cd1a5b293ea2d9692",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/20f1a84f374346e33639996cd1a5b293ea2d9692"
+    },
+    {
+      "path": "assets/urdf/objects/trashcan/meshes/trashcan.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e812423f79c2a8510d3c3e10d559b6cdb60be297",
+      "size": 2500084,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e812423f79c2a8510d3c3e10d559b6cdb60be297"
+    },
+    {
+      "path": "assets/urdf/objects/trashcan/trashcan.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c94fac29b6db6e58ad1283fb0fd6c29ac71b6c9",
+      "size": 557,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3c94fac29b6db6e58ad1283fb0fd6c29ac71b6c9"
+    },
+    {
+      "path": "assets/urdf/objects/ycb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19f980a99ad01b1f250334e83d3f277aeac3323c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/19f980a99ad01b1f250334e83d3f277aeac3323c"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/bulb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bf6c6d32896f79541bf4f3b6b339e22f1db3ff3",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/9bf6c6d32896f79541bf4f3b6b339e22f1db3ff3"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/bulb/bulb.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "194fa2064f663f19a1339b5480f51eec568ffd12",
+      "size": 708184,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/194fa2064f663f19a1339b5480f51eec568ffd12"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/bulb/bulb.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24aab92b7f0d0ce10d7ddbe1f77c45f0bb80586f",
+      "size": 560,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/24aab92b7f0d0ce10d7ddbe1f77c45f0bb80586f"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/duck",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ee5a2d5fe3ed7d61cd807b1dc9d80b5aa8b543a",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/1ee5a2d5fe3ed7d61cd807b1dc9d80b5aa8b543a"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/duck/duck.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdca933475c92bf0976670afd1fd3cf13da41f74",
+      "size": 548084,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/cdca933475c92bf0976670afd1fd3cf13da41f74"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/duck/duck.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7308eaf672fc88337b54699139a4b07bcd278c5",
+      "size": 497,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d7308eaf672fc88337b54699139a4b07bcd278c5"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/lego",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "110dd3dc5b0d05d41545be3faad960036b43f980",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/110dd3dc5b0d05d41545be3faad960036b43f980"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/lego/lego.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed52c979a0d6c4348532ca91d1f9141faa826192",
+      "size": 33484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ed52c979a0d6c4348532ca91d1f9141faa826192"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/lego/lego.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4612e9b3c4a8cf4369261215deb05ded91a2caa",
+      "size": 532,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b4612e9b3c4a8cf4369261215deb05ded91a2caa"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/strawberry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a742dd1a3bc7abe207e67ee5a4fb133ce64dcd77",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/a742dd1a3bc7abe207e67ee5a4fb133ce64dcd77"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/strawberry/strawberry.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b554336fe191471a339056f41e41ca0f32ba31",
+      "size": 100084,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d6b554336fe191471a339056f41e41ca0f32ba31"
+    },
+    {
+      "path": "assets/urdf/objects/ycb/strawberry/strawberry.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cae206a34c1629289fc97443947fe0442018c72",
+      "size": 513,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/9cae206a34c1629289fc97443947fe0442018c72"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c09dac18284a7c19bcbfb150acd1274d0eefd45d",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/c09dac18284a7c19bcbfb150acd1274d0eefd45d"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48d4da0f75d4d68445f7306869b71eef78c75f8",
+      "size": 387,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f48d4da0f75d4d68445f7306869b71eef78c75f8"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf4dc772fd5c3e1aff2ca8d72aef85fb4614033c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/cf4dc772fd5c3e1aff2ca8d72aef85fb4614033c"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/config/joint_names_Right_Sharpa_HA4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e510e34498a6e0dcfaef3e2d55d01897330d8098",
+      "size": 485,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e510e34498a6e0dcfaef3e2d55d01897330d8098"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/config/sharpa.rviz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "558a6f98eb9ca71438df836ace589ecaf448fc5e",
+      "size": 1971,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/558a6f98eb9ca71438df836ace589ecaf448fc5e"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/launch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53f00c6a1cd3a57e29ca18e2f4f7bb24acc6828d",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/53f00c6a1cd3a57e29ca18e2f4f7bb24acc6828d"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/launch/display.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7fa87ea24f103a6a7b3455f5df430cd5b17c135",
+      "size": 1504,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d7fa87ea24f103a6a7b3455f5df430cd5b17c135"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/launch/gazebo.launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0312d159f6f1aedd87a4885a193e9f83b644df3",
+      "size": 1346,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b0312d159f6f1aedd87a4885a193e9f83b644df3"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f73bbe60cf21768f0b19576a26d7e94f8531a06",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/9f73bbe60cf21768f0b19576a26d7e94f8531a06"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/MCP_VL.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d12d9f34509fd5c83ee9c98f79eaef6997e0f617",
+      "size": 75184,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d12d9f34509fd5c83ee9c98f79eaef6997e0f617"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd464b71f63c4c5781032e87ab6bb0ca66872bce",
+      "size": 271584,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/dd464b71f63c4c5781032e87ab6bb0ca66872bce"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4",
+      "size": 362534,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e9d6713d5e80cc56b36ca3eeee20e57730d9dfb4"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cad2977382df4f7dac93ff29b8e18fa561f78ae",
+      "size": 101684,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2cad2977382df4f7dac93ff29b8e18fa561f78ae"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41714d32210706632ebb14423246d43d9d217f4c",
+      "size": 320284,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/41714d32210706632ebb14423246d43d9d217f4c"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c296133ecdb9d783f886a06f98bfc23cad3dfc1",
+      "size": 322584,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6c296133ecdb9d783f886a06f98bfc23cad3dfc1"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_MP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4ac46c65be8db0559956a3e3558dbc5556771b",
+      "size": 37084,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0f4ac46c65be8db0559956a3e3558dbc5556771b"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_MP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d17763d618ec50ad539328a7f39b8f395ba991c0",
+      "size": 369384,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d17763d618ec50ad539328a7f39b8f395ba991c0"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81016f8f013d1995b8a99a795c9cb9ad5fb2bbbb",
+      "size": 81784,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/81016f8f013d1995b8a99a795c9cb9ad5fb2bbbb"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e391ee4cce1267c7cdc78ac6299ff8720341cf0",
+      "size": 560734,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4e391ee4cce1267c7cdc78ac6299ff8720341cf0"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_hand_C_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b224a1fc7f2f7ffa82e9bfb8eb3f5bee5f0fb8",
+      "size": 174184,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/53b224a1fc7f2f7ffa82e9bfb8eb3f5bee5f0fb8"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_hand_C_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70399fb5fe6b476cf46530a6f669b8ae5b648f23",
+      "size": 214484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/70399fb5fe6b476cf46530a6f669b8ae5b648f23"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_hand_C_MC_visual_.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70399fb5fe6b476cf46530a6f669b8ae5b648f23",
+      "size": 214484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/70399fb5fe6b476cf46530a6f669b8ae5b648f23"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_pinky_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0476b8162b5dab4bc907a60d3d2497e8bacd37b",
+      "size": 41884,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a0476b8162b5dab4bc907a60d3d2497e8bacd37b"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_pinky_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abaa67a72baddb718919f3145006ec03224e57ac",
+      "size": 66184,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/abaa67a72baddb718919f3145006ec03224e57ac"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_CMC_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14b2d3bc56c7f56abc5baca7577baf434dbba5fd",
+      "size": 317984,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/14b2d3bc56c7f56abc5baca7577baf434dbba5fd"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_DP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee856b86e51993322b2f860b4cf7be1fe6ece03c",
+      "size": 66484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ee856b86e51993322b2f860b4cf7be1fe6ece03c"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_DP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025636087a57c8de50f2a16fbab6719f3e894b68",
+      "size": 335484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/025636087a57c8de50f2a16fbab6719f3e894b68"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_MC.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df77b3a89ad8ce1ec597039bc118dfd8eb9df2ab",
+      "size": 149584,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/df77b3a89ad8ce1ec597039bc118dfd8eb9df2ab"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_MCP_VL_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4fbb3e9b7f9019bb3ce453420857fabf33f0dc",
+      "size": 300784,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/5a4fbb3e9b7f9019bb3ce453420857fabf33f0dc"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_MC_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b5e87de62e347907427fe71260c6afd2073610",
+      "size": 625334,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/86b5e87de62e347907427fe71260c6afd2073610"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_PP.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a58f188235aa66c257c17b1d04fbb9765b0141",
+      "size": 85884,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/47a58f188235aa66c257c17b1d04fbb9765b0141"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/right_thumb_PP_visual.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0054c2c24d127f5beec9c2f9ec0bf7f0ddf67c4",
+      "size": 719834,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a0054c2c24d127f5beec9c2f9ec0bf7f0ddf67c4"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/thumb_elastomer.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d59beb54f85cba38f795e8902ff2a2152e9f38",
+      "size": 270684,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/49d59beb54f85cba38f795e8902ff2a2152e9f38"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/meshes/thumb_elastomer_surface.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afcb28d8a5027aa1a5ffb824982d3978d6c3911",
+      "size": 506484,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/9afcb28d8a5027aa1a5ffb824982d3978d6c3911"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/package.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a918201e9b207d838eaae5d371185135e7325da6",
+      "size": 740,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a918201e9b207d838eaae5d371185135e7325da6"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6667ed21d79a0e0ee6e6471038782152cc5c167",
+      "size": 34761,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b6667ed21d79a0e0ee6e6471038782152cc5c167"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave.usda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb8c1179e90893f759693d321257fc7907c3be35",
+      "size": 56056,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/fb8c1179e90893f759693d321257fc7907c3be35"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e513259f829257c71188000ba913e94b6d5a36d",
+      "size": 23580,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/5e513259f829257c71188000ba913e94b6d5a36d"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d752a11fd8441368915cffa5beb78bf1f6a4385",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/0d752a11fd8441368915cffa5beb78bf1f6a4385"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a02bc02956a6429a211075ae98c19a0118b754a",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/2a02bc02956a6429a211075ae98c19a0118b754a"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_ha4_v2_1_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea276ab3dd09c4af7451547f846fb11363bccc6",
+      "size": 9198443,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/fea276ab3dd09c4af7451547f846fb11363bccc6"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_ha4_v2_1_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428af7c5a2bab06a084d0b484e539e2326ed9996",
+      "size": 10018,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/428af7c5a2bab06a084d0b484e539e2326ed9996"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_ha4_v2_1_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386127f114d7bbd745c1e5644ae169982522abda",
+      "size": 2681,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/386127f114d7bbd745c1e5644ae169982522abda"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_ha4_v2_1_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab811a701ccec78712056974a58d561994cbcaef",
+      "size": 656,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ab811a701ccec78712056974a58d561994cbcaef"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_base.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32dc6af5449c1ec365ae2c218c8459d9a0b0255",
+      "size": 9198404,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f32dc6af5449c1ec365ae2c218c8459d9a0b0255"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_physics.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f96c7b9e10475e85e6d82113ad5e84f65191ac13",
+      "size": 9874,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f96c7b9e10475e85e6d82113ad5e84f65191ac13"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_robot.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620dd4094a245b07742f986b441bffce9c5c4111",
+      "size": 2682,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/620dd4094a245b07742f986b441bffce9c5c4111"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/configuration/right_sharpa_wave_sensor.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d4e177cc96cfd737a4fbb2e49d9067572c3dc5",
+      "size": 657,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/15d4e177cc96cfd737a4fbb2e49d9067572c3dc5"
+    },
+    {
+      "path": "assets/urdf/right_sharpa_wave/right_sharpa_wave/right_sharpa_wave.usd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c217d4da85ef2174f07a79a22681fee01d66e9",
+      "size": 1464,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/68c217d4da85ef2174f07a79a22681fee01d66e9"
+    },
+    {
+      "path": "deploy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f51b9b1720d2434a054e88a89e14ad99a1bdd413",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/f51b9b1720d2434a054e88a89e14ad99a1bdd413"
+    },
+    {
+      "path": "deploy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20aad97f2f85b721aa8018e342f63637d4c375e0",
+      "size": 1451,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/20aad97f2f85b721aa8018e342f63637d4c375e0"
+    },
+    {
+      "path": "deploy/cfg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bff2e3e2d1a95b506fe8b0ab5dad244579785c5",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/0bff2e3e2d1a95b506fe8b0ab5dad244579785c5"
+    },
+    {
+      "path": "deploy/cfg/pd_sine_shared.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f167cf04976db062ad5c21a00d6a1c13c9478b86",
+      "size": 2522,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f167cf04976db062ad5c21a00d6a1c13c9478b86"
+    },
+    {
+      "path": "deploy/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "990e9515d788cb0a35b20061def061ffd6e70795",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/990e9515d788cb0a35b20061def061ffd6e70795"
+    },
+    {
+      "path": "deploy/configs/tactile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf40dd4d334f8df96688bf11b3dae74d967435d",
+      "size": 605,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6bf40dd4d334f8df96688bf11b3dae74d967435d"
+    },
+    {
+      "path": "deploy/configs/tactile_no_trt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "946f8da48b970e066190b8032036f1dc6c1f97ad",
+      "size": 1078,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/946f8da48b970e066190b8032036f1dc6c1f97ad"
+    },
+    {
+      "path": "deploy/configs/tactile_safe_none.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faf82d741e38aee31857d8425efc745c721287fe",
+      "size": 546,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/faf82d741e38aee31857d8425efc745c721287fe"
+    },
+    {
+      "path": "deploy/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31f6994874950d33f8b337679c0133fa88444ef9",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/31f6994874950d33f8b337679c0133fa88444ef9"
+    },
+    {
+      "path": "deploy/examples/wm_craftnet_infer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9384e5163e7a4d95aa5e63fb11d3ccf7dbdd5d32",
+      "size": 64158,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/9384e5163e7a4d95aa5e63fb11d3ccf7dbdd5d32"
+    },
+    {
+      "path": "deploy/examples/wm_craftnet_infer_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b79e666b151d7713e5b15dcbc46e2bb0fbf14d6",
+      "size": 12413,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/7b79e666b151d7713e5b15dcbc46e2bb0fbf14d6"
+    },
+    {
+      "path": "deploy/examples/wm_craftnet_policy_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7770cd9d27514535a27abc8db67b95c20193e9",
+      "size": 19743,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1e7770cd9d27514535a27abc8db67b95c20193e9"
+    },
+    {
+      "path": "deploy/sharpa_sdk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aa2b3633c71ac2249018aead20ab5e12f8134c3",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/4aa2b3633c71ac2249018aead20ab5e12f8134c3"
+    },
+    {
+      "path": "deploy/sharpa_sdk/VERSION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "695886c2240adca3e833e3d0860b457ca0626e55",
+      "size": 95,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/695886c2240adca3e833e3d0860b457ca0626e55"
+    },
+    {
+      "path": "deploy/sharpa_sdk/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd09c6ded0760677d77f9a985e03549fad781135",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/fd09c6ded0760677d77f9a985e03549fad781135"
+    },
+    {
+      "path": "deploy/sharpa_sdk/lib/libSharpaWaveSDKWrapper.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cded977c62baeaf32be92a8ab865a82825914257",
+      "size": 7404320,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/cded977c62baeaf32be92a8ab865a82825914257"
+    },
+    {
+      "path": "deploy/sharpa_sdk/lib/libsharpa-wave-sdk.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be51aea95a96a2a592cc7dda5e315718b12eb6f8",
+      "size": 13367312,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/be51aea95a96a2a592cc7dda5e315718b12eb6f8"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46c631d2db41fe5226597816227e24ce4d6e0add",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/46c631d2db41fe5226597816227e24ce4d6e0add"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "056ad7a1a7b3fe097cf1c43413feb90ecf54e161",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/056ad7a1a7b3fe097cf1c43413feb90ecf54e161"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4ab0731c86c7f0f5d3737aa9613c21e8b61ad4a",
+      "size": 2042,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b4ab0731c86c7f0f5d3737aa9613c21e8b61ad4a"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa/sharpa.cpython-310-x86_64-linux-gnu.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a4b1e3c8ffe48184ef72529a672d7855e7b10b4",
+      "size": 1210688,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1a4b1e3c8ffe48184ef72529a672d7855e7b10b4"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa/sharpa.cpython-311-x86_64-linux-gnu.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fd1b6f8f35ca768559f88a0a644608318629dadc",
+      "size": 1202632,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/fd1b6f8f35ca768559f88a0a644608318629dadc"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa/sharpa.cpython-312-x86_64-linux-gnu.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88e58bdb1a6045e6714823f5a007dc5542daa241",
+      "size": 1102344,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/88e58bdb1a6045e6714823f5a007dc5542daa241"
+    },
+    {
+      "path": "deploy/sharpa_sdk/python/sharpa/sharpa.cpython-313-x86_64-linux-gnu.so",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ee889963d4e3163a8f4de894a51894b22c01c371",
+      "size": 1208008,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ee889963d4e3163a8f4de894a51894b22c01c371"
+    },
+    {
+      "path": "deploy/sharpa_sdk/sdk-release-info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d84acb89da4851c2dc91e00a4bce2198eecd4f8b",
+      "size": 1989,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d84acb89da4851c2dc91e00a4bce2198eecd4f8b"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "786bfbaa3501bc68583cec25c1223f2b966a2d31",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/786bfbaa3501bc68583cec25c1223f2b966a2d31"
+    },
+    {
+      "path": "docs/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cbc2a56b83bcc3cb4b891533694d0da99cf98de",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/5cbc2a56b83bcc3cb4b891533694d0da99cf98de"
+    },
+    {
+      "path": "docs/media/demos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4b7b20edfbc3c48dc4f89976cb7a4bfaf560e65",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/a4b7b20edfbc3c48dc4f89976cb7a4bfaf560e65"
+    },
+    {
+      "path": "docs/media/demos/adj_bottle.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ddf3af63dded2275f9b840efd81195918b0eef",
+      "size": 4421357,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/28ddf3af63dded2275f9b840efd81195918b0eef"
+    },
+    {
+      "path": "docs/media/demos/adj_bottle.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0e306f6db39ceb8050315a663e36fb10096b63",
+      "size": 7222621,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2c0e306f6db39ceb8050315a663e36fb10096b63"
+    },
+    {
+      "path": "docs/media/demos/adj_coke_can.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e37439db5633ee7bf051ca1584e93483b04f13c",
+      "size": 4547766,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4e37439db5633ee7bf051ca1584e93483b04f13c"
+    },
+    {
+      "path": "docs/media/demos/adj_coke_can.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "214982ba2b7169d927a6088cd487645dda05bc23",
+      "size": 7532236,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/214982ba2b7169d927a6088cd487645dda05bc23"
+    },
+    {
+      "path": "docs/media/demos/adj_cross_block.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba493121ca21351fb355ef9196db3acf5d5f6ddc",
+      "size": 3984579,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/ba493121ca21351fb355ef9196db3acf5d5f6ddc"
+    },
+    {
+      "path": "docs/media/demos/adj_cross_block.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c8129b94ec931a9fc687eae8d36c352f86c054",
+      "size": 7511014,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d6c8129b94ec931a9fc687eae8d36c352f86c054"
+    },
+    {
+      "path": "docs/media/demos/x_stepped_block.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fc8039ae14c92f2331e1c5297993b5ee9ae26c2",
+      "size": 8185299,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3fc8039ae14c92f2331e1c5297993b5ee9ae26c2"
+    },
+    {
+      "path": "docs/media/demos/x_stepped_block.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d716a58bc4d2c27388b408c86cc9dfce20078006",
+      "size": 12432941,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d716a58bc4d2c27388b408c86cc9dfce20078006"
+    },
+    {
+      "path": "docs/media/demos/y_flashlight.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd64d3532a9e01c4ccd16ec036a818a676d4694c",
+      "size": 9190430,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/cd64d3532a9e01c4ccd16ec036a818a676d4694c"
+    },
+    {
+      "path": "docs/media/demos/y_flashlight.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58dfe366803500a117e81e74c6c0bae071b5043",
+      "size": 12042936,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/c58dfe366803500a117e81e74c6c0bae071b5043"
+    },
+    {
+      "path": "docs/media/demos/z_duck.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c83f6fdbe26ad6e78bf6fac3588adcd176f7c8",
+      "size": 7820245,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/84c83f6fdbe26ad6e78bf6fac3588adcd176f7c8"
+    },
+    {
+      "path": "docs/media/demos/z_duck.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd87ed1f57293b4b654a277dab362b88205eefaf",
+      "size": 13299743,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/dd87ed1f57293b4b654a277dab362b88205eefaf"
+    },
+    {
+      "path": "docs/media/depth_pred_16x9.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f70cbfbb69398ad032e453d5a9eea4527fd10d0",
+      "size": 4557677,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6f70cbfbb69398ad032e453d5a9eea4527fd10d0"
+    },
+    {
+      "path": "docs/media/depth_real_16x9.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd33b153c1a7b54e5404961914ed86cbc5a3152",
+      "size": 7239585,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/7bd33b153c1a7b54e5404961914ed86cbc5a3152"
+    },
+    {
+      "path": "docs/media/pipeline.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e96b8d96420d5866e6b2725d9368c4f142b7118",
+      "size": 397810,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8e96b8d96420d5866e6b2725d9368c4f142b7118"
+    },
+    {
+      "path": "docs/media/real-robot-duck.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7bd0ee0ddb1178b6ca693186274b1fc0534af0",
+      "size": 4222809,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/7e7bd0ee0ddb1178b6ca693186274b1fc0534af0"
+    },
+    {
+      "path": "docs/media/sharpa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547862b8f9f65e69f9813fcf795c42bc37951340",
+      "size": 2738,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/547862b8f9f65e69f9813fcf795c42bc37951340"
+    },
+    {
+      "path": "docs/media/teaser.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b9317b204ea00c228f06a13a86dfdd0bd26d58",
+      "size": 3108192,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a5b9317b204ea00c228f06a13a86dfdd0bd26d58"
+    },
+    {
+      "path": "docs/media/training-results.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0606b54bc9dc676eded0eaa159e8b33fc1ef492b",
+      "size": 637408,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0606b54bc9dc676eded0eaa159e8b33fc1ef492b"
+    },
+    {
+      "path": "example_ckpt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae74a9bcc83527acecd60765d030e17851dff6a2",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/ae74a9bcc83527acecd60765d030e17851dff6a2"
+    },
+    {
+      "path": "example_ckpt/wm_craftnet_set_z.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1b7452725e4f2fd6286a671925a0b1e659c55d",
+      "size": 16560,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/de1b7452725e4f2fd6286a671925a0b1e659c55d"
+    },
+    {
+      "path": "install.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2d1cda9606bb2ad9f3197c197b8c7bbc9b5636",
+      "size": 881,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/bb2d1cda9606bb2ad9f3197c197b8c7bbc9b5636"
+    },
+    {
+      "path": "isaacgymenvs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5a0b0c78d63e0664e8a5f4dc68593d7e9fd8692",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/f5a0b0c78d63e0664e8a5f4dc68593d7e9fd8692"
+    },
+    {
+      "path": "isaacgymenvs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f409683420e248fbb077dab9f12db2c25e5fc44d",
+      "size": 2834,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f409683420e248fbb077dab9f12db2c25e5fc44d"
+    },
+    {
+      "path": "isaacgymenvs/cfg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1ef554c1a5054614b646114f77e7d64a3090df8",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/a1ef554c1a5054614b646114f77e7d64a3090df8"
+    },
+    {
+      "path": "isaacgymenvs/cfg/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20a4796c112b7cf4b7f229712f827bc056c88a3a",
+      "size": 1749,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/20a4796c112b7cf4b7f229712f827bc056c88a3a"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fb8450cfa45f605a2e1e5b884f280a8224d1aef",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/7fb8450cfa45f605a2e1e5b884f280a8224d1aef"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task/WMCraftnetRotation.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e9e188de4fc5e2535d74e3420b3715dc97a0a40",
+      "size": 16695,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2e9e188de4fc5e2535d74e3420b3715dc97a0a40"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task/WMCraftnetRotationX.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8546c344e86127f148e5aebfbf24aa19e86e6026",
+      "size": 737,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8546c344e86127f148e5aebfbf24aa19e86e6026"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task/WMCraftnetRotationY.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853f2024174f38e7591bf2b09eb87f18442673c8",
+      "size": 689,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/853f2024174f38e7591bf2b09eb87f18442673c8"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ece73cbe62831992be0e70706c339ca31e6965c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/4ece73cbe62831992be0e70706c339ca31e6965c"
+    },
+    {
+      "path": "isaacgymenvs/cfg/task/common/hand.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2195102fb1185497c78d6fcc5359e72668e595a3",
+      "size": 6303,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2195102fb1185497c78d6fcc5359e72668e595a3"
+    },
+    {
+      "path": "isaacgymenvs/cfg/train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "855a4b266db0022299dc9c3ef4503f66c416f8ca",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/855a4b266db0022299dc9c3ef4503f66c416f8ca"
+    },
+    {
+      "path": "isaacgymenvs/cfg/train/WMCraftnetPPO.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ddc76982d00c94feca8c69198065a9acb412b6f",
+      "size": 2776,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8ddc76982d00c94feca8c69198065a9acb412b6f"
+    },
+    {
+      "path": "isaacgymenvs/learning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61d9471dbcef542693ccf573df9ff7d16c6023ac",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/61d9471dbcef542693ccf573df9ff7d16c6023ac"
+    },
+    {
+      "path": "isaacgymenvs/learning/wm_continuous.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e211a9ced60d85bcd780d8ffbefbfce52d88a9a",
+      "size": 5897,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1e211a9ced60d85bcd780d8ffbefbfce52d88a9a"
+    },
+    {
+      "path": "isaacgymenvs/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "872dfeef6db4dbb30805817d05748bf2fc4e174c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/872dfeef6db4dbb30805817d05748bf2fc4e174c"
+    },
+    {
+      "path": "isaacgymenvs/tasks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df1ef25622c5d4b2f8ef92e37fd98743bfe0b9a",
+      "size": 1954,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1df1ef25622c5d4b2f8ef92e37fd98743bfe0b9a"
+    },
+    {
+      "path": "isaacgymenvs/tasks/base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a877bcc3cb4c299ee9be676557bf23018c459c",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/f3a877bcc3cb4c299ee9be676557bf23018c459c"
+    },
+    {
+      "path": "isaacgymenvs/tasks/base/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d69189a71a23045d15fc90f50cdfa4b2e7fb21",
+      "size": 1558,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/81d69189a71a23045d15fc90f50cdfa4b2e7fb21"
+    },
+    {
+      "path": "isaacgymenvs/tasks/base/vec_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d3331d2266425d6cfce9fbaa09fbf7a2d9c7f3",
+      "size": 42097,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/40d3331d2266425d6cfce9fbaa09fbf7a2d9c7f3"
+    },
+    {
+      "path": "isaacgymenvs/tasks/wm_craftnet_camera_rotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472da867bffc4ad38b2735560437429e48c0c1db",
+      "size": 110427,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/472da867bffc4ad38b2735560437429e48c0c1db"
+    },
+    {
+      "path": "isaacgymenvs/tasks/wm_craftnet_rotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90dc3e099045b7e7900a90c15f6fabe1279c265d",
+      "size": 129011,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/90dc3e099045b7e7900a90c15f6fabe1279c265d"
+    },
+    {
+      "path": "isaacgymenvs/tasks/wm_craftnet_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6de3c002ee85b712aaa3f4059e9c514118477316",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/6de3c002ee85b712aaa3f4059e9c514118477316"
+    },
+    {
+      "path": "isaacgymenvs/tasks/wm_craftnet_utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d047db4d9626f3f567b2013195d86283dd0628",
+      "size": 44,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/99d047db4d9626f3f567b2013195d86283dd0628"
+    },
+    {
+      "path": "isaacgymenvs/tasks/wm_craftnet_utils/hand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb22d5dd5e7bb7ee8c64749262a0ef00849df31",
+      "size": 2572,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/bbb22d5dd5e7bb7ee8c64749262a0ef00849df31"
+    },
+    {
+      "path": "isaacgymenvs/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc34735e2f69ca7f7811c5d2c8c9a214497c864",
+      "size": 13140,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/6bc34735e2f69ca7f7811c5d2c8c9a214497c864"
+    },
+    {
+      "path": "isaacgymenvs/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc034f2090c742a027def72ed05f38b8f8b250d6",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/fc034f2090c742a027def72ed05f38b8f8b250d6"
+    },
+    {
+      "path": "isaacgymenvs/utils/dr_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3621ffbec07c2eaf383a3d4f072d930ddc6d6e2",
+      "size": 10131,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f3621ffbec07c2eaf383a3d4f072d930ddc6d6e2"
+    },
+    {
+      "path": "isaacgymenvs/utils/recorders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6d485f3a52d7469271731f9758e0dd926d7c05a",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/a6d485f3a52d7469271731f9758e0dd926d7c05a"
+    },
+    {
+      "path": "isaacgymenvs/utils/recorders/evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3961863460dc58288c0e643babf2a411980de618",
+      "size": 16816,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3961863460dc58288c0e643babf2a411980de618"
+    },
+    {
+      "path": "isaacgymenvs/utils/recorders/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f18e986be0995abf9e132ba570b6b59a1cf529",
+      "size": 9097,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/55f18e986be0995abf9e132ba570b6b59a1cf529"
+    },
+    {
+      "path": "isaacgymenvs/utils/recorders/recording.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f7b9670f4d59f60e33101491379eda6a479470b",
+      "size": 9427,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8f7b9670f4d59f60e33101491379eda6a479470b"
+    },
+    {
+      "path": "isaacgymenvs/utils/reformat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "932e4776053db48e00b7a5836f477779afaa4678",
+      "size": 2314,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/932e4776053db48e00b7a5836f477779afaa4678"
+    },
+    {
+      "path": "isaacgymenvs/utils/rlgames_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb50c1a0fce9d7cb3697c580edc10f1c2501fca1",
+      "size": 9235,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/cb50c1a0fce9d7cb3697c580edc10f1c2501fca1"
+    },
+    {
+      "path": "isaacgymenvs/utils/rotation3d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44fcfaf3562d8510338caddbb7f5d21f28801d42",
+      "size": 13093,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/44fcfaf3562d8510338caddbb7f5d21f28801d42"
+    },
+    {
+      "path": "isaacgymenvs/utils/spin_reward_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f514787d861652a128be4fa3ce65edf652abd5f",
+      "size": 3367,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0f514787d861652a128be4fa3ce65edf652abd5f"
+    },
+    {
+      "path": "isaacgymenvs/utils/torch_jit_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a542028c9aaecdcdd9ac1e339f4175105330cd1e",
+      "size": 13023,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a542028c9aaecdcdd9ac1e339f4175105330cd1e"
+    },
+    {
+      "path": "isaacgymenvs/utils/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c1ca0747f737528d19ff81b25e886c8c6153c7",
+      "size": 2828,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/76c1ca0747f737528d19ff81b25e886c8c6153c7"
+    },
+    {
+      "path": "isaacgymenvs/utils/world_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0abf4ccfe7d247c1e7606707d49e333e3296fe90",
+      "size": 20433,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0abf4ccfe7d247c1e7606707d49e333e3296fe90"
+    },
+    {
+      "path": "pickle_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf89c7cea8c7860087576cad9bc09717e38e5d38",
+      "size": 448,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/cf89c7cea8c7860087576cad9bc09717e38e5d38"
+    },
+    {
+      "path": "rl_games",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e98f252b0cef1be4b68c16b1cf8ad0b06a345f48",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/e98f252b0cef1be4b68c16b1cf8ad0b06a345f48"
+    },
+    {
+      "path": "rl_games/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rl_games/algos_torch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c85685d651067ffbd94bd6619df2b9b68dabd6d",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/6c85685d651067ffbd94bd6619df2b9b68dabd6d"
+    },
+    {
+      "path": "rl_games/algos_torch/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rl_games/algos_torch/a2c_continuous.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3f0ed6bd545b70947a9f5c1d2c66f3346901bc",
+      "size": 12973,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/be3f0ed6bd545b70947a9f5c1d2c66f3346901bc"
+    },
+    {
+      "path": "rl_games/algos_torch/central_value.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e1cd0e38973db24dcf298959f59204a990e07b",
+      "size": 11419,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d0e1cd0e38973db24dcf298959f59204a990e07b"
+    },
+    {
+      "path": "rl_games/algos_torch/d2rl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c6a5343b804ce16fbd069dfba16e3365f4dc3b",
+      "size": 1259,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/27c6a5343b804ce16fbd069dfba16e3365f4dc3b"
+    },
+    {
+      "path": "rl_games/algos_torch/flatten.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb884858a8c6976e3ebaf20fcc34a3ea2591487",
+      "size": 10830,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/eeb884858a8c6976e3ebaf20fcc34a3ea2591487"
+    },
+    {
+      "path": "rl_games/algos_torch/layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e14b363c9664347cb8b1693ab8a4a35bf9e8e32",
+      "size": 4148,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4e14b363c9664347cb8b1693ab8a4a35bf9e8e32"
+    },
+    {
+      "path": "rl_games/algos_torch/model_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94411c731a99737d468c7d379f1162e42b9ba5b",
+      "size": 2099,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a94411c731a99737d468c7d379f1162e42b9ba5b"
+    },
+    {
+      "path": "rl_games/algos_torch/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14963d2563777358e90ca7b29b2044be99a8112a",
+      "size": 15174,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/14963d2563777358e90ca7b29b2044be99a8112a"
+    },
+    {
+      "path": "rl_games/algos_torch/moving_mean_std.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0842afba9c7a65209c05fa16234704e24679928a",
+      "size": 2729,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0842afba9c7a65209c05fa16234704e24679928a"
+    },
+    {
+      "path": "rl_games/algos_torch/network_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a20a90c8e3166bddd77ab7f89bc0f366b99e75c3",
+      "size": 40798,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a20a90c8e3166bddd77ab7f89bc0f366b99e75c3"
+    },
+    {
+      "path": "rl_games/algos_torch/players.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68a296888db960d8f267047374648cdee3af5adb",
+      "size": 35979,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/68a296888db960d8f267047374648cdee3af5adb"
+    },
+    {
+      "path": "rl_games/algos_torch/running_mean_std.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87cf7ca31192bd4e8ffd2ccbfb58d8a166fe41f",
+      "size": 4011,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/c87cf7ca31192bd4e8ffd2ccbfb58d8a166fe41f"
+    },
+    {
+      "path": "rl_games/algos_torch/self_play_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b02e4ed8d236b4b4c648730726a548e911cd90d",
+      "size": 1332,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/2b02e4ed8d236b4b4c648730726a548e911cd90d"
+    },
+    {
+      "path": "rl_games/algos_torch/torch_ext.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aaac0147bf78b584a0de93f123250a1b56aeff9",
+      "size": 13632,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/9aaac0147bf78b584a0de93f123250a1b56aeff9"
+    },
+    {
+      "path": "rl_games/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "adc9f6d57a5a458bc540dd2efa92fe8a1881a568",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/adc9f6d57a5a458bc540dd2efa92fe8a1881a568"
+    },
+    {
+      "path": "rl_games/common/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rl_games/common/a2c_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85dcb440cd9adf3bfb5c54ecd46395b882af57ab",
+      "size": 49062,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/85dcb440cd9adf3bfb5c54ecd46395b882af57ab"
+    },
+    {
+      "path": "rl_games/common/algo_observer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4174d5c73d80a36c5c1bbe8b91f6838ed06d8145",
+      "size": 5456,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4174d5c73d80a36c5c1bbe8b91f6838ed06d8145"
+    },
+    {
+      "path": "rl_games/common/common_losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1822b7c145323c830883005e947e8d4b1d1d0807",
+      "size": 2255,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/1822b7c145323c830883005e947e8d4b1d1d0807"
+    },
+    {
+      "path": "rl_games/common/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ed1279c8e8fad7bcca86c8fd38bf2a9ffc1cc8f",
+      "size": 3482,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0ed1279c8e8fad7bcca86c8fd38bf2a9ffc1cc8f"
+    },
+    {
+      "path": "rl_games/common/diagnostics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18297460a7b90295f4efd37b07febfeea2ad9496",
+      "size": 2284,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/18297460a7b90295f4efd37b07febfeea2ad9496"
+    },
+    {
+      "path": "rl_games/common/divergence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9edf244c9fa11b1f1cfc75769012192c9703766",
+      "size": 680,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/d9edf244c9fa11b1f1cfc75769012192c9703766"
+    },
+    {
+      "path": "rl_games/common/env_configurations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2793f9eb5e3a79d3d8a29d752c50a5db1b3e4ea",
+      "size": 773,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b2793f9eb5e3a79d3d8a29d752c50a5db1b3e4ea"
+    },
+    {
+      "path": "rl_games/common/experience.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62fd3c96b4deaff0c2fd090615477764d2bb140",
+      "size": 17184,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/c62fd3c96b4deaff0c2fd090615477764d2bb140"
+    },
+    {
+      "path": "rl_games/common/experiment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abbebb8335a769ff0677e648ab424ae6a6fd0f2e",
+      "size": 2440,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/abbebb8335a769ff0677e648ab424ae6a6fd0f2e"
+    },
+    {
+      "path": "rl_games/common/interval_summary_writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c6eac3b3d786340a5ba298773c52d3d07c9fd4",
+      "size": 2750,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/56c6eac3b3d786340a5ba298773c52d3d07c9fd4"
+    },
+    {
+      "path": "rl_games/common/ivecenv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97c43cb47b5bc19dba7c58741858945d1a39caab",
+      "size": 945,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/97c43cb47b5bc19dba7c58741858945d1a39caab"
+    },
+    {
+      "path": "rl_games/common/layers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "710cb63f7ccb286e7dc7743beee7e30efdf4e14e",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/710cb63f7ccb286e7dc7743beee7e30efdf4e14e"
+    },
+    {
+      "path": "rl_games/common/layers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rl_games/common/layers/recurrent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bacbac4da1931310c55bd463f81b6df37ef0f6d",
+      "size": 2132,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/9bacbac4da1931310c55bd463f81b6df37ef0f6d"
+    },
+    {
+      "path": "rl_games/common/object_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd97f98fd51de7a2eb0f187f53706f690391c32",
+      "size": 414,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4cd97f98fd51de7a2eb0f187f53706f690391c32"
+    },
+    {
+      "path": "rl_games/common/player.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0256387506fbd51d3bbf7ab88296544d5c4e61d8",
+      "size": 12862,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0256387506fbd51d3bbf7ab88296544d5c4e61d8"
+    },
+    {
+      "path": "rl_games/common/schedulers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "562d356209c7efd0c833e8d9ccfa1fbad202a5c8",
+      "size": 1948,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/562d356209c7efd0c833e8d9ccfa1fbad202a5c8"
+    },
+    {
+      "path": "rl_games/common/segment_tree.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70af7796f844e524d5d7ecb7ec6b3b1df6ca720",
+      "size": 4888,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/f70af7796f844e524d5d7ecb7ec6b3b1df6ca720"
+    },
+    {
+      "path": "rl_games/common/tr_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efbdd833c2dd14b079c1da9c9ccab8b6862e2a61",
+      "size": 2260,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/efbdd833c2dd14b079c1da9c9ccab8b6862e2a61"
+    },
+    {
+      "path": "rl_games/common/vecenv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6d624c74b5fad60769565f774e1b16513732f62",
+      "size": 393,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/a6d624c74b5fad60769565f774e1b16513732f62"
+    },
+    {
+      "path": "rl_games/interfaces",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78e74d02bef523cc6e30480e279abaae58379607",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/78e74d02bef523cc6e30480e279abaae58379607"
+    },
+    {
+      "path": "rl_games/interfaces/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "rl_games/interfaces/base_algorithm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054483f7c50e3f9e5ef6879fabcaaa73e4febd48",
+      "size": 674,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/054483f7c50e3f9e5ef6879fabcaaa73e4febd48"
+    },
+    {
+      "path": "rl_games/torch_runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb6654cd1d747e7b1e1c194835a9f8923dda1aa",
+      "size": 4991,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/edb6654cd1d747e7b1e1c194835a9f8923dda1aa"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1755c81ba69de60dec0b67dfae97cae3469b1e4b",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/1755c81ba69de60dec0b67dfae97cae3469b1e4b"
+    },
+    {
+      "path": "scripts/test_wm_craftnet.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0354388ba9f92e403c464815b10e726b2fe4ce0c",
+      "size": 4358,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/0354388ba9f92e403c464815b10e726b2fe4ce0c"
+    },
+    {
+      "path": "scripts/test_wm_craftnet_y.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3648f1a3717f2f1393c0e251e958e58c5caf7545",
+      "size": 337,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/3648f1a3717f2f1393c0e251e958e58c5caf7545"
+    },
+    {
+      "path": "scripts/train_wm_craftnet_x.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737f8c10acc21038e21a1562d2f2c3e1e7d22a3f",
+      "size": 1966,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/737f8c10acc21038e21a1562d2f2c3e1e7d22a3f"
+    },
+    {
+      "path": "scripts/train_wm_craftnet_y.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5a8d6d2a436e8462b40d61805b6881f3b43081",
+      "size": 1978,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/4f5a8d6d2a436e8462b40d61805b6881f3b43081"
+    },
+    {
+      "path": "scripts/train_wm_craftnet_z.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "342b3c78736a0ede883d5b75adf60a96d59142a9",
+      "size": 1963,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/342b3c78736a0ede883d5b75adf60a96d59142a9"
+    },
+    {
+      "path": "wsm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3186c5646aa8e4044e48aa016ef60123c744ff6",
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/trees/f3186c5646aa8e4044e48aa016ef60123c744ff6"
+    },
+    {
+      "path": "wsm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86280ece5a85086e497b93b769ee0bd30bc9a4a7",
+      "size": 1231,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/86280ece5a85086e497b93b769ee0bd30bc9a4a7"
+    },
+    {
+      "path": "wsm/configs.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f84985ff23b070a61ad9d44651e696eff09a473",
+      "size": 1833,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/8f84985ff23b070a61ad9d44651e696eff09a473"
+    },
+    {
+      "path": "wsm/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afc74f05e98f2dc5face216cc2d03298b96f40dd",
+      "size": 18577,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/afc74f05e98f2dc5face216cc2d03298b96f40dd"
+    },
+    {
+      "path": "wsm/networks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15877730c7e8108164d2a55a7e1be55f24ae8619",
+      "size": 31639,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/15877730c7e8108164d2a55a7e1be55f24ae8619"
+    },
+    {
+      "path": "wsm/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a722814fbbe2004953976dbe138d7c5af1d0cf",
+      "size": 35374,
+      "url": "https://api.github.com/repos/sharpa-robotics/WM-Craftnet/git/blobs/b6a722814fbbe2004953976dbe138d7c5af1d0cf"
+    }
+  ],
+  "truncated": false
+}

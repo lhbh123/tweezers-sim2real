@@ -1,0 +1,218 @@
+[
+  {
+    "jaw_angle": 0.0,
+    "normal_weight": 3.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8386028859923775,
+      "right_thumb_CMC_AA": 0.2805506705524843,
+      "right_thumb_MCP_FE": -0.18817107859430182,
+      "right_thumb_MCP_AA": 0.21023279747153514,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.42731614384692107,
+      "right_index_MCP_AA": 0.19896186656566203,
+      "right_index_PIP": 0.8662019025621045,
+      "right_index_DIP": 0.39348297639159596
+    },
+    "position_error_mm": [
+      0.010635291623508273,
+      4.374109327508981e-05
+    ],
+    "normal_error": [
+      0.06755446419870285,
+      0.0016617143357971099
+    ],
+    "cost": 0.2038376108189174
+  },
+  {
+    "jaw_angle": 0.0,
+    "normal_weight": 10.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8453011953990288,
+      "right_thumb_CMC_AA": 0.2779810562597032,
+      "right_thumb_MCP_FE": -0.1864727467717946,
+      "right_thumb_MCP_AA": 0.21940708456573998,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4273091199141739,
+      "right_index_MCP_AA": 0.19896798148180012,
+      "right_index_PIP": 0.8662151485879337,
+      "right_index_DIP": 0.3934770933743135
+    },
+    "position_error_mm": [
+      0.10383541396381622,
+      0.0004845084257428005
+    ],
+    "normal_error": [
+      0.061128886305338345,
+      0.0016565577786045332
+    ],
+    "cost": 0.6458146995987702
+  },
+  {
+    "jaw_angle": 0.0,
+    "normal_weight": 30.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.87081217373951,
+      "right_thumb_CMC_AA": 0.2670774230731503,
+      "right_thumb_MCP_FE": -0.17756138723188342,
+      "right_thumb_MCP_AA": 0.25556132220385674,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.42724914555124494,
+      "right_index_MCP_AA": 0.199020164666284,
+      "right_index_PIP": 0.8663283128644057,
+      "right_index_DIP": 0.3934266900934539
+    },
+    "position_error_mm": [
+      0.49432793889647303,
+      0.004245396625436851
+    ],
+    "normal_error": [
+      0.036027533326803196,
+      0.0016125551971786774
+    ],
+    "cost": 1.4656185379538527
+  },
+  {
+    "jaw_angle": -0.008,
+    "normal_weight": 3.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.824661069850194,
+      "right_thumb_CMC_AA": 0.28451899314334433,
+      "right_thumb_MCP_FE": -0.18473759476280205,
+      "right_thumb_MCP_AA": 0.19320448885359928,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4316322006459725,
+      "right_index_MCP_AA": 0.1983690672714878,
+      "right_index_PIP": 0.8630633991306312,
+      "right_index_DIP": 0.40032845232074954
+    },
+    "position_error_mm": [
+      0.01367811650140703,
+      4.9983617309331025e-05
+    ],
+    "normal_error": [
+      0.08202983874431787,
+      0.0018944007788296105
+    ],
+    "cost": 0.2476706540480286
+  },
+  {
+    "jaw_angle": -0.008,
+    "normal_weight": 10.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8335642116013868,
+      "right_thumb_CMC_AA": 0.2811917797198649,
+      "right_thumb_MCP_FE": -0.1827159568741724,
+      "right_thumb_MCP_AA": 0.2052469859425659,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4316241890610815,
+      "right_index_MCP_AA": 0.19837606031061256,
+      "right_index_PIP": 0.8630785345616033,
+      "right_index_DIP": 0.40032172361176827
+    },
+    "position_error_mm": [
+      0.13078906890507652,
+      0.000553648412207187
+    ],
+    "normal_error": [
+      0.07352726354511988,
+      0.0018884944844387475
+    ],
+    "cost": 0.780645159689554
+  },
+  {
+    "jaw_angle": -0.008,
+    "normal_weight": 30.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8648415863483367,
+      "right_thumb_CMC_AA": 0.26775661295729153,
+      "right_thumb_MCP_FE": -0.1718289846317236,
+      "right_thumb_MCP_AA": 0.24945488474986485,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4315557879481899,
+      "right_index_MCP_AA": 0.1984357305860086,
+      "right_index_PIP": 0.8632078283715608,
+      "right_index_DIP": 0.4002640787633356
+    },
+    "position_error_mm": [
+      0.595868106857494,
+      0.004850712126309206
+    ],
+    "normal_error": [
+      0.04269797169006241,
+      0.0018380994510985215
+    ],
+    "cost": 1.7504785626037762
+  },
+  {
+    "jaw_angle": 0.01,
+    "normal_weight": 3.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8553233545676928,
+      "right_thumb_CMC_AA": 0.27619769351435175,
+      "right_thumb_MCP_FE": -0.19308093342249277,
+      "right_thumb_MCP_AA": 0.23042500921830278,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4218918835367492,
+      "right_index_MCP_AA": 0.19970848996414675,
+      "right_index_PIP": 0.8702046365448832,
+      "right_index_DIP": 0.3848749925174134
+    },
+    "position_error_mm": [
+      0.007436000065865366,
+      3.56379956223619e-05
+    ],
+    "normal_error": [
+      0.05037293543679755,
+      0.0013578299401734153
+    ],
+    "cost": 0.15190354035960968
+  },
+  {
+    "jaw_angle": 0.01,
+    "normal_weight": 10.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.8598264216781943,
+      "right_thumb_CMC_AA": 0.2744341896092221,
+      "right_thumb_MCP_FE": -0.19182627007109046,
+      "right_thumb_MCP_AA": 0.23666693684748344,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.4218861482320467,
+      "right_index_MCP_AA": 0.1997134674567779,
+      "right_index_PIP": 0.8702154278806683,
+      "right_index_DIP": 0.3848702057944029
+    },
+    "position_error_mm": [
+      0.07411372965436855,
+      0.00039475844693836364
+    ],
+    "normal_error": [
+      0.046039237106475034,
+      0.0013536408033064603
+    ],
+    "cost": 0.48385575226180927
+  },
+  {
+    "jaw_angle": 0.01,
+    "normal_weight": 30.0,
+    "q": {
+      "right_thumb_CMC_FE": 1.878602844158536,
+      "right_thumb_CMC_AA": 0.2665125868819827,
+      "right_thumb_MCP_FE": -0.18533371770792129,
+      "right_thumb_MCP_AA": 0.2633099925862922,
+      "right_thumb_IP": 1.0000000000000003e-05,
+      "right_index_MCP_FE": 0.42183717148986977,
+      "right_index_MCP_AA": 0.19975594981528083,
+      "right_index_PIP": 0.8703076311844358,
+      "right_index_DIP": 0.38482919233396595
+    },
+    "position_error_mm": [
+      0.37112366586328394,
+      0.0034594229105350473
+    ],
+    "normal_error": [
+      0.027641125954137123,
+      0.0013178890064309496
+    ],
+    "cost": 1.1136295587097773
+  }
+]

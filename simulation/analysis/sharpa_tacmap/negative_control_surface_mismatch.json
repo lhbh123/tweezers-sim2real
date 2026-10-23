@@ -1,0 +1,113 @@
+{
+  "kind": "intentional negative validation test, not a task run",
+  "validator_correctly_rejected_wrong_surface_controls": true,
+  "task_surface": "original published maps",
+  "incorrectly_supplied_control_surface": "CAD-matched v2",
+  "failed_checks": {
+    "control_TH_clear_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_TH_indent_0.1mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_TH_indent_0.5mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_TH_indent_1mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_4F_clear_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_4F_indent_0.1mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_4F_indent_0.5mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    },
+    "control_4F_indent_1mm_same_sensor_algorithm_configuration_as_task": {
+      "passed": false,
+      "compared_fields": [
+        "points_npy",
+        "normals_npy",
+        "resolution_step",
+        "correction_scale",
+        "pts_offsets",
+        "max_distance",
+        "cpd_max_dist",
+        "data_types"
+      ]
+    }
+  },
+  "validator_sha256": "40814cdfdd5e818b7cbd0659e162fbf3da9703073cad7640b57b904d6e97fd09"
+}

@@ -1,0 +1,63 @@
+{
+  "method": "FCL BVH triangle-mesh distance and intersection; convex hull as diagnostic comparison only",
+  "q_rad": {},
+  "default_unspecified_joint_position_rad": 0.0,
+  "meshes": {
+    "right_hand_link": {
+      "source_mesh": "assets/robots/ur5e_xhand_right/sources/spider/assets/right_hand_link.STL",
+      "source_sha256": "990938909f1c2743425f425433f8d73352160072a82d81aa21fb8f73918cdc38",
+      "vertices": 10299,
+      "faces": 20678,
+      "watertight": true
+    },
+    "right_hand_index_rota_link1": {
+      "source_mesh": "assets/robots/ur5e_xhand_right/sources/spider/assets/right_hand_index_rota_link1.STL",
+      "source_sha256": "aa81e5c7a89339893f8ce3c109ad44f5da9e81b067f655bf85a8c94a15170560",
+      "vertices": 6887,
+      "faces": 13826,
+      "watertight": false
+    },
+    "right_hand_thumb_rota_link1": {
+      "source_mesh": "assets/robots/ur5e_xhand_right/sources/spider/assets/right_hand_thumb_rota_link1.STL",
+      "source_sha256": "1fe3c9615f90eccd012b5fed8b3aba1f1de68987f03d643367b53740530e1a63",
+      "vertices": 6958,
+      "faces": 13956,
+      "watertight": true
+    }
+  },
+  "pairs": [
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_index_rota_link1"
+      ],
+      "source_triangles": {
+        "intersects": false,
+        "fcl_min_distance_m": 0.0023026975467801414,
+        "contact_count": 0
+      },
+      "single_hull_comparison": {
+        "intersects": true,
+        "fcl_min_distance_m": -0.011441687025382912,
+        "contact_count": 1
+      }
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_thumb_rota_link1"
+      ],
+      "source_triangles": {
+        "intersects": false,
+        "fcl_min_distance_m": 0.00326037622818926,
+        "contact_count": 0
+      },
+      "single_hull_comparison": {
+        "intersects": false,
+        "fcl_min_distance_m": 0.0022611262691265782,
+        "contact_count": 0
+      }
+    }
+  ],
+  "limitations": "Non-watertight source surfaces do not prove volume exclusion; positive surface gaps are explicit. No PhysX cooked-hull extraction."
+}

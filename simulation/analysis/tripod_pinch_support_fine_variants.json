@@ -1,0 +1,245 @@
+[
+  {
+    "name": "ix0.035_mcp-0.015_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.035_mcp-0.015_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.035_mcp-0.015_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.035_mcp-0.0075_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.035_mcp-0.0075_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.035_mcp-0.0075_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.035_mcp0_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.035_mcp0_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.035_mcp0_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.035,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.015_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.015_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.015_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.0075_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.0075_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.045_mcp-0.0075_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.045_mcp0_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.045_mcp0_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.045_mcp0_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.045,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.015_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.015_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.015_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.015,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.0075_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.0075_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.055_mcp-0.0075_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": -0.0075,
+      "right_hand_mid_joint2": -0.005
+    }
+  },
+  {
+    "name": "ix0.055_mcp0_pip-0.035",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.035
+    }
+  },
+  {
+    "name": "ix0.055_mcp0_pip-0.02",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.02
+    }
+  },
+  {
+    "name": "ix0.055_mcp0_pip-0.005",
+    "closure": 0.0,
+    "target_delta": {
+      "right_hand_index_joint1": 0.055,
+      "right_hand_mid_joint1": 0,
+      "right_hand_mid_joint2": -0.005
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "sha": "4c8c40e285ecf827b7d957e815a9dd8c61ce9460",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-avatar-sdk/git/trees/4c8c40e285ecf827b7d957e815a9dd8c61ce9460",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c11fae17ab04436b01786bf698793548a13417cc",
+      "size": 3213,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-avatar-sdk/git/blobs/c11fae17ab04436b01786bf698793548a13417cc"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,5718 @@
+{
+  "method": "Geometric-only downward translation of the actual B hold75 tool pose.\n\nThis is not a physics experiment: hand joints and jaw opening are frozen, and\ntool bodies are translated together along world -Z for source-mesh queries.\n",
+  "source_run": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/runs/sharpa_w01_natural_v6b_hold",
+  "source_time_s": 4.0,
+  "source_environment": 1,
+  "source_candidate": "hold75",
+  "timeseries_sha256": "49f2589826bd497a0c9bcbdd145d90753b3e88a06509c22cda10bde47329dd6f",
+  "script_sha256": "f7a0c6894912a2774c627ea4e2ec827a411c37d9f665d6be7a4582af4c4e5946",
+  "range_m": [
+    0,
+    0.02
+  ],
+  "coarse_increment_m": 0.00025,
+  "first_intersection_refinement_m": 6.103515625e-08,
+  "world_direction": [
+    0,
+    0,
+    -1
+  ],
+  "variants": {
+    "middle_in_place": {
+      "frozen_q": {
+        "shoulder_pan_joint": 0.23660938441753387,
+        "shoulder_lift_joint": -1.4479190111160278,
+        "elbow_joint": 2.301675796508789,
+        "wrist_1_joint": -2.7786622047424316,
+        "wrist_2_joint": -2.844799280166626,
+        "wrist_3_joint": -2.9185919761657715,
+        "right_index_MCP_FE": 0.4198153614997864,
+        "right_middle_MCP_FE": 0.40000462532043457,
+        "right_pinky_CMC": 0.1000051274895668,
+        "right_ring_MCP_FE": 0.800004780292511,
+        "right_thumb_CMC_FE": 1.8638612031936646,
+        "right_index_MCP_AA": 0.1999281346797943,
+        "right_middle_MCP_AA": 0.1799967885017395,
+        "right_pinky_MCP_FE": 1.0000063180923462,
+        "right_ring_MCP_AA": 0.21999609470367432,
+        "right_thumb_CMC_AA": 0.28018587827682495,
+        "right_index_PIP": 0.8692317008972168,
+        "right_middle_PIP": 1.0999960899353027,
+        "right_pinky_MCP_AA": 0.22000010311603546,
+        "right_ring_PIP": 1.0999906063079834,
+        "right_thumb_MCP_FE": -0.2100883424282074,
+        "right_index_DIP": 0.382469117641449,
+        "right_middle_DIP": 0.4000004827976227,
+        "right_pinky_PIP": 1.199989914894104,
+        "right_ring_DIP": 0.5500058531761169,
+        "right_thumb_MCP_AA": 0.23449067771434784,
+        "right_pinky_DIP": 0.6000046133995056,
+        "right_thumb_IP": 0.008442231453955173
+      },
+      "self_check": {
+        "min_distance_m": 0.0006272210338264098,
+        "nearest_pair": [
+          "right_index_PP",
+          "right_middle_PP"
+        ],
+        "intersections": []
+      },
+      "first_intersections": {
+        "all_non_target": {
+          "first_intersection_translation_bracket_m": [
+            0.014396728515625,
+            0.01439678955078125
+          ],
+          "result": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005446506222166331,
+                "witness_points_hand_root_m": [
+                  [
+                    0.0708146751203901,
+                    0.0045188688500576455,
+                    0.16589162844999822
+                  ],
+                  [
+                    0.047633325184939554,
+                    0.009644303174327974,
+                    0.15487248920581076
+                  ],
+                  [
+                    0.07112877234415231,
+                    0.0042142771908007855,
+                    0.16536082962231488
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "middle": {
+          "first_intersection_translation_bracket_m": [
+            0.014396728515625,
+            0.01439678955078125
+          ],
+          "result": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005446506222166331,
+                "witness_points_hand_root_m": [
+                  [
+                    0.0708146751203901,
+                    0.0045188688500576455,
+                    0.16589162844999822
+                  ],
+                  [
+                    0.047633325184939554,
+                    0.009644303174327974,
+                    0.15487248920581076
+                  ],
+                  [
+                    0.07112877234415231,
+                    0.0042142771908007855,
+                    0.16536082962231488
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "rows": [
+        {
+          "downward_translation_m": 0.0,
+          "all_non_target": {
+            "min_distance_m": 0.003405047139668169,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0046544000767068236,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003405047139668169,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00025,
+          "all_non_target": {
+            "min_distance_m": 0.0033985083898131294,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00456946923761828,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033985083898131294,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0005,
+          "all_non_target": {
+            "min_distance_m": 0.0033919680808855313,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.004484518147972119,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033919680808855313,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00075,
+          "all_non_target": {
+            "min_distance_m": 0.0033854293310304063,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.004399587308883594,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033854293310304063,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.001,
+          "all_non_target": {
+            "min_distance_m": 0.0033788905811752796,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.004314656469795062,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033788905811752796,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00125,
+          "all_non_target": {
+            "min_distance_m": 0.003372350272247812,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00422970538014869,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003372350272247812,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0015,
+          "all_non_target": {
+            "min_distance_m": 0.0033658115223926823,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.004144774541060148,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033658115223926823,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00175,
+          "all_non_target": {
+            "min_distance_m": 0.003359272772537557,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.004059843701971626,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003359272772537557,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.002,
+          "all_non_target": {
+            "min_distance_m": 0.003352734022682447,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003974912862883083,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003352734022682447,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0022500000000000003,
+          "all_non_target": {
+            "min_distance_m": 0.003346193713754868,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00388996177323672,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003346193713754868,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0025,
+          "all_non_target": {
+            "min_distance_m": 0.0033396549638998324,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003805030934148187,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033396549638998324,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00275,
+          "all_non_target": {
+            "min_distance_m": 0.003333116214044723,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003720100095059648,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003333116214044723,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.003,
+          "all_non_target": {
+            "min_distance_m": 0.003326575905117123,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003635233461016466,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003326575905117123,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0032500000000000003,
+          "all_non_target": {
+            "min_distance_m": 0.0033200371552619995,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003550783333461442,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033200371552619995,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0035,
+          "all_non_target": {
+            "min_distance_m": 0.0033134984054068754,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003466785851763178,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033134984054068754,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00375,
+          "all_non_target": {
+            "min_distance_m": 0.003306958096479404,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0033832548787929577,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003306958096479404,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.004,
+          "all_non_target": {
+            "min_distance_m": 0.00330015446934718,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00330015446934718,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003300419346624276,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00425,
+          "all_non_target": {
+            "min_distance_m": 0.003217088040934521,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.003217088040934521,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032938805967691566,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0045000000000000005,
+          "all_non_target": {
+            "min_distance_m": 0.0031340216125218564,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0031340216125218564,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032873418469140238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00475,
+          "all_non_target": {
+            "min_distance_m": 0.0030509670866007083,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0030509670866007083,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003280801537986523,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.005,
+          "all_non_target": {
+            "min_distance_m": 0.0029684037943138266,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0029684037943138266,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003274262788131393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00525,
+          "all_non_target": {
+            "min_distance_m": 0.002886295329252489,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.002886295329252489,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003267724038276281,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0055,
+          "all_non_target": {
+            "min_distance_m": 0.0028041858111141358,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0028041858111141358,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003261183729348695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00575,
+          "all_non_target": {
+            "min_distance_m": 0.002722095866162562,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.002722095866162562,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032546449794936816,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.006,
+          "all_non_target": {
+            "min_distance_m": 0.0026400059212110076,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0026400059212110076,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032481062296385627,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00625,
+          "all_non_target": {
+            "min_distance_m": 0.0025578964030726465,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0025578964030726465,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003241565920710953,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.006500000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0024758064581210924,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0024758064581210924,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032350271708558266,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00675,
+          "all_non_target": {
+            "min_distance_m": 0.002393716513169534,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.002393716513169534,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003228488421000725,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.007,
+          "all_non_target": {
+            "min_distance_m": 0.0023116069950313654,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0023116069950313654,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032219481120732327,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00725,
+          "all_non_target": {
+            "min_distance_m": 0.0022295170500798074,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0022295170500798074,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032154093622181034,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0075,
+          "all_non_target": {
+            "min_distance_m": 0.002147427105128246,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.002147427105128246,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032088706123629776,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00775,
+          "all_non_target": {
+            "min_distance_m": 0.002065337160176684,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.002065337160176684,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003202331862507854,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.008,
+          "all_non_target": {
+            "min_distance_m": 0.0019832276420383307,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0019832276420383307,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031957915535803707,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00825,
+          "all_non_target": {
+            "min_distance_m": 0.001901511273457861,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.001901511273457861,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003189252803725261,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0085,
+          "all_non_target": {
+            "min_distance_m": 0.0018208944566414805,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0018208944566414805,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031827140538701424,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00875,
+          "all_non_target": {
+            "min_distance_m": 0.0017414994288980435,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0017414994288980435,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003176173744942519,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.009000000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0016625745781721222,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0016625745781721222,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031696349950875113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00925,
+          "all_non_target": {
+            "min_distance_m": 0.0015836497274462076,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0015836497274462076,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003163096245232392,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0095,
+          "all_non_target": {
+            "min_distance_m": 0.001504706058205498,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.001504706058205498,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.00315655593630482,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00975,
+          "all_non_target": {
+            "min_distance_m": 0.0014257812074795892,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0014257812074795892,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031500171864496896,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01,
+          "all_non_target": {
+            "min_distance_m": 0.0013468563567536806,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0013468563567536806,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031434784365945607,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01025,
+          "all_non_target": {
+            "min_distance_m": 0.0012679315060277559,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0012679315060277559,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031369396867395364,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0105,
+          "all_non_target": {
+            "min_distance_m": 0.0011889878367872303,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0011889878367872303,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003130399377811933,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.010750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0011100629860611253,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0011100629860611253,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003123860627956827,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.011,
+          "all_non_target": {
+            "min_distance_m": 0.001031138135335225,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.001031138135335225,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031173218781017052,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01125,
+          "all_non_target": {
+            "min_distance_m": 0.0009521944660946715,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0009521944660946715,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031107815691742077,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0115,
+          "all_non_target": {
+            "min_distance_m": 0.0008734702460663413,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0008734702460663413,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003104242819319084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01175,
+          "all_non_target": {
+            "min_distance_m": 0.0007971650036614932,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0007971650036614932,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030977040694639586,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.012,
+          "all_non_target": {
+            "min_distance_m": 0.0007218056373149593,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0007218056373149593,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030911637605364004,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01225,
+          "all_non_target": {
+            "min_distance_m": 0.000646464235060621,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.000646464235060621,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030846250106812767,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0125,
+          "all_non_target": {
+            "min_distance_m": 0.0005711228328062637,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0005711228328062637,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003078086260826241,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.012750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0004957634664599404,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0004957634664599404,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003071545951898643,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.013000000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.00042042206420559895,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00042042206420559895,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030650072020435193,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01325,
+          "all_non_target": {
+            "min_distance_m": 0.0003450806619512617,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0003450806619512617,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003058468452188389,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0135,
+          "all_non_target": {
+            "min_distance_m": 0.0002697392596968949,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0002697392596968949,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030519297023332698,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01375,
+          "all_non_target": {
+            "min_distance_m": 0.00019437989335037737,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.00019437989335037737,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030453893934057935,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.014,
+          "all_non_target": {
+            "min_distance_m": 0.0001190384910960346,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0001190384910960346,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003038850643550676,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01425,
+          "all_non_target": {
+            "min_distance_m": 4.387345179843493e-05,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 4.387345179843493e-05,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030323118936955527,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0145,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005381970795586138,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07159784285134299,
+                    0.004405019457503051,
+                    0.16656439223097644
+                  ],
+                  [
+                    0.0708146751203901,
+                    0.0045188688500576455,
+                    0.16589162844999822
+                  ],
+                  [
+                    0.07118618788896751,
+                    0.004398984750286068,
+                    0.1659389110062828
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005381970795586138,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07159784285134299,
+                    0.004405019457503051,
+                    0.16656439223097644
+                  ],
+                  [
+                    0.0708146751203901,
+                    0.0045188688500576455,
+                    0.16589162844999822
+                  ],
+                  [
+                    0.07118618788896751,
+                    0.004398984750286068,
+                    0.1659389110062828
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003025771584768035,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.014750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005225699676025403,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ],
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ],
+                  [
+                    0.07159784285134299,
+                    0.004405019457503051,
+                    0.16656439223097644
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005225699676025403,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ],
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ],
+                  [
+                    0.07159784285134299,
+                    0.004405019457503051,
+                    0.16656439223097644
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003019232834912903,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.015,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006455947406543948,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006455947406543948,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07154773017623031,
+                    0.004262447697932204,
+                    0.16599176547986194
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030126940850578113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01525,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006299639026344193,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07223824972007012,
+                    0.00394551629949477,
+                    0.1661153847019517
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006299639026344193,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07223824972007012,
+                    0.00394551629949477,
+                    0.1661153847019517
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003006153776130238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0155,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005699023587856025,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07149347241405796,
+                    0.00408030804844624,
+                    0.16542303952321133
+                  ],
+                  [
+                    0.07223824972007012,
+                    0.00394551629949477,
+                    0.1661153847019517
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005699023587856025,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07149347241405796,
+                    0.00408030804844624,
+                    0.16542303952321133
+                  ],
+                  [
+                    0.07223824972007012,
+                    0.00394551629949477,
+                    0.1661153847019517
+                  ],
+                  [
+                    0.07189850016074943,
+                    0.004110858539104409,
+                    0.16605051889648909
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002999615026275101,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01575,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005542752468296538,
+                "witness_points_hand_root_m": [
+                  [
+                    0.0718477457607665,
+                    0.00393204172248467,
+                    0.16549261480589977
+                  ],
+                  [
+                    0.0718477457607665,
+                    0.00393204172248467,
+                    0.16549261480589977
+                  ],
+                  [
+                    0.07149347241405796,
+                    0.00408030804844624,
+                    0.16542303952321133
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005542752468296538,
+                "witness_points_hand_root_m": [
+                  [
+                    0.0718477457607665,
+                    0.00393204172248467,
+                    0.16549261480589977
+                  ],
+                  [
+                    0.0718477457607665,
+                    0.00393204172248467,
+                    0.16549261480589977
+                  ],
+                  [
+                    0.07149347241405796,
+                    0.00408030804844624,
+                    0.16542303952321133
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002993076276420084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.016,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005386481348735699,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07069184586157616,
+                    0.004101323306716103,
+                    0.1647289985838298
+                  ],
+                  [
+                    0.07069184586157616,
+                    0.004101323306716103,
+                    0.1647289985838298
+                  ],
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005386481348735699,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07069184586157616,
+                    0.004101323306716103,
+                    0.1647289985838298
+                  ],
+                  [
+                    0.07069184586157616,
+                    0.004101323306716103,
+                    0.1647289985838298
+                  ],
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002986537526564961,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01625,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.00035192718130168735,
+                "witness_points_hand_root_m": [
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ],
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ],
+                  [
+                    0.06920059628921724,
+                    0.004422757863748513,
+                    0.16455823711829404
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.00035192718130168735,
+                "witness_points_hand_root_m": [
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ],
+                  [
+                    0.06993953169663152,
+                    0.004281553368335302,
+                    0.16462466593675845
+                  ],
+                  [
+                    0.06920059628921724,
+                    0.004422757863748513,
+                    0.16455823711829404
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002979997217637393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0165,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0004926098151024592,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0004926098151024592,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029734584677822695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01675,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005082369270585224,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005082369270585224,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002966919717927157,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.017,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005238677650784077,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005238677650784077,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ],
+                  [
+                    0.0710682399514119,
+                    0.003985718061597248,
+                    0.16479144589395242
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002960379408999626,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01725,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0004950604451417137,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0004950604451417137,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002953840659144506,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0175,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005127721280343122,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005127721280343122,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029483314952234666,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.017750000000000002,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005263183951176552,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005263183951176552,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029456649339859977,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.018000000000000002,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005419455070737184,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005419455070737184,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ],
+                  [
+                    0.07143551360966771,
+                    0.003855349395778052,
+                    0.1648625364152173
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002945883463694222,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01825,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.000557572619029785,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.000557572619029785,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002948549447947671,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0185,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005731997309858482,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0005731997309858482,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029515068393216486,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01875,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.000588830569005834,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.000588830569005834,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ],
+                  [
+                    0.07179278426517244,
+                    0.003711550294314952,
+                    0.16494249275169637
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002954464935843737,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.019,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006044576809617931,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006044576809617931,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029574223272178205,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01925,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006200847929178702,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006200847929178702,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ],
+                  [
+                    0.07213961832377624,
+                    0.003555405237431394,
+                    0.16503144379397391
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002960379718591798,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0195,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006357156309378317,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006357156309378317,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002963337815113955,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01975,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006513427428938984,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006513427428938984,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029662952064879265,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.02,
+          "all_non_target": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006669698548499615,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "middle": {
+            "min_distance_m": 0.0,
+            "nearest_pair": [
+              "right_middle_elastomer",
+              "right_blade"
+            ],
+            "intersections": [
+              {
+                "pair": [
+                  "right_middle_elastomer",
+                  "right_blade"
+                ],
+                "max_fcl_witness_depth_m": 0.0006669698548499615,
+                "witness_points_hand_root_m": [
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07279900322792489,
+                    0.0032104417947822414,
+                    0.1652368491712569
+                  ],
+                  [
+                    0.07247508006647196,
+                    0.0033880433640828145,
+                    0.16512958571719688
+                  ]
+                ]
+              }
+            ]
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029692525978619213,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        }
+      ]
+    },
+    "middle_retracted": {
+      "frozen_q": {
+        "shoulder_pan_joint": 0.23660938441753387,
+        "shoulder_lift_joint": -1.4479190111160278,
+        "elbow_joint": 2.301675796508789,
+        "wrist_1_joint": -2.7786622047424316,
+        "wrist_2_joint": -2.844799280166626,
+        "wrist_3_joint": -2.9185919761657715,
+        "right_index_MCP_FE": 0.4198153614997864,
+        "right_middle_MCP_FE": -0.11999999731779099,
+        "right_pinky_CMC": 0.1000051274895668,
+        "right_ring_MCP_FE": 0.800004780292511,
+        "right_thumb_CMC_FE": 1.8638612031936646,
+        "right_index_MCP_AA": 0.1999281346797943,
+        "right_middle_MCP_AA": 0.11999999731779099,
+        "right_pinky_MCP_FE": 1.0000063180923462,
+        "right_ring_MCP_AA": 0.21999609470367432,
+        "right_thumb_CMC_AA": 0.28018587827682495,
+        "right_index_PIP": 0.8692317008972168,
+        "right_middle_PIP": 0.03999999910593033,
+        "right_pinky_MCP_AA": 0.22000010311603546,
+        "right_ring_PIP": 1.0999906063079834,
+        "right_thumb_MCP_FE": -0.2100883424282074,
+        "right_index_DIP": 0.382469117641449,
+        "right_middle_DIP": 0.03999999910593033,
+        "right_pinky_PIP": 1.199989914894104,
+        "right_ring_DIP": 0.5500058531761169,
+        "right_thumb_MCP_AA": 0.23449067771434784,
+        "right_pinky_DIP": 0.6000046133995056,
+        "right_thumb_IP": 0.008442231453955173
+      },
+      "self_check": {
+        "min_distance_m": 0.0007335021204104095,
+        "nearest_pair": [
+          "right_ring_MP",
+          "right_pinky_PP"
+        ],
+        "intersections": []
+      },
+      "first_intersections": {},
+      "rows": [
+        {
+          "downward_translation_m": 0.0,
+          "all_non_target": {
+            "min_distance_m": 0.003405047139668169,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.019502381410835875,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003405047139668169,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00025,
+          "all_non_target": {
+            "min_distance_m": 0.0033985083898131294,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.019651636196203894,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033985083898131294,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0005,
+          "all_non_target": {
+            "min_distance_m": 0.0033919680808855313,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.01980285150927128,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033919680808855313,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00075,
+          "all_non_target": {
+            "min_distance_m": 0.0033854293310304063,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.019955911515829226,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033854293310304063,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.001,
+          "all_non_target": {
+            "min_distance_m": 0.0033788905811752796,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.020110809098034088,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033788905811752796,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00125,
+          "all_non_target": {
+            "min_distance_m": 0.003372350272247812,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.020267539696079636,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003372350272247812,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0015,
+          "all_non_target": {
+            "min_distance_m": 0.0033658115223926823,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02042598725930402,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033658115223926823,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00175,
+          "all_non_target": {
+            "min_distance_m": 0.003359272772537557,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02058614843342353,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003359272772537557,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.002,
+          "all_non_target": {
+            "min_distance_m": 0.003352734022682447,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.020747759934497196,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003352734022682447,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0022500000000000003,
+          "all_non_target": {
+            "min_distance_m": 0.003346193713754868,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02091069258014688,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003346193713754868,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0025,
+          "all_non_target": {
+            "min_distance_m": 0.0033396549638998324,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.021075084160751892,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033396549638998324,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00275,
+          "all_non_target": {
+            "min_distance_m": 0.003333116214044723,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.021240938563407964,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003333116214044723,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.003,
+          "all_non_target": {
+            "min_distance_m": 0.003326575905117123,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.021408079733360872,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003326575905117123,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0032500000000000003,
+          "all_non_target": {
+            "min_distance_m": 0.0033200371552619995,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02157536109025171,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033200371552619995,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0035,
+          "all_non_target": {
+            "min_distance_m": 0.0033134984054068754,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.021743514728792983,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0033134984054068754,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00375,
+          "all_non_target": {
+            "min_distance_m": 0.003306958096479404,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.021913127651068766,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003306958096479404,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.004,
+          "all_non_target": {
+            "min_distance_m": 0.003300419346624276,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022084086306256967,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003300419346624276,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00425,
+          "all_non_target": {
+            "min_distance_m": 0.0032938805967691566,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022256399019834457,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032938805967691566,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0045000000000000005,
+          "all_non_target": {
+            "min_distance_m": 0.0032873418469140238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022430034585253885,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032873418469140238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00475,
+          "all_non_target": {
+            "min_distance_m": 0.003280801537986523,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022605004379680074,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003280801537986523,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.005,
+          "all_non_target": {
+            "min_distance_m": 0.003274262788131393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022781195208211424,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003274262788131393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00525,
+          "all_non_target": {
+            "min_distance_m": 0.003267724038276281,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.022958619558711004,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003267724038276281,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0055,
+          "all_non_target": {
+            "min_distance_m": 0.003261183729348695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.023137291787160424,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003261183729348695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00575,
+          "all_non_target": {
+            "min_distance_m": 0.0032546449794936816,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.023317099007270897,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032546449794936816,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.006,
+          "all_non_target": {
+            "min_distance_m": 0.0032481062296385627,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.023498046039486246,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032481062296385627,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00625,
+          "all_non_target": {
+            "min_distance_m": 0.003241565920710953,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.023679459680472137,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003241565920710953,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.006500000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0032350271708558266,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02386144619704089,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032350271708558266,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00675,
+          "all_non_target": {
+            "min_distance_m": 0.003228488421000725,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02404456088273094,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003228488421000725,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.007,
+          "all_non_target": {
+            "min_distance_m": 0.0032219481120732327,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02422882221183378,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032219481120732327,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00725,
+          "all_non_target": {
+            "min_distance_m": 0.0032154093622181034,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02441411737250755,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032154093622181034,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0075,
+          "all_non_target": {
+            "min_distance_m": 0.0032088706123629776,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.024600087144595217,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0032088706123629776,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00775,
+          "all_non_target": {
+            "min_distance_m": 0.003202331862507854,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02478626570945998,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003202331862507854,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.008,
+          "all_non_target": {
+            "min_distance_m": 0.0031957915535803707,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.024973374958862128,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031957915535803707,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00825,
+          "all_non_target": {
+            "min_distance_m": 0.003189252803725261,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02516136626161882,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003189252803725261,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0085,
+          "all_non_target": {
+            "min_distance_m": 0.0031827140538701424,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.025350263495459567,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031827140538701424,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00875,
+          "all_non_target": {
+            "min_distance_m": 0.003176173744942519,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02554009191442076,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003176173744942519,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.009000000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0031696349950875113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02573074141147863,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031696349950875113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00925,
+          "all_non_target": {
+            "min_distance_m": 0.003163096245232392,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.0259222380205528,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003163096245232392,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0095,
+          "all_non_target": {
+            "min_distance_m": 0.00315655593630482,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.026114609060713254,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.00315655593630482,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.00975,
+          "all_non_target": {
+            "min_distance_m": 0.0031500171864496896,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02630774464398496,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031500171864496896,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01,
+          "all_non_target": {
+            "min_distance_m": 0.0031434784365945607,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.026501671554576223,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031434784365945607,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01025,
+          "all_non_target": {
+            "min_distance_m": 0.0031369396867395364,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.026695946197093087,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031369396867395364,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0105,
+          "all_non_target": {
+            "min_distance_m": 0.003130399377811933,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.026890685945511222,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003130399377811933,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.010750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.003123860627956827,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.027086172001416928,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003123860627956827,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.011,
+          "all_non_target": {
+            "min_distance_m": 0.0031173218781017052,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.027282433652507102,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031173218781017052,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01125,
+          "all_non_target": {
+            "min_distance_m": 0.0031107815691742077,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02747945073830595,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0031107815691742077,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0115,
+          "all_non_target": {
+            "min_distance_m": 0.003104242819319084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.027676571048391194,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003104242819319084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01175,
+          "all_non_target": {
+            "min_distance_m": 0.0030977040694639586,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.027873691358476435,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030977040694639586,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.012,
+          "all_non_target": {
+            "min_distance_m": 0.0030911637605364004,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.028070858669112526,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030911637605364004,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01225,
+          "all_non_target": {
+            "min_distance_m": 0.0030846250106812767,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02826797897919778,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030846250106812767,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0125,
+          "all_non_target": {
+            "min_distance_m": 0.003078086260826241,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.028465227977866558,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003078086260826241,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.012750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.003071545951898643,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.02866258995746537,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003071545951898643,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.013000000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.0030650072020435193,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.028859904890108395,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030650072020435193,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01325,
+          "all_non_target": {
+            "min_distance_m": 0.003058468452188389,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.029057219822751407,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003058468452188389,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0135,
+          "all_non_target": {
+            "min_distance_m": 0.0030519297023332698,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.029254534755394444,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030519297023332698,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01375,
+          "all_non_target": {
+            "min_distance_m": 0.0030453893934057935,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.029451896734993238,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030453893934057935,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.014,
+          "all_non_target": {
+            "min_distance_m": 0.003038850643550676,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.029649330790806127,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003038850643550676,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01425,
+          "all_non_target": {
+            "min_distance_m": 0.0030323118936955527,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.029847153355092203,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030323118936955527,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0145,
+          "all_non_target": {
+            "min_distance_m": 0.003025771584768035,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03004541474030999,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003025771584768035,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.014750000000000001,
+          "all_non_target": {
+            "min_distance_m": 0.003019232834912903,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.030244012724493202,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003019232834912903,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.015,
+          "all_non_target": {
+            "min_distance_m": 0.0030126940850578113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.030442987011081876,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0030126940850578113,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01525,
+          "all_non_target": {
+            "min_distance_m": 0.003006153776130238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.030642377843587688,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.003006153776130238,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0155,
+          "all_non_target": {
+            "min_distance_m": 0.002999615026275101,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.030842083005029136,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002999615026275101,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01575,
+          "all_non_target": {
+            "min_distance_m": 0.002993076276420084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03104214299922839,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002993076276420084,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.016,
+          "all_non_target": {
+            "min_distance_m": 0.002986537526564961,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.031242551009728805,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002986537526564961,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01625,
+          "all_non_target": {
+            "min_distance_m": 0.002979997217637393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03144334828818405,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002979997217637393,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0165,
+          "all_non_target": {
+            "min_distance_m": 0.0029734584677822695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03164443260488847,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029734584677822695,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01675,
+          "all_non_target": {
+            "min_distance_m": 0.002966919717927157,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03184584544197462,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002966919717927157,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.017,
+          "all_non_target": {
+            "min_distance_m": 0.002960379408999626,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03204762874423194,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002960379408999626,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01725,
+          "all_non_target": {
+            "min_distance_m": 0.002953840659144506,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03224966933098677,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002953840659144506,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0175,
+          "all_non_target": {
+            "min_distance_m": 0.0029483314952234666,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03245199014779995,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029483314952234666,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.017750000000000002,
+          "all_non_target": {
+            "min_distance_m": 0.0029456649339859977,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.032654594613696436,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029456649339859977,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.018000000000000002,
+          "all_non_target": {
+            "min_distance_m": 0.002945883463694222,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.032857571698398085,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002945883463694222,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01825,
+          "all_non_target": {
+            "min_distance_m": 0.002948549447947671,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.033060962183762664,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002948549447947671,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0185,
+          "all_non_target": {
+            "min_distance_m": 0.0029515068393216486,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03326475848683249,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029515068393216486,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01875,
+          "all_non_target": {
+            "min_distance_m": 0.002954464935843737,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03346894071006912,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002954464935843737,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.019,
+          "all_non_target": {
+            "min_distance_m": 0.0029574223272178205,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03367311307141356,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029574223272178205,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01925,
+          "all_non_target": {
+            "min_distance_m": 0.002960379718591798,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.033877285432757975,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002960379718591798,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.0195,
+          "all_non_target": {
+            "min_distance_m": 0.002963337815113955,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.034081506476115124,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.002963337815113955,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.01975,
+          "all_non_target": {
+            "min_distance_m": 0.0029662952064879265,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.034285678837459546,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029662952064879265,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        },
+        {
+          "downward_translation_m": 0.02,
+          "all_non_target": {
+            "min_distance_m": 0.0029692525978619213,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          },
+          "middle": {
+            "min_distance_m": 0.03448990250909416,
+            "nearest_pair": [
+              "right_middle_PP",
+              "joined_tail"
+            ],
+            "intersections": []
+          },
+          "other_non_target": {
+            "min_distance_m": 0.0029692525978619213,
+            "nearest_pair": [
+              "right_thumb_DP",
+              "left_blade"
+            ],
+            "intersections": []
+          }
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "All jaw-body orientations, relative opening and hand joints remain frozen.",
+    "A source intersection only indicates an obstruction along this imposed path; it does not prove support force, arrest, grip stability, or actual slip direction.",
+    "Original source mesh intersection differs from PhysX convex contact.",
+    "Thumb/index assigned broad-face elastomer pairs are retained as intended targets and excluded from non-target events; other target-pad side/friction forces are not modeled.",
+    "FCL witness depth is not a reliable maximum volumetric penetration depth."
+  ]
+}

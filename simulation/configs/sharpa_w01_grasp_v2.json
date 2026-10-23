@@ -1,0 +1,510 @@
+{
+  "schema_version": 5,
+  "model": "UR5e + Sharpa Wave W01 right hand",
+  "robot_asset_dir": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/ur5e_sharpa_w01_right",
+  "palm_link": "right_hand_C_MC",
+  "hand_root_link": "right_hand_flange",
+  "mechanical_self_collision_pairs": [
+    [
+      "wrist_3_link",
+      "right_thumb_MC"
+    ],
+    [
+      "wrist_3_link",
+      "right_index_PP"
+    ],
+    [
+      "wrist_3_link",
+      "right_middle_PP"
+    ],
+    [
+      "wrist_3_link",
+      "right_ring_PP"
+    ],
+    [
+      "wrist_3_link",
+      "right_pinky_PP"
+    ],
+    [
+      "right_pinky_MC",
+      "right_pinky_PP"
+    ],
+    [
+      "right_thumb_MC",
+      "right_thumb_PP"
+    ]
+  ],
+  "method": "Official W01 current collision mesh support-plane fit with full triangle static collision screening",
+  "q_reference": {
+    "right_middle_MCP_FE": -0.12,
+    "right_middle_MCP_AA": 0.12,
+    "right_middle_PIP": 0.04,
+    "right_middle_DIP": 0.04,
+    "right_ring_MCP_FE": -0.12,
+    "right_ring_MCP_AA": 0.24,
+    "right_ring_PIP": 0.04,
+    "right_ring_DIP": 0.04,
+    "right_pinky_MCP_FE": -0.12,
+    "right_pinky_MCP_AA": 0.33,
+    "right_pinky_PIP": 0.04,
+    "right_pinky_DIP": 0.04,
+    "right_pinky_CMC": 0.0,
+    "right_thumb_CMC_FE": 1.9196999758146698,
+    "right_thumb_CMC_AA": 0.28959923892535966,
+    "right_thumb_MCP_FE": -0.27797952095265693,
+    "right_thumb_MCP_AA": 0.2800357555217427,
+    "right_thumb_IP": 0.03421265586208017,
+    "right_index_MCP_FE": 0.3998811237519332,
+    "right_index_MCP_AA": 0.20275686831920267,
+    "right_index_PIP": 0.8870784330435774,
+    "right_index_DIP": 0.34988438438006114
+  },
+  "q_open": {
+    "right_middle_MCP_FE": -0.12,
+    "right_middle_MCP_AA": 0.12,
+    "right_middle_PIP": 0.04,
+    "right_middle_DIP": 0.04,
+    "right_ring_MCP_FE": -0.12,
+    "right_ring_MCP_AA": 0.24,
+    "right_ring_PIP": 0.04,
+    "right_ring_DIP": 0.04,
+    "right_pinky_MCP_FE": -0.12,
+    "right_pinky_MCP_AA": 0.33,
+    "right_pinky_PIP": 0.04,
+    "right_pinky_DIP": 0.04,
+    "right_pinky_CMC": 0.0,
+    "right_thumb_CMC_FE": 1.9196999758146698,
+    "right_thumb_CMC_AA": 0.28959923892535966,
+    "right_thumb_MCP_FE": -0.27797952095265693,
+    "right_thumb_MCP_AA": 0.2800357555217427,
+    "right_thumb_IP": 0.03421265586208017,
+    "right_index_MCP_FE": 0.3998811237519332,
+    "right_index_MCP_AA": 0.20275686831920267,
+    "right_index_PIP": 0.8870784330435774,
+    "right_index_DIP": 0.34988438438006114
+  },
+  "q_closed": {
+    "right_middle_MCP_FE": -0.12,
+    "right_middle_MCP_AA": 0.12,
+    "right_middle_PIP": 0.04,
+    "right_middle_DIP": 0.04,
+    "right_ring_MCP_FE": -0.12,
+    "right_ring_MCP_AA": 0.24,
+    "right_ring_PIP": 0.04,
+    "right_ring_DIP": 0.04,
+    "right_pinky_MCP_FE": -0.12,
+    "right_pinky_MCP_AA": 0.33,
+    "right_pinky_PIP": 0.04,
+    "right_pinky_DIP": 0.04,
+    "right_pinky_CMC": 0.0,
+    "right_thumb_CMC_FE": 1.8971999040347198,
+    "right_thumb_CMC_AA": 0.2509374595600309,
+    "right_thumb_MCP_FE": -0.15407159914843133,
+    "right_thumb_MCP_AA": 0.2983033723016558,
+    "right_thumb_IP": 0.00020000000000000047,
+    "right_index_MCP_FE": 0.430974038662555,
+    "right_index_MCP_AA": 0.1989432123481785,
+    "right_index_PIP": 0.8643070661070831,
+    "right_index_DIP": 0.3997741677331571
+  },
+  "closure_delta": {
+    "right_middle_MCP_FE": 0.0,
+    "right_middle_MCP_AA": 0.0,
+    "right_middle_PIP": 0.0,
+    "right_middle_DIP": 0.0,
+    "right_ring_MCP_FE": 0.0,
+    "right_ring_MCP_AA": 0.0,
+    "right_ring_PIP": 0.0,
+    "right_ring_DIP": 0.0,
+    "right_pinky_MCP_FE": 0.0,
+    "right_pinky_MCP_AA": 0.0,
+    "right_pinky_PIP": 0.0,
+    "right_pinky_DIP": 0.0,
+    "right_pinky_CMC": 0.0,
+    "right_thumb_CMC_FE": -0.02250007177994995,
+    "right_thumb_CMC_AA": -0.038661779365328774,
+    "right_thumb_MCP_FE": 0.12390792180422561,
+    "right_thumb_MCP_AA": 0.01826761677991312,
+    "right_thumb_IP": -0.034012655862080174,
+    "right_index_MCP_FE": 0.031092914910621827,
+    "right_index_MCP_AA": -0.003813655971024177,
+    "right_index_PIP": -0.022771366936494286,
+    "right_index_DIP": 0.04988978335309596
+  },
+  "soft_bounds": {
+    "right_thumb_CMC_FE": [
+      -0.1745,
+      1.9199
+    ],
+    "right_thumb_CMC_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_thumb_MCP_FE": [
+      -0.5236,
+      1.3963
+    ],
+    "right_thumb_MCP_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_thumb_IP": [
+      0.0,
+      1.7453
+    ],
+    "right_index_MCP_FE": [
+      -0.17453293,
+      1.5708
+    ],
+    "right_index_MCP_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_index_PIP": [
+      0.0,
+      1.7453
+    ],
+    "right_index_DIP": [
+      0.0,
+      1.3963
+    ],
+    "right_middle_MCP_FE": [
+      -0.17453293,
+      1.5708
+    ],
+    "right_middle_MCP_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_middle_PIP": [
+      0.0,
+      1.7453
+    ],
+    "right_middle_DIP": [
+      0.0,
+      1.3963
+    ],
+    "right_ring_MCP_FE": [
+      -0.17453293,
+      1.5708
+    ],
+    "right_ring_MCP_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_ring_PIP": [
+      0.0,
+      1.7453
+    ],
+    "right_ring_DIP": [
+      0.0,
+      1.3963
+    ],
+    "right_pinky_CMC": [
+      0.0,
+      0.2618
+    ],
+    "right_pinky_MCP_FE": [
+      -0.17453293,
+      1.5708
+    ],
+    "right_pinky_MCP_AA": [
+      -0.3491,
+      0.3491
+    ],
+    "right_pinky_PIP": [
+      0.0,
+      1.7453
+    ],
+    "right_pinky_DIP": [
+      0.0,
+      1.3963
+    ]
+  },
+  "T_hand_tool": [
+    [
+      -0.40170449324619706,
+      0.010004911906092352,
+      0.9157146945657079,
+      0.0378949537657861
+    ],
+    [
+      -0.1343433960946672,
+      -0.989765808605215,
+      -0.04811960143035813,
+      0.019112640065270383
+    ],
+    [
+      0.9058616627452382,
+      -0.14235008202953905,
+      0.3989374664212627,
+      0.11796452820640706
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tool_pinch_z": 0.04,
+  "preferred_tool_world_R": [
+    [
+      0.0,
+      -0.8660254037844386,
+      0.5
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.5,
+      -0.8660254037844386
+    ]
+  ],
+  "tool_geometry": {
+    "length_m": 0.18,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "strip_thickness_m": 0.001,
+    "strip_width_m": 0.014,
+    "handle_width_m": 0.014,
+    "handle_length_m": 0.01,
+    "handle_mass_kg": 0.003,
+    "jaw_mass_kg": 0.006
+  },
+  "grasp_topology": {
+    "type": "thumb_index_outer_wide_face_pinch",
+    "palm_outward_axis_local": [
+      1,
+      0,
+      0
+    ],
+    "web_edge_axis_local": [
+      0,
+      1,
+      0
+    ]
+  },
+  "web_up_axis_hand": [
+    0,
+    1,
+    0
+  ],
+  "face_pinch_assignment": {
+    "thumb": "left",
+    "index": "right"
+  },
+  "residual_joints": {
+    "index": "right_index_MCP_FE",
+    "middle": "right_middle_PIP"
+  },
+  "task_orientation": {
+    "require_web_up": true,
+    "max_palm_up_component": 0.25,
+    "tool_down_angle_range_deg": [
+      20,
+      70
+    ]
+  },
+  "arm_reset_table_clearance_m": 0.015,
+  "contact_targets": {
+    "thumb": {
+      "link": "right_thumb_elastomer",
+      "point_local": [
+        -2.1269308376759e-06,
+        -0.024238138164435576,
+        -0.004176310390140447
+      ],
+      "normal_local": [
+        0.0,
+        -0.5000000016387101,
+        -0.8660254028383291
+      ],
+      "tool_body": "left",
+      "jaw_local_target_m": [
+        -0.0005,
+        0,
+        0.04
+      ]
+    },
+    "index": {
+      "link": "right_index_elastomer",
+      "point_local": [
+        6.305828800204534e-11,
+        -0.0230001589481012,
+        -0.004886036808000229
+      ],
+      "normal_local": [
+        0.0,
+        -0.5000000016387101,
+        -0.8660254028383291
+      ],
+      "tool_body": "right",
+      "jaw_local_target_m": [
+        0.0005,
+        0,
+        0.04
+      ]
+    }
+  },
+  "source_fit": {
+    "file": "analysis/sharpa_grasp/collision_aware_fit.json",
+    "candidate": {
+      "setting": [
+        0.04,
+        0,
+        0
+      ],
+      "cost": 0.006761264271417042,
+      "contact_cost": 8.634947302914804e-06,
+      "q": {
+        "right_middle_MCP_FE": -0.12,
+        "right_middle_MCP_AA": 0.12,
+        "right_middle_PIP": 0.04,
+        "right_middle_DIP": 0.04,
+        "right_ring_MCP_FE": -0.12,
+        "right_ring_MCP_AA": 0.24,
+        "right_ring_PIP": 0.04,
+        "right_ring_DIP": 0.04,
+        "right_pinky_MCP_FE": -0.12,
+        "right_pinky_MCP_AA": 0.33,
+        "right_pinky_PIP": 0.04,
+        "right_pinky_DIP": 0.04,
+        "right_pinky_CMC": 0.0,
+        "right_thumb_CMC_FE": 1.9196999758146698,
+        "right_thumb_CMC_AA": 0.28959923892535966,
+        "right_thumb_MCP_FE": -0.27797952095265693,
+        "right_thumb_MCP_AA": 0.2800357555217427,
+        "right_thumb_IP": 0.03421265586208017,
+        "right_index_MCP_FE": 0.3998811237519332,
+        "right_index_MCP_AA": 0.20275686831920267,
+        "right_index_PIP": 0.8870784330435774,
+        "right_index_DIP": 0.34988438438006114
+      },
+      "T_hand_tool": [
+        [
+          -0.40170449324619706,
+          0.010004911906092352,
+          0.9157146945657079,
+          0.0378949537657861
+        ],
+        [
+          -0.1343433960946672,
+          -0.989765808605215,
+          -0.04811960143035813,
+          0.019112640065270383
+        ],
+        [
+          0.9058616627452382,
+          -0.14235008202953905,
+          0.3989374664212627,
+          0.11796452820640706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "tool_pinch_z": 0.04,
+      "gap_m": 8e-05,
+      "patches": [
+        {
+          "digit": "thumb",
+          "link": "right_thumb_elastomer",
+          "point": [
+            -2.1269308376759e-06,
+            -0.024238138164435576,
+            -0.004176310390140447
+          ],
+          "normal": [
+            0.0,
+            -0.5000000016387101,
+            -0.8660254028383291
+          ],
+          "source": "official URDF collision mesh supporting plane",
+          "support_vertex_count": 4
+        },
+        {
+          "digit": "index",
+          "link": "right_index_elastomer",
+          "point": [
+            6.305828800204534e-11,
+            -0.0230001589481012,
+            -0.004886036808000229
+          ],
+          "normal": [
+            0.0,
+            -0.5000000016387101,
+            -0.8660254028383291
+          ],
+          "source": "official URDF collision mesh supporting plane",
+          "support_vertex_count": 6
+        }
+      ],
+      "x": [
+        1.9196999758146698,
+        0.28959923892535966,
+        -0.27797952095265693,
+        0.2800357555217427,
+        0.03421265586208017,
+        0.3998811237519332,
+        0.20275686831920267,
+        0.8870784330435774,
+        0.34988438438006114,
+        -1.6673326666740451,
+        0.17434148394007773,
+        -2.5541273670515996,
+        0.0378949537657861,
+        0.019112640065270383,
+        0.11796452820640706
+      ],
+      "screen": {
+        "self_pairs": [],
+        "non_pinch_tool_pairs": [],
+        "pinch_pad_pairs": []
+      },
+      "collision_score": 0,
+      "closed_q": {
+        "right_middle_MCP_FE": -0.12,
+        "right_middle_MCP_AA": 0.12,
+        "right_middle_PIP": 0.04,
+        "right_middle_DIP": 0.04,
+        "right_ring_MCP_FE": -0.12,
+        "right_ring_MCP_AA": 0.24,
+        "right_ring_PIP": 0.04,
+        "right_ring_DIP": 0.04,
+        "right_pinky_MCP_FE": -0.12,
+        "right_pinky_MCP_AA": 0.33,
+        "right_pinky_PIP": 0.04,
+        "right_pinky_DIP": 0.04,
+        "right_pinky_CMC": 0.0,
+        "right_thumb_CMC_FE": 1.8971999040347198,
+        "right_thumb_CMC_AA": 0.2509374595600309,
+        "right_thumb_MCP_FE": -0.15407159914843133,
+        "right_thumb_MCP_AA": 0.2983033723016558,
+        "right_thumb_IP": 0.00020000000000000047,
+        "right_index_MCP_FE": 0.430974038662555,
+        "right_index_MCP_AA": 0.1989432123481785,
+        "right_index_PIP": 0.8643070661070831,
+        "right_index_DIP": 0.3997741677331571
+      },
+      "closed_contact_cost": 2.5266778160769134,
+      "closed_screen": {
+        "self_pairs": [],
+        "non_pinch_tool_pairs": [],
+        "pinch_pad_pairs": []
+      }
+    }
+  },
+  "limitations": [
+    "W01 official mesh geometric layout: physics hold/release and task success require separate validation.",
+    "80 micrometer initial pad clearance; apply measured closure to establish force contact.",
+    "Old tactile map geometry is approximate relative to current elastomer mesh."
+  ]
+}

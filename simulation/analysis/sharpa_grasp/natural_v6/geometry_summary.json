@@ -1,0 +1,258 @@
+{
+  "purpose": "Natural W01 posture matching the old XHand topology: thumb/index broad-face pinch, lower optional middle backup, curled ring/pinky",
+  "fixed_elements": [
+    "Thumb/index open/closed joint targets and closure deltas",
+    "T_hand_tool and all tool dimensions",
+    "Seven official mechanical filters only, plus existing URDF mechanism adjacency exclusions",
+    "No added friction, attachment, force, or contact exemptions"
+  ],
+  "candidate_semantics": "A/B are frozen geometric candidates, with explicit actual index contact and middle gravity-frame comparisons. Finite backup gap is allowed; no sustained middle contact or successful task is inferred.",
+  "base_source_fit_note": "The copied base source_fit block documents the original thumb/index fit only; active natural finger targets are q_reference/q_open/q_closed and the dedicated backup_support_geometry field.",
+  "variants": [
+    {
+      "variant": "a",
+      "config": "configs/sharpa_w01_natural_v6a.json",
+      "sha256": "c6329e1cf7cd1f44b33cfb72535f3de1dbc672a3bbf1c52c7b65a53002f8f0fa",
+      "changed_finger_targets_rad": {
+        "right_middle_MCP_FE": 0.5,
+        "right_middle_MCP_AA": 0.2,
+        "right_middle_PIP": 0.9,
+        "right_middle_DIP": 0.4,
+        "right_ring_MCP_FE": 0.8,
+        "right_ring_MCP_AA": 0.22,
+        "right_ring_PIP": 1.1,
+        "right_ring_DIP": 0.55,
+        "right_pinky_MCP_FE": 1.0,
+        "right_pinky_MCP_AA": 0.22,
+        "right_pinky_PIP": 1.2,
+        "right_pinky_DIP": 0.6,
+        "right_pinky_CMC": 0.1
+      },
+      "nearest_at_closure_075": {
+        "pair": [
+          "right_middle_elastomer",
+          "right_blade"
+        ],
+        "distance_m": 0.007481495983253944,
+        "points_root_m": [
+          [
+            0.0716853576954487,
+            0.0022359812765995165,
+            0.16900970702628787
+          ],
+          [
+            0.07273339706781604,
+            0.009501501588529386,
+            0.1675651966530654
+          ]
+        ],
+        "points_palm_m": [
+          [
+            0.0716853576954487,
+            0.0022359812765995165,
+            0.13950970702628787
+          ],
+          [
+            0.07273339706781604,
+            0.009501501588529386,
+            0.1380651966530654
+          ]
+        ],
+        "points_tool_m": [
+          [
+            0.008210462079172259,
+            0.013975051874759559,
+            0.04034964656008618
+          ],
+          [
+            0.005504858712553887,
+            0.007000000000000066,
+            0.04038346836373953
+          ]
+        ],
+        "tool_minus_middle_world_m": [
+          0.006057483018082668,
+          0.0027056033666183706,
+          0.003458235396214136
+        ],
+        "vertical_gap_m": 0.003458235396214136,
+        "horizontal_gap_m": 0.00663425882008055,
+        "middle_below_tool": true,
+        "tool_side_y_m": 0.007000000000000066,
+        "tool_axial_z_m": 0.04038346836373953,
+        "middle_witness_below_index_contact_m": 0.007301801283274787,
+        "source_mesh_aabb_centers_world_relative_to_palm_m": {
+          "right_middle_DP": [
+            0.07258111325903265,
+            -0.10267170214816164,
+            -0.09497877170618815
+          ],
+          "right_middle_elastomer": [
+            0.07286544518456976,
+            -0.09887925262648906,
+            -0.09572195943680124
+          ],
+          "right_index_DP": [
+            0.08917171103301619,
+            -0.10450349408383745,
+            -0.08291822884551361
+          ],
+          "right_index_elastomer": [
+            0.08969548329046248,
+            -0.10083809033721386,
+            -0.08406130739554768
+          ]
+        },
+        "middle_DP_center_below_index_DP_center_m": 0.012060542860674539
+      },
+      "static_screen_summary": {
+        "collision_count": 0,
+        "min_self_gap_m": 0.0007334898178347305,
+        "min_tool_gap_m": 0.003467629034065687,
+        "middle_support_gap_range_m": [
+          0.007329176370781135,
+          0.007771576952926981
+        ],
+        "middle_vertical_gap_range_m": [
+          0.003423025434905139,
+          0.0035732421249976077
+        ]
+      },
+      "middle_witness_below_index_range_m": [
+        0.00720188268913647,
+        0.007927208906131961
+      ],
+      "middle_DP_center_below_index_DP_range_m": [
+        0.011878317244161454,
+        0.012173046236464757
+      ],
+      "matched_middle_retracted_config": "configs/sharpa_w01_natural_v6a_middle_retracted.json"
+    },
+    {
+      "variant": "b",
+      "config": "configs/sharpa_w01_natural_v6b.json",
+      "sha256": "fc6acd1ed891f4548382355019c714aaa893e8aea8d7468974501d7049085f82",
+      "changed_finger_targets_rad": {
+        "right_middle_MCP_FE": 0.4,
+        "right_middle_MCP_AA": 0.18,
+        "right_middle_PIP": 1.1,
+        "right_middle_DIP": 0.4,
+        "right_ring_MCP_FE": 0.8,
+        "right_ring_MCP_AA": 0.22,
+        "right_ring_PIP": 1.1,
+        "right_ring_DIP": 0.55,
+        "right_pinky_MCP_FE": 1.0,
+        "right_pinky_MCP_AA": 0.22,
+        "right_pinky_PIP": 1.2,
+        "right_pinky_DIP": 0.6,
+        "right_pinky_CMC": 0.1
+      },
+      "nearest_at_closure_075": {
+        "pair": [
+          "right_middle_elastomer",
+          "right_blade"
+        ],
+        "distance_m": 0.004612648585798381,
+        "points_root_m": [
+          [
+            0.06878668164288726,
+            0.005185818873616957,
+            0.166881271919246
+          ],
+          [
+            0.06940085577621552,
+            0.009683733293957667,
+            0.1660639084888741
+          ]
+        ],
+        "points_palm_m": [
+          [
+            0.06878668164288726,
+            0.005185818873616957,
+            0.137381271919246
+          ],
+          [
+            0.06940085577621552,
+            0.009683733293957667,
+            0.1365639084888741
+          ]
+        ],
+        "points_tool_m": [
+          [
+            0.007050514308130006,
+            0.01132938539382531,
+            0.03670422878547183
+          ],
+          [
+            0.005459114504460849,
+            0.007000000000000068,
+            0.03672412231915005
+          ]
+        ],
+        "tool_minus_middle_world_m": [
+          0.003759304500665068,
+          0.0015913998036691578,
+          0.0021474643913762374
+        ],
+        "vertical_gap_m": 0.0021474643913762374,
+        "horizontal_gap_m": 0.004082269425679652,
+        "middle_below_tool": true,
+        "tool_side_y_m": 0.007000000000000068,
+        "tool_axial_z_m": 0.03672412231915005,
+        "middle_witness_below_index_contact_m": 0.0028219436425843025,
+        "source_mesh_aabb_centers_world_relative_to_palm_m": {
+          "right_middle_DP": [
+            0.07253908799704878,
+            -0.10183552600826713,
+            -0.08980483908191589
+          ],
+          "right_middle_elastomer": [
+            0.07268033747587214,
+            -0.09798177864734256,
+            -0.090185004682868
+          ],
+          "right_index_DP": [
+            0.08917171103301619,
+            -0.10450349408383745,
+            -0.08291822884551361
+          ],
+          "right_index_elastomer": [
+            0.08969548329046248,
+            -0.10083809033721386,
+            -0.08406130739554768
+          ]
+        },
+        "middle_DP_center_below_index_DP_center_m": 0.006886610236402274
+      },
+      "static_screen_summary": {
+        "collision_count": 0,
+        "min_self_gap_m": 0.0006155514636316075,
+        "min_tool_gap_m": 0.003467629034065687,
+        "middle_support_gap_range_m": [
+          0.004472670452182777,
+          0.0048557766891131355
+        ],
+        "middle_vertical_gap_range_m": [
+          0.0020958113530847554,
+          0.0022508754897543402
+        ]
+      },
+      "middle_witness_below_index_range_m": [
+        0.0023495536643004006,
+        0.0029272934219234754
+      ],
+      "middle_DP_center_below_index_DP_range_m": [
+        0.006685659426017787,
+        0.007017889294940391
+      ],
+      "matched_middle_retracted_config": "configs/sharpa_w01_natural_v6b_middle_retracted.json"
+    }
+  ],
+  "reproduce": [
+    ".venv-human/bin/python analysis/sharpa_grasp/fit_natural_support.py --stage explore",
+    ".venv-human/bin/python analysis/sharpa_grasp/fit_natural_support.py --stage curl",
+    ".venv-human/bin/python analysis/sharpa_grasp/fit_natural_support.py --stage finish"
+  ],
+  "reproduce_warning": "finish writes candidate configs; preserve existing frozen copies and run records before intentional regeneration.",
+  "script_sha256": "4a750a24fdb178812a29955ff77d75e0c90d63ee664b533e70640ce6d4277392"
+}

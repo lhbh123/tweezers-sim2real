@@ -1,0 +1,40 @@
+{
+  "kind": "static_derived_input_audit",
+  "maps": {
+    "TH": {
+      "accepted": 35419,
+      "original_valid": 45211,
+      "geometry_reconstruction_max_m": 4.329181978620782e-12,
+      "accepted_normal_length_error": 2.220446049250313e-16,
+      "rejected_any": 9792,
+      "rejected_distance": 1476,
+      "rejected_angle": 8316,
+      "mask_agrees_with_fixed_rules": true,
+      "full_exported_uv_mask_shape": [
+        240,
+        240
+      ],
+      "accepted_source_points_unique_at_1nm": 35405
+    },
+    "4F": {
+      "accepted": 39037,
+      "original_valid": 41971,
+      "geometry_reconstruction_max_m": 1.511371757075896e-12,
+      "accepted_normal_length_error": 2.220446049250313e-16,
+      "rejected_any": 2934,
+      "rejected_distance": 2550,
+      "rejected_angle": 384,
+      "mask_agrees_with_fixed_rules": true,
+      "full_exported_uv_mask_shape": [
+        240,
+        240
+      ],
+      "accepted_source_points_unique_at_1nm": 38939
+    }
+  },
+  "manifest_sha256": "ec3b4d1c03828cd51bafe4024bd513f4776ae748fd4ddd714aeca6f3508c2971",
+  "notes": [
+    "All retained points lie on their recorded source triangle to numerical precision.",
+    "Indexing and validity masks are explicit; no claim of hardware UV calibration or one-to-one surface coverage."
+  ]
+}

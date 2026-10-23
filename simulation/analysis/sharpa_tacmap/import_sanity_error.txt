@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/analysis/sharpa_tacmap/import_sanity.py", line 12, in <module>
+    assert cfg.class_type is cls
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError

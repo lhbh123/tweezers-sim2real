@@ -1,0 +1,58 @@
+[
+  {
+    "name": "overview",
+    "eye": [
+      1.18,
+      -1.05,
+      1.25
+    ],
+    "target": [
+      0.3,
+      0,
+      0.94
+    ],
+    "focal_length_m": 0.05
+  },
+  {
+    "name": "closeup",
+    "eye": [
+      0.78,
+      -0.55,
+      1.31
+    ],
+    "target": [
+      0.41,
+      0,
+      0.87
+    ],
+    "focal_length_m": 0.05
+  },
+  {
+    "name": "top",
+    "eye": [
+      0.4,
+      0,
+      1.8
+    ],
+    "target": [
+      0.4,
+      0,
+      0.87
+    ],
+    "orthographic_width_m": 0.48
+  },
+  {
+    "name": "side",
+    "eye": [
+      0.76,
+      -0.78,
+      0.89
+    ],
+    "target": [
+      0.4,
+      0,
+      0.89
+    ],
+    "focal_length_m": 0.05
+  }
+]

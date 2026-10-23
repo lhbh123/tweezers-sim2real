@@ -1,0 +1,350 @@
+{
+  "method": "Source geometry only. Original right-hand map coordinates are compared in each elastomer sensor frame. Positive map-normal projection means closest surface lies outward of map point. No scene, offset, force, or sensor output changed.",
+  "quantiles_order": [
+    0,
+    0.05,
+    0.5,
+    0.95,
+    1
+  ],
+  "models": {
+    "thumb": {
+      "map_points": 45211,
+      "sampled_surface_points": 266,
+      "raw_contact_records": 18489,
+      "raw_contact_to_dense_map_distance_mm": [
+        1.1693497944485258,
+        1.193508069164297,
+        1.2667452408351825,
+        1.3293145039599792,
+        1.3543035559464065
+      ],
+      "raw_contact_minus_map_outward_normal_projection_mm": [
+        1.1691816226568723,
+        1.1931258154405167,
+        1.2647875528525323,
+        1.3286251625245382,
+        1.3527191388521989
+      ],
+      "raw_contact_tangential_map_distance_mm": [
+        9.820081850304196e-05,
+        0.00914393263140813,
+        0.05287639285686047,
+        0.09380494407575533,
+        0.11735028080779693
+      ],
+      "surfaces": {
+        "visual": {
+          "vertices": 5066,
+          "faces": 10128,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            0.0003060699391160473,
+            0.0025943865208985922,
+            0.03221992032914908,
+            0.10314943289899635,
+            0.15876330720020382
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.03518450399683623,
+            -0.031730389194961864,
+            -0.001842882714686342,
+            0.0006823592343294991,
+            0.0030097026051841957
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            1.1885998527441408,
+            1.2052973954490762,
+            1.2744695504830579,
+            1.3370250436410216,
+            1.3577795232738539
+          ]
+        },
+        "collision": {
+          "vertices": 2708,
+          "faces": 5412,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            0.0003723717492817879,
+            0.0052664306365227025,
+            0.045583377802002625,
+            0.15118672000949235,
+            0.1772581095519925
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.008397137038422877,
+            -0.003879794424891542,
+            -3.158894460090594e-05,
+            0.0008714220786028184,
+            0.0016144423239235705
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            1.1783386054052696,
+            1.19528618878546,
+            1.2686086795330607,
+            1.3317144231563458,
+            1.3554312500627281
+          ]
+        },
+        "current_visual_and_collision": {
+          "vertices": 2115,
+          "faces": 4226,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            0.015872155194040043,
+            0.0826058823417476,
+            1.2088237784968163,
+            2.2431280257330717,
+            3.4412925821667906
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -1.2389319350598165,
+            -0.6654395155320031,
+            0.5596018898320935,
+            1.3180292156275442,
+            1.427655351014476
+          ],
+          "outward_projection_positive_fraction": 0.8345864661654135,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            0.004958464767784919,
+            0.03772397989899048,
+            0.10631819019532793,
+            0.16060485717602255,
+            0.17285088808273943
+          ]
+        }
+      },
+      "map_sha256": "e7d2ddaaf2b593d36e5ce8b9e2d1816ec0b424004ca74915742fff1bced65fc9"
+    },
+    "index": {
+      "map_points": 41971,
+      "sampled_surface_points": 265,
+      "raw_contact_records": 12938,
+      "raw_contact_to_dense_map_distance_mm": [
+        1.0277562613336253,
+        1.053013378511102,
+        1.1121109602019827,
+        1.187837938435099,
+        1.2100597367261405
+      ],
+      "raw_contact_minus_map_outward_normal_projection_mm": [
+        1.0261469442895401,
+        1.051544615840274,
+        1.1105075269822455,
+        1.1862725747899499,
+        1.20894219788018
+      ],
+      "raw_contact_tangential_map_distance_mm": [
+        0.0014885553407970801,
+        0.0248050036794738,
+        0.05699680405567234,
+        0.10070800872592592,
+        0.12111979225893486
+      ],
+      "surfaces": {
+        "visual": {
+          "vertices": 3714,
+          "faces": 7249,
+          "watertight": false,
+          "map_to_surface_distance_mm": [
+            7.306570014610201e-06,
+            0.00030195639153911133,
+            0.03317122363877075,
+            0.1264072297287609,
+            0.24408831096210937
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.033424886210977285,
+            -0.029289158217996183,
+            -5.273844067834807e-05,
+            0.0014281130927396354,
+            0.005768614507960064
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            1.0416546291707611,
+            1.0546099642411177,
+            1.116999101214237,
+            1.1900162326842498,
+            1.2115305516449046
+          ]
+        },
+        "collision": {
+          "vertices": 2717,
+          "faces": 5430,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            8.357000420845872e-05,
+            0.0008733662397110694,
+            0.03689258897508362,
+            0.12428913810259527,
+            0.1998238882590547
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.008208751084040785,
+            -0.0012846342626093824,
+            0.00023227505407355108,
+            0.005084997290392274,
+            0.008655732451924534
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            1.0456856610198093,
+            1.0559274819700772,
+            1.1139411410042392,
+            1.1920021014950106,
+            1.2141404008743777
+          ]
+        },
+        "current_visual_and_collision": {
+          "vertices": 1500,
+          "faces": 2996,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            0.06056006373007889,
+            0.16321746678610163,
+            0.8784454200134086,
+            2.7004195032740776,
+            4.058099133373375
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.9267028059379158,
+            -0.35186456639831165,
+            0.49863414685296864,
+            1.0675522110356823,
+            1.1152473946659025
+          ],
+          "outward_projection_positive_fraction": 0.8641509433962264,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            0.03306341072514654,
+            0.054601278907283925,
+            0.11747534035873951,
+            0.1968628137219501,
+            0.2583329818049911
+          ]
+        }
+      },
+      "map_sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b"
+    },
+    "middle": {
+      "map_points": 41971,
+      "sampled_surface_points": 292,
+      "raw_contact_records": 18189,
+      "raw_contact_to_dense_map_distance_mm": [
+        0.28308892046667117,
+        0.4825883755428579,
+        1.2677518848416327,
+        1.3872466042570524,
+        1.6670068164234553
+      ],
+      "raw_contact_minus_map_outward_normal_projection_mm": [
+        0.2777526373436438,
+        0.47808599939861673,
+        1.2666428590062124,
+        1.3866329004383142,
+        1.6666999008615697
+      ],
+      "raw_contact_tangential_map_distance_mm": [
+        0.0008607981906090905,
+        0.017775986778290235,
+        0.047939245564023236,
+        0.08254918607403205,
+        0.10218242120347222
+      ],
+      "surfaces": {
+        "visual": {
+          "vertices": 3714,
+          "faces": 7249,
+          "watertight": false,
+          "map_to_surface_distance_mm": [
+            7.306570014610201e-06,
+            0.00031530545681608587,
+            0.032125165361132725,
+            0.11912011185790332,
+            0.24408831096210937
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.033424886210977285,
+            -0.029969423998040912,
+            -9.963567970593492e-05,
+            0.0013148124257219497,
+            0.005768614507960064
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            0.2901840395347515,
+            0.4848836994159065,
+            1.2663362562051759,
+            1.3885855117136037,
+            1.6672266308140737
+          ]
+        },
+        "collision": {
+          "vertices": 2717,
+          "faces": 5430,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            8.357000420845872e-05,
+            0.0011504069544530763,
+            0.03714713672350805,
+            0.12675824128096994,
+            0.1998238882590547
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.008208751084040785,
+            -0.001088199911484211,
+            0.00020761295090274896,
+            0.004731710202026648,
+            0.008655732451924534
+          ],
+          "outward_projection_positive_fraction": 0.0,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            0.29058270051662094,
+            0.49177539413525617,
+            1.266825426329597,
+            1.38895531752378,
+            1.6661437540934079
+          ]
+        },
+        "current_visual_and_collision": {
+          "vertices": 1500,
+          "faces": 2996,
+          "watertight": true,
+          "map_to_surface_distance_mm": [
+            0.005433820324187278,
+            0.06717888707380935,
+            0.7569706171763151,
+            2.696907166231306,
+            4.058099133373375
+          ],
+          "surface_minus_map_normal_projection_mm": [
+            -0.9267028059379158,
+            -0.31006811067589596,
+            0.44999579204337925,
+            1.0357832731127712,
+            1.1035243280738025
+          ],
+          "outward_projection_positive_fraction": 0.8321917808219178,
+          "sampled_raw_contact_to_surface_distance_mm": [
+            0.004527074071782125,
+            0.04989054109907448,
+            0.9362427526605538,
+            1.0712965397966439,
+            1.3618260928792512
+          ]
+        }
+      },
+      "map_sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b"
+    }
+  },
+  "source_anchors": {
+    "official_environment": "assets/sharpa_tactile/env_cfg.py:73-87",
+    "compliant_contact_stiffness": 280.0,
+    "compliant_contact_damping": 20.0,
+    "robot_rest_offset_m": -0.0001,
+    "presser_rest_offset_m": -0.0005,
+    "interpretation": "Official example uses compliant rigid-body contact so objects can geometrically penetrate sensor surface; this is not a finite-element deformation solve. Current rigid task lacks that compliant material. Geometry mismatch must be measured against paired USD rather than assumed."
+  }
+}

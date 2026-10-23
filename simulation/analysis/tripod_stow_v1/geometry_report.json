@@ -1,0 +1,153 @@
+{
+  "criterion": "Every nonoperating-finger source mesh remains>=5mm above the table with mean tip centre at block centre+1.5mm",
+  "fit": {
+    "ring": {
+      "prior": [
+        0.5365660587946574,
+        0.8499847849210104
+      ],
+      "selected_mcp_rad": 1.031008554247458,
+      "selected_pip_rad": 0.8499847849210104,
+      "extra_clearance_joint_margin_rad": 0.005,
+      "hard_limit_upper_rad": 1.92
+    },
+    "pinky": {
+      "prior": [
+        0.48997559150060016,
+        0.8499955336252848
+      ],
+      "selected_mcp_rad": 1.3891329067094114,
+      "selected_pip_rad": 0.8499955336252848,
+      "extra_clearance_joint_margin_rad": 0.005,
+      "hard_limit_upper_rad": 1.92
+    }
+  },
+  "states": [
+    {
+      "label": "open",
+      "source_snapshot": "runs/tripod_horizontal_hold12/closure0_copy0_snapshot.json",
+      "geometry_snapshot": "analysis/tripod_stow_v1/open_geometry_snapshot.json",
+      "config": "configs/human_grasp_tripod_horizontal_stow_open_v1.json",
+      "target_tip_world_z_m": 0.7275999999999999,
+      "table_z_m": 0.72,
+      "minimum_nonoperating_table_clearance_m": 0.005150442929526267,
+      "clearance_by_link_m": {
+        "right_hand_ring_link1": 0.005150442929526267,
+        "right_hand_ring_link2": 0.005407002395699578,
+        "right_hand_pinky_link1": 0.0051765180650586995,
+        "right_hand_pinky_link2": 0.005964199057916231
+      },
+      "chosen_four_joints": {
+        "right_hand_ring_joint1": 1.031008554247458,
+        "right_hand_ring_joint2": 0.8499847849210104,
+        "right_hand_pinky_joint1": 1.3891329067094114,
+        "right_hand_pinky_joint2": 0.8499955336252848
+      },
+      "self_collision": {
+        "checked_nonadjacent_pairs": 66,
+        "all_source_surfaces_disjoint": true,
+        "hull_overlap_candidates": [
+          {
+            "links": [
+              "right_hand_link",
+              "right_hand_index_rota_link1"
+            ],
+            "separated": false,
+            "method": "hull halfspaces",
+            "solver_success": true,
+            "hull_intersection_ball_radius_m": 0.005556210412958423,
+            "triangle_pair_tests": 0,
+            "triangle_surface_intersection_pairs": 0
+          }
+        ]
+      },
+      "thumb_index_middle_actual_unchanged": true,
+      "three_body_states_unchanged": true,
+      "requires_physical_settle": true
+    },
+    {
+      "label": "closed035",
+      "source_snapshot": "runs/tripod_horizontal_pinch14/ix0.035_mcp0_pip-0.035_snapshot.json",
+      "geometry_snapshot": "analysis/tripod_stow_v1/closed035_geometry_snapshot.json",
+      "config": "configs/human_grasp_tripod_horizontal_stow_closed035_v1.json",
+      "target_tip_world_z_m": 0.7275999999999999,
+      "table_z_m": 0.72,
+      "minimum_nonoperating_table_clearance_m": 0.006786940141879305,
+      "clearance_by_link_m": {
+        "right_hand_ring_link1": 0.006786940141879305,
+        "right_hand_ring_link2": 0.007043520767029188,
+        "right_hand_pinky_link1": 0.006812671022715988,
+        "right_hand_pinky_link2": 0.0076003562560437166
+      },
+      "chosen_four_joints": {
+        "right_hand_ring_joint1": 1.031008554247458,
+        "right_hand_ring_joint2": 0.8499847849210104,
+        "right_hand_pinky_joint1": 1.3891329067094114,
+        "right_hand_pinky_joint2": 0.8499955336252848
+      },
+      "self_collision": {
+        "checked_nonadjacent_pairs": 66,
+        "all_source_surfaces_disjoint": true,
+        "hull_overlap_candidates": [
+          {
+            "links": [
+              "right_hand_link",
+              "right_hand_index_rota_link1"
+            ],
+            "separated": false,
+            "method": "hull halfspaces",
+            "solver_success": true,
+            "hull_intersection_ball_radius_m": 0.00555235534093443,
+            "triangle_pair_tests": 0,
+            "triangle_surface_intersection_pairs": 0
+          }
+        ]
+      },
+      "thumb_index_middle_actual_unchanged": true,
+      "three_body_states_unchanged": true,
+      "requires_physical_settle": true
+    },
+    {
+      "label": "closed045",
+      "source_snapshot": "runs/tripod_horizontal_pinch14/ix0.045_mcp0_pip-0.035_snapshot.json",
+      "geometry_snapshot": "analysis/tripod_stow_v1/closed045_geometry_snapshot.json",
+      "config": "configs/human_grasp_tripod_horizontal_stow_closed045_v1.json",
+      "target_tip_world_z_m": 0.7275999999999999,
+      "table_z_m": 0.72,
+      "minimum_nonoperating_table_clearance_m": 0.006931715842322217,
+      "clearance_by_link_m": {
+        "right_hand_ring_link1": 0.006931715842322217,
+        "right_hand_ring_link2": 0.00718836248380561,
+        "right_hand_pinky_link1": 0.0069577648698135874,
+        "right_hand_pinky_link2": 0.007745521131886979
+      },
+      "chosen_four_joints": {
+        "right_hand_ring_joint1": 1.031008554247458,
+        "right_hand_ring_joint2": 0.8499847849210104,
+        "right_hand_pinky_joint1": 1.3891329067094114,
+        "right_hand_pinky_joint2": 0.8499955336252848
+      },
+      "self_collision": {
+        "checked_nonadjacent_pairs": 66,
+        "all_source_surfaces_disjoint": true,
+        "hull_overlap_candidates": [
+          {
+            "links": [
+              "right_hand_link",
+              "right_hand_index_rota_link1"
+            ],
+            "separated": false,
+            "method": "hull halfspaces",
+            "solver_success": true,
+            "hull_intersection_ball_radius_m": 0.005552888387573882,
+            "triangle_pair_tests": 0,
+            "triangle_surface_intersection_pairs": 0
+          }
+        ]
+      },
+      "thumb_index_middle_actual_unchanged": true,
+      "three_body_states_unchanged": true,
+      "requires_physical_settle": true
+    }
+  ]
+}

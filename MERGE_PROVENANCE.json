@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "repository": "tweezers-sim2real",
+  "initial_location": "/mnt/workspace/tweezers-sim2real",
+  "preferred_persistent_parent": "/cpfs/user/xiaoqihuang",
+  "storage_note": "CPFS mkdir returned Errno 122 Disk quota exceeded; assembled on the instance system disk. Original source directories retained.",
+  "sources": {
+    "calibration": {
+      "source": "/cpfs/user/xiaoqihuang/xhand-camera-calibration",
+      "files": 407,
+      "bytes": 149291613,
+      "modified_files": [
+        "README.md",
+        ".gitignore",
+        "examples/isaac_camera_rig.py"
+      ]
+    },
+    "simulation": {
+      "source": "/cpfs/user/xiaoqihuang/tweezers_xhand_w01/tweezers",
+      "files": 664,
+      "bytes": 536686296,
+      "modified_files": [
+        "README_CALIBRATED_DEMO.md",
+        "configs/xhand_local.json",
+        "scripts/run_pick_place.py",
+        "scripts/run_calibrated_demo.sh",
+        "src/kinematics.py"
+      ]
+    },
+    "assets": {
+      "source": "/cpfs/user/xiaoqihuang/tweezers_xhand_w01/assets",
+      "files": 64,
+      "bytes": 33334364,
+      "modified_files": []
+    }
+  },
+  "calibration_git": {
+    "remote": "https://github.com/lhbh123/xhand-camera-calibration.git",
+    "head": "750d13e1e5fb45ae1cf879467395d9b93c07391c",
+    "uncommitted_status_at_merge": "?? docs/T_LINK_TCP_CONFIRMATION.md\n",
+    "history_bundle": "archives/calibration-git-history.bundle"
+  },
+  "excluded_from_copy": [
+    ".git/",
+    ".venv*/",
+    "__pycache__/",
+    "*.egg-info/",
+    "software/ and downloaded installers"
+  ],
+  "large_data": "Raw calibration data and simulation runs copied, excluded from Git. Full backup required to preserve them.",
+  "frozen_archive": "archives/calibration_confirmed_20261023",
+  "input_sha256": {
+    "models/policies/xhand_pick_place_ppo.pt": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+    "models/snapshots/xhand_stable_grasp.json": "683720cdd4498b1f8d71046470231a659261cbbb6346b108156899baef8d41e5",
+    "assets/ur5e_xhand_right/robot.urdf": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c",
+    "calibration/results/camera_rig_isaac.json": "a71c5be32d8f3a624c5aa2c5971b6cd643cd4ef5ade776c789141bffce27df91",
+    "calibration/results/world_base_isaac.json": "d00facd96c48747164386c19b4d364415eea9a1dc9349b1cdd721b2a0d0684dc",
+    "calibration/configs/link_to_tcp.confirmed.json": "8bed03362608234b556bc2522d615efba0871597254fb7b9574ce0b0573249f4",
+    "calibration/examples/isaac_camera_rig.py": "3719cf31acda9751d0a2b8d3d325747886bc999177dd5268f868c48ed7ce1cbd",
+    "calibration/examples/isaac_camera_bootstrap.py": "ccf1cf77fd2559ece07e5aa89f6cb89f1dcdb76eea3430e53b1997a76f317207"
+  },
+  "import_manifest": "archives/source-copy-manifest.json",
+  "scope": "Code, data and path integration; no calibration refit, policy retraining or hardware I/O.",
+  "external_runtime": {
+    "simulation_python": "/mnt/workspace/tweezers-software/xhand-sim/bin/python",
+    "isaaclab_module": "/cpfs/user/xiaoqihuang/tweezers_xhand_w01/software/IsaacLab-2.2.1/source/isaaclab/isaaclab/__init__.py",
+    "note": "Existing editable SDK installation remains external; migrate/reinstall SDK before deleting its source software directory."
+  }
+}

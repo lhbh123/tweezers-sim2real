@@ -1,0 +1,705 @@
+{
+  "run": "runs/sharpa_w01_official_tacmap_matched_v2_video",
+  "scope": "Read-only analysis of existing actual poses and official surface/target geometry; no new simulation or frozen-file modification.",
+  "method": "Independent analytic two-pass ray/closed-box CPD followed by published piecewise quantization and GaussianBlur; no contact force input.",
+  "units": {
+    "depth": "mm geometric normal penetration, not calibrated skin displacement",
+    "codes": "uint8 0-255"
+  },
+  "representative_frames": [
+    0,
+    462,
+    607,
+    608,
+    623,
+    712,
+    769
+  ],
+  "selection": {
+    "fixed": [
+      0,
+      462,
+      623,
+      712,
+      769
+    ],
+    "index_first_maximum_code_frame": 607,
+    "index_first_maximum_area_frame": 608
+  },
+  "full_770_frame_observed_statistics": [
+    {
+      "finger": "thumb",
+      "nonzero_frames": 770,
+      "peak_code_min_median_mean_max": [
+        10,
+        17.0,
+        16.167532467532467,
+        27
+      ],
+      "max_area_pixels": 963,
+      "first_peak_frame": 647,
+      "first_max_area_frame": 723
+    },
+    {
+      "finger": "index",
+      "nonzero_frames": 447,
+      "peak_code_min_median_mean_max": [
+        0,
+        1.0,
+        0.9571428571428572,
+        5
+      ],
+      "max_area_pixels": 93,
+      "first_peak_frame": 607,
+      "first_max_area_frame": 608
+    },
+    {
+      "finger": "middle",
+      "nonzero_frames": 165,
+      "peak_code_min_median_mean_max": [
+        0,
+        0.0,
+        5.564935064935065,
+        37
+      ],
+      "max_area_pixels": 271,
+      "first_peak_frame": 712,
+      "first_max_area_frame": 714
+    },
+    {
+      "finger": "ring",
+      "nonzero_frames": 0,
+      "peak_code_min_median_mean_max": [
+        0,
+        0.0,
+        0.0,
+        0
+      ],
+      "max_area_pixels": 0,
+      "first_peak_frame": 0,
+      "first_max_area_frame": 0
+    },
+    {
+      "finger": "pinky",
+      "nonzero_frames": 0,
+      "peak_code_min_median_mean_max": [
+        0,
+        0.0,
+        0.0,
+        0
+      ],
+      "max_area_pixels": 0,
+      "first_peak_frame": 0,
+      "first_max_area_frame": 0
+    }
+  ],
+  "observed_frame_comparisons": {
+    "index_less_than_thumb": 770,
+    "index_less_than_middle": 162,
+    "index_greater_than_middle": 340,
+    "index_equal_middle": 268
+  },
+  "rows": [
+    {
+      "frame": 0,
+      "time_s": 0.016666666666666666,
+      "phase": 0,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.060611844062805176,
+      "positive_depth_pixels": 236,
+      "positive_depth_bbox_rows_cols": [
+        15,
+        21
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.029042738489806652,
+        0.05242151953279972,
+        0.05860687624663115,
+        0.060611844062805176
+      ],
+      "quantized_preblur_peak_code": 12,
+      "quantized_preblur_nonzero_pixels": 217,
+      "predicted_postblur_peak_code": 10,
+      "observed_postblur_peak_code": 10,
+      "postblur_peak_over_preblur_peak": 0.8333333333333334,
+      "predicted_postblur_nonzero_pixels": 282,
+      "observed_postblur_nonzero_pixels": 282,
+      "maximum_code_error": 1,
+      "mean_code_error": 1.736111111111111e-05
+    },
+    {
+      "frame": 0,
+      "time_s": 0.016666666666666666,
+      "phase": 0,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.0,
+      "positive_depth_pixels": 0,
+      "positive_depth_bbox_rows_cols": [
+        0,
+        0
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quantized_preblur_peak_code": 0,
+      "quantized_preblur_nonzero_pixels": 0,
+      "predicted_postblur_peak_code": 0,
+      "observed_postblur_peak_code": 0,
+      "postblur_peak_over_preblur_peak": null,
+      "predicted_postblur_nonzero_pixels": 0,
+      "observed_postblur_nonzero_pixels": 0,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 0,
+      "time_s": 0.016666666666666666,
+      "phase": 0,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.0,
+      "positive_depth_pixels": 0,
+      "positive_depth_bbox_rows_cols": [
+        0,
+        0
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quantized_preblur_peak_code": 0,
+      "quantized_preblur_nonzero_pixels": 0,
+      "predicted_postblur_peak_code": 0,
+      "observed_postblur_peak_code": 0,
+      "postblur_peak_over_preblur_peak": null,
+      "predicted_postblur_nonzero_pixels": 0,
+      "observed_postblur_nonzero_pixels": 0,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 462,
+      "time_s": 15.416666666666666,
+      "phase": 5,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.09372144937515259,
+      "positive_depth_pixels": 385,
+      "positive_depth_bbox_rows_cols": [
+        20,
+        26
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.04646669700741768,
+        0.08467721492052079,
+        0.09326966732740402,
+        0.09372144937515259
+      ],
+      "quantized_preblur_peak_code": 18,
+      "quantized_preblur_nonzero_pixels": 364,
+      "predicted_postblur_peak_code": 17,
+      "observed_postblur_peak_code": 17,
+      "postblur_peak_over_preblur_peak": 0.9444444444444444,
+      "predicted_postblur_nonzero_pixels": 464,
+      "observed_postblur_nonzero_pixels": 464,
+      "maximum_code_error": 1,
+      "mean_code_error": 1.736111111111111e-05
+    },
+    {
+      "frame": 462,
+      "time_s": 15.416666666666666,
+      "phase": 5,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.01124335452914238,
+      "positive_depth_pixels": 17,
+      "positive_depth_bbox_rows_cols": [
+        5,
+        7
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0064044371247291565,
+        0.010239650681614877,
+        0.011242443919181824,
+        0.01124335452914238
+      ],
+      "quantized_preblur_peak_code": 2,
+      "quantized_preblur_nonzero_pixels": 9,
+      "predicted_postblur_peak_code": 1,
+      "observed_postblur_peak_code": 1,
+      "postblur_peak_over_preblur_peak": 0.5,
+      "predicted_postblur_nonzero_pixels": 2,
+      "observed_postblur_nonzero_pixels": 2,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 462,
+      "time_s": 15.416666666666666,
+      "phase": 5,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.0,
+      "positive_depth_pixels": 0,
+      "positive_depth_bbox_rows_cols": [
+        0,
+        0
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quantized_preblur_peak_code": 0,
+      "quantized_preblur_nonzero_pixels": 0,
+      "predicted_postblur_peak_code": 0,
+      "observed_postblur_peak_code": 0,
+      "postblur_peak_over_preblur_peak": null,
+      "predicted_postblur_nonzero_pixels": 0,
+      "observed_postblur_nonzero_pixels": 0,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 607,
+      "time_s": 20.25,
+      "phase": 7,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.059566207230091095,
+      "positive_depth_pixels": 277,
+      "positive_depth_bbox_rows_cols": [
+        16,
+        23
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.029285525903105736,
+        0.05272287800908089,
+        0.057910580188035965,
+        0.059566207230091095
+      ],
+      "quantized_preblur_peak_code": 11,
+      "quantized_preblur_nonzero_pixels": 254,
+      "predicted_postblur_peak_code": 11,
+      "observed_postblur_peak_code": 11,
+      "postblur_peak_over_preblur_peak": 1.0,
+      "predicted_postblur_nonzero_pixels": 325,
+      "observed_postblur_nonzero_pixels": 325,
+      "maximum_code_error": 1,
+      "mean_code_error": 3.472222222222222e-05
+    },
+    {
+      "frame": 607,
+      "time_s": 20.25,
+      "phase": 7,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.039663806557655334,
+      "positive_depth_pixels": 62,
+      "positive_depth_bbox_rows_cols": [
+        9,
+        11
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.018890375271439552,
+        0.03511258363723755,
+        0.03915960498154163,
+        0.039663806557655334
+      ],
+      "quantized_preblur_peak_code": 7,
+      "quantized_preblur_nonzero_pixels": 53,
+      "predicted_postblur_peak_code": 5,
+      "observed_postblur_peak_code": 5,
+      "postblur_peak_over_preblur_peak": 0.7142857142857143,
+      "predicted_postblur_nonzero_pixels": 86,
+      "observed_postblur_nonzero_pixels": 86,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 607,
+      "time_s": 20.25,
+      "phase": 7,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.06566832959651947,
+      "positive_depth_pixels": 21,
+      "positive_depth_bbox_rows_cols": [
+        11,
+        11
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.033789265900850296,
+        0.061627041548490524,
+        0.06498531177639962,
+        0.06566832959651947
+      ],
+      "quantized_preblur_peak_code": 13,
+      "quantized_preblur_nonzero_pixels": 19,
+      "predicted_postblur_peak_code": 3,
+      "observed_postblur_peak_code": 3,
+      "postblur_peak_over_preblur_peak": 0.23076923076923078,
+      "predicted_postblur_nonzero_pixels": 67,
+      "observed_postblur_nonzero_pixels": 67,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 608,
+      "time_s": 20.28333333333333,
+      "phase": 7,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.0625372901558876,
+      "positive_depth_pixels": 284,
+      "positive_depth_bbox_rows_cols": [
+        17,
+        23
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.03184105269610882,
+        0.0554599203169346,
+        0.061157095246016986,
+        0.0625372901558876
+      ],
+      "quantized_preblur_peak_code": 12,
+      "quantized_preblur_nonzero_pixels": 267,
+      "predicted_postblur_peak_code": 11,
+      "observed_postblur_peak_code": 11,
+      "postblur_peak_over_preblur_peak": 0.9166666666666666,
+      "predicted_postblur_nonzero_pixels": 348,
+      "observed_postblur_nonzero_pixels": 348,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 608,
+      "time_s": 20.28333333333333,
+      "phase": 7,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.03991938382387161,
+      "positive_depth_pixels": 61,
+      "positive_depth_bbox_rows_cols": [
+        9,
+        10
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.02091376483440399,
+        0.03636876866221428,
+        0.039714206010103226,
+        0.03991938382387161
+      ],
+      "quantized_preblur_peak_code": 7,
+      "quantized_preblur_nonzero_pixels": 57,
+      "predicted_postblur_peak_code": 5,
+      "observed_postblur_peak_code": 5,
+      "postblur_peak_over_preblur_peak": 0.7142857142857143,
+      "predicted_postblur_nonzero_pixels": 93,
+      "observed_postblur_nonzero_pixels": 93,
+      "maximum_code_error": 1,
+      "mean_code_error": 1.736111111111111e-05
+    },
+    {
+      "frame": 608,
+      "time_s": 20.28333333333333,
+      "phase": 7,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.10246921330690384,
+      "positive_depth_pixels": 31,
+      "positive_depth_bbox_rows_cols": [
+        13,
+        14
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.043316759169101715,
+        0.0839184895157814,
+        0.09973949342966079,
+        0.10246921330690384
+      ],
+      "quantized_preblur_peak_code": 20,
+      "quantized_preblur_nonzero_pixels": 29,
+      "predicted_postblur_peak_code": 6,
+      "observed_postblur_peak_code": 6,
+      "postblur_peak_over_preblur_peak": 0.3,
+      "predicted_postblur_nonzero_pixels": 103,
+      "observed_postblur_nonzero_pixels": 102,
+      "maximum_code_error": 1,
+      "mean_code_error": 1.736111111111111e-05
+    },
+    {
+      "frame": 623,
+      "time_s": 20.78333333333333,
+      "phase": 7,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.08946102857589722,
+      "positive_depth_pixels": 453,
+      "positive_depth_bbox_rows_cols": [
+        22,
+        30
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0450594536960125,
+        0.0792469546198845,
+        0.08763211846351623,
+        0.08946102857589722
+      ],
+      "quantized_preblur_peak_code": 17,
+      "quantized_preblur_nonzero_pixels": 432,
+      "predicted_postblur_peak_code": 16,
+      "observed_postblur_peak_code": 16,
+      "postblur_peak_over_preblur_peak": 0.9411764705882353,
+      "predicted_postblur_nonzero_pixels": 533,
+      "observed_postblur_nonzero_pixels": 533,
+      "maximum_code_error": 1,
+      "mean_code_error": 3.472222222222222e-05
+    },
+    {
+      "frame": 623,
+      "time_s": 20.78333333333333,
+      "phase": 7,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.0,
+      "positive_depth_pixels": 0,
+      "positive_depth_bbox_rows_cols": [
+        0,
+        0
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quantized_preblur_peak_code": 0,
+      "quantized_preblur_nonzero_pixels": 0,
+      "predicted_postblur_peak_code": 0,
+      "observed_postblur_peak_code": 0,
+      "postblur_peak_over_preblur_peak": null,
+      "predicted_postblur_nonzero_pixels": 0,
+      "observed_postblur_nonzero_pixels": 0,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 623,
+      "time_s": 20.78333333333333,
+      "phase": 7,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.10737831890583038,
+      "positive_depth_pixels": 33,
+      "positive_depth_bbox_rows_cols": [
+        15,
+        15
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.04954879358410835,
+        0.08570813238620759,
+        0.10225071012973785,
+        0.10737831890583038
+      ],
+      "quantized_preblur_peak_code": 21,
+      "quantized_preblur_nonzero_pixels": 30,
+      "predicted_postblur_peak_code": 7,
+      "observed_postblur_peak_code": 7,
+      "postblur_peak_over_preblur_peak": 0.3333333333333333,
+      "predicted_postblur_nonzero_pixels": 120,
+      "observed_postblur_nonzero_pixels": 120,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 712,
+      "time_s": 23.75,
+      "phase": 8,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.1298876702785492,
+      "positive_depth_pixels": 729,
+      "positive_depth_bbox_rows_cols": [
+        27,
+        37
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.06340298801660538,
+        0.11424487084150314,
+        0.12788864374160766,
+        0.1298876702785492
+      ],
+      "quantized_preblur_peak_code": 25,
+      "quantized_preblur_nonzero_pixels": 696,
+      "predicted_postblur_peak_code": 25,
+      "observed_postblur_peak_code": 25,
+      "postblur_peak_over_preblur_peak": 1.0,
+      "predicted_postblur_nonzero_pixels": 851,
+      "observed_postblur_nonzero_pixels": 852,
+      "maximum_code_error": 1,
+      "mean_code_error": 0.00024305555555555555
+    },
+    {
+      "frame": 712,
+      "time_s": 23.75,
+      "phase": 8,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.024096934124827385,
+      "positive_depth_pixels": 37,
+      "positive_depth_bbox_rows_cols": [
+        7,
+        8
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.01014931220561266,
+        0.019227754324674603,
+        0.02350650817155838,
+        0.024096934124827385
+      ],
+      "quantized_preblur_peak_code": 4,
+      "quantized_preblur_nonzero_pixels": 26,
+      "predicted_postblur_peak_code": 2,
+      "observed_postblur_peak_code": 2,
+      "postblur_peak_over_preblur_peak": 0.5,
+      "predicted_postblur_nonzero_pixels": 39,
+      "observed_postblur_nonzero_pixels": 39,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 712,
+      "time_s": 23.75,
+      "phase": 8,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.3518398106098175,
+      "positive_depth_pixels": 100,
+      "positive_depth_bbox_rows_cols": [
+        21,
+        17
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.13233081251382828,
+        0.2884518146514893,
+        0.33079943925142297,
+        0.3518398106098175
+      ],
+      "quantized_preblur_peak_code": 70,
+      "quantized_preblur_nonzero_pixels": 95,
+      "predicted_postblur_peak_code": 37,
+      "observed_postblur_peak_code": 37,
+      "postblur_peak_over_preblur_peak": 0.5285714285714286,
+      "predicted_postblur_nonzero_pixels": 267,
+      "observed_postblur_nonzero_pixels": 268,
+      "maximum_code_error": 1,
+      "mean_code_error": 6.944444444444444e-05
+    },
+    {
+      "frame": 769,
+      "time_s": 25.633333333333333,
+      "phase": 9,
+      "finger": "thumb",
+      "raw_CPD_peak_depth_mm": 0.12247545272111893,
+      "positive_depth_pixels": 712,
+      "positive_depth_bbox_rows_cols": [
+        26,
+        37
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.059851253405213356,
+        0.10906759276986122,
+        0.12042662248015404,
+        0.12247545272111893
+      ],
+      "quantized_preblur_peak_code": 24,
+      "quantized_preblur_nonzero_pixels": 680,
+      "predicted_postblur_peak_code": 23,
+      "observed_postblur_peak_code": 23,
+      "postblur_peak_over_preblur_peak": 0.9583333333333334,
+      "predicted_postblur_nonzero_pixels": 823,
+      "observed_postblur_nonzero_pixels": 823,
+      "maximum_code_error": 1,
+      "mean_code_error": 1.736111111111111e-05
+    },
+    {
+      "frame": 769,
+      "time_s": 25.633333333333333,
+      "phase": 9,
+      "finger": "index",
+      "raw_CPD_peak_depth_mm": 0.002661327598616481,
+      "positive_depth_pixels": 3,
+      "positive_depth_bbox_rows_cols": [
+        2,
+        2
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.0012995887082070112,
+        0.0023889798205345867,
+        0.0026340928208082913,
+        0.002661327598616481
+      ],
+      "quantized_preblur_peak_code": 0,
+      "quantized_preblur_nonzero_pixels": 0,
+      "predicted_postblur_peak_code": 0,
+      "observed_postblur_peak_code": 0,
+      "postblur_peak_over_preblur_peak": null,
+      "predicted_postblur_nonzero_pixels": 0,
+      "observed_postblur_nonzero_pixels": 0,
+      "maximum_code_error": 0,
+      "mean_code_error": 0.0
+    },
+    {
+      "frame": 769,
+      "time_s": 25.633333333333333,
+      "phase": 9,
+      "finger": "middle",
+      "raw_CPD_peak_depth_mm": 0.2894350290298462,
+      "positive_depth_pixels": 75,
+      "positive_depth_bbox_rows_cols": [
+        21,
+        16
+      ],
+      "positive_depth_mm_quantiles_50_90_99_100": [
+        0.13401934504508972,
+        0.22623980343341826,
+        0.27939136862754826,
+        0.2894350290298462
+      ],
+      "quantized_preblur_peak_code": 57,
+      "quantized_preblur_nonzero_pixels": 74,
+      "predicted_postblur_peak_code": 31,
+      "observed_postblur_peak_code": 31,
+      "postblur_peak_over_preblur_peak": 0.543859649122807,
+      "predicted_postblur_nonzero_pixels": 232,
+      "observed_postblur_nonzero_pixels": 232,
+      "maximum_code_error": 1,
+      "mean_code_error": 6.944444444444444e-05
+    }
+  ],
+  "evidence_sha256": {
+    "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap.npz": "2e0c66d409a592512c65d83eba1cc395e5d0221b0360efcd12da737fcd21d0c6",
+    "runs/sharpa_w01_official_tacmap_matched_v2_video/trajectory.npz": "919d4c760be11ae11989cc31dc34fb548ff2b7a571110815992bf3b612ec0472",
+    "analysis/validate_sharpa_tacmap.py": "40814cdfdd5e818b7cbd0659e162fbf3da9703073cad7640b57b904d6e97fd09",
+    "analysis/audit_sharpa_tacmap_task_geometry.py": "4ed16e38984e02b7ae09c718bbe3dadaa29b5bb68767711b790d13537b14e18c"
+  },
+  "conclusion": {
+    "primary_reason": "Representative actual index rays penetrate the CAD target by much less than thumb rays before quantization or blur. In transport frame462 the maxima are index11.24 micrometres versus thumb93.72 micrometres; in frame712 index24.10 versus thumb129.89 micrometres.",
+    "secondary_reason": "The shallow index response occupies a small sampled region. At frame462 only17 raw-positive samples (bbox5x7), of which9 survive quantization; the shared9x9 Gaussian reduces peak2 to1. At frame712 the corresponding counts are37 samples (bbox7x8),26 quantized-positive and peak4 to2.",
+    "not_blur_only": "At both selected maximum-output/area index frames607 and608 the preblur peak is only7, becoming5; removing blur would not make these index responses comparable to a deep high-code response.",
+    "middle_comparison": "Index is below thumb in all770 frames, but below middle in162, above middle in340 and equal in268. Middle has605 all-zero frames; it becomes brighter principally in release/withdrawal.",
+    "limitations": [
+      "Raw CPD is distance along each sampled surface normal, not shortest source-mesh penetration depth or calibrated skin displacement.",
+      "Sample counts and bounding boxes describe support in the240x240 map; they are not calibrated physical contact area in square millimetres.",
+      "This analysis determines the numerical sources of brightness differences; it does not establish a real-hand force-deformation relation."
+    ]
+  },
+  "shared_processing": {
+    "resolution_step": 1,
+    "map_shape": [
+      240,
+      240
+    ],
+    "Gaussian_kernel": [
+      9,
+      9
+    ],
+    "Gaussian_sigma": [
+      1.5,
+      1.5
+    ],
+    "quantization_below_0_5mm": "distance_mm/0.005 truncated to uint8 before blur",
+    "finger_specific_gain_used": false
+  }
+}

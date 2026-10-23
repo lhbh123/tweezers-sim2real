@@ -1,0 +1,13 @@
+{
+  "triangle_pair_tests": 0,
+  "intersection_pair_count": 0,
+  "intersection_pairs": [],
+  "config": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/configs/human_grasp_precision_v2.json",
+  "q_zero": false,
+  "links": [
+    "right_hand_link",
+    "right_hand_index_rota_link1"
+  ],
+  "method": "Triangle pair SAT with AABB broad phase and coplanar in-plane axes",
+  "limitation": "Surface intersections only; fully contained disjoint shells require an additional volume containment test."
+}

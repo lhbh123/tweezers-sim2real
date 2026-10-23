@@ -1,0 +1,1354 @@
+[
+  {
+    "seed": 59,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005466771423978209,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 24,
+        "max_inside_vertex_depth_m": 0.0016682045406729582,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 13,
+        "max_inside_vertex_depth_m": 7.644790114496192e-05,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 59,
+        "max_inside_vertex_depth_m": 0.00033148821602398,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 12,
+        "max_inside_vertex_depth_m": 3.860727200709113e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 35,
+        "max_inside_vertex_depth_m": 0.00038141384143821917,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 55,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.0052269122113154706,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 443,
+        "max_inside_vertex_depth_m": 0.0004831501209884367,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 15,
+        "max_inside_vertex_depth_m": 3.3711316035955885e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.00039467665591593187,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": true
+  },
+  {
+    "seed": 39,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.0055620412576974365,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 42,
+        "max_inside_vertex_depth_m": 0.0025989904197793495,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 10,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 25,
+        "max_inside_vertex_depth_m": 0.00047024947811758134,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 3,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 45,
+        "max_inside_vertex_depth_m": 0.00021728812665841373,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 2,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 7,
+        "max_inside_vertex_depth_m": 3.136603397784252e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 54,
+        "max_inside_vertex_depth_m": 0.00042466613330966954,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 51,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005562689374693289,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 25,
+        "max_inside_vertex_depth_m": 0.0014935156680583959,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 6,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 131,
+        "max_inside_vertex_depth_m": 0.0004910188639837554,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.00020011362792694354,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 35,
+        "max_inside_vertex_depth_m": 0.0002468103712631861,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 35,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561606272882019,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 6,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 413,
+        "max_inside_vertex_depth_m": 0.0004994041754229079,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 14,
+        "max_inside_vertex_depth_m": 3.223223214313738e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 54,
+        "max_inside_vertex_depth_m": 0.0004517819400045513,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 19,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005563183344001103,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 42,
+        "max_inside_vertex_depth_m": 0.002510079029524103,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 10,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 43,
+        "max_inside_vertex_depth_m": 0.00030242978177952295,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 6,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 45,
+        "max_inside_vertex_depth_m": 0.00027030485992999697,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 17,
+        "max_inside_vertex_depth_m": 0.00015949662860710346,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 17,
+        "max_inside_vertex_depth_m": 8.153984909365367e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 34,
+        "max_inside_vertex_depth_m": 0.0004012700548675865,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 43,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005398378755139759,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 31,
+        "max_inside_vertex_depth_m": 0.002303145040642954,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 12,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 202,
+        "max_inside_vertex_depth_m": 0.00046837778099182505,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 6,
+        "max_inside_vertex_depth_m": 1.2258074798129296e-05,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 41,
+        "max_inside_vertex_depth_m": 0.0001776871225272621,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 36,
+        "max_inside_vertex_depth_m": 0.00037620721538507364,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 47,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.0055624357047293765,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 23,
+        "max_inside_vertex_depth_m": 0.0014541595783709726,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 8,
+        "max_inside_vertex_depth_m": 0.0003634562642284983,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 149,
+        "max_inside_vertex_depth_m": 0.0004906798384839213,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 29,
+        "max_inside_vertex_depth_m": 0.00017759910304831437,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 35,
+        "max_inside_vertex_depth_m": 0.0002441604429151544,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 23,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": false,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561869770565284,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        },
+        {
+          "links": [
+            "right_hand_index_rota_link2",
+            "right_hand_mid_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.0002759908417418542,
+          "triangle_pair_tests": 1932,
+          "triangle_surface_intersection_pairs": 228
+        },
+        {
+          "links": [
+            "right_hand_index_rota_link2",
+            "right_hand_mid_link2"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.0003388623636498868,
+          "triangle_pair_tests": 2653,
+          "triangle_surface_intersection_pairs": 233
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 45,
+        "max_inside_vertex_depth_m": 0.0026451954635865037,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 7,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 31,
+        "max_inside_vertex_depth_m": 0.00019185670431730209,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 3,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 225,
+        "max_inside_vertex_depth_m": 0.0004966118951903123,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 8,
+        "max_inside_vertex_depth_m": 0.00043340233831712035,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 19,
+        "max_inside_vertex_depth_m": 6.233980416018372e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 56,
+        "max_inside_vertex_depth_m": 0.0004861535513109768,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 52,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561843090747785,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 471,
+        "max_inside_vertex_depth_m": 0.0004952847324254393,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.0003622512905367631,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 37,
+        "max_inside_vertex_depth_m": 0.0004227108807099749,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": true
+  },
+  {
+    "seed": 15,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005560808222491068,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 8,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 2,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 363,
+        "max_inside_vertex_depth_m": 0.0004944570649708032,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 12,
+        "max_inside_vertex_depth_m": 1.4789004777376218e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 30,
+        "max_inside_vertex_depth_m": 0.00014754249589101794,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 31,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561146548260093,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 43,
+        "max_inside_vertex_depth_m": 0.0027471154657359707,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 6,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 13,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 133,
+        "max_inside_vertex_depth_m": 0.000496041823719391,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.00016060546599988535,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 59,
+        "max_inside_vertex_depth_m": 0.00046521127339042086,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 33,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005562781286081467,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 5,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 509,
+        "max_inside_vertex_depth_m": 0.0004982000040976232,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 90,
+        "max_inside_vertex_depth_m": 0.0004997519731915614,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 68,
+        "max_inside_vertex_depth_m": 0.0004897239201295855,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 57,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.00556134338682078,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 16,
+        "max_inside_vertex_depth_m": 6.372351824141074e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 27,
+        "max_inside_vertex_depth_m": 0.0002621594663339208,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 73,
+        "max_inside_vertex_depth_m": 0.00047073078963060796,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": true
+  },
+  {
+    "seed": 53,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005443769415217625,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 25,
+        "max_inside_vertex_depth_m": 0.001687902482301446,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 5,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 494,
+        "max_inside_vertex_depth_m": 0.0004986374566310844,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 37,
+        "max_inside_vertex_depth_m": 0.000283635115237116,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 69,
+        "max_inside_vertex_depth_m": 0.0004865796764704552,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 3,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005563361969419752,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 43,
+        "max_inside_vertex_depth_m": 0.002160650683880905,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 10,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.0004140465055643218,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 9,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 222,
+        "max_inside_vertex_depth_m": 0.0004968279661453989,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 11,
+        "max_inside_vertex_depth_m": 0.00038595712250113974,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 20,
+        "max_inside_vertex_depth_m": 8.915765612332286e-05,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 33,
+        "max_inside_vertex_depth_m": 0.00046357688789523243,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 27,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005562651091640372,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 50,
+        "max_inside_vertex_depth_m": 0.0029994165889766547,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 9,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 8,
+        "max_inside_vertex_depth_m": 0.00012199806541824944,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 142,
+        "max_inside_vertex_depth_m": 0.0004874009359243182,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 19,
+        "max_inside_vertex_depth_m": 0.00010422672999761093,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 53,
+        "max_inside_vertex_depth_m": 0.0004863964112381494,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 32,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.00556249945208988,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 461,
+        "max_inside_vertex_depth_m": 0.0004999180276780888,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 109,
+        "max_inside_vertex_depth_m": 0.00048472609546858144,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 37,
+        "max_inside_vertex_depth_m": 0.0004940135132820599,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": true
+  },
+  {
+    "seed": 11,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561882877722621,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 29,
+        "max_inside_vertex_depth_m": 0.0016756239981282747,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "handle",
+        "part": "bridge",
+        "triangles": 10,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 38,
+        "max_inside_vertex_depth_m": 0.0003350034839018338,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_bend_link",
+        "body": "left",
+        "part": "blade",
+        "triangles": 8,
+        "max_inside_vertex_depth_m": 0.0,
+        "intended": false
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 144,
+        "max_inside_vertex_depth_m": 0.0004984035082851603,
+        "intended": true
+      },
+      {
+        "link": "right_hand_link",
+        "body": "right",
+        "part": "blade",
+        "triangles": 15,
+        "max_inside_vertex_depth_m": 0.00040453008959032366,
+        "intended": false
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 41,
+        "max_inside_vertex_depth_m": 0.00018646376788253636,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 32,
+        "max_inside_vertex_depth_m": 0.00035907812816981453,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": false
+  },
+  {
+    "seed": 56,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005561318915908928,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "tool_intersections": [
+      {
+        "link": "right_hand_index_rota_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 39,
+        "max_inside_vertex_depth_m": 0.00019469172696486622,
+        "intended": true
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "body": "left",
+        "part": "blade",
+        "triangles": 36,
+        "max_inside_vertex_depth_m": 0.0003356495968223717,
+        "intended": true
+      },
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "body": "right",
+        "part": "blade",
+        "triangles": 44,
+        "max_inside_vertex_depth_m": 0.00048290007898063814,
+        "intended": true
+      }
+    ],
+    "no_noncontact_tool_intersections": true
+  }
+]

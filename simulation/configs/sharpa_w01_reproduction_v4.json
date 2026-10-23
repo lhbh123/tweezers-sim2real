@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "model": "Sharpa Wave W01 right hand",
+  "status": "video_case_and_independent_7_of_8_task_validated",
+  "reference_run": "runs/sharpa_w01_video_v4",
+  "default_arguments": {
+    "pose": "configs/sharpa_w01_task_v4.json",
+    "snapshot": "configs/sharpa_w01_preheld_v4.json",
+    "open_closure": 0.75,
+    "closed_closure": 1.0,
+    "retreat_closure": 0.75,
+    "hand_stiffness": 100.0,
+    "hand_damping": 1.0,
+    "finger_friction": 1.4,
+    "spring": 5.0,
+    "speed": 0.04,
+    "episode_seconds": 36.0,
+    "evaluate": "zero"
+  },
+  "configuration_sha256": {
+    "configs/sharpa_w01_task_v4.json": "959b441b5209a819103df08365744675a4721fb05c2e30ffe8a5358bfe07e058",
+    "configs/sharpa_w01_preheld_v4.json": "0425bca1e17b43a79db14b70507b61a99a94ac23ae3dda3ccaaa46a3c88dba7b"
+  },
+  "source_sha256": {
+    "src/rl_task.py": "9f6cd93544677774982d272dc87d918384d85ab944bcc2df008a7aa2c75df62c",
+    "src/pick_place_task.py": "ecea692e8f4fae92c05684b431d878a8fb498df33f665875178d11d4de323a5d",
+    "src/ppo.py": "97ce2e024b4cbd72e955f86741caaaf85ff2e3bcff5340e46a899bc197712eea",
+    "src/rl_scene.py": "b2ca92d077a085cdba7db0530aebd0ace7469e88a9546137e0178c515927cb55",
+    "src/grasp_contacts.py": "bad821616f8ea7056be5088b898d5b5e6ea9dbff271a2f4c8657d2870250ef9d",
+    "src/arm_command.py": "3c64b9aa2e2583b8b94438ce17ce45a3f72e6216d80a0f5272dcc995b6e29080",
+    "src/arm_clearance.py": "c977f44453d991ebc580134a8f68e46a336cdafd866fc259984ce21d55254b1d",
+    "src/kinematics.py": "53df9634bf3963ee50718c8cfc92603a3f48c44ab3d7296e7543719818e4b162",
+    "src/reset_reference.py": "d4323bac4b8927452bf6454d4eb60165934457408d54904e79afba8d37a21ca6",
+    "src/probe_render.py": "039412b36156032924a7900395d10017058a69f5a51906157eb97d8dbc62b178",
+    "configs/sharpa_w01_task_v4.json": "959b441b5209a819103df08365744675a4721fb05c2e30ffe8a5358bfe07e058",
+    "configs/sharpa_w01_preheld_v4.json": "0425bca1e17b43a79db14b70507b61a99a94ac23ae3dda3ccaaa46a3c88dba7b",
+    "scripts/run_pick_place.py": "56f0b8d0ad5acdb5ae42329fd6acbba6bbe59023f4d9b0b3ffd05f08b4879198",
+    "src/sharpa_tactile.py": "5e6d0e506189a90a8caa1a2be1c504fdcbb7a415547e10956d49dc51b6310cf6"
+  },
+  "robot_asset_sha256_file": "runs/sharpa_w01_video_v4/robot_asset_sha256.json",
+  "validation_files": {
+    "evaluation.json": "ea4e330874d41dcafb5ab6b1b0313874fdd384df5871a51f996762da2d777079",
+    "validation.json": "6524c3379bfeebb5d8a7b8b1433b51d78cef3da30a912b2c9fd2d81729f6fa80",
+    "source_mesh_trajectory_audit.json": "570c49eaf26898a619b272643bc04865e2b286a0025bb8ab3fd099befdda07e0",
+    "independent_motion_summary.json": "ae1c015e846e39e4733ad689237d7742f3eec814486963e9bffe1154f56ace7d",
+    "tactile_validation.json": "92f810b7ae5288535c2769ad2b8a50f33401d2c3aa518a8a7d0d1a7ba95a705d"
+  },
+  "working_angle_range_deg": [
+    20,
+    85
+  ],
+  "additional_finger_torsional_patch_radius_m": 0.0,
+  "scope": "Source of wrapper defaults, verified on the tactile video case; independent random test passed 7/8 with one withdrawal-angle failure. No hardware guarantee or trained W01 PPO policy is implied.",
+  "visualization": {
+    "video": "outputs/sharpa_w01_pick_place_tactile_v4.mp4",
+    "video_sha256": "20de98eba5aadea75298870dfb4c27b95e33de2008b5f44ef68c14b66ff8f717",
+    "provenance": "outputs/sharpa_w01_pick_place_tactile_v4.json",
+    "scope": "Same-run native camera/tactile/trajectory composition; no generated motion."
+  },
+  "independent_random_evaluation": {
+    "run": "runs/sharpa_w01_eval_v4_seed20261019",
+    "successes": 7,
+    "episodes": 8,
+    "failure_environments": [
+      4
+    ],
+    "reason": "Tool down-angle exceeded the prospectively fixed 85 degree limit during withdrawal; task remains recorded as failed.",
+    "validation_sha256": "45d03f7dede60256ddce133fb2fc131ddbcec35422fa39892945f41be0e88fae",
+    "gate_audit_sha256": "200393e3ea5c5cf87d69916035d5d369a255cd7a404bf1f78d026ca57b28475c",
+    "episode_seconds": 45,
+    "seed": 20261019
+  }
+}

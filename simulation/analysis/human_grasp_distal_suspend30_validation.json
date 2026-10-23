@@ -1,0 +1,79 @@
+{
+  "config_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/configs/human_grasp_distal_suspend30.json",
+  "config_sha256": "671af9256d71e2caa62cb6189f3eaf9aa69fa63192417c542073e06e883cd920",
+  "method": "13-axis SAT: each source STL triangle against each oriented finite beam box",
+  "tool_intersections": [
+    {
+      "link": "right_hand_thumb_rota_link2",
+      "arm_sign": -1,
+      "intersecting_triangles": 47,
+      "intersecting_triangle_vertex_z_range_m": [
+        0.016795034262625384,
+        0.03409582396592807
+      ],
+      "intended_contact_link": true
+    },
+    {
+      "link": "right_hand_index_rota_link2",
+      "arm_sign": 1,
+      "intersecting_triangles": 65,
+      "intersecting_triangle_vertex_z_range_m": [
+        0.035584554312683446,
+        0.05217409338832982
+      ],
+      "intended_contact_link": true
+    }
+  ],
+  "no_noncontact_triangle_intersections": true,
+  "joint_hard_limit_margins_rad": {
+    "right_hand_thumb_bend_joint": 0.6513891868585314,
+    "right_hand_thumb_rota_joint1": 0.5562137380447247,
+    "right_hand_thumb_rota_joint2": 0.6727049914120091,
+    "right_hand_index_bend_joint": 0.13999999999999999,
+    "right_hand_index_joint1": 0.6765160673367449,
+    "right_hand_index_joint2": 0.47000000000000086,
+    "right_hand_mid_joint1": 0.6772563343191134,
+    "right_hand_mid_joint2": 0.8499999999999999,
+    "right_hand_ring_joint1": 0.6959100042992996,
+    "right_hand_ring_joint2": 0.85,
+    "right_hand_pinky_joint1": 0.5869323434145239,
+    "right_hand_pinky_joint2": 0.85
+  },
+  "minimum_hard_limit_margin_rad": 0.13999999999999999,
+  "all_reference_joints_inside_soft_bounds": true,
+  "contact_points_in_tool_frame_m": {
+    "thumb": [
+      -0.006399976572806398,
+      -8.732390907734144e-06,
+      0.029995333957153716
+    ],
+    "index": [
+      0.007149664111866568,
+      8.732390907727205e-06,
+      0.04500466604284623
+    ]
+  },
+  "closing_axis_contact_separation_m": 0.013549640684672966,
+  "axial_contact_separation_m": 0.015009332085692516,
+  "euclidean_contact_separation_m": 0.020220611201468355,
+  "evidence_frames": [
+    5179,
+    5227,
+    5275,
+    5323,
+    5371,
+    5419,
+    5467
+  ],
+  "evidence_times_s": [
+    216.00745833333332,
+    228.01945833333332
+  ],
+  "no_world_3d_strong_supervision": true,
+  "limitations": [
+    "Intended contact patches overlap slightly to initialize preload.",
+    "Uses source visual STL surfaces; simulator convex collision hulls can differ.",
+    "Does not certify inter-finger self-collision or dynamic stability.",
+    "No initial middle-finger tool contact is asserted."
+  ]
+}

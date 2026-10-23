@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "demo": {
+    "successes": 1,
+    "episodes": 1,
+    "final_xy_error_m": [
+      0.00043406966142356396
+    ],
+    "duration_s": [
+      23.699810028076172
+    ],
+    "max_phase": [
+      9
+    ],
+    "max_lift_m": [
+      0.08439099788665771
+    ]
+  },
+  "source_provenance": "consistent_at_observed_boundaries",
+  "runtime_code_assets_models_and_camera_inputs_from_merged_repo": true,
+  "videos": {
+    "wrist": {
+      "frames": 712,
+      "fps": 30.0,
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "size": [
+        640,
+        480
+      ],
+      "duration": 23.73
+    },
+    "global": {
+      "frames": 712,
+      "fps": 30.0,
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "size": [
+        640,
+        480
+      ],
+      "duration": 23.73
+    }
+  }
+}

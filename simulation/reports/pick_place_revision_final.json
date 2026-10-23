@@ -1,0 +1,405 @@
+{
+  "status": "completed_and_delivered",
+  "completed_at_utc": "2026-10-17T04:49:37.359115+00:00",
+  "task": "UR5e + XHand preheld straight tweezers pick, transfer, place, release and withdraw",
+  "algorithm": "Explicit geometric phase controller + goal-conditioned residual PPO; not end-to-end learned",
+  "workspace_xy_m": {
+    "lower": [
+      0.48,
+      -0.22
+    ],
+    "upper": [
+      0.76,
+      0.08
+    ],
+    "dimensions": [
+      0.28,
+      0.3
+    ]
+  },
+  "randomization": "Continuous uniform start proposal and independently sampled goal; resample goals until distance >= 0.12 m",
+  "checkpoint": {
+    "candidate": "runs/pick_place15_ppo101_retreat80/iteration_00025.pt",
+    "sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+    "frozen_at_utc": "2026-10-17T04:36:13.284929+00:00",
+    "retreat_closure": 0.8,
+    "rationale": "Use the version that restores empty-tool grip only after clearing the placed cube. Earlier .7 variants are development comparisons, not chosen based on holdout.",
+    "holdout_seed": 20261017,
+    "holdout_episodes": 64,
+    "holdout_used_for_tuning": false,
+    "scope": "same continuous 28x30 cm XY workspace with independent start/goal proposals and >=12 cm separation"
+  },
+  "training": [
+    {
+      "run": "runs/pick_place15_ppo71",
+      "iterations": 25,
+      "transitions": 153600,
+      "optimizer_updates": 400,
+      "actor_parameter_change_L2": 0.2875645911595835,
+      "initialized_from": null,
+      "observation_size": 117,
+      "action_size": 6
+    },
+    {
+      "run": "runs/pick_place15_ppo83",
+      "iterations": 25,
+      "transitions": 153600,
+      "optimizer_updates": 400,
+      "actor_parameter_change_L2": 0.10769322669675208,
+      "initialized_from": null,
+      "observation_size": 117,
+      "action_size": 6
+    },
+    {
+      "run": "runs/pick_place15_ppo101_retreat80",
+      "iterations": 25,
+      "transitions": 153600,
+      "optimizer_updates": 400,
+      "actor_parameter_change_L2": 0.10164250270362758,
+      "initialized_from": null,
+      "observation_size": 117,
+      "action_size": 6
+    }
+  ],
+  "development_comparison": [
+    {
+      "run": "runs/pick_place15_nominal51_outer70",
+      "seed": 51,
+      "successes": 55,
+      "episodes": 64,
+      "checkpoint_sha256": null,
+      "final_xy_error_mm": {
+        "mean": 0.5869724510034757,
+        "median": 0.4915613681077957,
+        "p95": 1.1720397917088117,
+        "maximum": 2.9146901797503233
+      },
+      "transfer_distance_m": {
+        "minimum": 0.12091639794632755,
+        "maximum": 0.28842579983587113
+      }
+    },
+    {
+      "run": "runs/pick_place15_ppo71_dev51",
+      "seed": 51,
+      "successes": 63,
+      "episodes": 64,
+      "checkpoint_sha256": "300a1bf107f107f9005098d0ec266f991a9a75022573932b3b25637665fa4f41",
+      "final_xy_error_mm": {
+        "mean": 0.9149131579988534,
+        "median": 0.5152940284460783,
+        "p95": 3.027111163828521,
+        "maximum": 3.4937062300741673
+      },
+      "transfer_distance_m": {
+        "minimum": 0.12091639794632755,
+        "maximum": 0.28842579983587113
+      }
+    },
+    {
+      "run": "runs/pick_place15_ppo83_dev51",
+      "seed": 51,
+      "successes": 63,
+      "episodes": 64,
+      "checkpoint_sha256": "ac8a19b1913b1311440b8f9b22b4a137f84b2a8b90f0befcacb2a58abcd832a5",
+      "final_xy_error_mm": {
+        "mean": 0.746426969726599,
+        "median": 0.531679397681728,
+        "p95": 2.256775746354829,
+        "maximum": 4.884154070168734
+      },
+      "transfer_distance_m": {
+        "minimum": 0.12091639794632755,
+        "maximum": 0.28842579983587113
+      }
+    },
+    {
+      "run": "runs/pick_place15_ppo101_dev51",
+      "seed": 51,
+      "successes": 63,
+      "episodes": 64,
+      "checkpoint_sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+      "final_xy_error_mm": {
+        "mean": 0.8228650483488309,
+        "median": 0.5726245581172407,
+        "p95": 2.492233319208024,
+        "maximum": 3.88268637470901
+      },
+      "transfer_distance_m": {
+        "minimum": 0.12091639794632755,
+        "maximum": 0.28842579983587113
+      }
+    }
+  ],
+  "comparison_caveat": "One shared development seed; candidate 101 also restores empty-tool closure to .8, so this is not an isolated PPO ablation.",
+  "independent_holdout": {
+    "run": "runs/pick_place15_ppo101_holdout20261017",
+    "seed": 20261017,
+    "successes": 64,
+    "episodes": 64,
+    "checkpoint_sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+    "final_xy_error_mm": {
+      "mean": 0.849452079251023,
+      "median": 0.515487976372242,
+      "p95": 2.8177423519082367,
+      "maximum": 3.38433007709682
+    },
+    "transfer_distance_m": {
+      "minimum": 0.12016595429245426,
+      "maximum": 0.3049488076663778
+    },
+    "validation": {
+      "run": "runs/pick_place15_ppo101_holdout20261017",
+      "episodes": 64,
+      "reconstructed_successes": 64,
+      "all_claims_consistent": true,
+      "no_runtime_object_control_calls": true,
+      "invalid_calls": [],
+      "start_xy_min": [
+        0.4814460277557373,
+        -0.20154762268066406
+      ],
+      "start_xy_max": [
+        0.7577972412109375,
+        0.07144713401794434
+      ],
+      "goal_xy_min": [
+        0.4865756034851074,
+        -0.2198505401611328
+      ],
+      "goal_xy_max": [
+        0.758796215057373,
+        0.07759952545166016
+      ],
+      "minimum_transfer_distance_m": 0.12016595155000687,
+      "source_mesh_table_audit": {
+        "samples": 77711,
+        "min_moving_robot_table_clearance_m": 0.023600640929995392,
+        "below_table_link_samples": 0,
+        "joint_limit_violations": 0,
+        "scope": "every active CONTROL sample, arm+hand source vertices versus infinite tabletop plane; not an all-substep self-collision audit"
+      },
+      "tool_table_source_box_audit": {
+        "min_clearance_m": -1.558023500436434e-06,
+        "below_table_body_samples": 0,
+        "scope": "all active control samples; exact authored strip, tip and straight handle boxes"
+      },
+      "USD_audit": {
+        "forbidden_tool_robot_or_block_joints": [],
+        "goal_visual_count": 0,
+        "goal_markers_have_no_collision_or_rigid_body": true,
+        "object_count": 256,
+        "all_objects_dynamic_with_gravity": true
+      },
+      "archived_source_hashes_match": true
+    }
+  },
+  "four_boundary_transfers": {
+    "run": "runs/pick_place15_ppo101_four_corners",
+    "seed": 0,
+    "successes": 4,
+    "episodes": 4,
+    "checkpoint_sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+    "final_xy_error_mm": {
+      "mean": 1.4530995831592008,
+      "median": 0.707966071786359,
+      "p95": 3.4333016868913537,
+      "maximum": 3.893437795341015
+    },
+    "transfer_distance_m": {
+      "minimum": 0.41036567976724103,
+      "maximum": 0.41036570010190854
+    },
+    "validation": {
+      "run": "runs/pick_place15_ppo101_four_corners",
+      "episodes": 4,
+      "reconstructed_successes": 4,
+      "all_claims_consistent": true,
+      "no_runtime_object_control_calls": true,
+      "invalid_calls": [],
+      "start_xy_min": [
+        0.47999998927116394,
+        -0.2200000286102295
+      ],
+      "start_xy_max": [
+        0.7599999904632568,
+        0.07999998331069946
+      ],
+      "goal_xy_min": [
+        0.47999998927116394,
+        -0.2200000286102295
+      ],
+      "goal_xy_max": [
+        0.7599999904632568,
+        0.07999998331069946
+      ],
+      "minimum_transfer_distance_m": 0.41036567091941833,
+      "source_mesh_table_audit": {
+        "samples": 5944,
+        "min_moving_robot_table_clearance_m": 0.02456072482757094,
+        "below_table_link_samples": 0,
+        "joint_limit_violations": 0,
+        "scope": "every active CONTROL sample, arm+hand source vertices versus infinite tabletop plane; not an all-substep self-collision audit"
+      },
+      "tool_table_source_box_audit": {
+        "min_clearance_m": -1.3700851526632363e-06,
+        "below_table_body_samples": 0,
+        "scope": "all active control samples; exact authored strip, tip and straight handle boxes"
+      },
+      "USD_audit": {
+        "forbidden_tool_robot_or_block_joints": [],
+        "goal_visual_count": 16,
+        "goal_markers_have_no_collision_or_rigid_body": true,
+        "object_count": 16,
+        "all_objects_dynamic_with_gravity": true
+      },
+      "archived_source_hashes_match": true
+    }
+  },
+  "native_closeup_episode": {
+    "run": "runs/pick_place15_ppo101_video_corner0",
+    "seed": 0,
+    "successes": 1,
+    "episodes": 1,
+    "checkpoint_sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+    "final_xy_error_mm": {
+      "mean": 2.591166878119111,
+      "median": 2.591166878119111,
+      "p95": 2.591166878119111,
+      "maximum": 2.591166878119111
+    },
+    "transfer_distance_m": {
+      "minimum": 0.4103656892083361,
+      "maximum": 0.4103656892083361
+    },
+    "validation": {
+      "run": "runs/pick_place15_ppo101_video_corner0",
+      "episodes": 1,
+      "reconstructed_successes": 1,
+      "all_claims_consistent": true,
+      "no_runtime_object_control_calls": true,
+      "invalid_calls": [],
+      "start_xy_min": [
+        0.47999998927116394,
+        -0.2199999988079071
+      ],
+      "start_xy_max": [
+        0.47999998927116394,
+        -0.2199999988079071
+      ],
+      "goal_xy_min": [
+        0.7599999904632568,
+        0.07999999821186066
+      ],
+      "goal_xy_max": [
+        0.7599999904632568,
+        0.07999999821186066
+      ],
+      "minimum_transfer_distance_m": 0.4103657007217407,
+      "tool_table_source_box_audit": {
+        "min_clearance_m": -6.34847713065767e-07,
+        "below_table_body_samples": 0,
+        "scope": "all active control samples; exact authored strip, tip and straight handle boxes"
+      },
+      "USD_audit": {
+        "forbidden_tool_robot_or_block_joints": [],
+        "goal_visual_count": 4,
+        "goal_markers_have_no_collision_or_rigid_body": true,
+        "object_count": 4,
+        "all_objects_dynamic_with_gravity": true
+      },
+      "archived_source_hashes_match": true
+    }
+  },
+  "every_physics_substep_geometry": {
+    "run": "runs/pick_place15_ppo101_video_corner0",
+    "physics_substeps": 11480,
+    "control_steps": 1435,
+    "partition_bounds": [
+      0,
+      2870,
+      5740,
+      8610,
+      11480
+    ],
+    "checks": {
+      "all_samples_covered_exactly_once": true,
+      "all_joint_limits": true,
+      "source_robot_above_table": true,
+      "tool_table_penetration_below_0_1mm": true,
+      "all_hand_nonadjacent_surfaces_disjoint": true,
+      "all_orientations_within_task_bounds": true
+    },
+    "minimum_robot_table_clearance_m": 0.025515933731532492,
+    "minimum_tool_table_clearance_m": -6.342272944603877e-07,
+    "contact_tolerance_m": 0.0001,
+    "contact_tolerance_note": "Placement can touch the tabletop. Raw signed clearance is reported; penetration deeper than 0.1 mm fails. This is not a claim of strictly positive tool clearance.",
+    "hand_pair_instances": 757680,
+    "source_artifact_sha256": {
+      "trajectory.json": "7691bace5f7436f5d78cd82e338793e74a1df40f65574634c7b2b0178acd2b41",
+      "task.json": "088a2588cfc6ea5f1a0f55c605d795bdbfa851bcfa4be6f50a06f65277af4195",
+      "final_scene.usda": "ccc19cf546bf7e025b3619395e9cf9ecf410a65e62e71938d5ab22655f59345c"
+    },
+    "limitations": [
+      "This selected-environment geometric audit does not estimate policy success rate or independently certify learned action provenance.",
+      "Raw support reconstruction and task-success gates belong to the separate contact/main audits; geometry does not substitute for contact forces.",
+      "Source STL collision surfaces differ from PhysX cooked convex decomposition. Reported solver separation and source intersections are different measurements.",
+      "Table clearance uses the infinite tabletop support plane. Mounted base links are intentionally excluded; the adapter cylinder is included analytically.",
+      "Self-intersection tests exclude directly adjacent URDF links. They detect triangle-surface intersections, not complete shell containment or penetration volume.",
+      "All saved physics states are checked, but states inside an individual solver step are unrecorded.",
+      "Tool-hand contact intersections, grasp-tail overlap depth and hand-arm self-collision are outside this hand-to-hand self-collision audit.",
+      "A passive spring drive is an idealized elastic joint; source geometry and idealized friction do not establish real-world feasibility."
+    ]
+  },
+  "deliveries": [
+    {
+      "video": "outputs/ur5e_xhand_random_pick_place_four_corners_v15.mp4",
+      "sha256": "5375e7354f802e872724483ceccf51f17e05545c8b4b7d54c5f07307e824c1e8",
+      "bytes": 5226367,
+      "receipt": "reports/delivery_pick_place15_four_corners.json",
+      "message_id": "om_x100b621b94ff68a0dfd4159d9926452",
+      "native_render_manifest": {
+        "source_run": "runs/pick_place15_ppo101_four_corners",
+        "frames": 801,
+        "sha256": "5375e7354f802e872724483ceccf51f17e05545c8b4b7d54c5f07307e824c1e8",
+        "success_per_environment": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "delivery_reencode": {
+          "master": "outputs/ur5e_xhand_random_pick_place_four_corners_v15_master.mp4",
+          "master_sha256": "02b20261bf59a47f973454aca317c1886e55ade59231aa745679bf9759f49e33",
+          "crf": 23,
+          "all_frames_preserved": true,
+          "bytes": 5226367
+        }
+      }
+    },
+    {
+      "video": "outputs/ur5e_xhand_random_pick_place_closeup_v15.mp4",
+      "sha256": "0b19f053a17091320738797be888ccac13e0144c2a262a905ec4763346ee43cb",
+      "bytes": 17523905,
+      "receipt": "reports/delivery_pick_place15_closeup.json",
+      "message_id": "om_x100b621b952370a0c0f28175495a81e",
+      "native_render_manifest": {
+        "source_run": "runs/pick_place15_ppo101_video_corner0",
+        "source_frames": 718,
+        "output_frames": 718,
+        "playback_speed": 1,
+        "source_simulation_control_stride": 2,
+        "output_sha256": "0b19f053a17091320738797be888ccac13e0144c2a262a905ec4763346ee43cb"
+      }
+    }
+  ],
+  "limitations": [
+    "64/64 is the result of this independent batch, not a guarantee of universal success.",
+    "Validated tabletop workspace only; same cube size and already-held tool initial condition.",
+    "Inputs are simulator object and goal states; no visual localization or real-robot validation.",
+    "Random test transfer distances are >=12 cm; four separate corner cases cover the approximately 41 cm diagonal.",
+    "Geometric motion phases and post-release grip restoration are explicit controller logic.",
+    "Full substep self-intersection audit covers the single native episode; batch geometry is checked at control samples.",
+    "Idealized passive spring tweezers, friction and source-vs-cooked collision approximations remain."
+  ]
+}

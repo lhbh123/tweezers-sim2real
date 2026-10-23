@@ -1,0 +1,22 @@
+[
+  {
+    "name": "v4.0.0",
+    "zipball_url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/zipball/refs/tags/v4.0.0",
+    "tarball_url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/tarball/refs/tags/v4.0.0",
+    "commit": {
+      "sha": "86c51ae27185bafc5c45c7aaa93f7b5a96e035c6",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/commits/86c51ae27185bafc5c45c7aaa93f7b5a96e035c6"
+    },
+    "node_id": "REF_kwDOR0iEarByZWZzL3RhZ3MvdjQuMC4w"
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/zipball/refs/tags/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/tarball/refs/tags/v1.0.0",
+    "commit": {
+      "sha": "3e953f588ba9954cebaa720aaa4cee06a43a068e",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/commits/3e953f588ba9954cebaa720aaa4cee06a43a068e"
+    },
+    "node_id": "REF_kwDOR0iEarByZWZzL3RhZ3MvdjEuMC4w"
+  }
+]

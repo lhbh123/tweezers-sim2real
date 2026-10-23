@@ -1,0 +1,1733 @@
+{
+  "fit": "analysis/sharpa_grasp/fit_distal.json",
+  "fit_sha256": "be905281683448e807ca5c1c53c57f3691d8fd47a58917e72e34c9a9e4551310",
+  "candidate": 0,
+  "q": {
+    "right_thumb_CMC_FE": 1.8999999999999997,
+    "right_thumb_CMC_AA": 0.29999999999999993,
+    "right_thumb_MCP_FE": -0.3051012022625494,
+    "right_thumb_MCP_AA": 0.12682072640415754,
+    "right_thumb_IP": 0.030000000000000002,
+    "right_index_MCP_FE": 0.4638613132218912,
+    "right_index_MCP_AA": 0.29999999999999993,
+    "right_index_PIP": 0.8877389307722315,
+    "right_index_DIP": 0.030000000000000002,
+    "right_middle_MCP_FE": 1.2,
+    "right_middle_PIP": 1.3,
+    "right_middle_DIP": 0.7,
+    "right_middle_MCP_AA": 0.0,
+    "right_ring_MCP_FE": 1.2,
+    "right_ring_PIP": 1.3,
+    "right_ring_DIP": 0.7,
+    "right_ring_MCP_AA": 0.0,
+    "right_pinky_MCP_FE": 1.2,
+    "right_pinky_PIP": 1.3,
+    "right_pinky_DIP": 0.7,
+    "right_pinky_MCP_AA": 0.0,
+    "right_pinky_CMC": 0.1
+  },
+  "T_hand_tool": [
+    [
+      -0.40009171728536824,
+      0.028432470670497978,
+      0.9160339580884633,
+      0.0028126566719861752
+    ],
+    [
+      -0.1796000001650233,
+      -0.9825706509634411,
+      -0.04794534185928623,
+      0.013453183332512126
+    ],
+    [
+      0.8987048779773976,
+      -0.1837022331841708,
+      0.39822485083527864,
+      0.101097987303999
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tool_geometry": {
+    "length_m": 0.18,
+    "tip_length_m": 0.015,
+    "thickness_m": 0.001,
+    "width_m": 0.014,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "tail_length_m": 0.01,
+    "pinch_z_m": 0.08
+  },
+  "mesh_count": 26,
+  "mesh_details": {
+    "right_hand_C_MC": {
+      "link": "right_hand_C_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_hand_C_MC.STL",
+      "triangles": 3482,
+      "watertight": true
+    },
+    "right_thumb_MC": {
+      "link": "right_thumb_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_thumb_MC.STL",
+      "triangles": 2990,
+      "watertight": true
+    },
+    "right_thumb_PP": {
+      "link": "right_thumb_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_thumb_PP.STL",
+      "triangles": 1716,
+      "watertight": true
+    },
+    "right_thumb_DP": {
+      "link": "right_thumb_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_TH.STL",
+      "triangles": 3792,
+      "watertight": true
+    },
+    "right_thumb_elastomer": {
+      "link": "right_thumb_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+      "triangles": 4226,
+      "watertight": true
+    },
+    "right_index_MCP_VL": {
+      "link": "right_index_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_index_PP": {
+      "link": "right_index_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_index_MP": {
+      "link": "right_index_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_index_DP": {
+      "link": "right_index_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_index_elastomer": {
+      "link": "right_index_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_middle_MCP_VL": {
+      "link": "right_middle_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_middle_PP": {
+      "link": "right_middle_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_middle_MP": {
+      "link": "right_middle_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_middle_DP": {
+      "link": "right_middle_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_middle_elastomer": {
+      "link": "right_middle_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_ring_MCP_VL": {
+      "link": "right_ring_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_ring_PP": {
+      "link": "right_ring_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_ring_MP": {
+      "link": "right_ring_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_ring_DP": {
+      "link": "right_ring_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_ring_elastomer": {
+      "link": "right_ring_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    },
+    "right_pinky_MC": {
+      "link": "right_pinky_MC",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_pinky_MC.STL",
+      "triangles": 836,
+      "watertight": true
+    },
+    "right_pinky_MCP_VL": {
+      "link": "right_pinky_MCP_VL",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/MCP_VL.STL",
+      "triangles": 1502,
+      "watertight": true
+    },
+    "right_pinky_PP": {
+      "link": "right_pinky_PP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_PP.STL",
+      "triangles": 1634,
+      "watertight": true
+    },
+    "right_pinky_MP": {
+      "link": "right_pinky_MP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/right_MP.STL",
+      "triangles": 740,
+      "watertight": false
+    },
+    "right_pinky_DP": {
+      "link": "right_pinky_DP",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/DP_HB1_4F.STL",
+      "triangles": 3832,
+      "watertight": false
+    },
+    "right_pinky_elastomer": {
+      "link": "right_pinky_elastomer",
+      "source_mesh": "assets/ur5e_sharpa_w01_right/../sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+      "triangles": 2996,
+      "watertight": true
+    }
+  },
+  "self_collision_pairs": [
+    {
+      "pair": [
+        "right_hand_C_MC",
+        "right_thumb_MC"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 3.296202721280022,
+      "contact_count": 297,
+      "points_m": [
+        [
+          0.014289972464484883,
+          0.00281346749761358,
+          0.03761782176223065
+        ],
+        [
+          0.01567039279006076,
+          -0.0005535111243300226,
+          0.04310768510488763
+        ],
+        [
+          0.014428376343867162,
+          0.00229255004171795,
+          0.041299438436205094
+        ],
+        [
+          0.01424401210922601,
+          0.002447783389559649,
+          0.039447958459927775
+        ],
+        [
+          0.01439589043818967,
+          0.0023615612859702157,
+          0.04121560278851325
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_DP",
+        "right_index_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 1.6708503937766517,
+      "contact_count": 216,
+      "points_m": [
+        [
+          0.053042426358829664,
+          0.001995479718441367,
+          0.14417763936414
+        ],
+        [
+          0.05499928976165731,
+          0.016134466941701966,
+          0.14808912578946087
+        ],
+        [
+          0.053042426358829664,
+          0.001995479718441367,
+          0.14417763936414
+        ],
+        [
+          0.05499928976165731,
+          0.016134466941701966,
+          0.14808912578946087
+        ],
+        [
+          0.0557750024586187,
+          0.016192163408907466,
+          0.14749248984427876
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_DP",
+        "right_index_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.31238171048036945,
+      "contact_count": 502,
+      "points_m": [
+        [
+          0.06150738525019152,
+          0.01605121356276295,
+          0.1421948922221045
+        ],
+        [
+          0.05984469422787809,
+          0.0032429219916078568,
+          0.1389394137148992
+        ],
+        [
+          0.06150738525019152,
+          0.01605121356276295,
+          0.1421948922221045
+        ],
+        [
+          0.05984469422787809,
+          0.0032429219916078568,
+          0.1389394137148992
+        ],
+        [
+          0.06089710656075479,
+          0.01596868442721006,
+          0.1406048399967204
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_MCP_VL",
+        "right_index_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.2439913489180358,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.0036668941128791556,
+          0.02794855380948231,
+          0.10534031572827549
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_MP",
+        "right_index_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 4.593457069206504,
+      "contact_count": 64,
+      "points_m": [
+        [
+          0.024458301896025696,
+          0.008501246266322716,
+          0.13232140244484455
+        ],
+        [
+          0.021892404797569827,
+          0.00970725642230463,
+          0.13641668908459148
+        ],
+        [
+          0.02328858538747513,
+          0.011586019933002864,
+          0.13537254690786713
+        ],
+        [
+          0.019018457170261335,
+          0.010684801475633379,
+          0.14084247807707478
+        ],
+        [
+          0.01901511255928185,
+          0.010688650302085434,
+          0.14086287192841748
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_index_PP",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 3.449235028119806,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.013899250569223882,
+          0.017233051899477783,
+          0.11140711835361636
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_middle_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.39038966720551793,
+      "contact_count": 199,
+      "points_m": [
+        [
+          0.06565050429975491,
+          0.002599713994488469,
+          0.08668848231455215
+        ],
+        [
+          0.06565050429975491,
+          0.002599713994488469,
+          0.08668848231455215
+        ],
+        [
+          0.06565050429975491,
+          0.002599713994488469,
+          0.08668848231455215
+        ],
+        [
+          0.06565050429975491,
+          0.002599713994488469,
+          0.08668848231455215
+        ],
+        [
+          0.0656505586631905,
+          0.017399713998759128,
+          0.08668842795111663
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_middle_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.3124041122244958,
+      "contact_count": 906,
+      "points_m": [
+        [
+          0.06350727338745994,
+          0.0033268064634487653,
+          0.06922957189686973
+        ],
+        [
+          0.06509754295842915,
+          0.0038043296844339795,
+          0.06806996810162372
+        ],
+        [
+          0.06571588839976855,
+          0.0040599557639572365,
+          0.06777881882210537
+        ],
+        [
+          0.06541405621151297,
+          0.003931436708095641,
+          0.06791170015551079
+        ],
+        [
+          0.06600711894169342,
+          0.004390885522229713,
+          0.06721364010983395
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 11.775333515586034,
+      "contact_count": 305,
+      "points_m": [
+        [
+          0.060065468653264606,
+          0.0029452661011417055,
+          0.08387192336308003
+        ],
+        [
+          0.05913344090276616,
+          0.003303665440121779,
+          0.08193697215629352
+        ],
+        [
+          0.05894658937839953,
+          0.003199054626426649,
+          0.08382163329422253
+        ],
+        [
+          0.05858800638204376,
+          0.0033276388664528742,
+          0.08381574871048623
+        ],
+        [
+          0.05856265031356807,
+          0.0033362020166466766,
+          0.08383117506299884
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MCP_VL",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.24095725053577752,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.009872107146556725,
+          0.010841804758255554,
+          0.10078265812603349
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MP",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.624839682755543,
+      "contact_count": 85,
+      "points_m": [
+        [
+          0.04352981983368401,
+          0.001502426596808136,
+          0.1095858193770347
+        ],
+        [
+          0.04352863908962976,
+          0.0015024620218957183,
+          0.10958661303909473
+        ],
+        [
+          0.04369619744385071,
+          0.0015006703866159638,
+          0.10961476535291606
+        ],
+        [
+          0.043520020633912596,
+          0.0015014352922446098,
+          0.1096050999856564
+        ],
+        [
+          0.0435022993566509,
+          0.001562726050020918,
+          0.10949573168221798
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 17.735110225378403,
+      "contact_count": 383,
+      "points_m": [
+        [
+          0.05225272653507519,
+          0.008081204871317221,
+          0.09184277494614887
+        ],
+        [
+          0.052361581171133584,
+          0.007669442139073749,
+          0.0917651320937116
+        ],
+        [
+          0.05241776705141958,
+          0.007522156868139623,
+          0.09172715254430355
+        ],
+        [
+          0.052469154634771656,
+          0.007407584957231703,
+          0.09169903676236763
+        ],
+        [
+          0.052719354693209805,
+          0.0070093731133078685,
+          0.09155117387794469
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_elastomer",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 8.296696439108256,
+      "contact_count": 505,
+      "points_m": [
+        [
+          0.05616076958175841,
+          0.013363371322247939,
+          0.07512313523193738
+        ],
+        [
+          0.05574648454207273,
+          0.012343529419517493,
+          0.07656038668980192
+        ],
+        [
+          0.05574955571571316,
+          0.012355256449502491,
+          0.07656042759132717
+        ],
+        [
+          0.055952228678740036,
+          0.013030357952421339,
+          0.07656053236545611
+        ],
+        [
+          0.05584374516712477,
+          0.012701064297594435,
+          0.07656024314875978
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_DP",
+        "right_pinky_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.3903896672055318,
+      "contact_count": 200,
+      "points_m": [
+        [
+          0.06958229063524157,
+          -0.032718875415931534,
+          0.07468821398486726
+        ],
+        [
+          0.06958229063524157,
+          -0.032718875415931534,
+          0.07468821398486726
+        ],
+        [
+          0.06958229063524157,
+          -0.032718875415931534,
+          0.07468821398486726
+        ],
+        [
+          0.06958229063524157,
+          -0.032718875415931534,
+          0.07468821398486726
+        ],
+        [
+          0.06810459379297756,
+          -0.017992830048125377,
+          0.07468821398506698
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_DP",
+        "right_pinky_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.31238171048035557,
+      "contact_count": 502,
+      "points_m": [
+        [
+          0.06737701340981339,
+          -0.03220928631581137,
+          0.05722928652161413
+        ],
+        [
+          0.06891164697792712,
+          -0.03157535683942876,
+          0.05606967454880967
+        ],
+        [
+          0.06950137632473925,
+          -0.03125926583622082,
+          0.05577852260304724
+        ],
+        [
+          0.0692138858931329,
+          -0.031417280806190474,
+          0.055911405210466725
+        ],
+        [
+          0.06785881569327727,
+          -0.032056470111116495,
+          0.05679202824067412
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MCP_VL",
+        "right_pinky_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.2409572505357772,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.013259735064842,
+          -0.03008738261928991,
+          0.08878262495601119
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MP",
+        "right_pinky_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.624839682755545,
+      "contact_count": 85,
+      "points_m": [
+        [
+          0.047681803978179754,
+          -0.03601946152662518,
+          0.09758562826996217
+        ],
+        [
+          0.04768062560072611,
+          -0.03601954417615199,
+          0.09758642193648942
+        ],
+        [
+          0.047847525619784954,
+          -0.036004596578064596,
+          0.09761457362825537
+        ],
+        [
+          0.047672152805318425,
+          -0.03602142637158967,
+          0.09760490891093668
+        ],
+        [
+          0.04764839988499823,
+          -0.03596221097733489,
+          0.09749554089772855
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.35120642173921796,
+      "contact_count": 83,
+      "points_m": [
+        [
+          0.05110582601105154,
+          -0.01859306035093346,
+          0.09993470154374025
+        ],
+        [
+          0.05110582601105154,
+          -0.01859306035093346,
+          0.09993470154374025
+        ],
+        [
+          0.051928143824737386,
+          -0.018510544209905083,
+          0.10124126372499508
+        ],
+        [
+          0.05134063901651381,
+          -0.018569497851432304,
+          0.10024100376267972
+        ],
+        [
+          0.051556396580894275,
+          -0.018547847485461504,
+          0.10056170334205591
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_PP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.7377350673690762,
+      "contact_count": 42,
+      "points_m": [
+        [
+          0.050684944729654964,
+          -0.01869828564976155,
+          0.102601849298011
+        ],
+        [
+          0.05074760432846936,
+          -0.018717740605041413,
+          0.1033266056716084
+        ],
+        [
+          0.05065762484960242,
+          -0.018693721903306867,
+          0.10242283936628013
+        ],
+        [
+          0.0507489072764751,
+          -0.01873221270709674,
+          0.10386172450485229
+        ],
+        [
+          0.05053923988377859,
+          -0.01868032213712388,
+          0.10191136382017822
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_PP",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.5087110925431849,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.04956191639543993,
+          -0.01876912869594853,
+          0.10730268757395388
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_DP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.39038966720551793,
+      "contact_count": 199,
+      "points_m": [
+        [
+          0.06715050429975492,
+          -0.01770028600551153,
+          0.08068848231455214
+        ],
+        [
+          0.06715050429975492,
+          -0.01770028600551153,
+          0.08068848231455214
+        ],
+        [
+          0.06715050429975492,
+          -0.01770028600551153,
+          0.08068848231455214
+        ],
+        [
+          0.06715050429975492,
+          -0.01770028600551153,
+          0.08068848231455214
+        ],
+        [
+          0.0671505586631905,
+          -0.002900286001240874,
+          0.08068842795111662
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_DP",
+        "right_ring_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.31238171048036945,
+      "contact_count": 502,
+      "points_m": [
+        [
+          0.06500719311071623,
+          -0.01697311500666302,
+          0.06322954430720291
+        ],
+        [
+          0.06659745852462616,
+          -0.01649558787445119,
+          0.062069936421664404
+        ],
+        [
+          0.06721580295132948,
+          -0.016239960859883905,
+          0.06177878580821825
+        ],
+        [
+          0.06691397122361556,
+          -0.016368480338295677,
+          0.06191166777903563
+        ],
+        [
+          0.06550184768687338,
+          -0.016869171088557296,
+          0.06279228746140791
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_MCP_VL",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 0.24095725053577763,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.011372107146556724,
+          -0.009458195241744445,
+          0.09478265812603348
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_ring_MP",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 5.624839682755543,
+      "contact_count": 85,
+      "points_m": [
+        [
+          0.04502981983368401,
+          -0.018797573403191867,
+          0.10358581937703468
+        ],
+        [
+          0.045028639089629764,
+          -0.018797537978104285,
+          0.10358661303909474
+        ],
+        [
+          0.045196197443850714,
+          -0.01879932961338404,
+          0.10361476535291606
+        ],
+        [
+          0.0450200206339126,
+          -0.018798564707755396,
+          0.10360509998565641
+        ],
+        [
+          0.0450022993566509,
+          -0.018737273949979084,
+          0.10349573168221798
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thumb_DP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": "neighboring_collision_links",
+      "max_fcl_contact_depth_mm": 3.9146326178894553,
+      "contact_count": 89,
+      "points_m": [
+        [
+          0.07492646776120997,
+          0.005630395454682367,
+          0.09955137080092051
+        ],
+        [
+          0.07505326558242006,
+          0.006019121753192027,
+          0.0994253625016831
+        ],
+        [
+          0.07498563575697702,
+          0.006043399402112427,
+          0.09948094954428993
+        ],
+        [
+          0.07502092276816563,
+          0.006354486199857492,
+          0.09943570090777717
+        ],
+        [
+          0.07493403047943345,
+          0.006366746022149215,
+          0.09950807035524226
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thumb_DP",
+        "right_thumb_elastomer"
+      ],
+      "mechanism_interface": "same_fixed_rigid_assembly",
+      "max_fcl_contact_depth_mm": 0.03894630746456573,
+      "contact_count": 386,
+      "points_m": [
+        [
+          0.07274352014068708,
+          0.002941080503285053,
+          0.11665246978464323
+        ],
+        [
+          0.07274352014068708,
+          0.002941080503285053,
+          0.11665246978464323
+        ],
+        [
+          0.0727209895705305,
+          0.00295013759860353,
+          0.11666156517772136
+        ],
+        [
+          0.07196723663000686,
+          0.003988841220762321,
+          0.11779967571055588
+        ],
+        [
+          0.07140987490698503,
+          0.0037918805859508,
+          0.11712967164550186
+        ]
+      ]
+    }
+  ],
+  "nonmechanism_self_collision_pairs": [
+    {
+      "pair": [
+        "right_index_PP",
+        "right_middle_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 3.449235028119806,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.013899250569223882,
+          0.017233051899477783,
+          0.11140711835361636
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_DP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 11.775333515586034,
+      "contact_count": 305,
+      "points_m": [
+        [
+          0.060065468653264606,
+          0.0029452661011417055,
+          0.08387192336308003
+        ],
+        [
+          0.05913344090276616,
+          0.003303665440121779,
+          0.08193697215629352
+        ],
+        [
+          0.05894658937839953,
+          0.003199054626426649,
+          0.08382163329422253
+        ],
+        [
+          0.05858800638204376,
+          0.0033276388664528742,
+          0.08381574871048623
+        ],
+        [
+          0.05856265031356807,
+          0.0033362020166466766,
+          0.08383117506299884
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_MP",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 17.735110225378403,
+      "contact_count": 383,
+      "points_m": [
+        [
+          0.05225272653507519,
+          0.008081204871317221,
+          0.09184277494614887
+        ],
+        [
+          0.052361581171133584,
+          0.007669442139073749,
+          0.0917651320937116
+        ],
+        [
+          0.05241776705141958,
+          0.007522156868139623,
+          0.09172715254430355
+        ],
+        [
+          0.052469154634771656,
+          0.007407584957231703,
+          0.09169903676236763
+        ],
+        [
+          0.052719354693209805,
+          0.0070093731133078685,
+          0.09155117387794469
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_middle_elastomer",
+        "right_thumb_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 8.296696439108256,
+      "contact_count": 505,
+      "points_m": [
+        [
+          0.05616076958175841,
+          0.013363371322247939,
+          0.07512313523193738
+        ],
+        [
+          0.05574648454207273,
+          0.012343529419517493,
+          0.07656038668980192
+        ],
+        [
+          0.05574955571571316,
+          0.012355256449502491,
+          0.07656042759132717
+        ],
+        [
+          0.055952228678740036,
+          0.013030357952421339,
+          0.07656053236545611
+        ],
+        [
+          0.05584374516712477,
+          0.012701064297594435,
+          0.07656024314875978
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_MP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.35120642173921796,
+      "contact_count": 83,
+      "points_m": [
+        [
+          0.05110582601105154,
+          -0.01859306035093346,
+          0.09993470154374025
+        ],
+        [
+          0.05110582601105154,
+          -0.01859306035093346,
+          0.09993470154374025
+        ],
+        [
+          0.051928143824737386,
+          -0.018510544209905083,
+          0.10124126372499508
+        ],
+        [
+          0.05134063901651381,
+          -0.018569497851432304,
+          0.10024100376267972
+        ],
+        [
+          0.051556396580894275,
+          -0.018547847485461504,
+          0.10056170334205591
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_PP",
+        "right_ring_MP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.7377350673690762,
+      "contact_count": 42,
+      "points_m": [
+        [
+          0.050684944729654964,
+          -0.01869828564976155,
+          0.102601849298011
+        ],
+        [
+          0.05074760432846936,
+          -0.018717740605041413,
+          0.1033266056716084
+        ],
+        [
+          0.05065762484960242,
+          -0.018693721903306867,
+          0.10242283936628013
+        ],
+        [
+          0.0507489072764751,
+          -0.01873221270709674,
+          0.10386172450485229
+        ],
+        [
+          0.05053923988377859,
+          -0.01868032213712388,
+          0.10191136382017822
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_pinky_PP",
+        "right_ring_PP"
+      ],
+      "mechanism_interface": null,
+      "max_fcl_contact_depth_mm": 0.5087110925431849,
+      "contact_count": 1,
+      "points_m": [
+        [
+          0.04956191639543993,
+          -0.01876912869594853,
+          0.10730268757395388
+        ]
+      ]
+    }
+  ],
+  "hand_tool_intersections": [
+    {
+      "tool": "joined_tail",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 1.301918918843422,
+      "sampled_tool_surface_inside_hand_count": 31,
+      "sampled_max_penetration_mm": 1.075459893441117,
+      "points_m": [
+        [
+          0.000503305626936186,
+          0.01916827272168472,
+          0.10651882687749546
+        ]
+      ]
+    },
+    {
+      "tool": "joined_tail",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 10.092718219309122,
+      "sampled_tool_surface_inside_hand_count": 1819,
+      "sampled_max_penetration_mm": 5.697907929900665,
+      "points_m": [
+        [
+          -0.0010214305946046629,
+          0.01154071416009761,
+          0.10050270646871812
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 1.1067819944471182,
+      "sampled_tool_surface_inside_hand_count": 9,
+      "sampled_max_penetration_mm": 0.6718013165038773,
+      "points_m": [
+        [
+          0.011889575055258152,
+          0.02036399140211071,
+          0.10158440861286021
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 6.542799736990311,
+      "sampled_tool_surface_inside_hand_count": 83,
+      "sampled_max_penetration_mm": 5.40140014538494,
+      "points_m": [
+        [
+          0.010324371962625787,
+          0.010000946655126063,
+          0.09790556740885475
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_MP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 40.6858945096467,
+      "sampled_tool_surface_inside_hand_count": null,
+      "sampled_max_penetration_mm": null,
+      "points_m": [
+        [
+          0.05074586470004516,
+          0.018481458877032803,
+          0.11516536338709524
+        ],
+        [
+          0.051097695494624965,
+          0.018461980290044824,
+          0.11531664592521843
+        ],
+        [
+          0.05113398472917872,
+          0.018459452100209946,
+          0.11533245736367424
+        ],
+        [
+          0.05337547932011401,
+          0.017612525884617494,
+          0.11609402779103059
+        ],
+        [
+          0.05341027081052317,
+          0.017588578796172958,
+          0.11610305040159545
+        ],
+        [
+          0.053442645419387994,
+          0.017566295239168323,
+          0.11611144622759166
+        ],
+        [
+          0.053821230986732,
+          0.017277775595475147,
+          0.11620431240657914
+        ],
+        [
+          0.054212449512074684,
+          0.01690030736265405,
+          0.11628481781790065
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 44.203163159669174,
+      "sampled_tool_surface_inside_hand_count": 654,
+      "sampled_max_penetration_mm": 7.482183553180995,
+      "points_m": [
+        [
+          0.038767455361955236,
+          0.014056414789316183,
+          0.11048683041705794
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_thumb_elastomer",
+      "intended_pinch_surface": true,
+      "max_fcl_contact_depth_mm": 79.40928241895723,
+      "sampled_tool_surface_inside_hand_count": 68,
+      "sampled_max_penetration_mm": 1.1263429502943705,
+      "points_m": [
+        [
+          0.07531992198081873,
+          0.007131749763592316,
+          0.12241854808978561
+        ],
+        [
+          0.07608351665789813,
+          0.006804817850461415,
+          0.12267182849794332
+        ],
+        [
+          0.07612805754631476,
+          0.006766686398609247,
+          0.1226746225937572
+        ],
+        [
+          0.07601767870208903,
+          0.007198689968710146,
+          0.12286183827887535
+        ],
+        [
+          0.07620051015933689,
+          0.006753937715901694,
+          0.12270667841908617
+        ],
+        [
+          0.0762250179385272,
+          0.007169939969113725,
+          0.12296073593701604
+        ],
+        [
+          0.07693476139301064,
+          0.006432399163294633,
+          0.12289782777177849
+        ],
+        [
+          0.07683576146921625,
+          0.006857867986530363,
+          0.12310641996456062
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 13.251638201784733,
+      "sampled_tool_surface_inside_hand_count": 102,
+      "sampled_max_penetration_mm": 3.6581078553058735,
+      "points_m": [
+        [
+          0.01632714105786677,
+          0.01700129335734161,
+          0.11424101043090797
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_index_elastomer",
+      "intended_pinch_surface": true,
+      "max_fcl_contact_depth_mm": 75.1180568308629,
+      "sampled_tool_surface_inside_hand_count": 27,
+      "sampled_max_penetration_mm": 0.9862096167952223,
+      "points_m": [
+        [
+          0.06903178122341605,
+          0.006153708648728545,
+          0.13883959039809063
+        ],
+        [
+          0.0689622678615373,
+          0.006523810758410134,
+          0.13878987758564687
+        ],
+        [
+          0.06785243642788091,
+          0.007155979362322021,
+          0.13847727602137505
+        ],
+        [
+          0.06779901260364471,
+          0.007180014307892125,
+          0.13846296366161118
+        ],
+        [
+          0.06891243006450364,
+          0.006901179623446721,
+          0.138765760634474
+        ],
+        [
+          0.06770116448822261,
+          0.007584596818709682,
+          0.13845378484004806
+        ],
+        [
+          0.06765576389484611,
+          0.008010944595753734,
+          0.13848208368802073
+        ],
+        [
+          0.06780096247058444,
+          0.007537233275160146,
+          0.13847887537217596
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 6.941808744672271,
+      "sampled_tool_surface_inside_hand_count": 100,
+      "sampled_max_penetration_mm": 5.387009620895576,
+      "points_m": [
+        [
+          0.006404150417523324,
+          0.009846583431995862,
+          0.10784099387179277
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_middle_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 26.960761039002943,
+      "sampled_tool_surface_inside_hand_count": 602,
+      "sampled_max_penetration_mm": 5.5031448631489095,
+      "points_m": [
+        [
+          0.0284330155053003,
+          0.007061113005794593,
+          0.11757069659803694
+        ]
+      ]
+    }
+  ],
+  "non_pinch_hand_tool_intersections": [
+    {
+      "tool": "joined_tail",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 1.301918918843422,
+      "sampled_tool_surface_inside_hand_count": 31,
+      "sampled_max_penetration_mm": 1.075459893441117,
+      "points_m": [
+        [
+          0.000503305626936186,
+          0.01916827272168472,
+          0.10651882687749546
+        ]
+      ]
+    },
+    {
+      "tool": "joined_tail",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 10.092718219309122,
+      "sampled_tool_surface_inside_hand_count": 1819,
+      "sampled_max_penetration_mm": 5.697907929900665,
+      "points_m": [
+        [
+          -0.0010214305946046629,
+          0.01154071416009761,
+          0.10050270646871812
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 1.1067819944471182,
+      "sampled_tool_surface_inside_hand_count": 9,
+      "sampled_max_penetration_mm": 0.6718013165038773,
+      "points_m": [
+        [
+          0.011889575055258152,
+          0.02036399140211071,
+          0.10158440861286021
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 6.542799736990311,
+      "sampled_tool_surface_inside_hand_count": 83,
+      "sampled_max_penetration_mm": 5.40140014538494,
+      "points_m": [
+        [
+          0.010324371962625787,
+          0.010000946655126063,
+          0.09790556740885475
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_MP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 40.6858945096467,
+      "sampled_tool_surface_inside_hand_count": null,
+      "sampled_max_penetration_mm": null,
+      "points_m": [
+        [
+          0.05074586470004516,
+          0.018481458877032803,
+          0.11516536338709524
+        ],
+        [
+          0.051097695494624965,
+          0.018461980290044824,
+          0.11531664592521843
+        ],
+        [
+          0.05113398472917872,
+          0.018459452100209946,
+          0.11533245736367424
+        ],
+        [
+          0.05337547932011401,
+          0.017612525884617494,
+          0.11609402779103059
+        ],
+        [
+          0.05341027081052317,
+          0.017588578796172958,
+          0.11610305040159545
+        ],
+        [
+          0.053442645419387994,
+          0.017566295239168323,
+          0.11611144622759166
+        ],
+        [
+          0.053821230986732,
+          0.017277775595475147,
+          0.11620431240657914
+        ],
+        [
+          0.054212449512074684,
+          0.01690030736265405,
+          0.11628481781790065
+        ]
+      ]
+    },
+    {
+      "tool": "left_blade",
+      "hand_link": "right_middle_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 44.203163159669174,
+      "sampled_tool_surface_inside_hand_count": 654,
+      "sampled_max_penetration_mm": 7.482183553180995,
+      "points_m": [
+        [
+          0.038767455361955236,
+          0.014056414789316183,
+          0.11048683041705794
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_index_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 13.251638201784733,
+      "sampled_tool_surface_inside_hand_count": 102,
+      "sampled_max_penetration_mm": 3.6581078553058735,
+      "points_m": [
+        [
+          0.01632714105786677,
+          0.01700129335734161,
+          0.11424101043090797
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_middle_MCP_VL",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 6.941808744672271,
+      "sampled_tool_surface_inside_hand_count": 100,
+      "sampled_max_penetration_mm": 5.387009620895576,
+      "points_m": [
+        [
+          0.006404150417523324,
+          0.009846583431995862,
+          0.10784099387179277
+        ]
+      ]
+    },
+    {
+      "tool": "right_blade",
+      "hand_link": "right_middle_PP",
+      "intended_pinch_surface": false,
+      "max_fcl_contact_depth_mm": 26.960761039002943,
+      "sampled_tool_surface_inside_hand_count": 602,
+      "sampled_max_penetration_mm": 5.5031448631489095,
+      "points_m": [
+        [
+          0.0284330155053003,
+          0.007061113005794593,
+          0.11757069659803694
+        ]
+      ]
+    }
+  ],
+  "nearest_hand_tool_distances": [
+    {
+      "tool": "joined_tail",
+      "nearest_hand_link": "right_index_PP",
+      "distance_m": -0.001301918918843422
+    },
+    {
+      "tool": "left_blade",
+      "nearest_hand_link": "right_index_PP",
+      "distance_m": -0.0010994301616267554
+    },
+    {
+      "tool": "left_tip",
+      "nearest_hand_link": "right_thumb_DP",
+      "distance_m": 0.07178122040121825
+    },
+    {
+      "tool": "right_blade",
+      "nearest_hand_link": "right_index_PP",
+      "distance_m": -0.0037968970745823182
+    },
+    {
+      "tool": "right_tip",
+      "nearest_hand_link": "right_index_DP",
+      "distance_m": 0.07625829353955024
+    }
+  ],
+  "method": "Full original URDF collision triangle meshes, rigid FK, FCL triangle collision; point-in-solid sample on watertight meshes. Visualization triangle subsampling only. Static geometry, no solver or dynamics.",
+  "limits": [
+    "Adjacent collision links and fixed assemblies are marked mechanical interfaces; they remain listed for inspection.",
+    "FCL mesh depth and sparse inside samples are diagnostic, not a guaranteed maximum penetration bound.",
+    "No arm/table/trajectory collisions are evaluated."
+  ]
+}

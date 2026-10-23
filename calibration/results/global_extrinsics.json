@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "type": "global_extrinsics",
+  "created_utc": "2026-10-23T09:36:45.961785+00:00",
+  "source_session": "/home/haojinkun/xqh_work/xhand-camera-calibration/data/global_extrinsics",
+  "camera": {
+    "serial": "147122078108",
+    "expected_model": "D435",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "model": "RealSense D435",
+    "stream": "color",
+    "format": "bgr8",
+    "firmware": "5.16.0.1",
+    "factory_intrinsics": {
+      "width": 640,
+      "height": 480,
+      "fx": 607.0804443359375,
+      "fy": 606.4393310546875,
+      "cx": 322.630126953125,
+      "cy": 242.50436401367188,
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "coefficients": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "sensor_settings": [
+      {
+        "sensor": "Stereo Module",
+        "options_at_start": {
+          "exposure": 8500.0,
+          "gain": 16.0,
+          "enable_auto_exposure": 1.0
+        }
+      },
+      {
+        "sensor": "RGB Camera",
+        "options_at_start": {
+          "exposure": 166.0,
+          "gain": 64.0,
+          "enable_auto_exposure": 1.0,
+          "white_balance": 4600.0,
+          "enable_auto_white_balance": 1.0
+        }
+      }
+    ]
+  },
+  "board": {
+    "frame_id": "table_board_v1_do_not_move",
+    "squares_x": 7,
+    "squares_y": 10,
+    "square_length_m": 0.027366667,
+    "marker_length_m": 0.019704,
+    "dictionary": "DICT_5X5_100",
+    "min_corners": 12
+  },
+  "intrinsics_source": "/home/haojinkun/xqh_work/xhand-camera-calibration/results/global_intrinsics_v3.json",
+  "intrinsics": {
+    "K": [
+      [
+        594.4565297246601,
+        0.0,
+        323.7908547289574
+      ],
+      [
+        0.0,
+        602.628349027675,
+        228.20541936589913
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      0.10160045479349644,
+      -0.20334671736349624,
+      -0.008337325716963058,
+      0.0015850817150658066,
+      -0.1327585815578626
+    ]
+  },
+  "handeye_source": "/home/haojinkun/xqh_work/xhand-camera-calibration/results/handeye.json",
+  "robot": {
+    "ip": "192.168.7.102",
+    "reference_frame": "configured_tcp",
+    "tcp_offset_flange_to_tcp_m_rotvec": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tcp_configuration_verified": true,
+    "max_linear_speed_m_s": 0.002,
+    "max_angular_speed_rad_s": 0.01,
+    "max_joint_change_rad": 0.002,
+    "settle_seconds": 0.3
+  },
+  "T_B_Cg": [
+    [
+      0.9875279890790011,
+      -0.04245076866983779,
+      -0.15161267435450437,
+      0.16816774097664625
+    ],
+    [
+      0.09210930041157005,
+      -0.6252038778262042,
+      0.7750070889538809,
+      -1.3148851271656585
+    ],
+    [
+      -0.12768847858470322,
+      -0.7793061294449168,
+      -0.6134962176299926,
+      0.7507163675791356
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_B_Q": [
+    [
+      -0.03298585650462794,
+      -0.9994141389765531,
+      -0.009127545366175435,
+      0.18726931079906947
+    ],
+    [
+      -0.9993743978246484,
+      0.033098362624857984,
+      -0.012462398010630552,
+      -0.6369206481788376
+    ],
+    [
+      0.012757203583781955,
+      0.008710752281456513,
+      -0.9998806811572137,
+      0.022856245030002782
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "views": [
+    {
+      "sample_id": "0000",
+      "translation_m": 0.003645571701976352,
+      "rotation_deg": 0.2639099783129996,
+      "predicted_reprojection_rms_px": 0.33093035260304726
+    },
+    {
+      "sample_id": "0001",
+      "translation_m": 0.0027695291028953495,
+      "rotation_deg": 0.19579581861067488,
+      "predicted_reprojection_rms_px": 0.38269607419870066
+    },
+    {
+      "sample_id": "0002",
+      "translation_m": 0.001628271978221657,
+      "rotation_deg": 0.1217017537418634,
+      "predicted_reprojection_rms_px": 0.36940698790942356
+    },
+    {
+      "sample_id": "0003",
+      "translation_m": 0.0018227347626010677,
+      "rotation_deg": 0.1252034132148739,
+      "predicted_reprojection_rms_px": 0.36430374691209966
+    },
+    {
+      "sample_id": "0004",
+      "translation_m": 0.003509345144906205,
+      "rotation_deg": 0.26624806513304183,
+      "predicted_reprojection_rms_px": 0.33975376939015695
+    },
+    {
+      "sample_id": "0005",
+      "translation_m": 0.0017296648181963326,
+      "rotation_deg": 0.12482569344908426,
+      "predicted_reprojection_rms_px": 0.3696564019881637
+    },
+    {
+      "sample_id": "0006",
+      "translation_m": 0.0022668818498872627,
+      "rotation_deg": 0.20127437552075325,
+      "predicted_reprojection_rms_px": 0.3201153542582513
+    },
+    {
+      "sample_id": "0007",
+      "translation_m": 0.0017906410495515275,
+      "rotation_deg": 0.12493937438233364,
+      "predicted_reprojection_rms_px": 0.3595160318278278
+    }
+  ],
+  "rejected": [],
+  "training_consistency": {
+    "translation_m": {
+      "count": 8,
+      "mean": 0.002395330051029469,
+      "median": 0.002044808306244165,
+      "p95": 0.0035978924070018004,
+      "max": 0.003645571701976352
+    },
+    "rotation_deg": {
+      "count": 8,
+      "mean": 0.17798730904570312,
+      "median": 0.1604996159127744,
+      "p95": 0.26542973474602705,
+      "max": 0.26624806513304183
+    },
+    "predicted_reprojection_rms_px": {
+      "count": 8,
+      "mean": 0.3545473398859589,
+      "median": 0.3619098893699637,
+      "p95": 0.3781321889250127,
+      "max": 0.38269607419870066
+    }
+  },
+  "warnings": [
+    "Absolute accuracy inherits the hand-eye board/base estimate. Same static board required.",
+    "Repeated images at one fixed pose do not independently verify scale or all camera parameters."
+  ]
+}

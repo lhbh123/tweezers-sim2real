@@ -1,0 +1,562 @@
+{
+  "config": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/configs/human_grasp_precision_v2.json",
+  "checked_nonadjacent_pairs": 66,
+  "all_nonadjacent_source_mesh_hulls_separated": false,
+  "all_nonadjacent_source_mesh_surfaces_disjoint": true,
+  "overlap_candidates": [
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_index_rota_link1"
+      ],
+      "separated": false,
+      "method": "convex hull halfspace intersection",
+      "max_intersection_ball_radius_m": 0.004887179524541903,
+      "solver_success": true,
+      "exact_surface_intersection_count": 0,
+      "exact_triangle_pair_tests": 0
+    }
+  ],
+  "checks": [
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_thumb_rota_link1"
+      ],
+      "separated": true,
+      "method": "convex hull halfspace intersection",
+      "max_intersection_ball_radius_m": -0.0014088305380581916,
+      "solver_success": true
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_thumb_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_index_rota_link1"
+      ],
+      "separated": false,
+      "method": "convex hull halfspace intersection",
+      "max_intersection_ball_radius_m": 0.004887179524541903,
+      "solver_success": true,
+      "exact_surface_intersection_count": 0,
+      "exact_triangle_pair_tests": 0
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_index_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_link",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_thumb_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_index_bend_link"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_index_rota_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_index_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_bend_link",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_index_bend_link"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_index_rota_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_index_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link1",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_index_bend_link"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_index_rota_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_index_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_thumb_rota_link2",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_index_rota_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_bend_link",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link1",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_mid_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_mid_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_index_rota_link2",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link1",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link1",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link1",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link1",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link2",
+        "right_hand_ring_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link2",
+        "right_hand_ring_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link2",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_mid_link2",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_ring_link1",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_ring_link1",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_ring_link2",
+        "right_hand_pinky_link1"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    },
+    {
+      "links": [
+        "right_hand_ring_link2",
+        "right_hand_pinky_link2"
+      ],
+      "separated": true,
+      "method": "disjoint AABBs"
+    }
+  ],
+  "limitations": [
+    "Directly connected URDF links excluded because their mechanical joint geometry overlaps by design.",
+    "Convex hull overlap candidates receive continuous triangle-pair SAT narrow phase.",
+    "Surface separation does not independently check fully contained disconnected shells.",
+    "Uses source STL geometry, not PhysX collider cooking."
+  ]
+}

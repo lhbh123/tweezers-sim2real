@@ -1,0 +1,201 @@
+{
+  "label": "Derived W01 CAD-matched TacMap input surfaces, not the original published maps",
+  "official_sensor_algorithm_modified": false,
+  "arbitrary_outward_offset_m": 0.0,
+  "force_fitting": false,
+  "method": "Preserve original 240x240 indexing and all original invalid cells; exact global nearest point on current W01 source triangles; barycentric interpolated outward vertex normals. Reject displacement>2.5mm or normal-angle>60deg as additional unsupported cells. This is geometric reprojection, not a bijective or hardware-taxel calibration.",
+  "generator": {
+    "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/analysis/sharpa_tacmap/build_w01_matched_maps_v2.py",
+    "sha256": "7e96c76a483804f7af858eac564b8f6d445b5c3e211250c099eb0bdb07600e83"
+  },
+  "models": [
+    {
+      "model": "TH",
+      "units": {
+        "points": "mm",
+        "normals": "unit vectors"
+      },
+      "shape": [
+        240,
+        240,
+        3
+      ],
+      "original_valid_points": 45211,
+      "valid_points": 35419,
+      "original_invalid_domain_unchanged": true,
+      "unsupported_added_points": 9792,
+      "retained_surface_fraction": 0.7834155404658159,
+      "arbitrary_outward_offset_m": 0.0,
+      "rejected_distance_count": 1476,
+      "rejected_normal_angle_count": 8316,
+      "rejected_both_count": 0,
+      "trajectory_or_force_input_used": false,
+      "source_map": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_point.npy",
+        "sha256": "e7d2ddaaf2b593d36e5ce8b9e2d1816ec0b424004ca74915742fff1bced65fc9"
+      },
+      "source_normals": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_TH_normal.npy",
+        "sha256": "5fc140b821332299fbea7f85d7e4ee5f6c2faec713dcbe77d0bf1b574843ad1e"
+      },
+      "source_elastomer_mesh": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_TH.STL",
+        "sha256": "437f363ca7a40b6e9b9152ebb81db249c51de71565cdb44b7df6e2cdf0da3312"
+      },
+      "derived_points": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_point.npy",
+        "sha256": "f755cc213b1562c2418af4a5dd9c94165eeaf56f1e7803c073c1fffff7dd9807"
+      },
+      "derived_normals": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_TH_normal.npy",
+        "sha256": "4cee495eff89faef6c2fca915b460b520932edebc5a8abe1e40e4393e247347e"
+      },
+      "correspondence": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/TH_correspondence.npz",
+        "sha256": "c94e999c18a92b06a6442944ff685784f8f59ce24058e5b0c8630b0ff53f5258"
+      },
+      "method_codes": {
+        "3": "exact global nearest source-triangle point"
+      },
+      "method_counts": {
+        "3": 45211
+      },
+      "missing_correspondences": 0,
+      "displacement_mm_quantiles_0_50_95_99_100": [
+        0.00012499015598941147,
+        1.190122034617304,
+        2.253986270284616,
+        2.9842308606631676,
+        3.448805712189564
+      ],
+      "normal_angle_deg_quantiles_0_50_95_99_100": [
+        0.010757404848893034,
+        15.745396664355724,
+        86.97647710166972,
+        105.29817852948041,
+        119.09586038236588
+      ],
+      "normal_angle_over_90_count": 1836,
+      "acceptance_rules": {
+        "maximum_displacement_m": 0.0025,
+        "maximum_normal_angle_deg": 60.0,
+        "selection_uses_task_or_force": false
+      },
+      "accepted_displacement_mm_quantiles_0_50_95_99_100": [
+        0.00037706694187100617,
+        1.2224137335768661,
+        1.9864535039101814,
+        2.381143883874761,
+        2.4999760374355815
+      ],
+      "accepted_normal_angle_deg_quantiles_0_50_95_99_100": [
+        0.010757404848893034,
+        7.484715144357635,
+        52.33247367284192,
+        58.342654815614374,
+        59.97558395550262
+      ],
+      "accepted_normal_angle_over_90_count": 0,
+      "source_triangle_barycentric_min_max": [
+        -2.6807526761706132e-11,
+        1.0
+      ],
+      "source_triangle_reconstruction_error_max_m": 4.329181978620782e-12,
+      "export_float32_coordinate_error_max_m": 1.0377406542406256e-09
+    },
+    {
+      "model": "4F",
+      "units": {
+        "points": "mm",
+        "normals": "unit vectors"
+      },
+      "shape": [
+        240,
+        240,
+        3
+      ],
+      "original_valid_points": 41971,
+      "valid_points": 39037,
+      "original_invalid_domain_unchanged": true,
+      "unsupported_added_points": 2934,
+      "retained_surface_fraction": 0.9300945891210598,
+      "arbitrary_outward_offset_m": 0.0,
+      "rejected_distance_count": 2550,
+      "rejected_normal_angle_count": 384,
+      "rejected_both_count": 0,
+      "trajectory_or_force_input_used": false,
+      "source_map": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_point_origin.npy",
+        "sha256": "7c0c4685ba6ae3e849c2875fdb1323ef96a962f427adc64612d5a58e0e7b3f8b"
+      },
+      "source_normals": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/tactilesensor_map/tactileSensor_map_4F_normal_origin.npy",
+        "sha256": "af8fd81dacb4b45b009f1806c59eebba31cb3f07ce1422031ab9a90969a6b708"
+      },
+      "source_elastomer_mesh": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_wave/official/wave_01/right_sharpa_wave/meshes/elastomer_HB1_4F.STL",
+        "sha256": "88b214c5c614b4b5f0c7cf195a90825b41e20745b1b65442854b371ff065e858"
+      },
+      "derived_points": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_point_origin.npy",
+        "sha256": "2c4fa3430c9075ed3f7bc0cd6575d4d4c7014218ac9ff6004684eb64776e4d24"
+      },
+      "derived_normals": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/tactileSensor_map_4F_normal_origin.npy",
+        "sha256": "942c762b0ac8582084ad3b0e8f32f0fed25eec1376a006da4e50670b5613f383"
+      },
+      "correspondence": {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tacmap_w01_matched_v2/4F_correspondence.npz",
+        "sha256": "923ed059423418aac59afeb19a95a4d7b7da42e0ac1dcb4dce0530108d227c5b"
+      },
+      "method_codes": {
+        "3": "exact global nearest source-triangle point"
+      },
+      "method_counts": {
+        "3": 41971
+      },
+      "missing_correspondences": 0,
+      "displacement_mm_quantiles_0_50_95_99_100": [
+        1.1150106984748885e-05,
+        0.8280585995572881,
+        2.7025040940273786,
+        3.5925686271813477,
+        4.173957614551742
+      ],
+      "normal_angle_deg_quantiles_0_50_95_99_100": [
+        0.004011743548988419,
+        7.662290077421713,
+        55.537439726587984,
+        59.820540751616036,
+        66.94745995690695
+      ],
+      "normal_angle_over_90_count": 0,
+      "acceptance_rules": {
+        "maximum_displacement_m": 0.0025,
+        "maximum_normal_angle_deg": 60.0,
+        "selection_uses_task_or_force": false
+      },
+      "accepted_displacement_mm_quantiles_0_50_95_99_100": [
+        1.1150106984748885e-05,
+        0.790717637593558,
+        1.7287200479163634,
+        2.3353391861105637,
+        2.4995839617560205
+      ],
+      "accepted_normal_angle_deg_quantiles_0_50_95_99_100": [
+        0.004011743548988419,
+        7.258885066261881,
+        55.01897653786381,
+        58.05750050783632,
+        59.99711675358539
+      ],
+      "accepted_normal_angle_over_90_count": 0,
+      "source_triangle_barycentric_min_max": [
+        -1.1735955719306767e-10,
+        1.0
+      ],
+      "source_triangle_reconstruction_error_max_m": 1.511371757075896e-12,
+      "export_float32_coordinate_error_max_m": 9.963790881171048e-10
+    }
+  ]
+}

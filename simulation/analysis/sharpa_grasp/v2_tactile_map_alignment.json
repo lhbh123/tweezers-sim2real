@@ -1,0 +1,28 @@
+[
+  {
+    "digit": "thumb",
+    "source_mesh_patch_to_legacy_tactile_map_m": 0.0012718661312601813,
+    "nearest_taxel": [
+      122,
+      110
+    ],
+    "nearest_map_point": [
+      -4.82302057207562e-05,
+      -0.023649415001273155,
+      -0.0030498455744236708
+    ]
+  },
+  {
+    "digit": "index",
+    "source_mesh_patch_to_legacy_tactile_map_m": 0.0011208469171446068,
+    "nearest_taxel": [
+      120,
+      105
+    ],
+    "nearest_map_point": [
+      8.995486382445961e-07,
+      -0.02237929031252861,
+      -0.003952859900891781
+    ]
+  }
+]

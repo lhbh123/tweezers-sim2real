@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "joint_order_reversed": true,
+  "translation_m": [
+    0.01,
+    -0.01,
+    -0.1
+  ],
+  "rotated_test_deg": 5,
+  "num_origins": 3,
+  "max_wrist_tool_transform_error": 1.63524690455219e-07,
+  "snapshot_fk_position_error": 0.0,
+  "tip_gap_center_m": 0.007325673319540572,
+  "tip_gap_projected_inner_m": 0.005257353687470123,
+  "cached_ik_targets": 3
+}

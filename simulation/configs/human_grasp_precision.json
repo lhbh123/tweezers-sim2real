@@ -1,0 +1,1578 @@
+{
+  "schema_version": 2,
+  "method": "measured human landmark prior + bounded geometric contact refinement",
+  "q_reference": {
+    "right_hand_thumb_bend_joint": 0.2427264692864592,
+    "right_hand_thumb_rota_joint1": 1.2035198197943562,
+    "right_hand_thumb_rota_joint2": 0.5686870569808751,
+    "right_hand_index_bend_joint": -0.034999999999999996,
+    "right_hand_index_joint1": 0.2724362753372235,
+    "right_hand_index_joint2": 1.4499999999999997,
+    "right_hand_mid_joint1": 0.6772563343191134,
+    "right_hand_mid_joint2": 1.09,
+    "right_hand_ring_joint1": 0.6959100042992996,
+    "right_hand_ring_joint2": 0.85,
+    "right_hand_pinky_joint1": 0.5869323434145239,
+    "right_hand_pinky_joint2": 0.85
+  },
+  "closure_delta": {
+    "right_hand_thumb_bend_joint": 0.006402014358884545,
+    "right_hand_thumb_rota_joint1": 0.021546675690603534,
+    "right_hand_thumb_rota_joint2": -0.012187472425293722,
+    "right_hand_index_bend_joint": -0.02577548452752948,
+    "right_hand_index_joint1": 0.0037629022116564825,
+    "right_hand_index_joint2": -0.006588827132726793,
+    "right_hand_mid_joint1": 0.0,
+    "right_hand_mid_joint2": 0.0,
+    "right_hand_ring_joint1": 0.0,
+    "right_hand_ring_joint2": 0.0,
+    "right_hand_pinky_joint1": 0.0,
+    "right_hand_pinky_joint2": 0.0
+  },
+  "q_open": {
+    "right_hand_thumb_bend_joint": 0.2427264692864592,
+    "right_hand_thumb_rota_joint1": 1.2035198197943562,
+    "right_hand_thumb_rota_joint2": 0.5686870569808751,
+    "right_hand_index_bend_joint": -0.034999999999999996,
+    "right_hand_index_joint1": 0.2724362753372235,
+    "right_hand_index_joint2": 1.4499999999999997,
+    "right_hand_mid_joint1": 0.6772563343191134,
+    "right_hand_mid_joint2": 1.09,
+    "right_hand_ring_joint1": 0.6959100042992996,
+    "right_hand_ring_joint2": 0.85,
+    "right_hand_pinky_joint1": 0.5869323434145239,
+    "right_hand_pinky_joint2": 0.85
+  },
+  "q_closed": {
+    "right_hand_thumb_bend_joint": 0.24912848364534373,
+    "right_hand_thumb_rota_joint1": 1.2250664954849597,
+    "right_hand_thumb_rota_joint2": 0.5564995845555814,
+    "right_hand_index_bend_joint": -0.060775484527529476,
+    "right_hand_index_joint1": 0.27619917754887996,
+    "right_hand_index_joint2": 1.443411172867273,
+    "right_hand_mid_joint1": 0.6772563343191134,
+    "right_hand_mid_joint2": 1.09,
+    "right_hand_ring_joint1": 0.6959100042992996,
+    "right_hand_ring_joint2": 0.85,
+    "right_hand_pinky_joint1": 0.5869323434145239,
+    "right_hand_pinky_joint2": 0.85
+  },
+  "T_hand_tool": [
+    [
+      -0.9811305007801701,
+      -0.13829660135609737,
+      0.1351184313563677,
+      0.03237250194267615
+    ],
+    [
+      -0.12274834484865073,
+      0.9854757357720172,
+      0.11734742452017437,
+      0.042126133622858455
+    ],
+    [
+      -0.14938468554630854,
+      0.09854757357720173,
+      -0.9838559810593603,
+      -0.07134936773526043
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tool_pinch_z": 0.05,
+  "soft_bounds": {
+    "right_hand_thumb_bend_joint": [
+      0.2,
+      1.4
+    ],
+    "right_hand_thumb_rota_joint1": [
+      -0.65,
+      1.42
+    ],
+    "right_hand_thumb_rota_joint2": [
+      0.05,
+      1.55
+    ],
+    "right_hand_index_bend_joint": [
+      -0.12,
+      0.12
+    ],
+    "right_hand_index_joint1": [
+      0.1,
+      1.45
+    ],
+    "right_hand_index_joint2": [
+      0.1,
+      1.45
+    ],
+    "right_hand_mid_joint1": [
+      0.1,
+      1.35
+    ],
+    "right_hand_mid_joint2": [
+      0.1,
+      1.35
+    ],
+    "right_hand_ring_joint1": [
+      0.1,
+      1.25
+    ],
+    "right_hand_ring_joint2": [
+      0.1,
+      1.25
+    ],
+    "right_hand_pinky_joint1": [
+      0.1,
+      1.25
+    ],
+    "right_hand_pinky_joint2": [
+      0.1,
+      1.25
+    ]
+  },
+  "human_joint_prior": {
+    "right_hand_thumb_bend_joint": 0.2767802762984184,
+    "right_hand_thumb_rota_joint1": 0.79405140055988,
+    "right_hand_thumb_rota_joint2": 0.383147580040626,
+    "right_hand_index_bend_joint": 0.0,
+    "right_hand_index_joint1": 0.7180402219555463,
+    "right_hand_index_joint2": 1.4367406381232966,
+    "right_hand_mid_joint1": 0.7287605571985223,
+    "right_hand_mid_joint2": 1.35,
+    "right_hand_ring_joint1": 0.8598500071654993,
+    "right_hand_ring_joint2": 1.25,
+    "right_hand_pinky_joint1": 0.67822057235754,
+    "right_hand_pinky_joint2": 1.25
+  },
+  "human_joint_prior_std": {
+    "right_hand_thumb_bend_joint": 0.010564421536266248,
+    "right_hand_thumb_rota_joint1": 0.012891407599808079,
+    "right_hand_thumb_rota_joint2": 0.00481498821503079,
+    "right_hand_index_bend_joint": 0.0,
+    "right_hand_index_joint1": 0.06971931367423781,
+    "right_hand_index_joint2": 0.09366402081370043,
+    "right_hand_mid_joint1": 0.12967118317471876,
+    "right_hand_mid_joint2": 0.023752797245852702,
+    "right_hand_ring_joint1": 0.1273254848854004,
+    "right_hand_ring_joint2": 0.0,
+    "right_hand_pinky_joint1": 0.14963421013126993,
+    "right_hand_pinky_joint2": 0.0
+  },
+  "prior_weights": {
+    "right_hand_thumb_bend_joint": 0.6,
+    "right_hand_thumb_rota_joint1": 0.6,
+    "right_hand_thumb_rota_joint2": 0.6,
+    "right_hand_index_bend_joint": 0.6,
+    "right_hand_index_joint1": 0.6,
+    "right_hand_index_joint2": 0.6,
+    "right_hand_mid_joint1": 0.6,
+    "right_hand_mid_joint2": 0.6,
+    "right_hand_ring_joint1": 1.5,
+    "right_hand_ring_joint2": 1.5,
+    "right_hand_pinky_joint1": 1.5,
+    "right_hand_pinky_joint2": 1.5
+  },
+  "joint_refinement_delta": {
+    "right_hand_thumb_bend_joint": -0.0340538070119592,
+    "right_hand_thumb_rota_joint1": 0.4094684192344762,
+    "right_hand_thumb_rota_joint2": 0.18553947694024908,
+    "right_hand_index_bend_joint": -0.034999999999999996,
+    "right_hand_index_joint1": -0.4456039466183228,
+    "right_hand_index_joint2": 0.01325936187670318,
+    "right_hand_mid_joint1": -0.05150422287940892,
+    "right_hand_mid_joint2": -0.26,
+    "right_hand_ring_joint1": -0.1639400028661997,
+    "right_hand_ring_joint2": -0.4,
+    "right_hand_pinky_joint1": -0.09128822894301603,
+    "right_hand_pinky_joint2": -0.4
+  },
+  "human_evidence": {
+    "landmarks_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/references/human/landmarks.json",
+    "landmarks_sha256": "465d00c6ad00b2ecc5f32a152dd62e038bff02e6414d28fd34050ad483f00f7a",
+    "source_url": "https://www.med.upenn.edu/microsurgery/videos",
+    "video_sha256": "65e58a0d4681cda096d963638fb101fee493bf6cf502f90f9a2d772e5229d15e",
+    "selected_time_range_s": [
+      216.00745833333332,
+      228.01945833333332
+    ],
+    "selected_frame_count": 7,
+    "selected_frame_indices": [
+      5179,
+      5227,
+      5275,
+      5323,
+      5371,
+      5419,
+      5467
+    ],
+    "estimator_methods": [
+      "MediaPipe HandLandmarker IMAGE mode, CPU, monocular learned 3D estimate"
+    ],
+    "confidence_note": "A MediaPipe handedness score is not landmark-location accuracy. Occluded points remain model estimates.",
+    "frame_diagnostics": [
+      {
+        "time_s": 216.00745833333332,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_216.007s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_216.007s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9690192341804504,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.8166844868768586,
+              -0.5606285626500804,
+              -0.13682859217132695
+            ],
+            [
+              -0.17978978311848504,
+              0.47248408788177354,
+              -0.8628061315178148
+            ],
+            [
+              -0.5483630939267252,
+              0.6800399998819434,
+              0.4866657125580926
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.12118152613149552,
+          "reflection_to_positive_flexion": true
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.034063338875091685,
+            "pip_flexion_rad": 0.12887906901531432,
+            "dip_flexion_rad": 0.006529301847594209,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.7180402219555463,
+            "pip_flexion_rad": 0.9391955654733598,
+            "dip_flexion_rad": 0.5180220260449465
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.7287605571985223,
+            "pip_flexion_rad": 1.0300409870993184,
+            "dip_flexion_rad": 0.5041594816304057
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.8598500071654993,
+            "pip_flexion_rad": 1.184481204116986,
+            "dip_flexion_rad": 0.4777899890154709
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.7479650135866566,
+            "pip_flexion_rad": 1.0294948870571907,
+            "dip_flexion_rad": 0.6141124917601307
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.2710158347187729,
+          "right_hand_thumb_rota_joint1": 0.7822197672538286,
+          "right_hand_thumb_rota_joint2": 0.37663232546189856,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.7180402219555463,
+          "right_hand_index_joint2": 1.1982065784958331,
+          "right_hand_mid_joint1": 0.7287605571985223,
+          "right_hand_mid_joint2": 1.2821207279145213,
+          "right_hand_ring_joint1": 0.8598500071654993,
+          "right_hand_ring_joint2": 1.4233761986247215,
+          "right_hand_pinky_joint1": 0.7479650135866566,
+          "right_hand_pinky_joint2": 1.3365511329372561
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.045214830800285835,
+            -0.32620517537753024,
+            -0.46656564359070685
+          ],
+          [
+            -0.014555101743934014,
+            -0.2732383300717969,
+            -0.6035932032079406
+          ],
+          [
+            0.0016478206432549258,
+            -0.5315368512221169,
+            -1.0538535935211608
+          ],
+          [
+            -0.29953870892303847,
+            -0.45783844501657356,
+            -1.105429828384538
+          ],
+          [
+            0.004977846967955368,
+            -0.09887059572195968,
+            -1.0819133493497815
+          ],
+          [
+            -0.22420934578946886,
+            -0.08055340701597705,
+            -1.343500722874831
+          ],
+          [
+            -0.22648441360798743,
+            -0.015570185425521391,
+            -1.5080798729606864
+          ],
+          [
+            -0.278749721659257,
+            -0.3136184157641262,
+            -1.2475164644204115
+          ],
+          [
+            -9.746578219452384e-17,
+            2.211049379048488e-17,
+            -1.0000000000000002
+          ],
+          [
+            -0.25076592297435685,
+            0.1397877921732255,
+            -1.2382432565495625
+          ],
+          [
+            -0.4041358073176907,
+            -0.06794433563449133,
+            -1.1466084517121395
+          ],
+          [
+            -0.6255626368219388,
+            -0.28528416807825147,
+            -1.0802989530166205
+          ],
+          [
+            -0.31745732463801035,
+            0.1288395580950484,
+            -0.9545051403210351
+          ],
+          [
+            -0.2946786659683968,
+            -0.026833211063667647,
+            -0.9641076950186411
+          ],
+          [
+            -0.49875715242252405,
+            -0.14727402794791503,
+            -0.7284566488118532
+          ],
+          [
+            -0.5508017950832976,
+            -0.18697960664395774,
+            -0.8177939820948391
+          ],
+          [
+            -0.44508348079161547,
+            -0.09887059572195972,
+            -0.5979547278027056
+          ],
+          [
+            -0.31943803243021157,
+            -0.06892210066978967,
+            -0.750481876330578
+          ],
+          [
+            -0.453868343109061,
+            -0.24920804382189257,
+            -0.7853315709111728
+          ],
+          [
+            -0.35988938393736575,
+            -0.22823359537069735,
+            -0.773563281336339
+          ]
+        ]
+      },
+      {
+        "time_s": 218.00945833333333,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_218.009s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_218.009s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9695314764976501,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.8144047755871555,
+              -0.5667681548329137,
+              -0.1245741552976755
+            ],
+            [
+              -0.2321908340717462,
+              0.5150051600665568,
+              -0.8251406556932503
+            ],
+            [
+              -0.5318197796941193,
+              0.6430735135053495,
+              0.55102103240619
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.12967154353067906,
+          "reflection_to_positive_flexion": true
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.13696234441899616,
+            "pip_flexion_rad": 0.14458946105105092,
+            "dip_flexion_rad": 0.0325903201625039,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.7725779928204598,
+            "pip_flexion_rad": 1.0395840762041841,
+            "dip_flexion_rad": 0.48490458699342837
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.8715937050102952,
+            "pip_flexion_rad": 1.1898609149511516,
+            "dip_flexion_rad": 0.471562481978996
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.8857431031358161,
+            "pip_flexion_rad": 1.1897290763395847,
+            "dip_flexion_rad": 0.5023856211959612
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.7810767542689356,
+            "pip_flexion_rad": 1.0126292143230409,
+            "dip_flexion_rad": 0.6110079927901497
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.296740586104749,
+          "right_hand_thumb_rota_joint1": 0.7861473652627627,
+          "right_hand_thumb_rota_joint2": 0.383147580040626,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.7725779928204598,
+          "right_hand_index_joint2": 1.2820363697008983,
+          "right_hand_mid_joint1": 0.8715937050102952,
+          "right_hand_mid_joint2": 1.4256421559406496,
+          "right_hand_ring_joint1": 0.8857431031358161,
+          "right_hand_ring_joint2": 1.4409218869375653,
+          "right_hand_pinky_joint1": 0.7810767542689356,
+          "right_hand_pinky_joint2": 1.3181332107181158
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.007536609879709713,
+            -0.39860755901208683,
+            -0.5124248839348979
+          ],
+          [
+            -0.03970141889585341,
+            -0.285533794087784,
+            -0.5777933187825143
+          ],
+          [
+            0.009580666370551518,
+            -0.5300853735723149,
+            -1.095021643946266
+          ],
+          [
+            -0.3134722672277568,
+            -0.4095588864856478,
+            -1.0918779887773296
+          ],
+          [
+            -0.04876626380739595,
+            -0.1144801044030693,
+            -1.0955403748354267
+          ],
+          [
+            -0.3135194398744492,
+            -0.09041631036031707,
+            -1.3434215174726212
+          ],
+          [
+            -0.26108993751078907,
+            -0.0035070478454922783,
+            -1.4899898367689874
+          ],
+          [
+            -0.2791728829051462,
+            -0.36603685632658994,
+            -1.1644935121924438
+          ],
+          [
+            -8.379229337208446e-17,
+            6.222821718183279e-17,
+            -1.0
+          ],
+          [
+            -0.2708336618324568,
+            0.16774197701046117,
+            -1.1933016286698295
+          ],
+          [
+            -0.38732658548309723,
+            -0.0856780389911934,
+            -1.04746649492671
+          ],
+          [
+            -0.5951546979288498,
+            -0.3285692017573173,
+            -0.9363188543406136
+          ],
+          [
+            -0.37377234393452513,
+            0.1718916296062398,
+            -0.9375844426720565
+          ],
+          [
+            -0.27202645121978275,
+            0.00362345457650474,
+            -0.9349163334591556
+          ],
+          [
+            -0.4941904608046235,
+            -0.16726748276266698,
+            -0.6529404472498944
+          ],
+          [
+            -0.5346833659090551,
+            -0.19161927869313392,
+            -0.7962835045416191
+          ],
+          [
+            -0.47062241304806973,
+            -0.11448010440306935,
+            -0.5455686147236068
+          ],
+          [
+            -0.2939220771979977,
+            -0.046457530057718445,
+            -0.6991206228980174
+          ],
+          [
+            -0.45714797013622094,
+            -0.2580482051555234,
+            -0.7431772541849417
+          ],
+          [
+            -0.34737158640829763,
+            -0.2309223347938438,
+            -0.7406322288084516
+          ]
+        ]
+      },
+      {
+        "time_s": 220.0114583333333,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_220.011s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_220.011s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.963056206703186,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.7558407777515043,
+              0.642040280454914,
+              -0.12840948937433164
+            ],
+            [
+              -0.2623495397576545,
+              -0.47665820348047244,
+              -0.839029007867854
+            ],
+            [
+              -0.599897856036299,
+              -0.6004841674250404,
+              0.5287166793235372
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.12108355637937139,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.14040762957081132,
+            "pip_flexion_rad": 0.09360032948742457,
+            "dip_flexion_rad": 0.06222694643044532,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.7423703459675812,
+            "pip_flexion_rad": 1.176812525163018,
+            "dip_flexion_rad": 0.5198562259205572
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.911640813258488,
+            "pip_flexion_rad": 1.2340599522766198,
+            "dip_flexion_rad": 0.5275140015835144
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.9055967637917797,
+            "pip_flexion_rad": 1.1942556288696506,
+            "dip_flexion_rad": 0.5144429908808152
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.8015278548451941,
+            "pip_flexion_rad": 1.0729360343279153,
+            "dip_flexion_rad": 0.6150080383541559
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.29760190739270276,
+          "right_hand_thumb_rota_joint1": 0.7734000823718561,
+          "right_hand_thumb_rota_joint2": 0.3905567366076113,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.7423703459675812,
+          "right_hand_index_joint2": 1.4367406381232966,
+          "right_hand_mid_joint1": 0.911640813258488,
+          "right_hand_mid_joint2": 1.497816953068377,
+          "right_hand_ring_joint1": 0.9055967637917797,
+          "right_hand_ring_joint2": 1.4514771243100584,
+          "right_hand_pinky_joint1": 0.8015278548451941,
+          "right_hand_pinky_joint2": 1.3804400535049932
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.06452605875975247,
+            0.37867660611919096,
+            -0.48504817184766585
+          ],
+          [
+            -0.0028275615786218697,
+            0.3014707323562224,
+            -0.6086541261104046
+          ],
+          [
+            0.05544419556567322,
+            0.52524727031355,
+            -1.0754556109059679
+          ],
+          [
+            -0.25812812251484624,
+            0.46275189837265085,
+            -1.1026844674720984
+          ],
+          [
+            -0.007866440475477658,
+            0.1184697087003367,
+            -1.101805774170987
+          ],
+          [
+            -0.23692167560192437,
+            0.13351451296816888,
+            -1.366816962299651
+          ],
+          [
+            -0.21626605297692056,
+            0.07343512014823214,
+            -1.496540904358653
+          ],
+          [
+            -0.22366701829528318,
+            0.4038610884224395,
+            -1.1997511442452207
+          ],
+          [
+            -1.2447054477838181e-17,
+            -2.5356592014223317e-17,
+            -0.9999999999999999
+          ],
+          [
+            -0.2528823195872637,
+            -0.08629605172046526,
+            -1.2042575084446434
+          ],
+          [
+            -0.34297758212271057,
+            0.16455850114963244,
+            -1.0565460441254577
+          ],
+          [
+            -0.5152463281382004,
+            0.3803480921163889,
+            -0.9317856984961308
+          ],
+          [
+            -0.34484990502227086,
+            -0.12892758248725125,
+            -0.9281623886029979
+          ],
+          [
+            -0.2814191664571363,
+            0.03481861519120111,
+            -0.9245288278574658
+          ],
+          [
+            -0.4652361233468708,
+            0.21580910139923437,
+            -0.6832939783894139
+          ],
+          [
+            -0.5157557061298879,
+            0.23992549655078585,
+            -0.7820626496084152
+          ],
+          [
+            -0.45189207083530447,
+            0.1184697087003367,
+            -0.5460256893985282
+          ],
+          [
+            -0.30989313386767015,
+            0.07355967284324276,
+            -0.6961575144197927
+          ],
+          [
+            -0.42514324821497795,
+            0.2807649042755719,
+            -0.7456121815309055
+          ],
+          [
+            -0.31985305255944524,
+            0.2629952169492007,
+            -0.7242053013997097
+          ]
+        ]
+      },
+      {
+        "time_s": 222.01345833333332,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9537556171417236,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.7184046835151099,
+              0.6852912942953946,
+              -0.11945941849221345
+            ],
+            [
+              -0.2317341822579717,
+              -0.3976877570248363,
+              -0.8877745866411045
+            ],
+            [
+              -0.655891743717501,
+              -0.6100985902913543,
+              0.44450616491531164
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.11255276768416793,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.0571211051936738,
+            "pip_flexion_rad": 0.2515315025887275,
+            "dip_flexion_rad": 0.05133956162904948,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.600041293497234,
+            "pip_flexion_rad": 1.3278201922652788,
+            "dip_flexion_rad": 0.5597593258026866
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.5480382938941759,
+            "pip_flexion_rad": 1.3618340401566331,
+            "dip_flexion_rad": 0.548229561385119
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.5942634878096659,
+            "pip_flexion_rad": 1.3212044829534775,
+            "dip_flexion_rad": 0.5185813584920852
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.5166132965305215,
+            "pip_flexion_rad": 1.300151381924918,
+            "dip_flexion_rad": 0.6132782424089156
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.2767802762984184,
+          "right_hand_thumb_rota_joint1": 0.8128828756471819,
+          "right_hand_thumb_rota_joint2": 0.3878348904072624,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.600041293497234,
+          "right_hand_index_joint2": 1.6076998551666222,
+          "right_hand_mid_joint1": 0.5480382938941759,
+          "right_hand_mid_joint2": 1.6359488208491926,
+          "right_hand_ring_joint1": 0.5942634878096659,
+          "right_hand_ring_joint2": 1.58049516219952,
+          "right_hand_pinky_joint1": 0.5166132965305215,
+          "right_hand_pinky_joint2": 1.6067905031293757
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.20317896058884005,
+            0.2513569681935953,
+            -0.3927244658869096
+          ],
+          [
+            0.20107146627071068,
+            0.3203047482980947,
+            -0.6050081898082441
+          ],
+          [
+            0.20768914067945,
+            0.5569050812561698,
+            -0.9683182654175005
+          ],
+          [
+            -0.03832153045109247,
+            0.5867093241442797,
+            -1.1067959510068417
+          ],
+          [
+            0.1414596352459991,
+            0.09081533014056589,
+            -1.0844835000897926
+          ],
+          [
+            0.020771095731996474,
+            0.13025018544509284,
+            -1.3531986645781964
+          ],
+          [
+            -0.01554843288441706,
+            0.15380330577719206,
+            -1.459700038816748
+          ],
+          [
+            -0.034560798840174135,
+            0.41796469519166046,
+            -1.2696200983346564
+          ],
+          [
+            -3.28859191397177e-17,
+            -4.49904635034125e-18,
+            -1.0
+          ],
+          [
+            -0.1361404786517944,
+            0.037801813502000826,
+            -1.2708884151428672
+          ],
+          [
+            -0.1913354146348006,
+            0.25252877121285056,
+            -1.1934645833852198
+          ],
+          [
+            -0.30424805008781464,
+            0.38114772343368564,
+            -1.1223656681501855
+          ],
+          [
+            -0.25358972608145897,
+            -0.04925630378582075,
+            -0.924351712343166
+          ],
+          [
+            -0.24912384173777494,
+            0.13032747729038957,
+            -1.0085398616035577
+          ],
+          [
+            -0.3518889380643956,
+            0.2708491370943376,
+            -0.8908530338645214
+          ],
+          [
+            -0.40627633569183735,
+            0.29647730865364724,
+            -0.8843653475090231
+          ],
+          [
+            -0.42591479582778224,
+            0.09081533014056589,
+            -0.6447055271953132
+          ],
+          [
+            -0.3273366028598384,
+            0.15147578162337672,
+            -0.7881100610202778
+          ],
+          [
+            -0.33216010009432256,
+            0.3203332715413036,
+            -0.8427565913752234
+          ],
+          [
+            -0.27946029315114396,
+            0.3232229159581983,
+            -0.7733166118779744
+          ]
+        ]
+      },
+      {
+        "time_s": 224.01545833333333,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_224.015s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_224.015s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.949838399887085,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.7790795788951939,
+              0.6071976569959061,
+              -0.1560320963365213
+            ],
+            [
+              -0.12309047525908745,
+              -0.3921916283755129,
+              -0.9116109156502327
+            ],
+            [
+              -0.614722494015779,
+              -0.6910113833873113,
+              0.38028873685684533
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.10991204602531823,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.048883602612324106,
+            "pip_flexion_rad": 0.22996726968658085,
+            "dip_flexion_rad": 0.014024738747614049,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.6133220369129815,
+            "pip_flexion_rad": 1.272635758949791,
+            "dip_flexion_rad": 0.5971761680206662
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.6428118949243604,
+            "pip_flexion_rad": 1.326013848747602,
+            "dip_flexion_rad": 0.5716530689233464
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.6121351957535254,
+            "pip_flexion_rad": 1.2641653544673876,
+            "dip_flexion_rad": 0.5898018872218322
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.3879610513712079,
+            "pip_flexion_rad": 1.2213901331324073,
+            "dip_flexion_rad": 0.8318959269678307
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.27472090065308097,
+          "right_hand_thumb_rota_joint1": 0.8074918174216452,
+          "right_hand_thumb_rota_joint2": 0.3785061846869035,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.6133220369129815,
+          "right_hand_index_joint2": 1.5712238429601242,
+          "right_hand_mid_joint1": 0.6428118949243604,
+          "right_hand_mid_joint2": 1.6118403832092754,
+          "right_hand_ring_joint1": 0.6121351957535254,
+          "right_hand_ring_joint2": 1.5590662980783039,
+          "right_hand_pinky_joint1": 0.3879610513712079,
+          "right_hand_pinky_joint2": 1.6373380966163227
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.17406854788330187,
+            0.29323469275293784,
+            -0.39220818927547685
+          ],
+          [
+            0.1573178355438247,
+            0.3365944031170865,
+            -0.5985623272889289
+          ],
+          [
+            0.15944342417942173,
+            0.5905288632587053,
+            -0.9695943097355877
+          ],
+          [
+            -0.12936866404690975,
+            0.5602189146961163,
+            -1.089444928543941
+          ],
+          [
+            0.12792206245470497,
+            0.09203379739052665,
+            -1.0843971305082387
+          ],
+          [
+            -0.012659015387238088,
+            0.12545693601992164,
+            -1.3749555044151223
+          ],
+          [
+            -0.017999864525685534,
+            0.15043496974243703,
+            -1.5141954127285941
+          ],
+          [
+            -0.05656418108689659,
+            0.43495971575493986,
+            -1.298560793458691
+          ],
+          [
+            -5.4531360648668567e-17,
+            3.438593378694726e-17,
+            -1.0000000000000002
+          ],
+          [
+            -0.15546673238707123,
+            0.03089012016050211,
+            -1.2802941886782897
+          ],
+          [
+            -0.2270555116460431,
+            0.24923703314795642,
+            -1.1877465690219189
+          ],
+          [
+            -0.3450534666434633,
+            0.3862868091274197,
+            -1.103856787899467
+          ],
+          [
+            -0.2770923231493617,
+            -0.06532181159296532,
+            -0.9443114495147839
+          ],
+          [
+            -0.26603980439469654,
+            0.11080896131244691,
+            -1.0169631487510287
+          ],
+          [
+            -0.41500200423739025,
+            0.248501113920013,
+            -0.8883272073209066
+          ],
+          [
+            -0.4435133061028985,
+            0.284644894900663,
+            -0.9262420270211539
+          ],
+          [
+            -0.4617723132043906,
+            0.09203379739052661,
+            -0.6290346859679968
+          ],
+          [
+            -0.3685933155008344,
+            0.1276168466568401,
+            -0.7902734941487893
+          ],
+          [
+            -0.42200408629953057,
+            0.30715903510569575,
+            -0.8616409940008595
+          ],
+          [
+            -0.34331561139805555,
+            0.2869120009220552,
+            -0.8216636289176196
+          ]
+        ]
+      },
+      {
+        "time_s": 226.0174583333333,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_226.017s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_226.017s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9540682435035706,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.8190455319643378,
+              0.559808263053617,
+              -0.12561498790410042
+            ],
+            [
+              -0.16404751901716522,
+              -0.4383134359735126,
+              -0.883724925160203
+            ],
+            [
+              -0.5497752523291384,
+              -0.7032041243209441,
+              0.45083381801329675
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.11795785218636828,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.03436980938451032,
+            "pip_flexion_rad": 0.1845174439326184,
+            "dip_flexion_rad": 0.014239923159121084,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.6609616010035013,
+            "pip_flexion_rad": 1.2455810252317614,
+            "dip_flexion_rad": 0.604260562888954
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.7000908274018368,
+            "pip_flexion_rad": 1.2768571380823195,
+            "dip_flexion_rad": 0.5608903080769398
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.6890003659783087,
+            "pip_flexion_rad": 1.2118823323841992,
+            "dip_flexion_rad": 0.6110291083068823
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.500352801381037,
+            "pip_flexion_rad": 1.1387388526978532,
+            "dip_flexion_rad": 0.853973441676813
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.27109245234612755,
+          "right_hand_thumb_rota_joint1": 0.7961293609831546,
+          "right_hand_thumb_rota_joint2": 0.37855998078978026,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.6609616010035013,
+          "right_hand_index_joint2": 1.5477113066762385,
+          "right_hand_mid_joint1": 0.7000908274018368,
+          "right_hand_mid_joint2": 1.5573022921207893,
+          "right_hand_ring_joint1": 0.6890003659783087,
+          "right_hand_ring_joint2": 1.5173968865376404,
+          "right_hand_pinky_joint1": 0.500352801381037,
+          "right_hand_pinky_joint2": 1.5657255735362599
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.09889243447312698,
+            0.3238861776508659,
+            -0.43432653348706707
+          ],
+          [
+            0.06994861053587034,
+            0.30865998869545636,
+            -0.5824827144402397
+          ],
+          [
+            0.09567972092441908,
+            0.5750106415920067,
+            -1.002440254828378
+          ],
+          [
+            -0.20947574779029784,
+            0.4944867820986374,
+            -1.0733173721471245
+          ],
+          [
+            0.04663559805953859,
+            0.09953459193871815,
+            -1.0883377345267125
+          ],
+          [
+            -0.15318690741819838,
+            0.09915084663540934,
+            -1.3613586375289652
+          ],
+          [
+            -0.12610209197764324,
+            0.06746536749415072,
+            -1.5013082051326996
+          ],
+          [
+            -0.14800135088131786,
+            0.3792729594092734,
+            -1.2268982056033686
+          ],
+          [
+            -3.42068131779835e-17,
+            -7.608062788847151e-17,
+            -1.0
+          ],
+          [
+            -0.2083315937952406,
+            -0.06275540028606463,
+            -1.2458544303644206
+          ],
+          [
+            -0.3078390713367323,
+            0.15305437876347242,
+            -1.1368097553479324
+          ],
+          [
+            -0.4665798004705798,
+            0.3176625652629223,
+            -1.0394259873284284
+          ],
+          [
+            -0.3194547351140416,
+            -0.113376947301622,
+            -0.9491314541636047
+          ],
+          [
+            -0.2812094226408805,
+            0.04925186759818341,
+            -0.983295932719149
+          ],
+          [
+            -0.4742383065009152,
+            0.1849381330789987,
+            -0.7902564434055881
+          ],
+          [
+            -0.4931748106425013,
+            0.21162720166078255,
+            -0.8932211984903363
+          ],
+          [
+            -0.4801043211090078,
+            0.09953459193871812,
+            -0.5909719834119613
+          ],
+          [
+            -0.3481942568101357,
+            0.09385743613962018,
+            -0.7480714654770811
+          ],
+          [
+            -0.45772834043295746,
+            0.274779182923408,
+            -0.8040117459639929
+          ],
+          [
+            -0.35225460744774484,
+            0.22786459766599715,
+            -0.7804395285715617
+          ]
+        ]
+      },
+      {
+        "time_s": 228.01945833333332,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_228.019s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_228.019s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9567855000495911,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.6974993279178019,
+              0.7067696430849217,
+              -0.11820050409294819
+            ],
+            [
+              -0.23787114570434498,
+              -0.3839603614624564,
+              -0.8921837024217167
+            ],
+            [
+              -0.6759526652033535,
+              -0.5941810434869429,
+              0.4359321988168008
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.10816899189587528,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.06731312651662774,
+            "pip_flexion_rad": 0.17620560223951978,
+            "dip_flexion_rad": 0.03712888329029597,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.7872503911946018,
+            "pip_flexion_rad": 1.153469346155473,
+            "dip_flexion_rad": 0.5125744619589041
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.8981289589637942,
+            "pip_flexion_rad": 1.265489978307613,
+            "dip_flexion_rad": 0.4814109261416225
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.8768683074105799,
+            "pip_flexion_rad": 1.1961661955861342,
+            "dip_flexion_rad": 0.5403383823532969
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.67822057235754,
+            "pip_flexion_rad": 1.0763874888955243,
+            "dip_flexion_rad": 0.6710979241907846
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.2793282816291569,
+          "right_hand_thumb_rota_joint1": 0.79405140055988,
+          "right_hand_thumb_rota_joint2": 0.384282220822574,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.7872503911946018,
+          "right_hand_index_joint2": 1.409756577134925,
+          "right_hand_mid_joint1": 0.8981289589637942,
+          "right_hand_mid_joint2": 1.5061954413784242,
+          "right_hand_ring_joint1": 0.8768683074105799,
+          "right_hand_ring_joint2": 1.4663353867627826,
+          "right_hand_pinky_joint1": 0.67822057235754,
+          "right_hand_pinky_joint2": 1.4119364509909165
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.17528544077722477,
+            0.33477765105990986,
+            -0.4335296020627062
+          ],
+          [
+            0.1486914574481242,
+            0.35115141398500005,
+            -0.6181354572700511
+          ],
+          [
+            0.20600393027353647,
+            0.6023582004885375,
+            -1.037696652727055
+          ],
+          [
+            -0.09390080693631597,
+            0.5927373889390886,
+            -1.130092480422103
+          ],
+          [
+            0.11698046595294637,
+            0.12352298860285493,
+            -1.0948974088515824
+          ],
+          [
+            -0.08878402170641304,
+            0.18624444516250843,
+            -1.3594422633444045
+          ],
+          [
+            -0.09438879856338402,
+            0.19757442361758246,
+            -1.49504261880252
+          ],
+          [
+            -0.11094597155883036,
+            0.5048294622334327,
+            -1.230052573059314
+          ],
+          [
+            -2.1898511761933023e-16,
+            -2.1321796056438362e-17,
+            -1.0000000000000002
+          ],
+          [
+            -0.19099351869179665,
+            0.029178924754717932,
+            -1.2444736054540593
+          ],
+          [
+            -0.26162749388785905,
+            0.3035997190539749,
+            -1.0875462058018
+          ],
+          [
+            -0.3873853724568004,
+            0.4834923282510273,
+            -0.9778236001300729
+          ],
+          [
+            -0.3331988785588641,
+            -0.07517953683686052,
+            -0.9575754705400159
+          ],
+          [
+            -0.2881084947107045,
+            0.1239888874681757,
+            -0.9759276702381388
+          ],
+          [
+            -0.4438688616134325,
+            0.29906728260260984,
+            -0.761361491989172
+          ],
+          [
+            -0.4474625021265697,
+            0.35079583930565883,
+            -0.8146288982931627
+          ],
+          [
+            -0.48719313216288157,
+            0.12352298860285489,
+            -0.5978884751328027
+          ],
+          [
+            -0.3750443075842269,
+            0.11539740841912734,
+            -0.7557661175376404
+          ],
+          [
+            -0.43252261013487436,
+            0.3512853937709511,
+            -0.8055548902206328
+          ],
+          [
+            -0.36553868181940835,
+            0.32811409159360105,
+            -0.7651313834661521
+          ]
+        ]
+      }
+    ]
+  },
+  "geometry_validation": {
+    "method": "Source STL vertices in exact finite beam boxes; not a continuous surface certification",
+    "beam_width_m": 0.007,
+    "penetrations": [
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "arm_sign": -1,
+        "vertices_inside": 8,
+        "max_sampled_penetration_m": 0.00038869869786928773,
+        "tool_z_range_m": [
+          0.046855988400114824,
+          0.05233792606513887
+        ],
+        "intended_contact_link": true
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "arm_sign": 1,
+        "vertices_inside": 51,
+        "max_sampled_penetration_m": 0.0004990132770881852,
+        "tool_z_range_m": [
+          0.07720300186159164,
+          0.0945505052731071
+        ],
+        "intended_contact_link": true
+      }
+    ],
+    "no_noncontact_vertex_penetrations": true,
+    "initial_middle_contact_claimed": false
+  },
+  "closure_validation": {
+    "requested_reduction_m": 0.0035,
+    "achieved_projected_reduction_m": 0.0034999919930215986,
+    "contact_fit_errors_m": [
+      1.3306306729726845e-08,
+      5.1141019979794275e-09
+    ]
+  },
+  "occluded_finger_regularization": {
+    "middle": "0.6 measured prior + 0.4 hand-authored relaxed prior (.6,.7)",
+    "ring_pinky": "0.6 measured prior + 0.4 hand-authored relaxed prior (.45,.6), clipped [.25,.85]",
+    "reason": "These fingers are occluded in the selected video; their exact 3-D pose is not reliably observed."
+  },
+  "grip_index_link": "right_hand_index_rota_link2",
+  "contact_targets": {
+    "thumb": {
+      "link": "right_hand_thumb_rota_link2",
+      "point_local": [
+        0.044,
+        2.168404344971009e-19,
+        -0.006651469692177602
+      ]
+    },
+    "index": {
+      "link": "right_hand_index_rota_link2",
+      "point_local": [
+        0.00798751527031491,
+        0.0,
+        -0.030000000000000002
+      ],
+      "tool_longitudinal_offset_from_thumb_m": 0.035
+    },
+    "middle": {
+      "role": "relaxed support candidate for RL; no initial contact asserted"
+    }
+  },
+  "tool_geometry": {
+    "length_m": 0.14,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "strip_thickness_m": 0.001,
+    "strip_width_m": 0.007
+  },
+  "reference_quality": {
+    "contact_loss": 0.24483043020779724,
+    "surface_gap_m": 0.03886377049228126,
+    "opposed_normal_dot": -0.9849011980179851,
+    "tool_axis_hand_forward_cosine": 0.9838559810593603
+  },
+  "limitations": [
+    "Monocular landmark estimates and occluded fingers are uncertain; this is not motion-capture ground truth.",
+    "The robot lacks human finger abduction and has two flexion joints per long finger. Geometric refinement is not claimed to reproduce every human landmark.",
+    "Two initial contact targets are verified geometrically; a three-point support must be established and measured in dynamics.",
+    "Finite-beam vertex audit is not a full triangle or PhysX convex-hull collision proof."
+  ]
+}

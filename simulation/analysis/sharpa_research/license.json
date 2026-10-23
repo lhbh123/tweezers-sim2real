@@ -1,0 +1,18 @@
+{
+  "name": "LICENSE.txt",
+  "path": "LICENSE.txt",
+  "sha": "9f25be800f19b4aee922e2517c918fe8d204f074",
+  "size": 556,
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/contents/LICENSE.txt?ref=main",
+  "html_url": "https://github.com/sharpa-robotics/sharpa-urdf-usd-xml/blob/main/LICENSE.txt",
+  "git_url": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/git/blobs/9f25be800f19b4aee922e2517c918fe8d204f074",
+  "download_url": "https://raw.githubusercontent.com/sharpa-robotics/sharpa-urdf-usd-xml/main/LICENSE.txt",
+  "type": "file",
+  "content": "Q29weXJpZ2h0IDIwMjUgU2hhcnBhIEdyb3VwDQpMaWNlbnNlZCB1bmRlciB0\naGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2Ui\nKTsgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxp\nYW5jZSB3aXRoIHRoZSBMaWNlbnNlLg0KWW91IG1heSBvYnRhaW4gYSBjb3B5\nIG9mIHRoZSBMaWNlbnNlIGF0DQogICAgaHR0cDovL3d3dy5hcGFjaGUub3Jn\nL2xpY2Vuc2VzL0xJQ0VOU0UtMi4wDQpVbmxlc3MgcmVxdWlyZWQgYnkgYXBw\nbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJl\nIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVk\nIG9uIGFuICJBUyBJUyIgQkFTSVMsIFdJVEhPVVQgV0FSUkFOVElFUyBPUiBD\nT05ESVRJT05TIE9GIEFOWSBLSU5ELCBlaXRoZXIgZXhwcmVzcyBvciBpbXBs\naWVkLg0KU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3Vh\nZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZCBsaW1pdGF0aW9ucyB1bmRl\nciB0aGUgTGljZW5zZS4NCg==\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/contents/LICENSE.txt?ref=main",
+    "git": "https://api.github.com/repos/sharpa-robotics/sharpa-urdf-usd-xml/git/blobs/9f25be800f19b4aee922e2517c918fe8d204f074",
+    "html": "https://github.com/sharpa-robotics/sharpa-urdf-usd-xml/blob/main/LICENSE.txt"
+  }
+}

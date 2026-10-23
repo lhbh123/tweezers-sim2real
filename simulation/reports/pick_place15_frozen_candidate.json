@@ -1,0 +1,11 @@
+{
+  "candidate": "runs/pick_place15_ppo101_retreat80/iteration_00025.pt",
+  "sha256": "91523ab6e677e2d8ce85e655f0f29c6aad88d288ba2a710c703f749c48431fc6",
+  "frozen_at_utc": "2026-10-17T04:36:13.284929+00:00",
+  "retreat_closure": 0.8,
+  "rationale": "Use the version that restores empty-tool grip only after clearing the placed cube. Earlier .7 variants are development comparisons, not chosen based on holdout.",
+  "holdout_seed": 20261017,
+  "holdout_episodes": 64,
+  "holdout_used_for_tuning": false,
+  "scope": "same continuous 28x30 cm XY workspace with independent start/goal proposals and >=12 cm separation"
+}

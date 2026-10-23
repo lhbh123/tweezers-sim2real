@@ -1,0 +1,434 @@
+{
+  "scope": "Numerical FK/IK, static hand joint limits and hand STL table clearance for the current supplied URDF; not a dynamics or full collision certification.",
+  "source_sha256": {
+    "src/kinematics.py": "a6fc69a10c69c209272dd51c8980ca283d607139deb537221518b5b243e2daef",
+    "analysis/control_pose_b_clearance.json": "c986d6539e7b8816ab4cc342c9d2ed35901a2793f64dd4df5f5ece388d3975dc",
+    "analysis/validate_kinematics.py": "3c1f791f0add54d7137847dad459d67a59125f9b8c42265f55861568487862bf"
+  },
+  "asset_urdf": "/cpfs/user/lvzhaoyang/work/ai_rl/assets/ur5e_xhand_right/robot.urdf",
+  "asset_urdf_sha256": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c",
+  "independent_fk": {
+    "method": "Independent XML traversal with manually composed Rz(yaw) Ry(pitch) Rx(roll), Rodrigues axis-angle joint rotations",
+    "sample_count": 32,
+    "link_comparisons": 1024,
+    "max_transform_element_error": 8.881784197001252e-16,
+    "max_rotation_orthogonality_error": 2.4204901960393104e-15,
+    "passed": true
+  },
+  "local_ik": {
+    "sample_count": 24,
+    "max_position_error_m": 5.689554508505974e-15,
+    "max_rotation_error_rad": 1.1976372485189755e-14,
+    "all_optimizer_converged": true,
+    "samples": [
+      {
+        "position_error_m": 2.5438405243138006e-16,
+        "rotation_error_rad": 5.656117958468615e-16,
+        "reported_error": 1.5507207799480475e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.6711069443220838e-16,
+        "rotation_error_rad": 3.5191204204585106e-16,
+        "reported_error": 5.687304853800384e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 5.689554508505974e-15,
+        "rotation_error_rad": 1.1976372485189755e-14,
+        "reported_error": 2.6028850372391414e-14,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 2.897767167584095e-16,
+        "rotation_error_rad": 4.075725493922759e-16,
+        "reported_error": 1.0527357382369444e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.5700924586837752e-16,
+        "rotation_error_rad": 2.951374246446623e-16,
+        "reported_error": 1.3143595900248223e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 3.047122644420384e-15,
+        "rotation_error_rad": 3.84057137565001e-16,
+        "reported_error": 1.2258644901123282e-14,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 5.594315114139762e-17,
+        "rotation_error_rad": 9.60834938017699e-17,
+        "reported_error": 4.338974572700481e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.1102230246251565e-16,
+        "rotation_error_rad": 2.229740880405137e-16,
+        "reported_error": 8.568443254825971e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 4.050792900924367e-16,
+        "rotation_error_rad": 4.0713780278849826e-16,
+        "reported_error": 1.842271101409469e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 2.2887833992611187e-16,
+        "rotation_error_rad": 4.2554120748718657e-16,
+        "reported_error": 1.0274518411854318e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 3.053310439023432e-16,
+        "rotation_error_rad": 3.247679748117775e-16,
+        "reported_error": 1.2277452493303351e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 2.2591401799415137e-16,
+        "rotation_error_rad": 4.732533029661153e-16,
+        "reported_error": 1.5856771241539665e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.1443916996305594e-16,
+        "rotation_error_rad": 2.781215277885062e-16,
+        "reported_error": 5.202636031824505e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 3.3770677752576205e-15,
+        "rotation_error_rad": 7.471255253787474e-15,
+        "reported_error": 1.5454368604602333e-14,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 3.7238012298709097e-16,
+        "rotation_error_rad": 8.417324312491556e-16,
+        "reported_error": 1.293585588117794e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.3597399555105182e-16,
+        "rotation_error_rad": 2.576722064862522e-16,
+        "reported_error": 1.1000877918960403e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.9229626863835638e-16,
+        "rotation_error_rad": 3.833578380627969e-16,
+        "reported_error": 1.5079501574802942e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 2.0396099332657776e-16,
+        "rotation_error_rad": 2.9374869867181583e-16,
+        "reported_error": 4.644210386722474e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 6.206335383118183e-17,
+        "rotation_error_rad": 4.668185813587877e-16,
+        "reported_error": 4.520145658288979e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.1102230246251565e-16,
+        "rotation_error_rad": 2.1762747374564777e-16,
+        "reported_error": 9.538017557623454e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.2412670766236366e-16,
+        "rotation_error_rad": 7.597176203361454e-16,
+        "reported_error": 5.554051414399632e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.1102230246251565e-16,
+        "rotation_error_rad": 1.4816848423634288e-16,
+        "reported_error": 4.999834719290836e-16,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 1.1102230246251565e-16,
+        "rotation_error_rad": 2.8134161369932763e-16,
+        "reported_error": 1.056265558501892e-15,
+        "optimizer_success": true
+      },
+      {
+        "position_error_m": 2.482534153247273e-16,
+        "rotation_error_rad": 3.554487653605947e-16,
+        "reported_error": 9.783940486535246e-16,
+        "optimizer_success": true
+      }
+    ]
+  },
+  "task_nominal_ik": {
+    "pinch_z_m": 0.04,
+    "sample_count": 62,
+    "max_position_error_m": 2.7755575615628914e-16,
+    "max_rotation_error_rad": 6.719621399443182e-16,
+    "all_within_arm_limits": true
+  },
+  "hand_joint_limits": {
+    "all_within_limits": true,
+    "joint_pose_checks": [
+      {
+        "pose": "q_open",
+        "joint": "right_hand_thumb_bend_joint",
+        "position_rad": 1.0511370347528308,
+        "lower": 0.0,
+        "upper": 1.83,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.7788629652471692
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_thumb_rota_joint1",
+        "position_rad": 0.44834255565556863,
+        "lower": -1.05,
+        "upper": 1.57,
+        "within_limits": true,
+        "distance_to_limit_rad": 1.1216574443444314
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_thumb_rota_joint2",
+        "position_rad": 1.2541085358235442,
+        "lower": -0.175,
+        "upper": 1.83,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.5758914641764559
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_index_bend_joint",
+        "position_rad": 0.10686494270530114,
+        "lower": -0.175,
+        "upper": 0.175,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.06813505729469885
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_index_joint1",
+        "position_rad": 1.3761090743018722,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.5438909256981277
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_index_joint2",
+        "position_rad": 1.9199999999999997,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 2.220446049250313e-16
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_mid_joint1",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_mid_joint2",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.94,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_ring_joint1",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_ring_joint2",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_pinky_joint1",
+        "position_rad": 1.9,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.020000000000000018
+      },
+      {
+        "pose": "q_open",
+        "joint": "right_hand_pinky_joint2",
+        "position_rad": 1.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.9199999999999999
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_thumb_bend_joint",
+        "position_rad": 1.050262559711099,
+        "lower": 0.0,
+        "upper": 1.83,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.779737440288901
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_thumb_rota_joint1",
+        "position_rad": 0.46252923539114543,
+        "lower": -1.05,
+        "upper": 1.57,
+        "within_limits": true,
+        "distance_to_limit_rad": 1.1074707646088546
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_thumb_rota_joint2",
+        "position_rad": 1.2861271795880214,
+        "lower": -0.175,
+        "upper": 1.83,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.5438728204119787
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_index_bend_joint",
+        "position_rad": 0.17499999999999996,
+        "lower": -0.175,
+        "upper": 0.175,
+        "within_limits": true,
+        "distance_to_limit_rad": 2.7755575615628914e-17
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_index_joint1",
+        "position_rad": 1.3823676587731915,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.5376323412268085
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_index_joint2",
+        "position_rad": 1.8683914683993013,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.05160853160069867
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_mid_joint1",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_mid_joint2",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.94,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_ring_joint1",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_ring_joint2",
+        "position_rad": 0.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.0
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_pinky_joint1",
+        "position_rad": 1.9,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.020000000000000018
+      },
+      {
+        "pose": "q_closed",
+        "joint": "right_hand_pinky_joint2",
+        "position_rad": 1.0,
+        "lower": 0.0,
+        "upper": 1.92,
+        "within_limits": true,
+        "distance_to_limit_rad": 0.9199999999999999
+      }
+    ],
+    "interpolation_note": "All convex interpolations q_open..q_closed remain within the source URDF bounds; extrapolation beyond these endpoints is not covered."
+  },
+  "table_clearance": {
+    "mesh_source": "All 13 real hand visual STL meshes, exact vertices; root base is placed on table at z=.72m",
+    "assumptions": "Ideal nominal arm pose uses tool pivot at z=.862m, pinch_z=.04m, 21 hand closures from open to closed. Recorded trajectory uses FK of measured joint positions at 30Hz and TABLE base transform. PhysX collision hull inflation and between-frame extremes are not included.",
+    "ideal_minimum": {
+      "alpha": 0.0,
+      "link": "right_hand_pinky_link2",
+      "clearance_m": 0.04166898748768544
+    },
+    "recorded_run": "runs/free_feedback_b_05",
+    "recorded_sample_count": 270,
+    "recorded_minimum": {
+      "t": 4.1,
+      "link": "right_hand_pinky_link2",
+      "clearance_m": 0.008780259947329295
+    },
+    "all_sampled_hand_surfaces_above_table": true
+  },
+  "limitations": [
+    "The hardcoded inverse_arm bounds are slightly inside supplied URDF arm limits and assume its six-joint order.",
+    "Kinematics parser targets this provided revolute/fixed URDF; it is not a general prismatic/mimic/continuous-joint parser.",
+    "inverse_arm.success reports optimizer termination, not target reachability; callers must test error. Current runtime initial placement checks error<1e-4, but its motion loop does not yet reject excessive IK residual.",
+    "Joint limits include a few endpoints exactly at their upper/lower bound; modeled finite drive torque and contacts determine realized posture.",
+    "Recorded clearance uses FK and samples 30Hz; no claim of continuous swept collision-free motion or real-hardware calibration."
+  ],
+  "unreachable_target_probe": {
+    "target_xyz": [
+      5,
+      5,
+      5
+    ],
+    "optimizer_success": false,
+    "residual": 30.4588225562474,
+    "demonstrates_need_for_residual_guard": true
+  },
+  "passed_numerical_checks": true
+}

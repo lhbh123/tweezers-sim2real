@@ -1,0 +1,298 @@
+[
+  {
+    "name": "support_loose0.45",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.3
+      ],
+      [
+        3.5,
+        -0.3
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "name": "retracted_loose0.45",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.3
+      ],
+      [
+        3.5,
+        -0.3
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ],
+    "initial_delta": {
+      "right_middle_MCP_FE": -0.519681031703949,
+      "right_middle_MCP_AA": -0.06017758429050446,
+      "right_middle_PIP": -1.0586270904541015,
+      "right_middle_DIP": -0.35992600679397585
+    },
+    "target_delta": {
+      "right_middle_MCP_FE": -0.5200000059604645,
+      "right_middle_MCP_AA": -0.06000000715255738,
+      "right_middle_PIP": -1.0600000238418579,
+      "right_middle_DIP": -0.3600000059604645
+    }
+  },
+  {
+    "name": "support_loose0.30",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.45
+      ],
+      [
+        3.5,
+        -0.45
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "name": "retracted_loose0.30",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.45
+      ],
+      [
+        3.5,
+        -0.45
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ],
+    "initial_delta": {
+      "right_middle_MCP_FE": -0.519681031703949,
+      "right_middle_MCP_AA": -0.06017758429050446,
+      "right_middle_PIP": -1.0586270904541015,
+      "right_middle_DIP": -0.35992600679397585
+    },
+    "target_delta": {
+      "right_middle_MCP_FE": -0.5200000059604645,
+      "right_middle_MCP_AA": -0.06000000715255738,
+      "right_middle_PIP": -1.0600000238418579,
+      "right_middle_DIP": -0.3600000059604645
+    }
+  },
+  {
+    "name": "support_loose0.10",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.65
+      ],
+      [
+        3.5,
+        -0.65
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "name": "retracted_loose0.10",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.65
+      ],
+      [
+        3.5,
+        -0.65
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ],
+    "initial_delta": {
+      "right_middle_MCP_FE": -0.519681031703949,
+      "right_middle_MCP_AA": -0.06017758429050446,
+      "right_middle_PIP": -1.0586270904541015,
+      "right_middle_DIP": -0.35992600679397585
+    },
+    "target_delta": {
+      "right_middle_MCP_FE": -0.5200000059604645,
+      "right_middle_MCP_AA": -0.06000000715255738,
+      "right_middle_PIP": -1.0600000238418579,
+      "right_middle_DIP": -0.3600000059604645
+    }
+  },
+  {
+    "name": "support_loose0.00",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.75
+      ],
+      [
+        3.5,
+        -0.75
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "name": "retracted_loose0.00",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "closure_schedule": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.5,
+        -0.75
+      ],
+      [
+        3.5,
+        -0.75
+      ],
+      [
+        4.0,
+        0.0
+      ],
+      [
+        5.0,
+        0.0
+      ]
+    ],
+    "initial_delta": {
+      "right_middle_MCP_FE": -0.519681031703949,
+      "right_middle_MCP_AA": -0.06017758429050446,
+      "right_middle_PIP": -1.0586270904541015,
+      "right_middle_DIP": -0.35992600679397585
+    },
+    "target_delta": {
+      "right_middle_MCP_FE": -0.5200000059604645,
+      "right_middle_MCP_AA": -0.06000000715255738,
+      "right_middle_PIP": -1.0600000238418579,
+      "right_middle_DIP": -0.3600000059604645
+    }
+  }
+]

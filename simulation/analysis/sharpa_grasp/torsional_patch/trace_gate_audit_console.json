@@ -1,0 +1,280 @@
+{
+  "run": "runs/sharpa_w01_pick_v3_patch4mm",
+  "recorded_evaluation": "runs/sharpa_w01_pick_v3_patch4mm/evaluation.json",
+  "task_angle_limits_deg": [
+    20,
+    70
+  ],
+  "episodes": [
+    {
+      "environment": 0,
+      "recorded_success": false,
+      "duration_s": 45.0,
+      "phase_duration_s": {
+        "settle": 0.5166666666666666,
+        "approach": 2.9,
+        "descend": 3.783333333333333,
+        "squeeze": 1.0333333333333332,
+        "lift": 2.0833333333333335,
+        "transfer": 5.05,
+        "lower": 3.6999999999999997,
+        "release": 1.2333333333333334,
+        "withdraw": 1.95,
+        "settle_at_goal": 22.75
+      },
+      "max_lift_m": 0.08793985843658447,
+      "final_xy_error_m": 0.0008489291067235172,
+      "tool_angle_range_deg": [
+        68.42728424072266,
+        76.26742553710938
+      ],
+      "root_to_tip_angle_range_deg": [
+        68.2762451171875,
+        75.85369873046875
+      ],
+      "final_tool_angle_deg": 76.26184844970703,
+      "final_root_to_tip_angle_deg": 75.84921264648438,
+      "grip_error_range_m": [
+        3.8288657378870994e-05,
+        0.005185586865991354
+      ],
+      "relative_rotation_error_range_sin_half_angle_squared": [
+        4.76837158203125e-07,
+        0.005262851715087891
+      ],
+      "face_contact_fraction": 1.0,
+      "web_z_range": [
+        0.5361416339874268,
+        0.5369150638580322
+      ],
+      "palm_z_range": [
+        -0.7983154654502869,
+        -0.7978252172470093
+      ],
+      "final_gate_pass": {
+        "phase9": true,
+        "lift_history": false,
+        "goal_xy": true,
+        "table_height": true,
+        "linear_speed": true,
+        "angular_speed": true,
+        "no_jaw_contact": true,
+        "tip_withdrawn": true,
+        "retained": true,
+        "face": true,
+        "orientation": false
+      },
+      "failed_final_gates": [
+        "lift_history",
+        "orientation"
+      ],
+      "final_gate_values": {
+        "block_linear_speed_m_s": 1.7762948800736922e-06,
+        "block_angular_speed_rad_s": 4.957471901434474e-05,
+        "jaw_forces_N": [
+          0.0,
+          0.0
+        ],
+        "tip_above_block_m": 0.08111763000488281,
+        "block_lift_m": -0.00010007619857788086
+      },
+      "phase_entries": {
+        "settle": {
+          "time_s": 0.016666666666666666,
+          "block_xy_w": [
+            0.5199999809265137,
+            -0.10000000149011612
+          ],
+          "tip_xy_w": [
+            0.4798787236213684,
+            -4.31109219789505e-06
+          ],
+          "goal_xy_error_m": 0.19209375977516174,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 68.42728424072266,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        },
+        "approach": {
+          "time_s": 0.5333333333333333,
+          "block_xy_w": [
+            0.5199999809265137,
+            -0.10000000149011612
+          ],
+          "tip_xy_w": [
+            0.4795088768005371,
+            -6.413273513317108e-05
+          ],
+          "goal_xy_error_m": 0.19209375977516174,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 68.59838104248047,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        },
+        "descend": {
+          "time_s": 3.433333333333333,
+          "block_xy_w": [
+            0.5199999809265137,
+            -0.10000000149011612
+          ],
+          "tip_xy_w": [
+            0.5200223922729492,
+            -0.1005697175860405
+          ],
+          "goal_xy_error_m": 0.19209375977516174,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 72.06871795654297,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        },
+        "squeeze": {
+          "time_s": 7.216666666666667,
+          "block_xy_w": [
+            0.5199999809265137,
+            -0.10000000149011612
+          ],
+          "tip_xy_w": [
+            0.5200080871582031,
+            -0.10018584132194519
+          ],
+          "goal_xy_error_m": 0.19209375977516174,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 74.3865966796875,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        },
+        "lift": {
+          "time_s": 8.25,
+          "block_xy_w": [
+            0.5197870135307312,
+            -0.09894908219575882
+          ],
+          "tip_xy_w": [
+            0.5200629234313965,
+            -0.09892036020755768
+          ],
+          "goal_xy_error_m": 0.19160592555999756,
+          "lift_m": 9.989738464355469e-05,
+          "tool_angle_deg": 74.49378967285156,
+          "jaw_forces_N": [
+            0.2127181589603424,
+            0.26403847336769104
+          ]
+        },
+        "transfer": {
+          "time_s": 10.333333333333334,
+          "block_xy_w": [
+            0.5152912139892578,
+            -0.10092225670814514
+          ],
+          "tip_xy_w": [
+            0.5155767202377319,
+            -0.10084918141365051
+          ],
+          "goal_xy_error_m": 0.19635938107967377,
+          "lift_m": 0.07808148860931396,
+          "tool_angle_deg": 74.76118469238281,
+          "jaw_forces_N": [
+            0.14191709458827972,
+            0.14075665175914764
+          ]
+        },
+        "lower": {
+          "time_s": 15.383333333333333,
+          "block_xy_w": [
+            0.6702885031700134,
+            0.020310459658503532
+          ],
+          "tip_xy_w": [
+            0.6705966591835022,
+            0.02038804069161415
+          ],
+          "goal_xy_error_m": 0.00042380410013720393,
+          "lift_m": 0.07816606760025024,
+          "tool_angle_deg": 75.41387176513672,
+          "jaw_forces_N": [
+            0.1387004554271698,
+            0.1366824507713318
+          ]
+        },
+        "release": {
+          "time_s": 19.083333333333332,
+          "block_xy_w": [
+            0.6700882315635681,
+            0.019735941663384438
+          ],
+          "tip_xy_w": [
+            0.6704015731811523,
+            0.019815154373645782
+          ],
+          "goal_xy_error_m": 0.00027840337133966386,
+          "lift_m": 0.0006706118583679199,
+          "tool_angle_deg": 75.5485610961914,
+          "jaw_forces_N": [
+            0.13800856471061707,
+            0.13776437938213348
+          ]
+        },
+        "withdraw": {
+          "time_s": 20.316666666666666,
+          "block_xy_w": [
+            0.6698046922683716,
+            0.019166355952620506
+          ],
+          "tip_xy_w": [
+            0.6701120734214783,
+            0.019030161201953888
+          ],
+          "goal_xy_error_m": 0.0008562203729525208,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 75.21405792236328,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        },
+        "settle_at_goal": {
+          "time_s": 22.266666666666666,
+          "block_xy_w": [
+            0.6698036193847656,
+            0.019174102693796158
+          ],
+          "tip_xy_w": [
+            0.6694424152374268,
+            0.02003711462020874
+          ],
+          "goal_xy_error_m": 0.0008489273022860289,
+          "lift_m": -0.00010007619857788086,
+          "tool_angle_deg": 76.23831176757812,
+          "jaw_forces_N": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "angle_gate_diagnostics": {
+        "70.0": {
+          "lift_bilateral_valid_grasp_longest_s": 0.0,
+          "final_stability_longest_s_without_lift_history_gate": 0.0,
+          "orientation_valid_fraction": 0.027777777777777776
+        },
+        "85.0": {
+          "lift_bilateral_valid_grasp_longest_s": 7.5,
+          "final_stability_longest_s_without_lift_history_gate": 22.75,
+          "orientation_valid_fraction": 1.0
+        }
+      },
+      "max_final_stability_excluding_absolute_angle_and_lift_history_s": 22.75
+    }
+  ],
+  "warning": "Any 85-degree calculation differing from the recorded configuration is counterfactual diagnostic only, not a successful experiment. Rerun the task to validate a changed configuration."
+}
+

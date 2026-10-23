@@ -1,0 +1,32 @@
+[
+  {
+    "name": "hold30",
+    "closure_start": 0.3,
+    "closure_end": 0.3
+  },
+  {
+    "name": "hold45",
+    "closure_start": 0.45,
+    "closure_end": 0.45
+  },
+  {
+    "name": "hold60",
+    "closure_start": 0.6,
+    "closure_end": 0.6
+  },
+  {
+    "name": "hold75",
+    "closure_start": 0.75,
+    "closure_end": 0.75
+  },
+  {
+    "name": "hold100",
+    "closure_start": 1.0,
+    "closure_end": 1.0
+  },
+  {
+    "name": "ramp45_100",
+    "closure_start": 0.45,
+    "closure_end": 1.0
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "snapshot": "analysis/tripod_stow_v1/closed045_geometry_snapshot.json",
+    "snapshot_sha256": "1c512fe400feb76c8200250fba9714c34b7eabed067979083b15a0cc9a59d593",
+    "config": "configs/human_grasp_tripod_horizontal_stow_closed045_v1.json",
+    "config_sha256": "d5034f5b68634a91672647a055008cc4fcf3a4daa02b59968d749a0e0f795240",
+    "tail_palm_source_surface_distance_m": 0.0,
+    "tail_palm_closest_visible_part": "extension",
+    "tail_palm_source_surface_intersections": 1,
+    "closest_palm_point_hand": [
+      0.04225441916796376,
+      0.01695401361374121,
+      -0.06133082212757101
+    ],
+    "closest_tail_point_hand": [
+      0.04229514924538547,
+      0.01695632962026617,
+      -0.06132875368971753
+    ],
+    "tail_to_palm_vector_hand": [
+      4.073007742171064e-05,
+      2.3160065249598627e-06,
+      2.0684378534766013e-06
+    ],
+    "tail_to_palm_vector_world": [
+      3.5956445679743474e-06,
+      -2.6827683614485826e-05,
+      3.059294461436722e-05
+    ],
+    "all_visible_handle_parts_source_clearance": [
+      {
+        "part": "bridge",
+        "source_surface_distance_m": 0.010071132897679115,
+        "nearest_feature_distance_m": 0.010071132897679115,
+        "source_surface_intersections": 0,
+        "closest_palm_point_hand": [
+          0.03923387504970375,
+          0.020544466434324452,
+          -0.06702663376518314
+        ],
+        "closest_tail_point_hand": [
+          0.04363581552118486,
+          0.029602622735833195,
+          -0.06704766578098371
+        ],
+        "tail_to_palm_vector_hand": [
+          0.004401940471481111,
+          0.009058156301508743,
+          -2.1032015800573345e-05
+        ],
+        "tail_to_palm_vector_world": [
+          0.00919508811007549,
+          -0.0027189360150568797,
+          0.0030798473073659844
+        ]
+      },
+      {
+        "part": "extension",
+        "source_surface_distance_m": 0.0,
+        "nearest_feature_distance_m": 4.084827448199198e-05,
+        "source_surface_intersections": 1,
+        "closest_palm_point_hand": [
+          0.04225441916796376,
+          0.01695401361374121,
+          -0.06133082212757101
+        ],
+        "closest_tail_point_hand": [
+          0.04229514924538547,
+          0.01695632962026617,
+          -0.06132875368971753
+        ],
+        "tail_to_palm_vector_hand": [
+          4.073007742171064e-05,
+          2.3160065249598627e-06,
+          2.0684378534766013e-06
+        ],
+        "tail_to_palm_vector_world": [
+          3.5956445679743474e-06,
+          -2.6827683614485826e-05,
+          3.059294461436722e-05
+        ]
+      }
+    ],
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005552888387573882,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "actual_tool_hand_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "extension",
+        "source_triangle_intersections": 1
+      }
+    ],
+    "hard_limit_min_margin_rad": 0.05690314918756484,
+    "control_reference_consistency": {
+      "best_fit_closure": 0.0,
+      "off_synergy_target_residual_max_rad": 0.0,
+      "target_actual_difference_max_rad": 0.015826642513275146,
+      "note": "Nonzero off-synergy residual can be a deliberately recorded independent finger preload; it must not be silently discarded."
+    },
+    "physics": {
+      "verified_for_this_modified_state": false,
+      "original_observed_snapshot": "runs/tripod_horizontal_pinch14/ix0.045_mcp0_pip-0.035_snapshot.json",
+      "requires_independent_dynamic_validation": true
+    },
+    "limitations": [
+      "Source STL/box geometry uses actual recorded poses, not solver contact hulls.",
+      "Positive source gap and PhysX contact may coexist with convex decomposition; neither overrides the other.",
+      "No claim about unrecorded simulation steps or volume containment."
+    ]
+  },
+  {
+    "snapshot": "analysis/tripod_stow_v1/open_geometry_snapshot.json",
+    "snapshot_sha256": "1f8fa06482bd02b52cd936ca47b4ae863bce5364929b9fe319aabf893161ed7e",
+    "config": "configs/human_grasp_tripod_horizontal_stow_open_v1.json",
+    "config_sha256": "d31d829423a0286312afa7eb1341e793f20decf9680e765e86bd71cd7718ee19",
+    "tail_palm_source_surface_distance_m": 0.0,
+    "tail_palm_closest_visible_part": "extension",
+    "tail_palm_source_surface_intersections": 5,
+    "closest_palm_point_hand": [
+      0.042300974721608056,
+      0.017360394023154917,
+      -0.06929861574920422
+    ],
+    "closest_tail_point_hand": [
+      0.04230090669722955,
+      0.01736037310087288,
+      -0.06929865861081559
+    ],
+    "tail_to_palm_vector_hand": [
+      -6.802437850506049e-08,
+      -2.0922282035346074e-08,
+      -4.286161137123656e-08
+    ],
+    "tail_to_palm_vector_world": [
+      -2.2082558420876257e-08,
+      1.591648684739386e-08,
+      -7.849332293851841e-08
+    ],
+    "all_visible_handle_parts_source_clearance": [
+      {
+        "part": "bridge",
+        "source_surface_distance_m": 0.007533267888280799,
+        "nearest_feature_distance_m": 0.007533267888280799,
+        "source_surface_intersections": 0,
+        "closest_palm_point_hand": [
+          0.04034022037817579,
+          0.019903587225875572,
+          -0.0728452804567882
+        ],
+        "closest_tail_point_hand": [
+          0.04374834417644302,
+          0.02662016148292336,
+          -0.07299510536076001
+        ],
+        "tail_to_palm_vector_hand": [
+          0.003408123798267229,
+          0.006716574257047789,
+          -0.00014982490397180692
+        ],
+        "tail_to_palm_vector_world": [
+          0.0068261928276250865,
+          -0.00221256699656001,
+          0.002292981430892081
+        ]
+      },
+      {
+        "part": "extension",
+        "source_surface_distance_m": 0.0,
+        "nearest_feature_distance_m": 8.307933368543815e-08,
+        "source_surface_intersections": 5,
+        "closest_palm_point_hand": [
+          0.042300974721608056,
+          0.017360394023154917,
+          -0.06929861574920422
+        ],
+        "closest_tail_point_hand": [
+          0.04230090669722955,
+          0.01736037310087288,
+          -0.06929865861081559
+        ],
+        "tail_to_palm_vector_hand": [
+          -6.802437850506049e-08,
+          -2.0922282035346074e-08,
+          -4.286161137123656e-08
+        ],
+        "tail_to_palm_vector_world": [
+          -2.2082558420876257e-08,
+          1.591648684739386e-08,
+          -7.849332293851841e-08
+        ]
+      }
+    ],
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005556210412958423,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "actual_tool_hand_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "extension",
+        "source_triangle_intersections": 5
+      }
+    ],
+    "hard_limit_min_margin_rad": 0.05596352666616439,
+    "control_reference_consistency": {
+      "best_fit_closure": 0.0,
+      "off_synergy_target_residual_max_rad": 0.0,
+      "target_actual_difference_max_rad": 0.008311450481414795,
+      "note": "Nonzero off-synergy residual can be a deliberately recorded independent finger preload; it must not be silently discarded."
+    },
+    "physics": {
+      "verified_for_this_modified_state": false,
+      "original_observed_snapshot": "runs/tripod_horizontal_hold12/closure0_copy0_snapshot.json",
+      "requires_independent_dynamic_validation": true
+    },
+    "limitations": [
+      "Source STL/box geometry uses actual recorded poses, not solver contact hulls.",
+      "Positive source gap and PhysX contact may coexist with convex decomposition; neither overrides the other.",
+      "No claim about unrecorded simulation steps or volume containment."
+    ]
+  },
+  {
+    "snapshot": "analysis/tripod_stow_v1/closed035_geometry_snapshot.json",
+    "snapshot_sha256": "21d51743ae75909641b16d80e6335030e4fc269ab3996b72e0b0b94df75aa709",
+    "config": "configs/human_grasp_tripod_horizontal_stow_closed035_v1.json",
+    "config_sha256": "5d26a04c7d5ce0d1c3d2ff372664fa364a353e4b871342b52ddd80449e01a626",
+    "tail_palm_source_surface_distance_m": 0.0,
+    "tail_palm_closest_visible_part": "extension",
+    "tail_palm_source_surface_intersections": 2,
+    "closest_palm_point_hand": [
+      0.04228332384371213,
+      0.01705561961712345,
+      -0.06292109260757354
+    ],
+    "closest_tail_point_hand": [
+      0.04229543796723455,
+      0.017056552029230933,
+      -0.06292000483841068
+    ],
+    "tail_to_palm_vector_hand": [
+      1.2114123522415088e-05,
+      9.324121074821834e-07,
+      1.0877691628691233e-06
+    ],
+    "tail_to_palm_vector_world": [
+      1.3014099536432217e-06,
+      -7.631109827030308e-06,
+      9.427466136060033e-06
+    ],
+    "all_visible_handle_parts_source_clearance": [
+      {
+        "part": "bridge",
+        "source_surface_distance_m": 0.009563801746131183,
+        "nearest_feature_distance_m": 0.009563801746131183,
+        "source_surface_intersections": 0,
+        "closest_palm_point_hand": [
+          0.03926540048563214,
+          0.020526139606803707,
+          -0.06817727881097478
+        ],
+        "closest_tail_point_hand": [
+          0.04363934251048511,
+          0.029031119963073778,
+          -0.06819290385456515
+        ],
+        "tail_to_palm_vector_hand": [
+          0.0043739420248529726,
+          0.008504980356270071,
+          -1.5625043590372645e-05
+        ],
+        "tail_to_palm_vector_world": [
+          0.00864138483443149,
+          -0.002717789640584415,
+          0.0030669840971370194
+        ]
+      },
+      {
+        "part": "extension",
+        "source_surface_distance_m": 0.0,
+        "nearest_feature_distance_m": 1.2198550028839426e-05,
+        "source_surface_intersections": 2,
+        "closest_palm_point_hand": [
+          0.04228332384371213,
+          0.01705561961712345,
+          -0.06292109260757354
+        ],
+        "closest_tail_point_hand": [
+          0.04229543796723455,
+          0.017056552029230933,
+          -0.06292000483841068
+        ],
+        "tail_to_palm_vector_hand": [
+          1.2114123522415088e-05,
+          9.324121074821834e-07,
+          1.0877691628691233e-06
+        ],
+        "tail_to_palm_vector_world": [
+          1.3014099536432217e-06,
+          -7.631109827030308e-06,
+          9.427466136060033e-06
+        ]
+      }
+    ],
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.00555235534093443,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "actual_tool_hand_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "extension",
+        "source_triangle_intersections": 2
+      }
+    ],
+    "hard_limit_min_margin_rad": 0.056947070360183705,
+    "control_reference_consistency": {
+      "best_fit_closure": 0.0,
+      "off_synergy_target_residual_max_rad": 0.0,
+      "target_actual_difference_max_rad": 0.013728559017181396,
+      "note": "Nonzero off-synergy residual can be a deliberately recorded independent finger preload; it must not be silently discarded."
+    },
+    "physics": {
+      "verified_for_this_modified_state": false,
+      "original_observed_snapshot": "runs/tripod_horizontal_pinch14/ix0.035_mcp0_pip-0.035_snapshot.json",
+      "requires_independent_dynamic_validation": true
+    },
+    "limitations": [
+      "Source STL/box geometry uses actual recorded poses, not solver contact hulls.",
+      "Positive source gap and PhysX contact may coexist with convex decomposition; neither overrides the other.",
+      "No claim about unrecorded simulation steps or volume containment."
+    ]
+  }
+]

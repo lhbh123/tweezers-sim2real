@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "model": "Sharpa Wave W01 right hand",
+  "controller_version": "v5 contact-guided release",
+  "status": "validated_with_two_regression_release_failures",
+  "reference_run": "runs/sharpa_w01_video_v5_hard_case",
+  "default_arguments": {
+    "pose": "configs/sharpa_w01_task_v4.json",
+    "snapshot": "configs/sharpa_w01_preheld_v4.json",
+    "open_closure": 0.75,
+    "closed_closure": 1.0,
+    "retreat_closure": 1.0,
+    "release_extra_opening_max": 0.1,
+    "release_contact_clear_seconds": 0.1,
+    "withdraw_initial_speed": 0.01,
+    "hand_stiffness": 100.0,
+    "hand_damping": 1.0,
+    "finger_friction": 1.4,
+    "spring": 5.0,
+    "speed": 0.04,
+    "episode_seconds": 36.0,
+    "evaluate": "zero"
+  },
+  "configuration_sha256": {
+    "configs/sharpa_w01_task_v4.json": "959b441b5209a819103df08365744675a4721fb05c2e30ffe8a5358bfe07e058",
+    "configs/sharpa_w01_preheld_v4.json": "0425bca1e17b43a79db14b70507b61a99a94ac23ae3dda3ccaaa46a3c88dba7b"
+  },
+  "source_sha256": {
+    "src/rl_task.py": "9f6cd93544677774982d272dc87d918384d85ab944bcc2df008a7aa2c75df62c",
+    "src/pick_place_task.py": "c1d32b2498b0cd468850cbed96cf908779bd05ff388173ec0d9743a541816425",
+    "src/ppo.py": "97ce2e024b4cbd72e955f86741caaaf85ff2e3bcff5340e46a899bc197712eea",
+    "src/rl_scene.py": "b2ca92d077a085cdba7db0530aebd0ace7469e88a9546137e0178c515927cb55",
+    "src/grasp_contacts.py": "bad821616f8ea7056be5088b898d5b5e6ea9dbff271a2f4c8657d2870250ef9d",
+    "src/arm_command.py": "3c64b9aa2e2583b8b94438ce17ce45a3f72e6216d80a0f5272dcc995b6e29080",
+    "src/arm_clearance.py": "c977f44453d991ebc580134a8f68e46a336cdafd866fc259984ce21d55254b1d",
+    "src/kinematics.py": "53df9634bf3963ee50718c8cfc92603a3f48c44ab3d7296e7543719818e4b162",
+    "src/reset_reference.py": "d4323bac4b8927452bf6454d4eb60165934457408d54904e79afba8d37a21ca6",
+    "src/probe_render.py": "039412b36156032924a7900395d10017058a69f5a51906157eb97d8dbc62b178",
+    "configs/sharpa_w01_task_v4.json": "959b441b5209a819103df08365744675a4721fb05c2e30ffe8a5358bfe07e058",
+    "configs/sharpa_w01_preheld_v4.json": "0425bca1e17b43a79db14b70507b61a99a94ac23ae3dda3ccaaa46a3c88dba7b",
+    "scripts/run_pick_place.py": "364f5a7e36595a2844a75118558713f95c4573920ca8b1573c7169170077765d",
+    "src/sharpa_tactile.py": "5e6d0e506189a90a8caa1a2be1c504fdcbb7a415547e10956d49dc51b6310cf6"
+  },
+  "robot_asset_sha256_file": "runs/sharpa_w01_video_v5_hard_case/robot_asset_sha256.json",
+  "validation_files": {
+    "evaluation.json": "26eb0e87f088e9485b9b7bd14399e5dcb1c76e6a2f333d0f1ec060b4d99f671a",
+    "validation.json": "27f6ab93b52408d455d6cf6d9c9d6445027c67f184347851ea3812687d162f0c",
+    "source_mesh_trajectory_audit.json": "b99c370325d5790102b3e032af82c01d8940a2900d3e154c1ae533282785886d",
+    "independent_motion_summary.json": "6591094e9dbeeb10321df10e77e822230d140ca772581083f4b52ce8c45ca30c",
+    "tactile_validation.json": "2710b6108eacc94320af7cb6bb6043d4362551c9386bc7e506d7ad89050d92f2"
+  },
+  "working_angle_range_deg": [
+    20,
+    85
+  ],
+  "additional_finger_torsional_patch_radius_m": 0.0,
+  "release_feedback": {
+    "release_extra_opening_max": 0.1,
+    "release_extra_opening_rate": 0.3,
+    "release_contact_clear_seconds": 0.1,
+    "withdraw_initial_speed_m_s": 0.01,
+    "retreat_closure": 1.0
+  },
+  "historical_v4_record": "configs/sharpa_w01_reproduction_v4.json",
+  "evaluation_scope": "The video replays previously failing v4 environment 4 in a single environment. Same-eight-case regression: 6/8; fresh-seed holdout: 8/8. These are reported separately. Video success does not erase the batch regression failures.",
+  "scope": "Source of wrapper defaults. Finite simulation evidence; no hardware guarantee or trained W01 PPO policy is implied.",
+  "visualization": {
+    "video": "outputs/sharpa_w01_pick_place_tactile_v5.mp4",
+    "video_sha256": "fc2c896e5fd7d88467707a999e894e22199d076b1242f1c49a2c564b3fb6e71a",
+    "provenance": "outputs/sharpa_w01_pick_place_tactile_v5.json",
+    "scope": "Same-run native camera/tactile/trajectory composition; no generated motion."
+  },
+  "evaluations": {
+    "regression": {
+      "run": "runs/sharpa_w01_eval_v5_release_feedback",
+      "kind": "same eight previously tested start/goal pairs; not a fresh holdout",
+      "episodes": 8,
+      "successes": 6,
+      "failure_environments": [
+        4,
+        5
+      ],
+      "successful_final_xy_error_m": {
+        "min": 0.0004798099980689585,
+        "max": 0.0014854050241410732,
+        "mean": 0.0008637329253057638,
+        "median": 0.0007830478134565055
+      },
+      "report_sha256": {
+        "evaluation.json": "bc2c9d4ba23154e539297d0321f42441cce4350156fd24e0cb498d7b7d6c18df",
+        "validation.json": "3d637050f93d3fc3a55ed69988049ee8edbea752f96c986091ab62ed4ea4246b",
+        "independent_gate_audit.json": "d750240625974493a056255b3221a12e6822136fdc8ab67db75f318fde686ce2",
+        "independent_release_feedback_audit.json": "36f0b5435afab3503b78cc2d1dec1f1fcc854ea3c570f97e7c110fe08411888a"
+      }
+    },
+    "holdout": {
+      "run": "runs/sharpa_w01_holdout_v5_seed20261020",
+      "kind": "fresh random seed 20261020, run after v5 configuration frozen",
+      "episodes": 8,
+      "successes": 8,
+      "failure_environments": [],
+      "successful_final_xy_error_m": {
+        "min": 0.00022570446890313178,
+        "max": 0.0008263543131761253,
+        "mean": 0.0005660449623974273,
+        "median": 0.0006335789221338928
+      },
+      "report_sha256": {
+        "evaluation.json": "5b3f144ea982763fbea25d449d8e2156c07e9498b49736848af7cd6039a1730a",
+        "validation.json": "66facc7e422d6b5ca3325c442a037be818d3a8f4679f67015f88eb938bc9ac35",
+        "independent_gate_audit.json": "dd8eb94637646ab340c62a603c96047d95d37b13afea5c839ea07081f3139e88",
+        "independent_release_feedback_audit.json": "01628726d50040177131ef9538e1a1d0daf8f602bc5ca91b9c5c9ff04aad665d"
+      }
+    }
+  },
+  "known_release_failure": {
+    "regression_environments": [
+      4,
+      5
+    ],
+    "max_extra_opening": 0.1,
+    "remaining_right_jaw_force_N": [
+      0.010009696707129478,
+      0.02181256376206875
+    ],
+    "clear_force_limit_N": 0.003,
+    "outcome": "Waits at release and times out without withdrawing. Both remain failed; no threshold or result was changed."
+  },
+  "known_withdrawal_speed_limit": {
+    "type": "nominal target, not a hard speed cap",
+    "target_m_s": 0.01,
+    "observed_transient_command_m_s": 0.014799791388213634,
+    "run": "runs/sharpa_w01_holdout_v5_seed20261020",
+    "environment": 0,
+    "condition": "Tip returned below the 20 mm boundary while acceleration smoothing decelerated the previous command.",
+    "audit_outcome": "Preserve failing speed-audit result; task success remains 8/8."
+  },
+  "launcher": {
+    "path": "scripts/run_sharpa_w01.sh",
+    "sha256": "c3f7039ea37986d042e7d69d51a985bb4c40c058170e49cc0415083814d1730e"
+  },
+  "final_delivery": {
+    "report": {
+      "path": "reports/sharpa_w01_final.json",
+      "sha256": "328b68aa6513b60bf3fa857cf8ff79eaccb9f2811095a0685492693fa0814e17",
+      "bytes": 50818
+    },
+    "data_zip": {
+      "path": "outputs/sharpa_w01_tactile_data_v5.zip",
+      "sha256": "4ad3488f99b4fc14461ac732171fadbefc4ec94a51081368cb92ccddb0a2d7be",
+      "bytes": 12919668
+    }
+  }
+}

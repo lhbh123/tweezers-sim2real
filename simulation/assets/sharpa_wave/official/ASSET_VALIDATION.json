@@ -1,0 +1,151 @@
+{
+  "source_commit": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+  "model": "W01",
+  "urdf_mesh_reference_count": 25,
+  "urdf_missing_meshes": [],
+  "usd_models": [
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange.usda",
+      "opened": true,
+      "default_prim": "/right_sharpa_wave",
+      "meters_per_unit": 1.0,
+      "up_axis": "Z",
+      "prims": 274,
+      "revolute_joints": 22,
+      "joint_paths": [
+        "/right_sharpa_wave/joints/right_index_MCP_FE",
+        "/right_sharpa_wave/joints/right_index_MCP_AA",
+        "/right_sharpa_wave/joints/right_index_PIP",
+        "/right_sharpa_wave/joints/right_index_DIP",
+        "/right_sharpa_wave/joints/right_middle_MCP_FE",
+        "/right_sharpa_wave/joints/right_middle_MCP_AA",
+        "/right_sharpa_wave/joints/right_middle_PIP",
+        "/right_sharpa_wave/joints/right_middle_DIP",
+        "/right_sharpa_wave/joints/right_pinky_CMC",
+        "/right_sharpa_wave/joints/right_pinky_MCP_FE",
+        "/right_sharpa_wave/joints/right_pinky_MCP_AA",
+        "/right_sharpa_wave/joints/right_pinky_PIP",
+        "/right_sharpa_wave/joints/right_pinky_DIP",
+        "/right_sharpa_wave/joints/right_ring_MCP_FE",
+        "/right_sharpa_wave/joints/right_ring_MCP_AA",
+        "/right_sharpa_wave/joints/right_ring_PIP",
+        "/right_sharpa_wave/joints/right_ring_DIP",
+        "/right_sharpa_wave/joints/right_thumb_CMC_FE",
+        "/right_sharpa_wave/joints/right_thumb_CMC_AA",
+        "/right_sharpa_wave/joints/right_thumb_MCP_FE",
+        "/right_sharpa_wave/joints/right_thumb_MCP_AA",
+        "/right_sharpa_wave/joints/right_thumb_IP"
+      ],
+      "rigid_bodies": 35,
+      "elastomer_frames": [
+        "/right_sharpa_wave/right_index_elastomer",
+        "/right_sharpa_wave/right_middle_elastomer",
+        "/right_sharpa_wave/right_pinky_elastomer",
+        "/right_sharpa_wave/right_ring_elastomer",
+        "/right_sharpa_wave/right_thumb_elastomer"
+      ],
+      "layers": 5,
+      "unresolved_assets": [
+        "OmniPBR.mdl"
+      ],
+      "unresolved_assets_with_isaac_mdl_context": [],
+      "builtin_material_resolution": "/cpfs/user/lvzhaoyang/apps/isaac-sim-5.0.0/kit/mdl/core/Base/OmniPBR.mdl"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange_MITmode.usda",
+      "opened": true,
+      "default_prim": "/right_sharpa_wave",
+      "meters_per_unit": 1.0,
+      "up_axis": "Z",
+      "prims": 274,
+      "revolute_joints": 22,
+      "joint_paths": [
+        "/right_sharpa_wave/joints/right_index_MCP_FE",
+        "/right_sharpa_wave/joints/right_index_MCP_AA",
+        "/right_sharpa_wave/joints/right_index_PIP",
+        "/right_sharpa_wave/joints/right_index_DIP",
+        "/right_sharpa_wave/joints/right_middle_MCP_FE",
+        "/right_sharpa_wave/joints/right_middle_MCP_AA",
+        "/right_sharpa_wave/joints/right_middle_PIP",
+        "/right_sharpa_wave/joints/right_middle_DIP",
+        "/right_sharpa_wave/joints/right_pinky_CMC",
+        "/right_sharpa_wave/joints/right_pinky_MCP_FE",
+        "/right_sharpa_wave/joints/right_pinky_MCP_AA",
+        "/right_sharpa_wave/joints/right_pinky_PIP",
+        "/right_sharpa_wave/joints/right_pinky_DIP",
+        "/right_sharpa_wave/joints/right_ring_MCP_FE",
+        "/right_sharpa_wave/joints/right_ring_MCP_AA",
+        "/right_sharpa_wave/joints/right_ring_PIP",
+        "/right_sharpa_wave/joints/right_ring_DIP",
+        "/right_sharpa_wave/joints/right_thumb_CMC_FE",
+        "/right_sharpa_wave/joints/right_thumb_CMC_AA",
+        "/right_sharpa_wave/joints/right_thumb_MCP_FE",
+        "/right_sharpa_wave/joints/right_thumb_MCP_AA",
+        "/right_sharpa_wave/joints/right_thumb_IP"
+      ],
+      "rigid_bodies": 35,
+      "elastomer_frames": [
+        "/right_sharpa_wave/right_index_elastomer",
+        "/right_sharpa_wave/right_middle_elastomer",
+        "/right_sharpa_wave/right_pinky_elastomer",
+        "/right_sharpa_wave/right_ring_elastomer",
+        "/right_sharpa_wave/right_thumb_elastomer"
+      ],
+      "layers": 5,
+      "unresolved_assets": [
+        "OmniPBR.mdl"
+      ],
+      "unresolved_assets_with_isaac_mdl_context": [],
+      "builtin_material_resolution": "/cpfs/user/lvzhaoyang/apps/isaac-sim-5.0.0/kit/mdl/core/Base/OmniPBR.mdl"
+    },
+    {
+      "path": "wave_01/right_sharpa_wave/right_sharpa_wave_with_flange/right_sharpa_wave_with_flange.usd",
+      "opened": true,
+      "default_prim": "/right_sharpa_wave",
+      "meters_per_unit": 1.0,
+      "up_axis": "Z",
+      "prims": 153,
+      "revolute_joints": 22,
+      "joint_paths": [
+        "/right_sharpa_wave/joints/right_index_MCP_FE",
+        "/right_sharpa_wave/joints/right_index_MCP_AA",
+        "/right_sharpa_wave/joints/right_index_PIP",
+        "/right_sharpa_wave/joints/right_index_DIP",
+        "/right_sharpa_wave/joints/right_middle_MCP_FE",
+        "/right_sharpa_wave/joints/right_middle_MCP_AA",
+        "/right_sharpa_wave/joints/right_middle_PIP",
+        "/right_sharpa_wave/joints/right_middle_DIP",
+        "/right_sharpa_wave/joints/right_pinky_CMC",
+        "/right_sharpa_wave/joints/right_pinky_MCP_FE",
+        "/right_sharpa_wave/joints/right_pinky_MCP_AA",
+        "/right_sharpa_wave/joints/right_pinky_PIP",
+        "/right_sharpa_wave/joints/right_pinky_DIP",
+        "/right_sharpa_wave/joints/right_ring_MCP_FE",
+        "/right_sharpa_wave/joints/right_ring_MCP_AA",
+        "/right_sharpa_wave/joints/right_ring_PIP",
+        "/right_sharpa_wave/joints/right_ring_DIP",
+        "/right_sharpa_wave/joints/right_thumb_CMC_FE",
+        "/right_sharpa_wave/joints/right_thumb_CMC_AA",
+        "/right_sharpa_wave/joints/right_thumb_MCP_FE",
+        "/right_sharpa_wave/joints/right_thumb_MCP_AA",
+        "/right_sharpa_wave/joints/right_thumb_IP"
+      ],
+      "rigid_bodies": 35,
+      "elastomer_frames": [
+        "/right_sharpa_wave/right_index_elastomer",
+        "/right_sharpa_wave/right_middle_elastomer",
+        "/right_sharpa_wave/right_pinky_elastomer",
+        "/right_sharpa_wave/right_ring_elastomer",
+        "/right_sharpa_wave/right_thumb_elastomer"
+      ],
+      "layers": 5,
+      "unresolved_assets": [
+        "OmniPBR.mdl"
+      ],
+      "unresolved_assets_with_isaac_mdl_context": [],
+      "builtin_material_resolution": "/cpfs/user/lvzhaoyang/apps/isaac-sim-5.0.0/kit/mdl/core/Base/OmniPBR.mdl"
+    }
+  ],
+  "validation": "USD composition/static schema validation, no physics simulation performed in this check",
+  "all_required_geometry_and_physics_available": true
+}

@@ -1,0 +1,5044 @@
+{
+  "palm_definition": {
+    "local_frame": "right_hand_link",
+    "palm_outward_normal": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "reason": "The +Y broad STL surface faces the positive flexion motion of all four long fingers; -Y is the dorsal side.",
+    "STL_surface_ray_samples": [
+      {
+        "side": "-Y",
+        "point_hand_m": [
+          -4.336808689942018e-19,
+          -0.02201780285339835,
+          -0.06
+        ],
+        "surface_normal_hand": [
+          0.004976892986506682,
+          -0.99704615158845,
+          -0.07664334373487679
+        ]
+      },
+      {
+        "side": "+Y",
+        "point_hand_m": [
+          0.0,
+          0.022403237798049327,
+          -0.06
+        ],
+        "surface_normal_hand": [
+          -0.010067606391187643,
+          0.9998635406507181,
+          -0.01309745696545928
+        ]
+      },
+      {
+        "side": "-Y",
+        "point_hand_m": [
+          1.9481757786848908e-20,
+          -0.022919069266450497,
+          -0.04
+        ],
+        "surface_normal_hand": [
+          0.0012486087352043555,
+          -0.9998033113083906,
+          -0.01979342499426864
+        ]
+      },
+      {
+        "side": "+Y",
+        "point_hand_m": [
+          0.0,
+          0.02239543606169124,
+          -0.04
+        ],
+        "surface_normal_hand": [
+          -0.006373181350894874,
+          0.9996729199351364,
+          0.02476763427998178
+        ]
+      },
+      {
+        "side": "-Y",
+        "point_hand_m": [
+          -0.02,
+          -0.01984767207564357,
+          -0.07
+        ],
+        "surface_normal_hand": [
+          -0.1320763078430574,
+          -0.9912218165646501,
+          -0.005929525513988121
+        ]
+      },
+      {
+        "side": "+Y",
+        "point_hand_m": [
+          -0.02,
+          0.022598954481435805,
+          -0.07
+        ],
+        "surface_normal_hand": [
+          -0.05376671911622803,
+          0.9970457000660977,
+          0.054854461032644145
+        ]
+      },
+      {
+        "side": "-Y",
+        "point_hand_m": [
+          0.02,
+          -0.019851407619289402,
+          -0.07
+        ],
+        "surface_normal_hand": [
+          0.15704913007941051,
+          -0.9875372823288648,
+          -0.01028040620890438
+        ]
+      },
+      {
+        "side": "+Y",
+        "point_hand_m": [
+          0.02,
+          0.023707056219755704,
+          -0.07
+        ],
+        "surface_normal_hand": [
+          0.06523708258399918,
+          0.9969494681290636,
+          0.042847182557380355
+        ]
+      }
+    ],
+    "positive_flexion_FK_checks": {
+      "index": {
+        "joint_increment_rad": 0.1,
+        "tip_displacement_hand_m": [
+          0.0,
+          0.009813624856383138,
+          0.0004910905531700649
+        ]
+      },
+      "middle": {
+        "joint_increment_rad": 0.1,
+        "tip_displacement_hand_m": [
+          0.0,
+          0.009774390323641004,
+          0.0004891271901243388
+        ]
+      },
+      "ring": {
+        "joint_increment_rad": 0.1,
+        "tip_displacement_hand_m": [
+          0.0,
+          0.009813624856383148,
+          0.0004910905531700649
+        ]
+      },
+      "pinky": {
+        "joint_increment_rad": 0.1,
+        "tip_displacement_hand_m": [
+          0.0,
+          0.009813624856383207,
+          0.0004910905531700649
+        ]
+      }
+    }
+  },
+  "source_config": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/configs/human_grasp_distal_suspend30.json",
+  "source_config_sha256": "671af9256d71e2caa62cb6189f3eaf9aa69fa63192417c542073e06e883cd920",
+  "source_snapshot": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/runs/natural_hold_distal_open060/stable_snapshot.json",
+  "source_snapshot_sha256": "7bab2ebf3d8d8f0bcf93fda95e866fb8444f385e758753a7b6613d104aa15d0a",
+  "baseline": {
+    "open060": {
+      "palm_normal_world": [
+        0.9109025780942079,
+        -0.24978349627977534,
+        0.32842761486753386
+      ],
+      "palm_normal_dot_table_up": 0.32842761486753386,
+      "palm_normal_angle_to_table_up_deg": 70.82663412505804,
+      "actual_handle_axis_world": [
+        0.14236828849493327,
+        -0.23882176450435041,
+        -0.9605703697439623
+      ],
+      "actual_handle_axis_inclination_to_table_deg": 73.8569193125559,
+      "original_command_tilt_from_downward_vertical_deg": 30,
+      "original_command_inclination_to_table_deg": 60,
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.49668041383138434,
+          -0.005766259423466976,
+          0.9297746202117749
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.4987786430459894,
+          0.0002665651838209531,
+          0.9474880335259589
+        ],
+        "COM_minus_contact_midpoint_m": [
+          -0.002098229214605063,
+          -0.006032824607287929,
+          -0.017713413314183968
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          0.0008877301409624188,
+          -0.000308754428929135,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.0009398904726384412,
+        "gravity_torque_about_two_contact_line_Nm": 0.00015790769332811805,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      }
+    },
+    "delivered_ppo_video_samples": [
+      {
+        "time_s": 0.016666666666666666,
+        "palm_normal_world": [
+          0.9108493536345607,
+          -0.2497093256456849,
+          0.3286315682783386
+        ],
+        "tool_handle_inclination_to_table_deg": 72.37249917415491
+      },
+      {
+        "time_s": 0.5,
+        "palm_normal_world": [
+          0.9109198098891927,
+          -0.24985258358057363,
+          0.32832725508180005
+        ],
+        "tool_handle_inclination_to_table_deg": 75.30688708086474
+      },
+      {
+        "time_s": 1.0,
+        "palm_normal_world": [
+          0.9108727499403864,
+          -0.24982791663263465,
+          0.32847655241590057
+        ],
+        "tool_handle_inclination_to_table_deg": 70.79066947534979
+      },
+      {
+        "time_s": 2.0,
+        "palm_normal_world": [
+          0.910882763046126,
+          -0.2498360972380435,
+          0.32844256195310245
+        ],
+        "tool_handle_inclination_to_table_deg": 70.6936029905502
+      },
+      {
+        "time_s": 3.0,
+        "palm_normal_world": [
+          0.9108868489002784,
+          -0.24984138233038616,
+          0.32842720985899365
+        ],
+        "tool_handle_inclination_to_table_deg": 70.64840589755441
+      },
+      {
+        "time_s": 4.9,
+        "palm_normal_world": [
+          0.9109072375377628,
+          -0.24987281230204397,
+          0.32834674092122285
+        ],
+        "tool_handle_inclination_to_table_deg": 70.87980609526778
+      }
+    ]
+  },
+  "source_tool_length_audits": [
+    {
+      "length_m": 0.14,
+      "hand_tool_source_triangle_intersections": []
+    },
+    {
+      "length_m": 0.18,
+      "hand_tool_source_triangle_intersections": []
+    },
+    {
+      "length_m": 0.2,
+      "hand_tool_source_triangle_intersections": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "length140_down30_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.14,
+      "blade_length_m": 0.125,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 30,
+      "actual_handle_axis_inclination_to_table_deg": 30.0065476155081,
+      "actual_mean_blade_axis_inclination_to_table_deg": 29.99480322457647,
+      "palm_normal_world": [
+        -0.5609985343102555,
+        0.39481103844992077,
+        -0.7276021498180449
+      ],
+      "palm_normal_dot_table_up": -0.7276021498180449,
+      "palm_normal_angle_to_table_up_deg": 136.68574867630412,
+      "hand_world_pose_7_wxyz": [
+        0.3361440498074679,
+        -0.0008515150981259212,
+        0.9096957719641127,
+        0.8209434094895101,
+        -0.36664368402384145,
+        -0.15315821114357137,
+        0.41008156474104657
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.32510052821969054,
+        0.008675939187939324,
+        0.9233803708171019,
+        0.36664368402384145,
+        0.8209434094895103,
+        0.4100815647410465,
+        0.1531582111435715
+      ],
+      "handle_world_rotation": [
+        [
+          -0.010210888932503865,
+          -0.5001102524349493,
+          0.8659015377955277
+        ],
+        [
+          -0.9999405943890246,
+          0.0018040377228438313,
+          -0.010749564680450482
+        ],
+        [
+          0.0038138484674543464,
+          -0.8659598609966552,
+          -0.5000989639086663
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.36954985181043465,
+          -0.27055808791708746,
+          -0.8889495081777904
+        ],
+        [
+          0.0752526845655161,
+          -0.962243195367064,
+          0.261581854178506
+        ],
+        [
+          -0.9261587015693201,
+          0.029771698514391667,
+          0.3759570527001713
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.792055197639532,
+          -0.26438723292098704,
+          0.5502253674273713,
+          0.022492340413910544
+        ],
+        [
+          -0.39183425507782227,
+          0.9113476291335986,
+          -0.12614045909293828,
+          0.0672176321192286
+        ],
+        [
+          -0.4680966571551329,
+          -0.31550735322802353,
+          -0.8254336009754131,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.29943205492965613,
+        -1.4018205288666588,
+        2.718161523308734,
+        -3.660627847447211,
+        -1.8674237150930615,
+        -2.9183099277548523,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.2994337238597098,
+        -1.4018205288666588,
+        2.7181615233087335,
+        -3.6606247480056826,
+        -1.867409290769026,
+        -2.9183269299797745,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.36528842272575,
+          -0.0023507652959479097,
+          0.7940288471779215,
+          0.35053323126405356,
+          -0.6099352500990001,
+          0.6148402008985777,
+          -0.35647857134089916,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.36533425506725714,
+          0.0021490037956993224,
+          0.7940116918711699,
+          -0.36511244596478293,
+          0.6182721865438633,
+          -0.6062960863881212,
+          0.34181495107489285,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.36524770503725734,
+          -0.006845292255508062,
+          0.7940428752194448,
+          0.3534822624619948,
+          -0.6114195158177643,
+          0.6133019563908235,
+          -0.3536625172238478,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -2.220446049250313e-16,
+      "tip_center_gap_m": 0.014101843284944612,
+      "projected_inner_tip_gap_world_y_m": 0.012803126515130622,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.02318573034468341,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10191943270403814,
+          "forearm_link": 0.16302035068537757,
+          "wrist_1_link": 0.14088092785393336,
+          "wrist_2_link": 0.2079736808964291,
+          "wrist_3_link": 0.1810550362574277,
+          "right_hand_link": 0.10088860686192458,
+          "right_hand_thumb_bend_link": 0.13633533172733348,
+          "right_hand_thumb_rota_link1": 0.07787526618345253,
+          "right_hand_thumb_rota_link2": 0.04488316091419298,
+          "right_hand_index_bend_link": 0.10031698153604718,
+          "right_hand_index_rota_link1": 0.04388579532392867,
+          "right_hand_index_rota_link2": 0.036215183453246036,
+          "right_hand_mid_link1": 0.044590575155881496,
+          "right_hand_mid_link2": 0.025921025769283235,
+          "right_hand_ring_link1": 0.047453712237024326,
+          "right_hand_ring_link2": 0.02318573034468341,
+          "right_hand_pinky_link1": 0.05183273315264869,
+          "right_hand_pinky_link2": 0.025010202479643917,
+          "xhand_adapter": 0.16781778195077446
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.07010914471263197,
+        "left/blade": 0.0076409806088036936,
+        "left/tip": 0.0018772371277320232,
+        "right/blade": 0.0076517907051395495,
+        "right/tip": 0.001884708753991049
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4110873998695934,
+          -0.0013941000907207672,
+          0.7675868279545232
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.392933440029991,
+          -0.0024077396381392557,
+          0.7724826248077885
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.01815395983960244,
+          0.0010136395474184886,
+          -0.004895796853265355
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.0001491570594026306,
+          0.0026713551903974992,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.0026755160963136252,
+        "gravity_torque_about_two_contact_line_Nm": -0.0020264788238408687,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 7.390152461244738e-16,
+      "arm_IK_position_error_m": 1.5091097240551817e-16,
+      "arm_IK_rotation_error_rad": 4.263303748577522e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.2994320549466399,
+          "shoulder_lift_joint": -1.5090735275630376,
+          "elbow_joint": 2.7039661311308563,
+          "wrist_1_joint": -3.5391794565766683,
+          "wrist_2_joint": -1.8674237150811959,
+          "wrist_3_joint": -2.918309927767559
+        },
+        "IK_residual": 4.3730230429043875e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length140_down35_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.14,
+      "blade_length_m": 0.125,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 35,
+      "actual_handle_axis_inclination_to_table_deg": 35.00614084045249,
+      "actual_mean_blade_axis_inclination_to_table_deg": 34.993697454278,
+      "palm_normal_world": [
+        -0.6222784713093013,
+        0.39481103844992077,
+        -0.6759391600307342
+      ],
+      "palm_normal_dot_table_up": -0.6759391600307342,
+      "palm_normal_angle_to_table_up_deg": 132.5271239028233,
+      "hand_world_pose_7_wxyz": [
+        0.35254472623744015,
+        -0.0008515150981259212,
+        0.9215414758236544,
+        0.8268427206098953,
+        -0.34840721385441653,
+        -0.11720338988010101,
+        0.4256840308365378
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.3427359199606706,
+        0.008675939187939345,
+        0.936136506973047,
+        0.3484072138544164,
+        0.8268427206098953,
+        0.42568403083653794,
+        0.11720338988010096
+      ],
+      "handle_world_rotation": [
+        [
+          -0.009839634621456003,
+          -0.5736805568118434,
+          0.8190200243745998
+        ],
+        [
+          -0.9999405943890246,
+          0.0018040377228438313,
+          -0.010749564680450482
+        ],
+        [
+          0.004689273231629538,
+          -0.8190771417784459,
+          -0.5736642280398971
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.4488636525916261,
+          -0.2669337582119617,
+          -0.8527999707486756
+        ],
+        [
+          0.0752526845655161,
+          -0.962243195367064,
+          0.261581854178506
+        ],
+        [
+          -0.8904259962780663,
+          0.05323909932202284,
+          0.45200347726051043
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395319,
+          -0.26438723292098715,
+          0.5502253674273712,
+          0.02249234041391074
+        ],
+        [
+          -0.3918342550778224,
+          0.9113476291335986,
+          -0.12614045909293833,
+          0.06721763211922838
+        ],
+        [
+          -0.4680966571551328,
+          -0.3155073532280235,
+          -0.825433600975413,
+          -0.09594980077331466
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.27306425016730046,
+        -1.4850752779423086,
+        2.65095657055153,
+        -3.42541170585269,
+        -1.9033512456989692,
+        -2.914983844741108,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.2730659190973541,
+        -1.4850752779423084,
+        2.6509565705515303,
+        -3.425408606411162,
+        -1.9033368213749338,
+        -2.9150008469660302,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.37149715927676374,
+          -0.0023507652959479097,
+          0.8037745991384666,
+          0.3233806484089187,
+          -0.6249041037822519,
+          0.629545054063686,
+          -0.32953428078832525,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.37154132202887213,
+          0.0021490037956993224,
+          0.8037535145610706,
+          -0.3383186759682678,
+          0.6325934871783725,
+          -0.6216450080705361,
+          0.3145209649793914,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.37145781915574694,
+          -0.006845292255508062,
+          0.8037921225794403,
+          0.3263939700656577,
+          -0.6262641222535649,
+          0.6281369085580315,
+          -0.32665616416946697,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.014101843284944612,
+      "projected_inner_tip_gap_world_y_m": 0.012803126515130622,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.03295739921210994,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10192188064283658,
+          "forearm_link": 0.18655428708588961,
+          "wrist_1_link": 0.16585722350033416,
+          "wrist_2_link": 0.22458311386696095,
+          "wrist_3_link": 0.1951923007495957,
+          "right_hand_link": 0.10763844568895586,
+          "right_hand_thumb_bend_link": 0.14618550956186316,
+          "right_hand_thumb_rota_link1": 0.08747474985708148,
+          "right_hand_thumb_rota_link2": 0.052708680947790465,
+          "right_hand_index_bend_link": 0.10584694772130376,
+          "right_hand_index_rota_link1": 0.04901637837111439,
+          "right_hand_index_rota_link2": 0.04398961653371003,
+          "right_hand_mid_link1": 0.051079472139067716,
+          "right_hand_mid_link2": 0.034706730151290555,
+          "right_hand_ring_link1": 0.05523606833483474,
+          "right_hand_ring_link2": 0.03295739921210994,
+          "right_hand_pinky_link1": 0.06032477903074862,
+          "right_hand_pinky_link2": 0.03536949332230077,
+          "xhand_adapter": 0.1810301034187278
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.08006061636107387,
+        "left/blade": 0.00840205812977557,
+        "left/tip": 0.0014417013626754072,
+        "right/blade": 0.00841465120067264,
+        "right/tip": 0.0014501439044061204
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4148172836603223,
+          -0.0013941000907207672,
+          0.7734415559112223
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.39715910192982784,
+          -0.0024077396381392557,
+          0.7799009446330114
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.017658181730494438,
+          0.0010136395474184886,
+          -0.006459388721789083
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.0001491570594026306,
+          0.0025984014416422564,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.0026026789814147643,
+        "gravity_torque_about_two_contact_line_Nm": -0.001964350695774145,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.642583376685179e-16,
+      "arm_IK_position_error_m": 1.2423575550114723e-16,
+      "arm_IK_rotation_error_rad": 2.67273463908009e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.2730642501826144,
+          "shoulder_lift_joint": -1.5731771833734254,
+          "elbow_joint": 2.632690157494154,
+          "wrist_1_joint": -3.3190433873682808,
+          "wrist_2_joint": -1.9033512456892359,
+          "wrist_3_joint": -2.9149838447536167
+        },
+        "IK_residual": 5.67143094059285e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length140_down40_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.14,
+      "blade_length_m": 0.125,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 40,
+      "actual_handle_axis_inclination_to_table_deg": 40.0056809643842,
+      "actual_mean_blade_axis_inclination_to_table_deg": 39.99244741779365,
+      "palm_normal_world": [
+        -0.6788224933996692,
+        0.39481103844992077,
+        -0.619131865092366
+      ],
+      "palm_normal_dot_table_up": -0.619131865092366,
+      "palm_normal_angle_to_table_up_deg": 128.25276634257554,
+      "hand_world_pose_7_wxyz": [
+        0.369915414260344,
+        -0.0008515150981259212,
+        0.9319126900678766,
+        0.8311680896169314,
+        -0.3295075307512483,
+        -0.08102546530258872,
+        0.4404761831850331
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.36141597423306765,
+        0.008675939187939324,
+        0.9473070765139051,
+        0.32950753075124817,
+        0.8311680896169314,
+        0.4404761831850331,
+        0.08102546530258871
+      ],
+      "handle_world_rotation": [
+        [
+          -0.009393494749605066,
+          -0.6428848057536081,
+          0.7659052740303692
+        ],
+        [
+          -0.9999405943890246,
+          0.0018040377228438313,
+          -0.010749564680450482
+        ],
+        [
+          0.005529009795051486,
+          -0.7659607509390025,
+          -0.642863561007813
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5247613299453114,
+          -0.2612779014278329,
+          -0.8101601106074623
+        ],
+        [
+          0.0752526845655161,
+          -0.962243195367064,
+          0.261581854178506
+        ],
+        [
+          -0.8479166115012201,
+          0.07630131843716632,
+          0.5246098824317353
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395319,
+          -0.26438723292098715,
+          0.550225367427371,
+          0.022492340413910572
+        ],
+        [
+          -0.3918342550778224,
+          0.9113476291335985,
+          -0.12614045909293814,
+          0.0672176321192286
+        ],
+        [
+          -0.4680966571551328,
+          -0.3155073532280234,
+          -0.8254336009754131,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.24992628515328494,
+        -1.5304835404075947,
+        2.5778900476428355,
+        -3.220850766623845,
+        -1.9352754942866872,
+        -2.909780634372442,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.24992795408333868,
+        -1.5304835404075945,
+        2.5778900476428355,
+        -3.2208476671823165,
+        -1.9352610699626513,
+        -2.9097976365973643,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3785316679614874,
+          -0.0023507652959479097,
+          0.8129421385248505,
+          0.29561249210978296,
+          -0.6386834169867267,
+          0.6430515324373821,
+          -0.3019627030027668,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3785738250189876,
+          0.0021490037956993224,
+          0.8129172851431753,
+          -0.31088089714327066,
+          0.6457106101557741,
+          -0.6358105931480962,
+          0.2866282703508486,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3784940048100216,
+          -0.006845292255508062,
+          0.8129630240013079,
+          0.29868436819628,
+          -0.6399165993381298,
+          0.6417761664188311,
+          -0.29902800254066697,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.014101843284944612,
+      "projected_inner_tip_gap_world_y_m": 0.012803126515130622,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.042466751604568254,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10192251584881395,
+          "forearm_link": 0.20850280564102008,
+          "wrist_1_link": 0.18965977943477086,
+          "wrist_2_link": 0.2393454320400078,
+          "wrist_3_link": 0.20770916329158373,
+          "right_hand_link": 0.11362845366019292,
+          "right_hand_thumb_bend_link": 0.1549824901091721,
+          "right_hand_thumb_rota_link1": 0.09646786057536927,
+          "right_hand_thumb_rota_link2": 0.06007688530532551,
+          "right_hand_index_bend_link": 0.11062239942584284,
+          "right_hand_index_rota_link1": 0.0538176039008994,
+          "right_hand_index_rota_link2": 0.05143025730511985,
+          "right_hand_mid_link1": 0.05723898620641643,
+          "right_hand_mid_link2": 0.04325114493958815,
+          "right_hand_ring_link1": 0.06262067808898941,
+          "right_hand_ring_link2": 0.042466751604568254,
+          "right_hand_pinky_link1": 0.06841707962509647,
+          "right_hand_pinky_link2": 0.04545191723650266,
+          "xhand_adapter": 0.1927612162763313
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.08946214108685469,
+        "left/blade": 0.009158553624846855,
+        "left/tip": 0.0010545560894943407,
+        "right/blade": 0.009172833829431903,
+        "right/tip": 0.0010639052938563598
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.41904324728079617,
+          -0.0013941000907207672,
+          0.7789489240683121
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.40201523308468035,
+          -0.0024077396381392557,
+          0.7869227448101662
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.017028014196115826,
+          0.0010136395474184886,
+          -0.007973820741854154
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.0001491570594026306,
+          0.002505672288958444,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.0025101078558547813,
+        "gravity_torque_about_two_contact_line_Nm": -0.0018872726728052073,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 3.1487515193295484e-16,
+      "arm_IK_position_error_m": 6.546139416680338e-17,
+      "arm_IK_rotation_error_rad": 1.7488068871266432e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.24992628516717644,
+          "shoulder_lift_joint": -1.6034253469903963,
+          "elbow_joint": 2.5569126750725406,
+          "wrist_1_joint": -3.1269315874751147,
+          "wrist_2_joint": -1.935275494278813,
+          "wrist_3_joint": -2.909780634384691
+        },
+        "IK_residual": 3.589415612018358e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length140_down45_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.14,
+      "blade_length_m": 0.125,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 45,
+      "actual_handle_axis_inclination_to_table_deg": 45.0051482063629,
+      "actual_mean_blade_axis_inclination_to_table_deg": 44.990999392184115,
+      "palm_normal_world": [
+        -0.7302002664310374,
+        0.39481103844992077,
+        -0.5576126028186036
+      ],
+      "palm_normal_dot_table_up": -0.5576126028186036,
+      "palm_normal_angle_to_table_up_deg": 123.89085358520626,
+      "hand_world_pose_7_wxyz": [
+        0.38812391245161715,
+        -0.0008515150981259212,
+        0.9407304834940703,
+        0.8339112829248758,
+        -0.3099806113353113,
+        -0.04469330414668653,
+        0.454429864083806
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.3809985245445438,
+        0.008675939187939317,
+        0.9568070646604958,
+        0.3099806113353112,
+        0.8339112829248756,
+        0.45442986408380615,
+        0.04469330414668657
+      ],
+      "handle_world_rotation": [
+        [
+          -0.008875864710762451,
+          -0.7071963131391289,
+          0.706961522084519
+        ],
+        [
+          -0.9999405943890246,
+          0.0018040377228438313,
+          -0.010749564680450482
+        ],
+        [
+          0.006326667255425673,
+          -0.7070149362851668,
+          -0.7071703141048281
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5966652567185587,
+          -0.2536335620499281,
+          -0.7613544428364766
+        ],
+        [
+          0.0752526845655161,
+          -0.962243195367064,
+          0.261581854178506
+        ],
+        [
+          -0.7989540693248014,
+          0.09878283844700723,
+          0.593223689629547
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395319,
+          -0.26438723292098704,
+          0.5502253674273712,
+          0.022492340413910662
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335983,
+          -0.1261404590929384,
+          0.06721763211922838
+        ],
+        [
+          -0.46809665715513293,
+          -0.3155073532280235,
+          -0.825433600975413,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.22964715355193627,
+        -1.548011879146193,
+        2.500826815676825,
+        -3.0390205607116254,
+        -1.9635862776365354,
+        -2.9031220941005778,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.22964882248198992,
+        -1.548011879146193,
+        2.5008268156768256,
+        -3.039017461270097,
+        -1.9635718533124997,
+        -2.9031390963255,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3863384119212787,
+          -0.0023507652959479097,
+          0.8214616948268316,
+          0.2672816206304005,
+          -0.6512469600065749,
+          0.6553339256704237,
+          -0.2738163220496044,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3863782424435078,
+          0.0021490037956993224,
+          0.8214332617901186,
+          -0.28285133886124614,
+          0.6575985862869523,
+          -0.648765876624487,
+          0.25818996251880705,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3863027123786884,
+          -0.006845292255508062,
+          0.8214857833876857,
+          0.270406203655931,
+          -0.6523509588053729,
+          0.6541937668706798,
+          -0.27083062411339026,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.014101843284944612,
+      "projected_inner_tip_gap_world_y_m": 0.012803126515130622,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.05143979619483352,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10191441776011223,
+          "forearm_link": 0.2288270235478287,
+          "wrist_1_link": 0.21209454913009562,
+          "wrist_2_link": 0.2520822368376181,
+          "wrist_3_link": 0.21861522903652508,
+          "right_hand_link": 0.11881304319810826,
+          "right_hand_thumb_bend_link": 0.16265932303553277,
+          "right_hand_thumb_rota_link1": 0.10477942073030311,
+          "right_hand_thumb_rota_link2": 0.06692443735942621,
+          "right_hand_index_bend_link": 0.11451526703166082,
+          "right_hand_index_rota_link1": 0.05814151911059151,
+          "right_hand_index_rota_link2": 0.05743253882719457,
+          "right_hand_mid_link1": 0.06288334997395784,
+          "right_hand_mid_link2": 0.05143979619483352,
+          "right_hand_ring_link1": 0.06948584800204372,
+          "right_hand_ring_link2": 0.051644232001245904,
+          "right_hand_pinky_link1": 0.07604804764190365,
+          "right_hand_pinky_link2": 0.05518778443144812,
+          "xhand_adapter": 0.20288467276722197
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.09824216761001581,
+        "left/blade": 0.009904709706516135,
+        "left/tip": 0.000718747717482815,
+        "right/blade": 0.009920568363809501,
+        "right/tip": 0.0007289324313856094
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4237331285961572,
+          -0.0013941000907207672,
+          0.7840670180286773
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.4074648754042487,
+          -0.0024077396381392557,
+          0.7934945852000266
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.0162682531919085,
+          0.0010136395474184886,
+          -0.009427567171349294
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.0001491570594026306,
+          0.002393873457189336,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.002398515782188073,
+        "gravity_torque_about_two_contact_line_Nm": -0.00179583136522981,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 3.5816592858305283e-16,
+      "arm_IK_position_error_m": 6.455875440461582e-17,
+      "arm_IK_rotation_error_rad": 2.4818845273975275e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.22964715356461007,
+          "shoulder_lift_joint": -1.6092768009112612,
+          "elbow_joint": 2.4780454636716405,
+          "wrist_1_joint": -2.954974286945941,
+          "wrist_2_joint": -1.9635862776302884,
+          "wrist_3_joint": -2.903122094112514
+        },
+        "IK_residual": 4.759299449487631e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length140_down50_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.14,
+      "blade_length_m": 0.125,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 50,
+      "actual_handle_axis_inclination_to_table_deg": 50.00451327662705,
+      "actual_mean_blade_axis_inclination_to_table_deg": 49.989273847291635,
+      "palm_normal_world": [
+        -0.7760207745278896,
+        0.39481103844992077,
+        -0.4918495719416962
+      ],
+      "palm_normal_dot_table_up": -0.4918495719416962,
+      "palm_normal_angle_to_table_up_deg": 119.46222122912424,
+      "hand_world_pose_7_wxyz": [
+        0.4070316431454315,
+        -0.0008515150981259212,
+        0.947927747369933,
+        0.8350670787093537,
+        -0.2898636262075513,
+        -0.008276066746139787,
+        0.4675185119081903
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.40133453586296064,
+        0.008675939187939352,
+        0.9645641707667737,
+        0.2898636262075509,
+        0.8350670787093537,
+        0.4675185119081904,
+        0.008276066746139772
+      ],
+      "handle_world_rotation": [
+        [
+          -0.00829068398207726,
+          -0.766125629564852,
+          0.6426373660805672
+        ],
+        [
+          -0.9999405943890246,
+          0.0018040377228438313,
+          -0.010749564680450482
+        ],
+        [
+          0.007076174957839934,
+          -0.6426883110589101,
+          -0.7660950741103953
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.6640282006118455,
+          -0.24405891811669128,
+          -0.7067544080371235
+        ],
+        [
+          0.0752526845655161,
+          -0.962243195367064,
+          0.261581854178506
+        ],
+        [
+          -0.7439110042591639,
+          0.12051256140955778,
+          0.6573227063510205
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395319,
+          -0.2643872329209872,
+          0.5502253674273712,
+          0.022492340413910628
+        ],
+        [
+          -0.39183425507782227,
+          0.9113476291335986,
+          -0.12614045909293828,
+          0.06721763211922849
+        ],
+        [
+          -0.4680966571551329,
+          -0.31550735322802326,
+          -0.825433600975413,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.21187701781482035,
+        -1.5450355735530614,
+        2.420919055221323,
+        -2.873868908224453,
+        -1.9886681060270026,
+        -2.895348220508939,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.2118786867448741,
+        -1.5450355735530614,
+        2.420919055221323,
+        -2.8738658087829245,
+        -1.9886536817029672,
+        -2.895365222733861,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.39485797712076165,
+          -0.0023507652959479097,
+          0.829268429076703,
+          0.23844196339485385,
+          -0.6625708174235934,
+          0.6663688535292065,
+          -0.24514871616471823,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.39489517797339513,
+          0.0021490037956993224,
+          0.8292366327775299,
+          -0.25428335697948,
+          0.6682347861336729,
+          -0.6604861973812813,
+          0.2292601754185528,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3948245128821217,
+          -0.006845292255508062,
+          0.8292955373934607,
+          0.24161330553803903,
+          -0.6635435311453252,
+          0.6653660723053472,
+          -0.2421177042001072,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -2.220446049250313e-16,
+      "tip_center_gap_m": 0.014101843284944612,
+      "projected_inner_tip_gap_world_y_m": 0.012803126515130622,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.05921993301682438,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10191879547679472,
+          "forearm_link": 0.2471513196847832,
+          "wrist_1_link": 0.23301453112631854,
+          "wrist_2_link": 0.2626738775635614,
+          "wrist_3_link": 0.22745830753606644,
+          "right_hand_link": 0.12295045523093784,
+          "right_hand_thumb_bend_link": 0.16898279458693044,
+          "right_hand_thumb_rota_link1": 0.11223827564828726,
+          "right_hand_thumb_rota_link2": 0.07315535955897567,
+          "right_hand_index_bend_link": 0.1175290219102394,
+          "right_hand_index_rota_link1": 0.06208230496281164,
+          "right_hand_index_rota_link2": 0.062252360668373585,
+          "right_hand_mid_link1": 0.06810824251341696,
+          "right_hand_mid_link2": 0.05921993301682438,
+          "right_hand_ring_link1": 0.07588155136486907,
+          "right_hand_ring_link2": 0.06042546558895834,
+          "right_hand_pinky_link1": 0.0830569552205751,
+          "right_hand_pinky_link2": 0.06449958212368512,
+          "xhand_adapter": 0.2112764354918149
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.1063338746271909,
+        "left/blade": 0.010634847676460502,
+        "left/tip": 0.0004368319511183216,
+        "right/blade": 0.010652164092504468,
+        "right/tip": 0.0004477746627393753
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.42885123477776677,
+          -0.0013941000907207672,
+          0.78875688600689
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.41346655381989583,
+          -0.0024077396381392557,
+          0.7995664501290396
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.015384680957870933,
+          0.0010136395474184886,
+          -0.010809564122149617
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.0001491570594026306,
+          0.002263855802950708,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.002268764184511743,
+        "gravity_torque_about_two_contact_line_Nm": -0.0016907226966124005,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 1.137408776594697e-15,
+      "arm_IK_position_error_m": 2.737127597257086e-16,
+      "arm_IK_rotation_error_rad": 3.082205828429206e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.21187701782644677,
+          "shoulder_lift_joint": -1.5973275115043342,
+          "elbow_joint": 2.3969503876142992,
+          "wrist_1_joint": -2.7976083026708554,
+          "wrist_2_joint": -1.9886681060221856,
+          "wrist_3_joint": -2.8953482205205168
+        },
+        "IK_residual": 9.047543075071918e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length180_down30_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.18,
+      "blade_length_m": 0.16499999999999998,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 30,
+      "actual_handle_axis_inclination_to_table_deg": 30.006387985920274,
+      "actual_mean_blade_axis_inclination_to_table_deg": 29.995777217960434,
+      "palm_normal_world": [
+        -0.5603425531602684,
+        0.3953095551570404,
+        -0.7278369176672583
+      ],
+      "palm_normal_dot_table_up": -0.7278369176672583,
+      "palm_normal_angle_to_table_up_deg": 136.70536042855989,
+      "hand_world_pose_7_wxyz": [
+        0.30151372423201517,
+        -0.0011407902968384454,
+        0.9296906713507586,
+        0.821175634202444,
+        -0.3670173659888002,
+        -0.1527264069201327,
+        0.4094428842758449
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.29048621011314,
+        0.00841332881214954,
+        0.9433695872584349,
+        0.3670173659887998,
+        0.8211756342024441,
+        0.40944288427584513,
+        0.15272640692013273
+      ],
+      "handle_world_rotation": [
+        [
+          -0.011880955813281222,
+          -0.5001115591019742,
+          0.8658794785312538
+        ],
+        [
+          -0.9999196693117198,
+          0.0021182192527148995,
+          -0.012496722399845745
+        ],
+        [
+          0.0044156327410958115,
+          -0.865958394843419,
+          -0.5000965512655589
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.3694290152640617,
+          -0.27216467897765406,
+          -0.8885091953367823
+        ],
+        [
+          0.07531246220219,
+          -0.9617718758663534,
+          0.26329240746660265
+        ],
+        [
+          -0.926202049078963,
+          0.030352039626791408,
+          0.375803829108252
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.792055197639532,
+          -0.2643872329209872,
+          0.550225367427371,
+          0.022492340413910628
+        ],
+        [
+          -0.39183425507782227,
+          0.9113476291335987,
+          -0.1261404590929381,
+          0.06721763211922838
+        ],
+        [
+          -0.46809665715513304,
+          -0.31550735322802337,
+          -0.8254336009754131,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.34963234957901757,
+        -1.5911186357644522,
+        2.7964763177272065,
+        -3.5598754811200113,
+        -1.8337450505916781,
+        -2.9546724345051225,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.3496340185090713,
+        -1.5911186357644524,
+        2.7964763177272065,
+        -3.559872381678483,
+        -1.8337306262676423,
+        -2.9546894367300447,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.33065488227933093,
+          -0.002758319300542378,
+          0.8140245301467162,
+          0.350050250740474,
+          -0.6095279682261436,
+          0.6152429858055178,
+          -0.3569545437779886,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.33070822998282856,
+          0.0017413558272627583,
+          0.8140046667893759,
+          -0.3646392194771332,
+          0.6178763844506684,
+          -0.6067102874747261,
+          0.34230051158245767,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.33060665795901634,
+          -0.007252762728915951,
+          0.8140412630603335,
+          0.35300118994820495,
+          -0.6110143978170514,
+          0.6137068365249525,
+          -0.3541404867534248,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.015643768988934728,
+      "projected_inner_tip_gap_world_y_m": 0.014343444603081332,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.04321182623132669,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10191119992372699,
+          "forearm_link": 0.18226216686665686,
+          "wrist_1_link": 0.1599727442400919,
+          "wrist_2_link": 0.22794560513940043,
+          "wrist_3_link": 0.20103458292603182,
+          "right_hand_link": 0.12090836705434393,
+          "right_hand_thumb_bend_link": 0.15631101878132014,
+          "right_hand_thumb_rota_link1": 0.09785050351232893,
+          "right_hand_thumb_rota_link2": 0.06486921736549256,
+          "right_hand_index_bend_link": 0.12032538211189425,
+          "right_hand_index_rota_link1": 0.06389771615724382,
+          "right_hand_index_rota_link2": 0.0562157801669112,
+          "right_hand_mid_link1": 0.0646154014463517,
+          "right_hand_mid_link2": 0.04593667709109728,
+          "right_hand_ring_link1": 0.06748675123852488,
+          "right_hand_ring_link2": 0.04321182623132669,
+          "right_hand_pinky_link1": 0.07187702868299539,
+          "right_hand_pinky_link2": 0.04504867560772685,
+          "xhand_adapter": 0.18780468647277976
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.09010122357347428,
+        "left/blade": 0.007641485188561781,
+        "left/tip": 0.0018773440242544348,
+        "right/blade": 0.0076521205998998365,
+        "right/tip": 0.0018849893230469261
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.3902740051023447,
+          -0.0016390740873983409,
+          0.7796034530339245
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.3582996410276249,
+          -0.002874432135226923,
+          0.7924782135749929
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.03197436407471982,
+          0.0012353580478285822,
+          -0.012874760541068397
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00018178293673797589,
+          0.004705027673595021,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004708538036947781,
+        "gravity_torque_about_two_contact_line_Nm": -0.0035490981812559205,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.2734997076296525e-16,
+      "arm_IK_position_error_m": 1.1179212753924267e-16,
+      "arm_IK_rotation_error_rad": 2.795323151045252e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.34963234959931117,
+          "shoulder_lift_joint": -1.7131617788048215,
+          "elbow_joint": 2.772912376973927,
+          "wrist_1_joint": -3.414268397330232,
+          "wrist_2_joint": -1.8337450505773527,
+          "wrist_3_joint": -2.954672434520008
+        },
+        "IK_residual": 7.716679409732372e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length180_down35_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.18,
+      "blade_length_m": 0.16499999999999998,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 35,
+      "actual_handle_axis_inclination_to_table_deg": 35.005838231462896,
+      "actual_mean_blade_axis_inclination_to_table_deg": 34.99487868222243,
+      "palm_normal_world": [
+        -0.6216454477319074,
+        0.3953095551570404,
+        -0.6762302070417586
+      ],
+      "palm_normal_dot_table_up": -0.6762302070417586,
+      "palm_normal_angle_to_table_up_deg": 132.54975585751828,
+      "hand_world_pose_7_wxyz": [
+        0.3197888498131911,
+        -0.0011407902968384454,
+        0.9444785203286308,
+        0.8270558892606712,
+        -0.3488083990075601,
+        -0.11676186713889383,
+        0.42506225803200015
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.3099954947907521,
+        0.008413328812149498,
+        0.9590664950151915,
+        0.34880839900756,
+        0.8270558892606711,
+        0.4250622580320004,
+        0.1167618671388939
+      ],
+      "handle_world_rotation": [
+        [
+          -0.01145089743820196,
+          -0.5736817307229314,
+          0.8189982593281881
+        ],
+        [
+          -0.9999196693117198,
+          0.0021182192527148995,
+          -0.012496722399845745
+        ],
+        [
+          0.005434323453858576,
+          -0.8190755673208303,
+          -0.573659901986063
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.44874705384919283,
+          -0.2684836556478015,
+          -0.8523746877469218
+        ],
+        [
+          0.07531246220219,
+          -0.9617718758663534,
+          0.26329240746660265
+        ],
+        [
+          -0.8904797104362983,
+          0.053957255698455546,
+          0.45181246093791844
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.792055197639532,
+          -0.26438723292098704,
+          0.5502253674273713,
+          0.02249234041391064
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335983,
+          -0.12614045909293808,
+          0.06721763211922849
+        ],
+        [
+          -0.46809665715513293,
+          -0.31550735322802337,
+          -0.8254336009754131,
+          -0.09594980077331466
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.31124054043000915,
+        -1.6757330223128275,
+        2.7123321765375263,
+        -3.3058454837949705,
+        -1.8805232101745053,
+        -2.9450966873637316,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.31124220936006286,
+        -1.6757330223128273,
+        2.712332176537526,
+        -3.3058423843534417,
+        -1.8805087858504699,
+        -2.945113689588654,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3387381485087868,
+          -0.002758319300542378,
+          0.8267127044382918,
+          0.3228805583448971,
+          -0.6245179711776007,
+          0.6299263882940965,
+          -0.3300275655909004,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3387895620025039,
+          0.0017413558272627583,
+          0.8266882671083009,
+          -0.33782783268973215,
+          0.6322192416529363,
+          -0.6220381730800096,
+          0.31502332798576743,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.33869156606608497,
+          -0.007252762728915951,
+          0.8267335767045767,
+          0.3258956948028968,
+          -0.6258802385734812,
+          0.628520419247657,
+          -0.327151349776963,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 0.0,
+      "tip_center_gap_m": 0.015643768988934728,
+      "projected_inner_tip_gap_world_y_m": 0.014343444603081332,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.05593305062340648,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10190908016799216,
+          "forearm_link": 0.20863731580802536,
+          "wrist_1_link": 0.18783173919106377,
+          "wrist_2_link": 0.24748547220832262,
+          "wrist_3_link": 0.21810961719341126,
+          "right_hand_link": 0.13060639094751336,
+          "right_hand_thumb_bend_link": 0.16909882430461087,
+          "right_hand_thumb_rota_link1": 0.11038754170730436,
+          "right_hand_thumb_rota_link2": 0.07563505550186056,
+          "right_hand_index_bend_link": 0.12880093632125345,
+          "right_hand_index_rota_link1": 0.07197467102664146,
+          "right_hand_index_rota_link2": 0.06693414863318892,
+          "right_hand_mid_link1": 0.07405372264115762,
+          "right_hand_mid_link2": 0.05766926313000864,
+          "right_hand_ring_link1": 0.07822046646262959,
+          "right_hand_ring_link2": 0.05593305062340648,
+          "right_hand_pinky_link1": 0.08332310110412089,
+          "right_hand_pinky_link2": 0.0583605570165977,
+          "xhand_adapter": 0.20395585632698163
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.10299425844462495,
+        "left/blade": 0.008402671751442381,
+        "left/tip": 0.0014418431693352662,
+        "right/blade": 0.008415048514247236,
+        "right/tip": 0.0014505007157360472
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.39513040802801386,
+          -0.0016390740873983409,
+          0.787226460984318
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.36439982537957794,
+          -0.002874432135226923,
+          0.8028389786243474
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.030730582648435922,
+          0.0012353580478285822,
+          -0.015612517640029355
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00018178293673797589,
+          0.004522005236717346,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004525657565148758,
+        "gravity_torque_about_two_contact_line_Nm": -0.0034033922213258135,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.968561578996848e-16,
+      "arm_IK_position_error_m": 1.4059824081336194e-16,
+      "arm_IK_rotation_error_rad": 1.9987853337909895e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.3112405404477266,
+          "shoulder_lift_joint": -1.766878712584995,
+          "elbow_joint": 2.685686675992539,
+          "wrist_1_joint": -3.188054292982158,
+          "wrist_2_joint": -1.8805232101631126,
+          "wrist_3_joint": -2.945096687377978
+        },
+        "IK_residual": 4.449890857644199e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length180_down40_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.18,
+      "blade_length_m": 0.16499999999999998,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 40,
+      "actual_handle_axis_inclination_to_table_deg": 40.005216713294836,
+      "actual_mean_blade_axis_inclination_to_table_deg": 39.99386290922233,
+      "palm_normal_world": [
+        -0.6782172450865225,
+        0.3953095551570404,
+        -0.6194769762217082
+      ],
+      "palm_normal_dot_table_up": -0.6194769762217082,
+      "palm_normal_angle_to_table_up_deg": 128.27795055881512,
+      "hand_world_pose_7_wxyz": [
+        0.3392832789854259,
+        -0.0011407902968384454,
+        0.9576173149327345,
+        0.8313617964269068,
+        -0.3299354554138357,
+        -0.0805750645072454,
+        0.4398725016210318
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.33079861640453334,
+        0.008413328812149415,
+        0.9730033251023551,
+        0.3299354554138357,
+        0.8313617964269066,
+        0.43987250162103214,
+        0.0805750645072454
+      ],
+      "handle_world_rotation": [
+        [
+          -0.010933690819377099,
+          -0.642885837974587,
+          0.7658839688469655
+        ],
+        [
+          -0.9999196693117198,
+          0.0021182192527148995,
+          -0.012496722399845745
+        ],
+        [
+          0.006411655683803308,
+          -0.7659590801595806,
+          -0.6428573544671337
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5246498563936519,
+          -0.2627593095836056,
+          -0.8097530941053991
+        ],
+        [
+          0.07531246220219,
+          -0.9617718758663534,
+          0.26329240746660265
+        ],
+        [
+          -0.8479802835108633,
+          0.07715182447397269,
+          0.5243825271280244
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395321,
+          -0.2643872329209871,
+          0.5502253674273713,
+          0.022492340413910704
+        ],
+        [
+          -0.39183425507782244,
+          0.9113476291335985,
+          -0.12614045909293833,
+          0.06721763211922849
+        ],
+        [
+          -0.4680966571551328,
+          -0.3155073532280234,
+          -0.8254336009754129,
+          -0.09594980077331478
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.27903296448929504,
+        -1.7089972445417136,
+        2.624902887127168,
+        -3.0982014187131077,
+        -1.920249903565828,
+        -2.9344641410765004,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.27903463341934875,
+        -1.7089972445417136,
+        2.624902887127168,
+        -3.09819831927158,
+        -1.9202354792417924,
+        -2.9344811433014226,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3478965027243288,
+          -0.002758319300542378,
+          0.8386480933239682,
+          0.29509624445517946,
+          -0.6383191686756401,
+          0.6434106900998819,
+          -0.30247236117516946,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.347945590720534,
+          0.0017413558272627583,
+          0.8386192680041635,
+          -0.31037337142192734,
+          0.6453586335957252,
+          -0.6361819736684968,
+          0.28714647957950085,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3478519166797558,
+          -0.007252762728915951,
+          0.8386729460923711,
+          0.2981698386798311,
+          -0.6395546807230792,
+          0.6421375776295584,
+          -0.29953946161213363,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 0.0,
+      "tip_center_gap_m": 0.015643768988934728,
+      "projected_inner_tip_gap_world_y_m": 0.014343444603081332,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.0682171857411289,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10195307709165635,
+          "forearm_link": 0.2334338671787255,
+          "wrist_1_link": 0.21438459567850243,
+          "wrist_2_link": 0.2650014609840645,
+          "wrist_3_link": 0.23339039505438508,
+          "right_hand_link": 0.13936978405304623,
+          "right_hand_thumb_bend_link": 0.18065904838005076,
+          "right_hand_thumb_rota_link1": 0.12214382676583635,
+          "right_hand_thumb_rota_link2": 0.08576910390149495,
+          "right_hand_index_bend_link": 0.1363472102279295,
+          "right_hand_index_rota_link1": 0.07954855927879545,
+          "right_hand_index_rota_link2": 0.07714423416511662,
+          "right_hand_mid_link1": 0.0829878130015731,
+          "right_hand_mid_link2": 0.06898606269924146,
+          "right_hand_ring_link1": 0.0883825808369586,
+          "right_hand_ring_link2": 0.0682171857411289,
+          "right_hand_pinky_link1": 0.09419439712374911,
+          "right_hand_pinky_link2": 0.07122045912647623,
+          "xhand_adapter": 0.21845070190680477
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.1151628075291472,
+        "left/blade": 0.009159271618391474,
+        "left/tip": 0.0010547317270576118,
+        "right/blade": 0.00917308392441829,
+        "right/tip": 0.0010641240183043577
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4006327197942506,
+          -0.0016390740873983409,
+          0.7943971976839428
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.3713797968616862,
+          -0.002874432135226923,
+          0.8126286517365966
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.029252922932564374,
+          0.0012353580478285822,
+          -0.018231454052653806
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00018178293673797589,
+          0.004304567609526848,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004308404268528751,
+        "gravity_torque_about_two_contact_line_Nm": -0.003231784391567039,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 6.234178822896441e-16,
+      "arm_IK_position_error_m": 1.5363814266286892e-16,
+      "arm_IK_rotation_error_rad": 1.0476160491405033e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.27903296450495396,
+          "shoulder_lift_joint": -1.7798296288354776,
+          "elbow_joint": 2.5964902483987897,
+          "wrist_1_joint": -2.9989563956956378,
+          "wrist_2_joint": -1.9202499035568383,
+          "wrist_3_joint": -2.9344641410901464
+        },
+        "IK_residual": 5.861691312688507e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length180_down45_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.18,
+      "blade_length_m": 0.16499999999999998,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 45,
+      "actual_handle_axis_inclination_to_table_deg": 45.004496699492144,
+      "actual_mean_blade_axis_inclination_to_table_deg": 44.99268623813038,
+      "palm_normal_world": [
+        -0.7296273996872601,
+        0.3953095551570404,
+        -0.5580091515621859
+      ],
+      "palm_normal_dot_table_up": -0.5580091515621859,
+      "palm_normal_angle_to_table_up_deg": 123.91822881835773,
+      "hand_world_pose_7_wxyz": [
+        0.3598486473716611,
+        -0.0011407902968384454,
+        0.9690070610027112,
+        0.834085159162128,
+        -0.3104344609284258,
+        -0.044234882660720135,
+        0.4538454229025093
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.35273725063773476,
+        0.008413328812149456,
+        0.9850740098276739,
+        0.3104344609284256,
+        0.8340851591621281,
+        0.4538454229025094,
+        0.04423488266072023
+      ],
+      "handle_world_rotation": [
+        [
+          -0.010333272211473721,
+          -0.707197195814174,
+          0.7069408389094329
+        ],
+        [
+          -0.9999196693117198,
+          0.0021182192527148995,
+          -0.012496722399845745
+        ],
+        [
+          0.0073401913425307445,
+          -0.7070131818995788,
+          -0.707162274312826
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5965597567387109,
+          -0.25503520651506945,
+          -0.7609687904754479
+        ],
+        [
+          0.07531246220219,
+          -0.9617718758663534,
+          0.26329240746660265
+        ],
+        [
+          -0.7990272146034164,
+          0.09975922127969757,
+          0.5929617256558591
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.792055197639532,
+          -0.26438723292098726,
+          0.5502253674273712,
+          0.022492340413910704
+        ],
+        [
+          -0.39183425507782244,
+          0.9113476291335987,
+          -0.12614045909293822,
+          0.06721763211922827
+        ],
+        [
+          -0.468096657155133,
+          -0.31550735322802326,
+          -0.825433600975413,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.2518433760752369,
+        -1.7103691214495742,
+        2.535392252754419,
+        -2.9190258340696102,
+        -1.9541494201874392,
+        -2.9231013980224243,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.2518450450052906,
+        -1.710369121449574,
+        2.535392252754419,
+        -2.919022734628082,
+        -1.9541349958634036,
+        -2.9231184002473465,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3580602443204113,
+          -0.002758319300542378,
+          0.8497398612875405,
+          0.26675019809196726,
+          -0.6509052893564158,
+          0.6556702230879892,
+          -0.2743413834285365,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3581066332298133,
+          0.0017413558272627583,
+          0.8497068673560111,
+          -0.28232809680115184,
+          0.6572695486996779,
+          -0.6491147657118864,
+          0.25872303152901566,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.35801799400068846,
+          -0.007252762728915951,
+          0.8497685054134873,
+          0.2698763993219724,
+          -0.652011694188009,
+          0.6545323906357275,
+          -0.27135738305741547,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 0.0,
+      "tip_center_gap_m": 0.015643768988934728,
+      "projected_inner_tip_gap_world_y_m": 0.014343444603081332,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.07975160945368476,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10195041701885366,
+          "forearm_link": 0.2562968405317959,
+          "wrist_1_link": 0.23942849309014014,
+          "wrist_2_link": 0.2803070427817691,
+          "wrist_3_link": 0.24685945814400312,
+          "right_hand_link": 0.14713185165792764,
+          "right_hand_thumb_bend_link": 0.19090371072217116,
+          "right_hand_thumb_rota_link1": 0.13302595617444424,
+          "right_hand_thumb_rota_link2": 0.0951869460909256,
+          "right_hand_index_bend_link": 0.14281647314972123,
+          "right_hand_index_rota_link1": 0.08644845166821546,
+          "right_hand_index_rota_link2": 0.08573225258499051,
+          "right_hand_mid_link1": 0.09121201511529942,
+          "right_hand_mid_link2": 0.07975160945368476,
+          "right_hand_ring_link1": 0.0978282893061968,
+          "right_hand_ring_link2": 0.07997393810584552,
+          "right_hand_pinky_link1": 0.10440817961490223,
+          "right_hand_pinky_link2": 0.08353779812879447,
+          "xhand_adapter": 0.23114174265189352
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.1265142608209372,
+        "left/blade": 0.009905526607573933,
+        "left/tip": 0.0007189558492414205,
+        "right/blade": 0.009920520269072863,
+        "right/tip": 0.000728862336565661
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4067390644861273,
+          -0.0016390740873983409,
+          0.8010610894967052
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.37918643367634897,
+          -0.002874432135226923,
+          0.8217727275881899
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.027552630809778322,
+          0.0012353580478285822,
+          -0.020711638091484685
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00018178293673797589,
+          0.00405436962365888,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004058442814841295,
+        "gravity_torque_about_two_contact_line_Nm": -0.003035580731183664,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 3.7190316447434225e-16,
+      "arm_IK_position_error_m": 8.441528768080324e-17,
+      "arm_IK_rotation_error_rad": 1.5587466451705773e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.25184337608922,
+          "shoulder_lift_joint": -1.767366334054573,
+          "elbow_joint": 2.505946241425832,
+          "wrist_1_joint": -2.8325826101409093,
+          "wrist_2_joint": -1.9541494201804526,
+          "wrist_3_joint": -2.923101398035485
+        },
+        "IK_residual": 7.717746315242643e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length180_down50_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.18,
+      "blade_length_m": 0.16499999999999998,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 50,
+      "actual_handle_axis_inclination_to_table_deg": 50.0036386088886,
+      "actual_mean_blade_axis_inclination_to_table_deg": 49.99128403176751,
+      "palm_normal_world": [
+        -0.7754846492153084,
+        0.3953095551570404,
+        -0.49229454032413716
+      ],
+      "palm_normal_dot_table_up": -0.49229454032413716,
+      "palm_normal_angle_to_table_up_deg": 119.49150694489063,
+      "hand_world_pose_7_wxyz": [
+        0.38132844010076816,
+        -0.0011407902968384454,
+        0.9785610756936518,
+        0.835220793390583,
+        -0.29034253680269717,
+        -0.007810497200903808,
+        0.46695442362660433
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.37564443123693203,
+        0.008413328812149498,
+        0.9951866839919096,
+        0.29034253680269706,
+        0.835220793390583,
+        0.4669544236266045,
+        0.0078104972009037715
+      ],
+      "handle_world_rotation": [
+        [
+          -0.009654211162640704,
+          -0.766126355976273,
+          0.6426174623252504
+        ],
+        [
+          -0.9999196693117198,
+          0.0021182192527148995,
+          -0.012496722399845745
+        ],
+        [
+          0.008212863713012762,
+          -0.6426864864190899,
+          -0.766085262254742
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.6639294771223584,
+          -0.24537013153048556,
+          -0.70639305486446
+        ],
+        [
+          0.07531246220219,
+          -0.9617718758663534,
+          0.26329240746660265
+        ],
+        [
+          -0.7439930661270141,
+          0.12160739017521922,
+          0.6570281274113738
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.792055197639532,
+          -0.26438723292098704,
+          0.5502253674273713,
+          0.02249234041391061
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335985,
+          -0.1261404590929383,
+          0.06721763211922849
+        ],
+        [
+          -0.468096657155133,
+          -0.3155073532280234,
+          -0.825433600975413,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.22876003180275756,
+        -1.6907844394895961,
+        2.4443944126584713,
+        -2.7582590841227628,
+        -1.983200153845813,
+        -2.91126696200053,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.22876170073281132,
+        -1.6907844394895961,
+        2.444394412658472,
+        -2.7582559846812345,
+        -1.9831857295217774,
+        -2.911283964225452,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.36915202108645295,
+          -0.002758319300542378,
+          0.8599035932774133,
+          0.23789637756559692,
+          -0.6622523748238631,
+          0.6666816505405891,
+          -0.24568818126600225,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3691953578614411,
+          0.0017413558272627583,
+          0.8598666818379003,
+          -0.2537453946016352,
+          0.6679293138609216,
+          -0.6608119309054719,
+          0.2298070894831592,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3691124280420246,
+          -0.007252762728915951,
+          0.8599358107618098,
+          0.24106923489923257,
+          -0.6632275663351297,
+          0.6656812640351327,
+          -0.2426587603011021,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 2.220446049250313e-16,
+      "tip_center_gap_m": 0.015643768988934728,
+      "projected_inner_tip_gap_world_y_m": 0.014343444603081332,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.08989285782712686,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10193276169619092,
+          "forearm_link": 0.27709969261656964,
+          "wrist_1_link": 0.2627764989249787,
+          "wrist_2_link": 0.29324826468086806,
+          "wrist_3_link": 0.2580553446740411,
+          "right_hand_link": 0.15363376892259628,
+          "right_hand_thumb_bend_link": 0.1995791032249794,
+          "right_hand_thumb_rota_link1": 0.14283712320535658,
+          "right_hand_thumb_rota_link2": 0.10377295835229405,
+          "right_hand_index_bend_link": 0.14819005584905864,
+          "right_hand_index_rota_link1": 0.09274978185120664,
+          "right_hand_index_rota_link2": 0.09291186669984697,
+          "right_hand_mid_link1": 0.09880008104867088,
+          "right_hand_mid_link2": 0.08989285782712686,
+          "right_hand_ring_link1": 0.10658882813324733,
+          "right_hand_ring_link2": 0.09111845004266894,
+          "right_hand_pinky_link1": 0.11378540882147659,
+          "right_hand_pinky_link2": 0.09521537259216328,
+          "xhand_adapter": 0.24188547721551548
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.13696222690624937,
+        "left/blade": 0.010635757267920987,
+        "left/tip": 0.00043707099306389274,
+        "right/blade": 0.010651818174074568,
+        "right/tip": 0.0004474162821154204
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4134029691334269,
+          -0.0016390740873983409,
+          0.8071674201821426
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.38776032260363036,
+          -0.002874432135226923,
+          0.8302016142405529
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.02564264652979653,
+          0.0012353580478285822,
+          -0.02303419405841034
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00018178293673797589,
+          0.0037733154368595596,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.003777691679072252,
+        "gravity_torque_about_two_contact_line_Nm": -0.002816274468502239,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 9.151511514297247e-16,
+      "arm_IK_position_error_m": 2.227212004505268e-16,
+      "arm_IK_rotation_error_rad": 2.0934636342953455e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.2287600318153563,
+          "shoulder_lift_joint": -1.7379985198545347,
+          "elbow_joint": 2.4143610781642746,
+          "wrist_1_joint": -2.681011669268629,
+          "wrist_2_joint": -1.9832001538405168,
+          "wrist_3_joint": -2.911266962013008
+        },
+        "IK_residual": 1.3510962582551668e-15,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length200_down30_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.2,
+      "blade_length_m": 0.185,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 30,
+      "actual_handle_axis_inclination_to_table_deg": 30.006288400517832,
+      "actual_mean_blade_axis_inclination_to_table_deg": 29.996164594088334,
+      "palm_normal_world": [
+        -0.5600604005602101,
+        0.39552330947065684,
+        -0.7279379502332026
+      ],
+      "palm_normal_dot_table_up": -0.7279379502332026,
+      "palm_normal_angle_to_table_up_deg": 136.7138025577737,
+      "hand_world_pose_7_wxyz": [
+        0.28419811354623015,
+        -0.001265046768707978,
+        0.9396883011312864,
+        0.8212751736163666,
+        -0.3671778269957856,
+        -0.15254095822675076,
+        0.40916841108194635
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.27317748674592346,
+        0.00830051691575149,
+        0.9533647691083231,
+        0.36717782699578544,
+        0.8212751736163665,
+        0.4091684110819464,
+        0.15254095822675084
+      ],
+      "handle_world_rotation": [
+        [
+          -0.012598316953699873,
+          -0.500111813334933,
+          0.8658691913752213
+        ],
+        [
+          -0.9999097133970435,
+          0.0022531732428637146,
+          -0.013247198367221075
+        ],
+        [
+          0.004674127103211827,
+          -0.8659579073911061,
+          -0.5000950461288737
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.3693769236339215,
+          -0.27285454771702455,
+          -0.8883192467108197
+        ],
+        [
+          0.07533806668751619,
+          -0.9615684908536268,
+          0.26402691738772793
+        ],
+        [
+          -0.9262207425849023,
+          0.03060119585272257,
+          0.37573754512672247
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395318,
+          -0.26438723292098704,
+          0.5502253674273712,
+          0.022492340413910544
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335985,
+          -0.12614045909293828,
+          0.0672176321192286
+        ],
+        [
+          -0.46809665715513293,
+          -0.3155073532280234,
+          -0.8254336009754131,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.38210778321783084,
+        -1.7135046001188918,
+        2.8304863242051614,
+        -3.4774041751132083,
+        -1.8114300843451796,
+        -2.9780068599564644,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.3821094521478845,
+        -1.7135046001188918,
+        2.830486324205161,
+        -3.47740107567168,
+        -1.8114156600211437,
+        -2.9780238621813866,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.313337849494822,
+          -0.0029333806287114017,
+          0.8240225232865503,
+          0.3498427540196775,
+          -0.6093528444038623,
+          0.615415822092152,
+          -0.3571589623619863,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.31339442534976625,
+          0.0015662497829248,
+          0.8240014966953499,
+          -0.36443590831498296,
+          0.6177061909732829,
+          -0.6068880284070509,
+          0.3425090529316183,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3132864007682503,
+          -0.007427783827304635,
+          0.8240404180714767,
+          0.35279451196224604,
+          -0.610840203362064,
+          0.6138805729378946,
+          -0.3543457639867521,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.016414747724953133,
+      "projected_inner_tip_gap_world_y_m": 0.015113734049167802,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.05322288989059509,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10194476519045026,
+          "forearm_link": 0.19179175274135907,
+          "wrist_1_link": 0.16945656044472934,
+          "wrist_2_link": 0.23790715627867498,
+          "wrist_3_link": 0.2110256061402973,
+          "right_hand_link": 0.13091671555016804,
+          "right_hand_thumb_bend_link": 0.16630041377119842,
+          "right_hand_thumb_rota_link1": 0.10783971441097162,
+          "right_hand_thumb_rota_link2": 0.07486308940095943,
+          "right_hand_index_bend_link": 0.13032885774259595,
+          "right_hand_index_rota_link1": 0.0739027136050423,
+          "right_hand_index_rota_link2": 0.06621589948678042,
+          "right_hand_mid_link1": 0.07462593497298908,
+          "right_hand_mid_link2": 0.05594325895348873,
+          "right_hand_ring_link1": 0.07750080511987201,
+          "right_hand_ring_link2": 0.05322288989059509,
+          "right_hand_pinky_link1": 0.08189591340313074,
+          "right_hand_pinky_link2": 0.05506505240675652,
+          "xhand_adapter": 0.19779887438537894
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.1000976679406711,
+        "left/blade": 0.007641697787820756,
+        "left/tip": 0.0018773931086025764,
+        "right/blade": 0.007652258151093716,
+        "right/tip": 0.001885113003060157
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.3798723147506415,
+          -0.0017442097215023666,
+          0.7856088743390273
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.3409824704856408,
+          -0.003074896170721486,
+          0.8024761818366424
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.038889844265000695,
+          0.0013306864492191196,
+          -0.016867307497615114
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00019581051100259344,
+          0.005722640583594852,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.005725989609248861,
+        "gravity_torque_about_two_contact_line_Nm": -0.004311255470184651,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 2.9312022420485013e-16,
+      "arm_IK_position_error_m": 5.594315114139762e-17,
+      "arm_IK_rotation_error_rad": 1.8932851682679358e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.3821077832404077,
+          "shoulder_lift_joint": -1.8403208305149954,
+          "elbow_joint": 2.8011747318764653,
+          "wrist_1_joint": -3.3212763523923097,
+          "wrist_2_joint": -1.811430084329148,
+          "wrist_3_joint": -2.9780068599728327
+        },
+        "IK_residual": 8.875366603845863e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length200_down35_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.2,
+      "blade_length_m": 0.185,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 35,
+      "actual_handle_axis_inclination_to_table_deg": 35.0056706313265,
+      "actual_mean_blade_axis_inclination_to_table_deg": 34.99534848108575,
+      "palm_normal_world": [
+        -0.6213731743760033,
+        0.39552330947065684,
+        -0.6763554463677132
+      ],
+      "palm_normal_dot_table_up": -0.6763554463677132,
+      "palm_normal_angle_to_table_up_deg": 132.55949705282455,
+      "hand_world_pose_7_wxyz": [
+        0.30341048110302915,
+        -0.001265046768707978,
+        0.9559472610199257,
+        0.8271472447767346,
+        -0.34898067964378826,
+        -0.11657225310332192,
+        0.4247950452865845
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.293623773839619,
+        0.00830051691575149,
+        0.9705321968215966,
+        0.34898067964378804,
+        0.8271472447767347,
+        0.4247950452865845,
+        0.11657225310332192
+      ],
+      "handle_world_rotation": [
+        [
+          -0.012142999534777812,
+          -0.5736819415041886,
+          0.818988142499196
+        ],
+        [
+          -0.9999097133970435,
+          0.0022531732428637146,
+          -0.013247198367221075
+        ],
+        [
+          0.005754356309896687,
+          -0.8190750595655583,
+          -0.5736575059921524
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.44869678968982685,
+          -0.2691491838324105,
+          -0.8521912389624706
+        ],
+        [
+          0.07533806668751619,
+          -0.9615684908536268,
+          0.26402691738772793
+        ],
+        [
+          -0.8905028728925195,
+          0.05426558983210295,
+          0.45172987407337056
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395318,
+          -0.26438723292098704,
+          0.5502253674273712,
+          0.02249234041391049
+        ],
+        [
+          -0.39183425507782227,
+          0.9113476291335983,
+          -0.1261404590929383,
+          0.0672176321192286
+        ],
+        [
+          -0.4680966571551329,
+          -0.31550735322802337,
+          -0.825433600975413,
+          -0.0959498007733145
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.33481934798120977,
+        -1.7873836442198787,
+        2.7370414084000196,
+        -3.224521424584512,
+        -1.8659891659461023,
+        -2.9636197036778356,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.33482101691126354,
+        -1.7873836442198785,
+        2.737041408400019,
+        -3.2245183251429843,
+        -1.8659747416220664,
+        -2.9636367059027577,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3223583947802662,
+          -0.0029333806287114017,
+          0.8381819310502717,
+          0.3226657201020638,
+          -0.624351930647794,
+          0.6300900091990417,
+          -0.3302394284075426,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.32241292275882816,
+          0.0015662497829248,
+          0.8381560535609397,
+          -0.33761696208418046,
+          0.6320583066079203,
+          -0.6222068765340134,
+          0.31523909458498983,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.32230870146490354,
+          -0.007427783827304635,
+          0.8382042417921166,
+          0.32568163525268895,
+          -0.6257151639801746,
+          0.6286849751349015,
+          -0.3273640298872588,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.016414747724953133,
+      "projected_inner_tip_gap_world_y_m": 0.015113734049167802,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.06741841294384132,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10194066599313967,
+          "forearm_link": 0.21972169211690784,
+          "wrist_1_link": 0.19875554046046795,
+          "wrist_2_link": 0.2589486801113259,
+          "wrist_3_link": 0.22956987163356835,
+          "right_hand_link": 0.14208845037559037,
+          "right_hand_thumb_bend_link": 0.180557392228619,
+          "right_hand_thumb_rota_link1": 0.12184589519568989,
+          "right_hand_thumb_rota_link2": 0.08709925985283795,
+          "right_hand_index_bend_link": 0.14027700845057545,
+          "right_hand_index_rota_link1": 0.08345260274164146,
+          "right_hand_index_rota_link2": 0.07840615401568785,
+          "right_hand_mid_link1": 0.08553850043032551,
+          "right_hand_mid_link2": 0.06914899594293955,
+          "right_hand_ring_link1": 0.08970959461718486,
+          "right_hand_ring_link2": 0.06741841294384132,
+          "right_hand_pinky_link1": 0.09481820521645157,
+          "right_hand_pinky_link2": 0.06985253566547511,
+          "xhand_adapter": 0.21541973785619364
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.11446156714436728,
+        "left/blade": 0.008402930555569399,
+        "left/tip": 0.0014419077017815418,
+        "right/blade": 0.008415043415870405,
+        "right/tip": 0.0014504866232059044
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.38529170620281383,
+          -0.0017442097215023666,
+          0.7941155968967025
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.34801993224951433,
+          -0.003074896170721486,
+          0.8143081924591667
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.0372717739532995,
+          0.0013306864492191196,
+          -0.02019259556246422
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00019581051100259344,
+          0.005484541537228022,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.005488035862656021,
+        "gravity_torque_about_two_contact_line_Nm": -0.004123795878480873,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 3.0530352511542613e-16,
+      "arm_IK_position_error_m": 6.245004513516506e-17,
+      "arm_IK_rotation_error_rad": 1.7552809532880826e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.3348193480004769,
+          "shoulder_lift_joint": -1.877006270521846,
+          "elbow_joint": 2.7058226284780242,
+          "wrist_1_joint": -3.1036800183650155,
+          "wrist_2_joint": -1.8659891659336303,
+          "wrist_3_joint": -2.9636197036931855
+        },
+        "IK_residual": 5.478771746392216e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length200_down40_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.2,
+      "blade_length_m": 0.185,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 40,
+      "actual_handle_axis_inclination_to_table_deg": 40.00497222110156,
+      "actual_mean_blade_axis_inclination_to_table_deg": 39.99442588200986,
+      "palm_normal_world": [
+        -0.677956923139414,
+        0.39552330947065684,
+        -0.6196254691607811
+      ],
+      "palm_normal_dot_table_up": -0.6196254691607811,
+      "palm_normal_angle_to_table_up_deg": 128.28878940359579,
+      "hand_world_pose_7_wxyz": [
+        0.3239668015263011,
+        -0.001265046768707978,
+        0.9704698824931207,
+        0.8314447941446941,
+        -0.33011922773332364,
+        -0.08038164607057716,
+        0.4396130579787476
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.3154884965514374,
+        0.00830051691575151,
+        0.9858522859513501,
+        0.3301192277333235,
+        0.8314447941446942,
+        0.4396130579787475,
+        0.08038164607057721
+      ],
+      "handle_world_rotation": [
+        [
+          -0.011595266557252445,
+          -0.6428860036999702,
+          0.7658740993401909
+        ],
+        [
+          -0.9999097133970435,
+          0.0022531732428637146,
+          -0.013247198367221075
+        ],
+        [
+          0.006790791390487892,
+          -0.7659585559656736,
+          -0.6428540858509583
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5246018022456634,
+          -0.26339543214211114,
+          -0.8095775413184783
+        ],
+        [
+          0.07533806668751619,
+          -0.9615684908536268,
+          0.26402691738772793
+        ],
+        [
+          -0.8480077386370889,
+          0.07751698990640203,
+          0.5242842659163648
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395318,
+          -0.26438723292098704,
+          0.5502253674273712,
+          0.022492340413910558
+        ],
+        [
+          -0.39183425507782227,
+          0.9113476291335985,
+          -0.1261404590929383,
+          0.06721763211922849
+        ],
+        [
+          -0.4680966571551328,
+          -0.3155073532280234,
+          -0.825433600975413,
+          -0.09594980077331472
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.29634578030231096,
+        -1.8067677857220736,
+        2.6424500544473615,
+        -3.023046977890618,
+        -1.9109534782403945,
+        -2.949147688428457,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.29634744923236467,
+        -1.8067677857220739,
+        2.6424500544473615,
+        -3.02304387844909,
+        -1.9109390539163589,
+        -2.949164690653379,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.33257868786803657,
+          -0.0029333806287114017,
+          0.8515012656682683,
+          0.2948744736471152,
+          -0.6381625275058938,
+          0.6435647841614459,
+          -0.30269126493154314,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3326307529793744,
+          0.0015662497829248,
+          0.8514707342241237,
+          -0.3101553427771571,
+          0.6452072633320838,
+          -0.6363413185075666,
+          0.28736906070479995,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3325311281600183,
+          -0.007427783827304635,
+          0.8515278225688148,
+          0.29794880503989424,
+          -0.6393990402203237,
+          0.6422926397496208,
+          -0.29975913975072016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 1.1102230246251565e-16,
+      "tip_center_gap_m": 0.016414747724953133,
+      "projected_inner_tip_gap_world_y_m": 0.015113734049167802,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.08108947290024537,
+        "hand_lowest_link": "right_hand_ring_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10191921283606675,
+          "forearm_link": 0.24584842035152643,
+          "wrist_1_link": 0.22668724119110328,
+          "wrist_2_link": 0.2778323023103543,
+          "wrist_3_link": 0.24623290052699787,
+          "right_hand_link": 0.1522381690080714,
+          "right_hand_thumb_bend_link": 0.19349958261741462,
+          "right_hand_thumb_rota_link1": 0.13498411785517472,
+          "right_hand_thumb_rota_link2": 0.09861639526126742,
+          "right_hand_index_bend_link": 0.14920850796351504,
+          "right_hand_index_rota_link1": 0.09241250924680744,
+          "right_hand_index_rota_link2": 0.09000087316212257,
+          "right_hand_mid_link1": 0.09585942895959743,
+          "right_hand_mid_link2": 0.08185169148712956,
+          "right_hand_ring_link1": 0.10125980490088538,
+          "right_hand_ring_link2": 0.08108947290024537,
+          "right_hand_pinky_link1": 0.1070782359450464,
+          "right_hand_pinky_link2": 0.0841005201666909,
+          "xhand_adapter": 0.2312967569352322
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.12801370741807994,
+        "left/blade": 0.009159574657730873,
+        "left/tip": 0.0010548112164709966,
+        "right/blade": 0.009172897711681727,
+        "right/tip": 0.0010639337568930651
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.39143188495721426,
+          -0.0017442097215023666,
+          0.8021176177195416
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.3560618420207129,
+          -0.003074896170721486,
+          0.825481823502002
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.03537004293650137,
+          0.0013306864492191196,
+          -0.023364205782460457
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00019581051100259344,
+          0.0052047018181061765,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.005208383892496485,
+        "gravity_torque_about_two_contact_line_Nm": -0.003904951710125885,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.063532373661659e-16,
+      "arm_IK_position_error_m": 1.1265022314309467e-16,
+      "arm_IK_rotation_error_rad": 2.309814637674904e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.2963457803190528,
+          "shoulder_lift_joint": -1.874336877836309,
+          "elbow_joint": 2.6102317627614244,
+          "wrist_1_joint": -2.92325959409528,
+          "wrist_2_joint": -1.9109534782307138,
+          "wrist_3_joint": -2.9491476884429466
+        },
+        "IK_residual": 5.813377729158173e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length200_down45_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.2,
+      "blade_length_m": 0.185,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 45,
+      "actual_handle_axis_inclination_to_table_deg": 45.004163131750474,
+      "actual_mean_blade_axis_inclination_to_table_deg": 44.9933571387975,
+      "palm_normal_world": [
+        -0.7293810103561513,
+        0.39552330947065684,
+        -0.558179767993448
+      ],
+      "palm_normal_dot_table_up": -0.558179767993448,
+      "palm_normal_angle_to_table_up_deg": 123.9300098106824,
+      "hand_world_pose_7_wxyz": [
+        0.34571062880537884,
+        -0.001265046768707978,
+        0.9831456396324618,
+        0.8341596410907663,
+        -0.3106293751101184,
+        -0.044038028005942996,
+        0.4535942422290753
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.338605251139261,
+        0.008300516915751482,
+        0.9992084413687837,
+        0.3106293751101183,
+        0.8341596410907665,
+        0.45359424222907535,
+        0.04403802800594312
+      ],
+      "handle_world_rotation": [
+        [
+          -0.010959286599813043,
+          -0.7071973152224127,
+          0.7069312918377819
+        ],
+        [
+          -0.9999097133970435,
+          0.0022531732428637146,
+          -0.013247198367221075
+        ],
+        [
+          0.007775544448205528,
+          -0.707012645256469,
+          -0.7071581579505285
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.5965142783231818,
+          -0.2556370821707001,
+          -0.7608024697487676
+        ],
+        [
+          0.07533806668751619,
+          -0.9615684908536268,
+          0.26402691738772793
+        ],
+        [
+          -0.7990587534495578,
+          0.10017843888147514,
+          0.5928485379242403
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395319,
+          -0.2643872329209872,
+          0.5502253674273712,
+          0.02249234041391063
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335985,
+          -0.12614045909293836,
+          0.0672176321192286
+        ],
+        [
+          -0.46809665715513277,
+          -0.3155073532280232,
+          -0.825433600975413,
+          -0.09594980077331472
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.2646379479856551,
+        -1.7953134128957133,
+        2.54701991637206,
+        -2.8501135668735422,
+        -1.9484106688370835,
+        -2.9346670986771435,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.2646396169157088,
+        -1.7953134128957133,
+        2.5470199163720597,
+        -2.850110467432014,
+        -1.9483962445130478,
+        -2.9346841009020657,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3439209461565529,
+          -0.0029333806287114017,
+          0.863879158961663,
+          0.2665219168720099,
+          -0.6507583457220991,
+          0.6558144969793678,
+          -0.27456691142889966,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.3439701521537317,
+          0.0015662497829248,
+          0.8638442059254312,
+          -0.28210332514708014,
+          0.6571280313593112,
+          -0.6492644486140644,
+          0.25895200348456876,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3438758820139747,
+          -0.007427783827304635,
+          0.8639097599068624,
+          0.26964881234240307,
+          -0.6518657840463477,
+          0.6546776638190497,
+          -0.27158364105447014,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": 0.0,
+      "tip_center_gap_m": 0.016414747724953133,
+      "projected_inner_tip_gap_world_y_m": 0.015113734049167802,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.09390537748081007,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.101929138937778,
+          "forearm_link": 0.27003633093895474,
+          "wrist_1_link": 0.2530451767834494,
+          "wrist_2_link": 0.294427879336981,
+          "wrist_3_link": 0.26098413045180324,
+          "right_hand_link": 0.16128862596025018,
+          "right_hand_thumb_bend_link": 0.2050284870540181,
+          "right_hand_thumb_rota_link1": 0.1471516673079747,
+          "right_hand_thumb_rota_link2": 0.10931954006410971,
+          "right_hand_index_bend_link": 0.15696569727958765,
+          "right_hand_index_rota_link1": 0.10060014829285735,
+          "right_hand_index_rota_link2": 0.09988084214960913,
+          "right_hand_mid_link1": 0.10537303620995153,
+          "right_hand_mid_link2": 0.09390537748081007,
+          "right_hand_ring_link1": 0.11199521735093565,
+          "right_hand_ring_link2": 0.09413538481291395,
+          "right_hand_pinky_link1": 0.11858269935226173,
+          "right_hand_pinky_link2": 0.09770796265648807,
+          "xhand_adapter": 0.24527193266233016
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.14065094879131967,
+        "left/blade": 0.009905871575813352,
+        "left/tip": 0.0007190496906596122,
+        "right/blade": 0.009920303426928956,
+        "right/tip": 0.0007286464220380706
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.3982461205459803,
+          -0.0017442097215023666,
+          0.8095540365973306
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.36504699601003976,
+          -0.003074896170721486,
+          0.8359120368860895
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.03319912453594054,
+          0.0013306864492191196,
+          -0.026358000288758898
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00019581051100259344,
+          0.004885251175463651,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004889173836507358,
+        "gravity_torque_about_two_contact_line_Nm": -0.0036563885013824716,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.099821168401324e-16,
+      "arm_IK_position_error_m": 1.2456232622454378e-16,
+      "arm_IK_rotation_error_rad": 1.0876299768408286e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.2646379480004091,
+          "shoulder_lift_joint": -1.8487087052612423,
+          "elbow_joint": 2.5142825990719007,
+          "wrist_1_joint": -2.76398095721291,
+          "wrist_2_joint": -1.9484106688296552,
+          "wrist_3_joint": -2.9346670986908574
+        },
+        "IK_residual": 1.4349345227143414e-15,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    },
+    {
+      "id": "length200_down50_leveljaws",
+      "construction": "Rigidly rotate the actual settled grasp so its measured tip-spread axis is world -Y; place its orthogonalized mean-blade axis downward at the named table inclination. This changes real physics orientation, not camera.",
+      "tool_length_m": 0.2,
+      "blade_length_m": 0.185,
+      "tip_length_m": 0.015,
+      "blade_width_m": 0.009,
+      "tip_width_m": 0.005,
+      "thickness_m": 0.001,
+      "named_axis_inclination_to_table_deg": 50,
+      "actual_handle_axis_inclination_to_table_deg": 50.003198887284626,
+      "actual_mean_blade_axis_inclination_to_table_deg": 49.99208353913417,
+      "palm_normal_world": [
+        -0.775254067671783,
+        0.39552330947065684,
+        -0.49248598175352565
+      ],
+      "palm_normal_dot_table_up": -0.49248598175352565,
+      "palm_normal_angle_to_table_up_deg": 119.50410931953814,
+      "hand_world_pose_7_wxyz": [
+        0.3684764792853872,
+        -0.001265046768707978,
+        0.993878062272287,
+        0.8352866177494878,
+        -0.2905482218163715,
+        -0.007610581052041584,
+        0.4667119840587087
+      ],
+      "wrist_world_pose_7_wxyz": [
+        0.36279810514239863,
+        0.008300516915751434,
+        1.010499014666503,
+        0.2905482218163712,
+        0.8352866177494876,
+        0.4667119840587088,
+        0.007610581052041587
+      ],
+      "handle_world_rotation": [
+        [
+          -0.010239899853950895,
+          -0.7661264281585984,
+          0.6426083103477027
+        ],
+        [
+          -0.9999097133970435,
+          0.0022531732428637146,
+          -0.013247198367221075
+        ],
+        [
+          0.008701120917670207,
+          -0.6426859414109555,
+          -0.7660803294743251
+        ]
+      ],
+      "rigid_rotation_from_open060": [
+        [
+          -0.6638869205574917,
+          -0.24593317964607947,
+          -0.7062372319991775
+        ],
+        [
+          0.07533806668751619,
+          -0.9615684908536268,
+          0.26402691738772793
+        ],
+        [
+          -0.7440284486634086,
+          0.12207746944726501,
+          0.656900874586778
+        ]
+      ],
+      "T_hand_handle_settled_preserved": [
+        [
+          -0.7920551976395318,
+          -0.26438723292098704,
+          0.5502253674273712,
+          0.022492340413910586
+        ],
+        [
+          -0.3918342550778223,
+          0.9113476291335983,
+          -0.12614045909293836,
+          0.06721763211922849
+        ],
+        [
+          -0.4680966571551328,
+          -0.3155073532280235,
+          -0.825433600975413,
+          -0.09594980077331461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "joint_names": [
+        "shoulder_pan_joint",
+        "shoulder_lift_joint",
+        "elbow_joint",
+        "wrist_1_joint",
+        "wrist_2_joint",
+        "wrist_3_joint",
+        "right_hand_index_bend_joint",
+        "right_hand_mid_joint1",
+        "right_hand_pinky_joint1",
+        "right_hand_ring_joint1",
+        "right_hand_thumb_bend_joint",
+        "right_hand_index_joint1",
+        "right_hand_mid_joint2",
+        "right_hand_pinky_joint2",
+        "right_hand_ring_joint2",
+        "right_hand_thumb_rota_joint1",
+        "right_hand_index_joint2",
+        "right_hand_thumb_rota_joint2"
+      ],
+      "q_actual": [
+        -0.23823581296809668,
+        -1.764592137584451,
+        2.450858588371005,
+        -2.6946239362025115,
+        -1.9798791714689195,
+        -2.9202764739582396,
+        -0.056009456515312195,
+        0.6772662401199341,
+        0.5869350433349609,
+        0.695918083190918,
+        0.6565350890159607,
+        0.6805207133293152,
+        1.08999764919281,
+        0.8500222563743591,
+        0.8500105142593384,
+        1.0233958959579468,
+        1.4416455030441284,
+        0.4893164038658142
+      ],
+      "q_target": [
+        -0.23823748189815042,
+        -1.7645921375844509,
+        2.4508585883710055,
+        -2.6946208367609827,
+        -1.9798647471448838,
+        -2.920293476183162,
+        -0.05669272318482399,
+        0.6772563457489014,
+        0.586932361125946,
+        0.6959099769592285,
+        0.6577616930007935,
+        0.6812878847122192,
+        1.090000033378601,
+        0.8500000238418579,
+        0.8500000238418579,
+        1.0252569913864136,
+        1.4417178630828857,
+        0.49016690254211426
+      ],
+      "q_velocity": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tool_rigid_body_states_13": {
+        "handle": [
+          0.3562988482115972,
+          -0.0029333806287114017,
+          0.8752214076885168,
+          0.2376620204800232,
+          -0.6621154084405358,
+          0.66681582962823,
+          -0.2459199042049882,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "left": [
+          0.356344820607267,
+          0.0015662497829248,
+          0.8751822990739087,
+          -0.25351430780388073,
+          0.6677979188301303,
+          -0.6609516669408462,
+          0.23004201640783498,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "right": [
+          0.3562566225997943,
+          -0.007427783827304635,
+          0.8752558197866985,
+          0.24083552780478154,
+          -0.6630916643028103,
+          0.6658164717459529,
+          -0.2428911674616679,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "tool_tip_center_world_m": [
+        0.48,
+        0.0,
+        0.7278
+      ],
+      "tip_height_difference_m": -1.1102230246251565e-16,
+      "tip_center_gap_m": 0.016414747724953133,
+      "projected_inner_tip_gap_world_y_m": 0.015113734049167802,
+      "at_grasp_height": {
+        "hand_min_clearance_m": 0.10522691097556636,
+        "hand_lowest_link": "right_hand_mid_link2",
+        "moving_arm_min_clearance_m": 0.09859871715307233,
+        "moving_arm_lowest_link": "shoulder_link",
+        "all_link_plane_clearances_m": {
+          "shoulder_link": 0.09859871715307233,
+          "upper_arm_link": 0.10193657107161003,
+          "forearm_link": 0.2919842066046219,
+          "wrist_1_link": 0.27761741483493374,
+          "wrist_2_link": 0.3085401446503393,
+          "wrist_3_link": 0.2733567303546788,
+          "right_hand_link": 0.1689722885463194,
+          "right_hand_thumb_bend_link": 0.21488022485359415,
+          "right_hand_thumb_rota_link1": 0.1581393447911441,
+          "right_hand_thumb_rota_link2": 0.11908325293457678,
+          "right_hand_index_bend_link": 0.16351901501858168,
+          "right_hand_index_rota_link1": 0.10808152217613642,
+          "right_hand_index_rota_link2": 0.10824017658638618,
+          "right_hand_mid_link1": 0.11414227421767842,
+          "right_hand_mid_link2": 0.10522691097556636,
+          "right_hand_ring_link1": 0.12193764128215256,
+          "right_hand_ring_link2": 0.10646111197641617,
+          "right_hand_pinky_link1": 0.12914331159657466,
+          "right_hand_pinky_link2": 0.11056782557762179,
+          "xhand_adapter": 0.2571920241446869
+        },
+        "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+      },
+      "tool_part_clearances_at_grasp_height_m": {
+        "handle/bridge": 0.15227711422666146,
+        "left/blade": 0.010636141539643762,
+        "left/tip": 0.0004371784722968508,
+        "right/blade": 0.01065157235282288,
+        "right/tip": 0.0004471763577112986
+      },
+      "gravity_moment_estimate": {
+        "assumed_total_mass_kg": 0.015,
+        "COM_world_m": [
+          0.4056825525217334,
+          -0.0017442097215023666,
+          0.8163682578921769
+        ],
+        "contact_proxy_midpoint_world_m": [
+          0.37490701177025165,
+          -0.003074896170721486,
+          0.845519452389641
+        ],
+        "COM_minus_contact_midpoint_m": [
+          0.030775540751481756,
+          0.0013306864492191196,
+          -0.02915119449746406
+        ],
+        "gravity_torque_about_midpoint_Nm": [
+          -0.00019581051100259344,
+          0.00452862082158054,
+          0.0
+        ],
+        "gravity_torque_norm_Nm": 0.004532852115596967,
+        "gravity_torque_about_two_contact_line_Nm": -0.003379997968355834,
+        "limitation": "COM assumes uniform-density primitive shape volumes and fixed 3/6/6 g masses. Contact proxies are the configured source-mesh points transformed by actual FK, not recorded PhysX contact patch centres. Two ideal point contacts cannot counter a torque about their joining line; finite contact patches may, so this is a mechanism hypothesis rather than a measured stability proof."
+      },
+      "arm_IK_residual": 5.447219010065403e-16,
+      "arm_IK_position_error_m": 1.2412670766236366e-16,
+      "arm_IK_rotation_error_rad": 2.2406007353969355e-16,
+      "approach_20mm_above": {
+        "arm_joint_targets": {
+          "shoulder_pan_joint": -0.23823581298124974,
+          "shoulder_lift_joint": -1.8083088721102254,
+          "elbow_joint": 2.4178881245019928,
+          "wrist_1_joint": -2.61793673781289,
+          "wrist_2_joint": -1.9798791714633461,
+          "wrist_3_joint": -2.920276473971225
+        },
+        "IK_residual": 6.169129692828781e-16,
+        "all_tool_body_translation_m": [
+          0.0,
+          0.0,
+          0.02
+        ]
+      },
+      "kinematically_reachable_and_hand_clear": true,
+      "dynamically_verified": false,
+      "tool_mass_inertia_note": "140 mm retains the source geometry. Longer blades require regenerated body inertia and renewed dynamics testing; no stability is inherited."
+    }
+  ],
+  "recommended_first_geometry": [
+    "length140_down40_leveljaws",
+    "length140_down45_leveljaws"
+  ],
+  "long_tool_clearance_alternatives": [
+    "length180_down35_leveljaws",
+    "length200_down30_leveljaws"
+  ],
+  "reference_image": "references/human/keyframes/KXDHa39Z-2s_218.009s.jpg",
+  "limitations": [
+    "The source video is monocular and uncalibrated; its overhead appearance does not determine a unique 3-D palm normal or tool/table inclination. The 30–50 degree range is a requested design target, not a recovered measurement.",
+    "No GPU or physics simulation is run by this script. FK reachability and plane clearance do not establish frictional holding stability after gravity reorientation.",
+    "The old open060 gravity equilibrium is not valid after a rigid rotation; actual contact forces must be re-established with legal robot actuation and tested after support removal.",
+    "Source hand self-intersection distances are unchanged by rigid pose rotation; full arm self-collision and all motion trajectories are not certified here.",
+    "Longer blades increase reach/hand clearance but change inertia, gravity torque and opening. They must be rebuilt and retested rather than replaying an old dynamic snapshot as if unchanged.",
+    "The original q_reference/closure and shared src files remain unchanged. Each candidate exports actual 18-joint pose, target, wrist pose and three independent dynamic tool-body transforms."
+  ]
+}

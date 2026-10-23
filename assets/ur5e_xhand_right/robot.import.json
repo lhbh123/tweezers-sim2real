@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "status": "imported_not_physics_validated",
+  "usd": "/cpfs/user/lvzhaoyang/work/\u4eff\u771f\u6570\u636e\u5408\u6210/assets/robots/ur5e_xhand_right/robot.usd",
+  "urdf_sha256": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c",
+  "default_prim": "/ur5e_xhand_right",
+  "articulation_roots": [
+    "/ur5e_xhand_right/root_joint/root_joint"
+  ],
+  "returned_articulation_path": "/ur5e_xhand_right/root_joint",
+  "active_joint_count": 18,
+  "rigid_body_count": 19,
+  "collider_count": 0,
+  "rigid_body_paths": {
+    "base_link": "/ur5e_xhand_right/root_joint/base_link",
+    "shoulder_link": "/ur5e_xhand_right/root_joint/shoulder_link",
+    "upper_arm_link": "/ur5e_xhand_right/root_joint/upper_arm_link",
+    "forearm_link": "/ur5e_xhand_right/root_joint/forearm_link",
+    "wrist_1_link": "/ur5e_xhand_right/root_joint/wrist_1_link",
+    "wrist_2_link": "/ur5e_xhand_right/root_joint/wrist_2_link",
+    "wrist_3_link": "/ur5e_xhand_right/root_joint/wrist_3_link",
+    "right_hand_index_bend_link": "/ur5e_xhand_right/root_joint/right_hand_index_bend_link",
+    "right_hand_index_rota_link1": "/ur5e_xhand_right/root_joint/right_hand_index_rota_link1",
+    "right_hand_index_rota_link2": "/ur5e_xhand_right/root_joint/right_hand_index_rota_link2",
+    "right_hand_mid_link1": "/ur5e_xhand_right/root_joint/right_hand_mid_link1",
+    "right_hand_mid_link2": "/ur5e_xhand_right/root_joint/right_hand_mid_link2",
+    "right_hand_pinky_link1": "/ur5e_xhand_right/root_joint/right_hand_pinky_link1",
+    "right_hand_pinky_link2": "/ur5e_xhand_right/root_joint/right_hand_pinky_link2",
+    "right_hand_ring_link1": "/ur5e_xhand_right/root_joint/right_hand_ring_link1",
+    "right_hand_ring_link2": "/ur5e_xhand_right/root_joint/right_hand_ring_link2",
+    "right_hand_thumb_bend_link": "/ur5e_xhand_right/root_joint/right_hand_thumb_bend_link",
+    "right_hand_thumb_rota_link1": "/ur5e_xhand_right/root_joint/right_hand_thumb_rota_link1",
+    "right_hand_thumb_rota_link2": "/ur5e_xhand_right/root_joint/right_hand_thumb_rota_link2"
+  },
+  "frame_paths": {
+    "base_link": "/ur5e_xhand_right/root_joint/base_link",
+    "shoulder_link": "/ur5e_xhand_right/root_joint/shoulder_link",
+    "upper_arm_link": "/ur5e_xhand_right/root_joint/upper_arm_link",
+    "forearm_link": "/ur5e_xhand_right/root_joint/forearm_link",
+    "wrist_1_link": "/ur5e_xhand_right/root_joint/wrist_1_link",
+    "wrist_2_link": "/ur5e_xhand_right/root_joint/wrist_2_link",
+    "wrist_3_link": "/ur5e_xhand_right/root_joint/wrist_3_link",
+    "right_hand_index_bend_link": "/ur5e_xhand_right/root_joint/right_hand_index_bend_link",
+    "right_hand_index_rota_link1": "/ur5e_xhand_right/root_joint/right_hand_index_rota_link1",
+    "right_hand_index_rota_link2": "/ur5e_xhand_right/root_joint/right_hand_index_rota_link2",
+    "right_hand_mid_link1": "/ur5e_xhand_right/root_joint/right_hand_mid_link1",
+    "right_hand_mid_link2": "/ur5e_xhand_right/root_joint/right_hand_mid_link2",
+    "right_hand_pinky_link1": "/ur5e_xhand_right/root_joint/right_hand_pinky_link1",
+    "right_hand_pinky_link2": "/ur5e_xhand_right/root_joint/right_hand_pinky_link2",
+    "right_hand_ring_link1": "/ur5e_xhand_right/root_joint/right_hand_ring_link1",
+    "right_hand_ring_link2": "/ur5e_xhand_right/root_joint/right_hand_ring_link2",
+    "right_hand_thumb_bend_link": "/ur5e_xhand_right/root_joint/right_hand_thumb_bend_link",
+    "right_hand_thumb_rota_link1": "/ur5e_xhand_right/root_joint/right_hand_thumb_rota_link1",
+    "right_hand_thumb_rota_link2": "/ur5e_xhand_right/root_joint/right_hand_thumb_rota_link2",
+    "base_link_inertia": "/ur5e_xhand_right/root_joint/base_link/__frames/base_link_inertia",
+    "ft_frame": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/ft_frame",
+    "base": "/ur5e_xhand_right/root_joint/base_link/__frames/base",
+    "flange": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/flange",
+    "tool0": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/tool0",
+    "xhand_adapter": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/xhand_adapter",
+    "right_hand_link": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/right_hand_link",
+    "right_hand_ee_link": "/ur5e_xhand_right/root_joint/wrist_3_link/__frames/right_hand_ee_link",
+    "right_hand_thumb_rota_tip": "/ur5e_xhand_right/root_joint/right_hand_thumb_rota_link2/__frames/right_hand_thumb_rota_tip",
+    "right_hand_index_rota_tip": "/ur5e_xhand_right/root_joint/right_hand_index_rota_link2/__frames/right_hand_index_rota_tip",
+    "right_hand_mid_tip": "/ur5e_xhand_right/root_joint/right_hand_mid_link2/__frames/right_hand_mid_tip",
+    "right_hand_ring_tip": "/ur5e_xhand_right/root_joint/right_hand_ring_link2/__frames/right_hand_ring_tip",
+    "right_hand_pinky_tip": "/ur5e_xhand_right/root_joint/right_hand_pinky_link2/__frames/right_hand_pinky_tip"
+  },
+  "joint_drives": {
+    "shoulder_pan_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/shoulder_pan_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 150.0
+    },
+    "shoulder_lift_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/shoulder_lift_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 150.0
+    },
+    "elbow_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/elbow_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 150.0
+    },
+    "wrist_1_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/wrist_1_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 28.0
+    },
+    "wrist_2_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/wrist_2_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 28.0
+    },
+    "wrist_3_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/wrist_3_joint",
+      "group": "arm",
+      "stiffness_Nm_per_rad": 2000.0,
+      "damping_Nms_per_rad": 100.0,
+      "max_torque_Nm": 28.0
+    },
+    "right_hand_index_bend_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_index_bend_joint",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    },
+    "right_hand_index_joint1": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_index_joint1",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_index_joint2": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_index_joint2",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    },
+    "right_hand_mid_joint1": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_mid_joint1",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_mid_joint2": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_mid_joint2",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    },
+    "right_hand_pinky_joint1": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_pinky_joint1",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_pinky_joint2": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_pinky_joint2",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    },
+    "right_hand_ring_joint1": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_ring_joint1",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_ring_joint2": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_ring_joint2",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    },
+    "right_hand_thumb_bend_joint": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_thumb_bend_joint",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_thumb_rota_joint1": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_thumb_rota_joint1",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 1.1
+    },
+    "right_hand_thumb_rota_joint2": {
+      "path": "/ur5e_xhand_right/root_joint/joints/right_hand_thumb_rota_joint2",
+      "group": "hand",
+      "stiffness_Nm_per_rad": 12.0,
+      "damping_Nms_per_rad": 0.25,
+      "max_torque_Nm": 0.4
+    }
+  },
+  "collider_paths": [],
+  "fixed_frame_map": {
+    "base_link_inertia": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "ft_frame": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0
+        ],
+        [
+          0.0,
+          1.2246467991473532e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "base": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "flange": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          3.749399456654644e-33,
+          1.0,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "tool0": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -6.123233995736766e-17,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          1.0,
+          -3.749399456654644e-33,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "xhand_adapter": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -6.123233995736766e-17,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          1.0,
+          -3.749399456654644e-33,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_link": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          6.123233995736765e-17,
+          6.123233995736767e-17,
+          -1.2246467991473532e-18
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          -1.224646799147353e-16,
+          -7.498798913309288e-35
+        ],
+        [
+          6.123233995736766e-17,
+          1.224646799147353e-16,
+          -1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_ee_link": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          6.123233995736765e-17,
+          6.123233995736767e-17,
+          -5.204748896376252e-18
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          -1.224646799147353e-16,
+          7.960204194457797e-18
+        ],
+        [
+          6.123233995736766e-17,
+          1.224646799147353e-16,
+          -1.0,
+          0.085
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_thumb_rota_tip": {
+      "rigid_body_link": "right_hand_thumb_rota_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0504024546888781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_index_rota_tip": {
+      "rigid_body_link": "right_hand_index_rota_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0424999999999993
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_mid_tip": {
+      "rigid_body_link": "right_hand_mid_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.042107
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_ring_tip": {
+      "rigid_body_link": "right_hand_ring_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0424999999999994
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_pinky_tip": {
+      "rigid_body_link": "right_hand_pinky_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0425
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "notes": [
+    "Physics timeline was not started by this importer.",
+    "No object attachment or second palm/world anchor was created.",
+    "Self collision enabled; expected adjacent-link exclusion follows articulation joint connectivity.",
+    "P0 static hold, collision-shape audit and P1 coordinate checks remain required."
+  ]
+}

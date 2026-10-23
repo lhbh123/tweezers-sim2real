@@ -1,0 +1,28 @@
+{
+  "basis": "Actual B camera poses and block states; projected 12 mm rotated cube corners with 40 mm focal length. No simulation rerun or image edit.",
+  "run": "runs/sharpa_w01_natural_v6_video",
+  "frames": 772,
+  "all_frames_block_visible": false,
+  "final": {
+    "frame": 771,
+    "control_step": 1541,
+    "min_uv": [
+      0.10374053482700896,
+      -0.9963222927362987
+    ],
+    "max_uv": [
+      0.163004425628037,
+      -0.897457686070554
+    ],
+    "all_corners_inside": true
+  },
+  "global_min_uv": [
+    0.09741284554776958,
+    -1.4887403848790592
+  ],
+  "global_max_uv": [
+    0.21000491335914906,
+    -0.5714990188314155
+  ],
+  "outside_frame_count": 117
+}

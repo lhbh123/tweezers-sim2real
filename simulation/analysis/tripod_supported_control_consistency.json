@@ -1,0 +1,25 @@
+{
+  "config": "configs/human_grasp_tripod_webtail_supported_v1.json",
+  "source_snapshot": "runs/tripod_webtail_v1_fine06/c-0.1_ix0.01_mid0_snapshot.json",
+  "qreference_exactly_snapshot_target": true,
+  "qopen_exactly_qreference": true,
+  "qclosed_equals_reference_plus_delta": true,
+  "qgeometry_exactly_snapshot_actual": true,
+  "max_target_actual_difference_rad": 0.010908901691436768,
+  "arm_fields": {
+    "arm_reset_seed": [
+      0.14259186653653083,
+      -1.2513845285257557,
+      2.3736438724426567,
+      -0.6938985214961044,
+      2.804012059721977,
+      1.672087654876157
+    ],
+    "arm_reset_table_clearance_m": 0.015
+  },
+  "soft_limit_violations": {
+    "q_reference": {},
+    "q_open": {},
+    "q_closed": {}
+  }
+}

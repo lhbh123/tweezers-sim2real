@@ -1,0 +1,386 @@
+{
+  "snapshot": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/runs/natural_orientation_spring5_open/table40_x-1_close0_snapshot.json",
+  "snapshot_sha256": "b5bc51a4434ad53b9156cebbc1bf17c7c90ee469a9a5305558796ed7ecbb04d1",
+  "source_config": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/configs/human_grasp_distal_suspend30.json",
+  "source_config_sha256": "671af9256d71e2caa62cb6189f3eaf9aa69fa63192417c542073e06e883cd920",
+  "geometry_audit": {
+    "snapshot": "runs/natural_orientation_spring5_open/table40_x-1_close0_snapshot.json",
+    "snapshot_sha256": "b5bc51a4434ad53b9156cebbc1bf17c7c90ee469a9a5305558796ed7ecbb04d1",
+    "actual_joint_bounds": {
+      "minimum_URDF_limit_margin_rad": 0.11992461904883384,
+      "minimum_soft_limit_margin_rad": 0.008871388435363725,
+      "hard_limit_violations": {},
+      "soft_limit_violations": {}
+    },
+    "target_joint_bounds": {
+      "minimum_URDF_limit_margin_rad": 0.118307276815176,
+      "minimum_soft_limit_margin_rad": 0.008282136917114213,
+      "hard_limit_violations": {},
+      "soft_limit_violations": {}
+    },
+    "hand_pose_FK_position_error_m": 0.0,
+    "hand_pose_FK_rotation_error_rad": 9.375251504297418e-17,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.004808506883633809,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "actual_tool_geometry": {
+      "triangle_intersections": [],
+      "no_noncontact_triangle_intersections": true
+    },
+    "tip_center_separation_m": 0.016637498163077056,
+    "tip_center_separation_minus_1mm_thickness_m": 0.015637498163077055,
+    "fixture_active": false,
+    "hold_metrics": {
+      "name": "table40_x-1_close0",
+      "extra_closure": 0.0,
+      "goal_R": [
+        [
+          0.0,
+          -0.6427876096865393,
+          0.766044443118978
+        ],
+        [
+          -1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.766044443118978,
+          -0.6427876096865393
+        ]
+      ],
+      "ik_error": 6.736437677041282e-16,
+      "reachable": true,
+      "goal_palm_normal_w": [
+        -0.6824321618649026,
+        0.39183425507782227,
+        -0.617051262862336
+      ],
+      "goal_tool_axis_w": [
+        0.766044443118978,
+        0.0,
+        -0.6427876096865393
+      ],
+      "goal_tool_angle_down_from_table_deg": 39.99999999999999,
+      "hand_visual_min_z_relative_to_tip_m": 0.034357365680425245,
+      "goal_handle_quaternion_wxyz": [
+        -0.29883623873011983,
+        0.6408563820557885,
+        -0.6408563820557885,
+        0.29883623873011983
+      ],
+      "retained": true,
+      "settled_stable": true,
+      "first_loss_s": -1.0,
+      "max_grip_translation_m": 0.0032246338669210672,
+      "min_table_clearance_m": 0.14478111267089844,
+      "max_block_contact_N": 0.0,
+      "last_1s_xyz_range_m": [
+        9.5367431640625e-07,
+        9.5367431640625e-07,
+        4.172325134277344e-07
+      ],
+      "last_1s_orientation_range_deg": 0.07638563980121564,
+      "last_1s_bilateral_fraction_gt3mN": 1.0,
+      "last_1s_jaw_contact_mean_N": [
+        0.44019481718994047,
+        0.4487664822759666
+      ],
+      "final_palm_normal_w": [
+        -0.6824321746826172,
+        0.3918341398239136,
+        -0.617051362991333
+      ],
+      "final_tool_axis_w": [
+        0.6973608732223511,
+        0.036216914653778076,
+        -0.7158041000366211
+      ],
+      "final_tip_center_gap_m": 0.01622767746448517,
+      "final_tip_projected_inner_gap_m": 0.014777885749936104,
+      "final_tip_spread_axis_w": [
+        0.06903815269470215,
+        -0.9971083998680115,
+        0.03176063671708107
+      ],
+      "axis_aligned_12mm_cube_projected_width_m": 0.013174885883927345,
+      "final_tool_angle_down_from_table_deg": 45.70913688805759,
+      "last_1s_reported_speed_mean_mps": 0.005724220260042021,
+      "last_1s_position_difference_speed_mean_mps": 2.4275370569566857e-05,
+      "all_robot_contacts_mean_gt1mN": [
+        {
+          "tool": "left",
+          "robot": "right_hand_thumb_rota_link2",
+          "mean_force_N": 0.44019481718994047,
+          "peak_force_N": 0.5057638944107271
+        },
+        {
+          "tool": "right",
+          "robot": "right_hand_index_rota_link2",
+          "mean_force_N": 0.4487664822759666,
+          "peak_force_N": 0.5139173821444557
+        }
+      ],
+      "max_non_distal_robot_contact_N": 0.0
+    }
+  },
+  "FK_saved_pose_consistency": {
+    "wrist_3_link": {
+      "position_error_m": 0.0,
+      "rotation_error_rad": 1.1173773547404536e-16
+    },
+    "right_hand_link": {
+      "position_error_m": 0.0,
+      "rotation_error_rad": 9.375251504297418e-17
+    }
+  },
+  "all_18_actual_joints_inside_URDF_limits": true,
+  "URDF_joint_limit_margins_rad": {
+    "shoulder_pan_joint": 6.022434745226995,
+    "shoulder_lift_joint": 4.364762131367819,
+    "elbow_joint": 0.7960998137765607,
+    "wrist_1_joint": 3.6788786093341272,
+    "wrist_2_joint": 4.363831822072164,
+    "wrist_3_joint": 3.3589194456683558,
+    "right_hand_index_bend_joint": 0.11992461904883384,
+    "right_hand_mid_joint1": 0.677253246307373,
+    "right_hand_pinky_joint1": 0.5869348645210266,
+    "right_hand_ring_joint1": 0.6959139704704285,
+    "right_hand_thumb_bend_joint": 0.6561214327812195,
+    "right_hand_index_joint1": 0.6792208552360535,
+    "right_hand_mid_joint2": 0.8499965095520019,
+    "right_hand_pinky_joint2": 0.8500098586082458,
+    "right_hand_ring_joint2": 0.8500049710273743,
+    "right_hand_thumb_rota_joint1": 0.5490252447128297,
+    "right_hand_index_joint2": 0.4788713884353637,
+    "right_hand_thumb_rota_joint2": 0.6635630011558533
+  },
+  "source_height_table_clearance": {
+    "hand_min_clearance_m": 0.19435706147754384,
+    "hand_lowest_link": "right_hand_ring_link2",
+    "moving_arm_min_clearance_m": 0.09859871715307233,
+    "moving_arm_lowest_link": "shoulder_link",
+    "all_link_plane_clearances_m": {
+      "shoulder_link": 0.09859871715307233,
+      "upper_arm_link": 0.10196403589600023,
+      "forearm_link": 0.3604885899797703,
+      "wrist_1_link": 0.3417395940952812,
+      "wrist_2_link": 0.39180630834677,
+      "wrist_3_link": 0.3600264774904607,
+      "right_hand_link": 0.2655806116513695,
+      "right_hand_thumb_bend_link": 0.30733891463320107,
+      "right_hand_thumb_rota_link1": 0.2488203752535918,
+      "right_hand_thumb_rota_link2": 0.212282883169834,
+      "right_hand_index_bend_link": 0.2626784329980473,
+      "right_hand_index_rota_link1": 0.20584336358870836,
+      "right_hand_index_rota_link2": 0.20349237970687262,
+      "right_hand_mid_link1": 0.20913842321375098,
+      "right_hand_mid_link2": 0.19524024544904162,
+      "right_hand_ring_link1": 0.21444260585988784,
+      "right_hand_ring_link2": 0.19435706147754384,
+      "right_hand_pinky_link1": 0.22014114283440278,
+      "right_hand_pinky_link2": 0.1972279054290469,
+      "xhand_adapter": 0.34502798439662113
+    },
+    "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+  },
+  "palm_normal_hand": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "palm_normal_world": [
+    -0.6824321785528428,
+    0.3918343339682197,
+    -0.6170511943099232
+  ],
+  "palm_normal_dot_table_up": -0.6170511943099232,
+  "handle_axis_inclination_down_from_table_deg": 45.709162196504536,
+  "tip_center_world_m": [
+    0.47358174788797514,
+    -0.0011465095208479186,
+    0.8721785149371908
+  ],
+  "repositioned_grasp_height": {
+    "desired_tip_center_world_m": [
+      0.48,
+      0.0,
+      0.7278
+    ],
+    "rigid_translation_m": [
+      0.006418252112024847,
+      0.0011465095208479186,
+      -0.14437851493719078
+    ],
+    "arm_IK_error": 1.8566369001961754e-15,
+    "arm_joint_positions": {
+      "shoulder_pan_joint": -0.25156206284903154,
+      "shoulder_lift_joint": -1.5467426711881607,
+      "elbow_joint": 2.5556618195028955,
+      "wrist_1_joint": -3.183387516612349,
+      "wrist_2_joint": -1.9245800108595323,
+      "wrist_3_joint": -2.9162174115520845
+    },
+    "robot_clearance": {
+      "hand_min_clearance_m": 0.049978546540353275,
+      "hand_lowest_link": "right_hand_ring_link2",
+      "moving_arm_min_clearance_m": 0.09859871715307233,
+      "moving_arm_lowest_link": "shoulder_link",
+      "all_link_plane_clearances_m": {
+        "shoulder_link": 0.09859871715307233,
+        "upper_arm_link": 0.10191621895010117,
+        "forearm_link": 0.2165000417477002,
+        "wrist_1_link": 0.19765252709174086,
+        "wrist_2_link": 0.24743140466156133,
+        "wrist_3_link": 0.21564796255327034,
+        "right_hand_link": 0.12120209671417903,
+        "right_hand_thumb_bend_link": 0.16296039969601062,
+        "right_hand_thumb_rota_link1": 0.10444186031640135,
+        "right_hand_thumb_rota_link2": 0.06790436823264345,
+        "right_hand_index_bend_link": 0.11829991806085682,
+        "right_hand_index_rota_link1": 0.06146484865151791,
+        "right_hand_index_rota_link2": 0.059113864769682056,
+        "right_hand_mid_link1": 0.06475990827656053,
+        "right_hand_mid_link2": 0.050861730511851166,
+        "right_hand_ring_link1": 0.07006409092269739,
+        "right_hand_ring_link2": 0.049978546540353275,
+        "right_hand_pinky_link1": 0.07576262789721222,
+        "right_hand_pinky_link2": 0.05284939049185633,
+        "xhand_adapter": 0.2006494694594307
+      },
+      "method": "Minimum transformed source collision-triangle vertex z; exact for a horizontal infinite plane. Adapter cylinder support function; fixed mounting base excluded."
+    },
+    "tool_part_plane_clearances_m": {
+      "handle/bridge": 0.09933230382316494,
+      "left/blade": 0.009771089040692793,
+      "left/tip": 0.0004172038749894469,
+      "right/blade": 0.010244790035286,
+      "right/tip": 0.0009305288706606962
+    }
+  },
+  "estimated_saved_target_closure": 0.5999989564622222,
+  "maximum_target_synergy_reconstruction_error_rad": 6.21432307834624e-08,
+  "actual_minus_reference_joint_RMS_deg": 0.4206082192243353,
+  "actual_minus_image_mapped_prior_joint_RMS_deg": 13.195800349334494,
+  "joint_comparison": {
+    "right_hand_thumb_bend_joint": {
+      "image_mapped_prior_rad": 0.2767802762984184,
+      "contact_refined_reference_rad": 0.6513891868585314,
+      "actual_rad": 0.6561214327812195,
+      "target_rad": 0.6577616930007935,
+      "actual_minus_reference_deg": 0.271137718988018,
+      "actual_minus_mapped_prior_deg": 21.73464726207623
+    },
+    "right_hand_thumb_rota_joint1": {
+      "image_mapped_prior_rad": 0.79405140055988,
+      "contact_refined_reference_rad": 1.0137862619552753,
+      "actual_rad": 1.0209747552871704,
+      "target_rad": 1.0252569913864136,
+      "actual_minus_reference_deg": 0.4118703289755233,
+      "actual_minus_mapped_prior_deg": 13.0017504988238
+    },
+    "right_hand_thumb_rota_joint2": {
+      "image_mapped_prior_rad": 0.383147580040626,
+      "contact_refined_reference_rad": 0.4977049914120092,
+      "actual_rad": 0.48856300115585327,
+      "target_rad": 0.49016690254211426,
+      "actual_minus_reference_deg": -0.5237974580274565,
+      "actual_minus_mapped_prior_deg": 6.039858725496785
+    },
+    "right_hand_index_bend_joint": {
+      "image_mapped_prior_rad": 0.0,
+      "contact_refined_reference_rad": -0.034999999999999996,
+      "actual_rad": -0.05507538095116615,
+      "target_rad": -0.05669272318482399,
+      "actual_minus_reference_deg": -1.150234600619149,
+      "actual_minus_mapped_prior_deg": -3.15558688357703
+    },
+    "right_hand_index_joint1": {
+      "image_mapped_prior_rad": 0.7180402219555463,
+      "contact_refined_reference_rad": 0.6765160673367449,
+      "actual_rad": 0.6792208552360535,
+      "target_rad": 0.6812878847122192,
+      "actual_minus_reference_deg": 0.15497293110843946,
+      "actual_minus_mapped_prior_deg": -2.2241858763975464
+    },
+    "right_hand_index_joint2": {
+      "image_mapped_prior_rad": 1.4367406381232966,
+      "contact_refined_reference_rad": 1.449999999999999,
+      "actual_rad": 1.4411286115646362,
+      "target_rad": 1.4417178630828857,
+      "actual_minus_reference_deg": -0.5082931157674575,
+      "actual_minus_mapped_prior_deg": 0.25141235880425916
+    },
+    "right_hand_mid_joint1": {
+      "image_mapped_prior_rad": 0.7287605571985223,
+      "contact_refined_reference_rad": 0.6772563343191134,
+      "actual_rad": 0.677253246307373,
+      "target_rad": 0.6772563457489014,
+      "actual_minus_reference_deg": -0.00017693003980691886,
+      "actual_minus_mapped_prior_deg": -2.9511515281310707
+    },
+    "right_hand_mid_joint2": {
+      "image_mapped_prior_rad": 1.35,
+      "contact_refined_reference_rad": 1.09,
+      "actual_rad": 1.090003490447998,
+      "target_rad": 1.090000033378601,
+      "actual_minus_reference_deg": 0.00019998793889339334,
+      "actual_minus_mapped_prior_deg": -14.896702685462511
+    },
+    "right_hand_ring_joint1": {
+      "image_mapped_prior_rad": 0.8598500071654993,
+      "contact_refined_reference_rad": 0.6959100042992996,
+      "actual_rad": 0.6959139704704285,
+      "target_rad": 0.6959099769592285,
+      "actual_minus_reference_deg": 0.00022724486651004165,
+      "actual_minus_mapped_prior_deg": -9.392843012729351
+    },
+    "right_hand_ring_joint2": {
+      "image_mapped_prior_rad": 1.25,
+      "contact_refined_reference_rad": 0.85,
+      "actual_rad": 0.8500049710273743,
+      "target_rad": 0.8500000238418579,
+      "actual_minus_reference_deg": 0.00028481888839080395,
+      "actual_minus_mapped_prior_deg": -22.91802698634454
+    },
+    "right_hand_pinky_joint1": {
+      "image_mapped_prior_rad": 0.67822057235754,
+      "contact_refined_reference_rad": 0.5869323434145239,
+      "actual_rad": 0.5869348645210266,
+      "target_rad": 0.586932361125946,
+      "actual_minus_reference_deg": 0.0001444487623061572,
+      "actual_minus_mapped_prior_deg": -5.23028578889652
+    },
+    "right_hand_pinky_joint2": {
+      "image_mapped_prior_rad": 1.25,
+      "contact_refined_reference_rad": 0.85,
+      "actual_rad": 0.8500098586082458,
+      "target_rad": 0.8500000238418579,
+      "actual_minus_reference_deg": 0.0005648566443613267,
+      "actual_minus_mapped_prior_deg": -22.91774694858857
+    }
+  },
+  "limitations": [
+    "FK checks verify snapshot bookkeeping consistency; saved wrist/hand poses are themselves generated from FK in probe_natural_orientation.py, not an independent external pose measurement.",
+    "Source hand triangle audit excludes directly adjacent links; it does not reproduce PhysX convex decomposition or certify all arm self-collisions.",
+    "Moving a stable pose to the grasp height here is only an IK/clearance calculation, not a new dynamic test.",
+    "Reference angle differences are in robot joint coordinates. Image proxies are view-dependent and partly regularized, not reliable human 3-D anatomical angles.",
+    "The planar table clearance is measured from actual mesh vertices and primitive support functions; contact margins and whole approach trajectories still require simulator validation."
+  ]
+}

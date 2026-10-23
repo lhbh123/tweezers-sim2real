@@ -1,0 +1,12 @@
+[
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v4_seed17.json",
+    "seed": 17,
+    "open_self_clear": true,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": 0.01820832375792525,
+    "tail_palm_gap_m": 0.0008973072234290211,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  }
+]

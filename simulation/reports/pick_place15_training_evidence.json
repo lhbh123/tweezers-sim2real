@@ -1,0 +1,32 @@
+[
+  {
+    "run": "runs/pick_place15_ppo71",
+    "iterations": 25,
+    "transitions": 153600,
+    "optimizer_updates": 400,
+    "actor_parameter_change_L2": 0.2875645911595835,
+    "initialized_from": null,
+    "observation_size": 117,
+    "action_size": 6
+  },
+  {
+    "run": "runs/pick_place15_ppo83",
+    "iterations": 25,
+    "transitions": 153600,
+    "optimizer_updates": 400,
+    "actor_parameter_change_L2": 0.10769322669675208,
+    "initialized_from": null,
+    "observation_size": 117,
+    "action_size": 6
+  },
+  {
+    "run": "runs/pick_place15_ppo101_retreat80",
+    "iterations": 25,
+    "transitions": 153600,
+    "optimizer_updates": 400,
+    "actor_parameter_change_L2": 0.10164250270362758,
+    "initialized_from": null,
+    "observation_size": 117,
+    "action_size": 6
+  }
+]

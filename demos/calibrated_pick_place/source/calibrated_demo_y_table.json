@@ -1,0 +1,7 @@
+{
+  "table_size_m": [0.80, 1.10, 0.04],
+  "table_center_xy_m": [0.0, 0.35],
+  "home_xy_m": [0.0, 0.48],
+  "tool_spawn_xyz_m": [0.0, 0.48, 0.95],
+  "tool_yaw_deg": 90.0
+}

@@ -1,0 +1,57 @@
+{
+  "candidates": [
+    {
+      "name": "normal_line_plus_compatible_fallback_draft",
+      "status": "rejected_before_any_simulation",
+      "reason": "Grazing normal-line matching and directional fallback produced distant surface correspondences. 4F maximum displacement15.948176mm;303 smoothed-normal reversals>90deg.",
+      "artifact_note": "Draft directory was overwritten by nearest-triangle draft before the later request to archive intermediate candidates. Do not treat current files there as the first draft. No first-draft simulation or task result exists."
+    },
+    {
+      "name": "unfiltered_nearest_triangle_draft",
+      "status": "rejected_before_any_simulation",
+      "directory": "assets/sharpa_tacmap_w01_matched",
+      "reason": "TH1836/45211 normal changes>90deg. Final v2 adds geometry-only unsupported mask.",
+      "manifest_sha256": "01b79292632bf611fc8dd6786c458d49307cd3a9272ffde6e01f557139cea7b5",
+      "model_stats": [
+        {
+          "model": "TH",
+          "valid_points": 45211,
+          "displacement_mm_quantiles_0_50_95_99_100": [
+            0.00012499015598941147,
+            1.190122034617304,
+            2.253986270284616,
+            2.9842308606631676,
+            3.448805712189564
+          ],
+          "normal_angle_deg_quantiles_0_50_95_99_100": [
+            0.010757404848893034,
+            15.745396664355724,
+            86.97647710166972,
+            105.29817852948041,
+            119.09586038236588
+          ],
+          "normal_angle_over_90_count": 1836
+        },
+        {
+          "model": "4F",
+          "valid_points": 41971,
+          "displacement_mm_quantiles_0_50_95_99_100": [
+            1.1150106984748885e-05,
+            0.8280585995572881,
+            2.7025040940273786,
+            3.5925686271813477,
+            4.173957614551742
+          ],
+          "normal_angle_deg_quantiles_0_50_95_99_100": [
+            0.004011743548988419,
+            7.662290077421713,
+            55.537439726587984,
+            59.820540751616036,
+            66.94745995690695
+          ],
+          "normal_angle_over_90_count": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "model": "W01",
+  "fit_method": "Actual mesh support-plane contacts; exact triangle collision screening",
+  "candidates": [
+    {
+      "setting": [
+        0.04,
+        0,
+        0
+      ],
+      "cost": 0.006761264271417042,
+      "contact_cost": 8.634947302914804e-06,
+      "q": {
+        "right_middle_MCP_FE": -0.12,
+        "right_middle_MCP_AA": 0.12,
+        "right_middle_PIP": 0.04,
+        "right_middle_DIP": 0.04,
+        "right_ring_MCP_FE": -0.12,
+        "right_ring_MCP_AA": 0.24,
+        "right_ring_PIP": 0.04,
+        "right_ring_DIP": 0.04,
+        "right_pinky_MCP_FE": -0.12,
+        "right_pinky_MCP_AA": 0.33,
+        "right_pinky_PIP": 0.04,
+        "right_pinky_DIP": 0.04,
+        "right_pinky_CMC": 0.0,
+        "right_thumb_CMC_FE": 1.9196999758146698,
+        "right_thumb_CMC_AA": 0.28959923892535966,
+        "right_thumb_MCP_FE": -0.27797952095265693,
+        "right_thumb_MCP_AA": 0.2800357555217427,
+        "right_thumb_IP": 0.03421265586208017,
+        "right_index_MCP_FE": 0.3998811237519332,
+        "right_index_MCP_AA": 0.20275686831920267,
+        "right_index_PIP": 0.8870784330435774,
+        "right_index_DIP": 0.34988438438006114
+      },
+      "T_hand_tool": [
+        [
+          -0.40170449324619706,
+          0.010004911906092352,
+          0.9157146945657079,
+          0.0378949537657861
+        ],
+        [
+          -0.1343433960946672,
+          -0.989765808605215,
+          -0.04811960143035813,
+          0.019112640065270383
+        ],
+        [
+          0.9058616627452382,
+          -0.14235008202953905,
+          0.3989374664212627,
+          0.11796452820640706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "tool_pinch_z": 0.04,
+      "gap_m": 8e-05,
+      "patches": [
+        {
+          "digit": "thumb",
+          "link": "right_thumb_elastomer",
+          "point": [
+            -2.1269308376759e-06,
+            -0.024238138164435576,
+            -0.004176310390140447
+          ],
+          "normal": [
+            0.0,
+            -0.5000000016387101,
+            -0.8660254028383291
+          ],
+          "source": "official URDF collision mesh supporting plane",
+          "support_vertex_count": 4
+        },
+        {
+          "digit": "index",
+          "link": "right_index_elastomer",
+          "point": [
+            6.305828800204534e-11,
+            -0.0230001589481012,
+            -0.004886036808000229
+          ],
+          "normal": [
+            0.0,
+            -0.5000000016387101,
+            -0.8660254028383291
+          ],
+          "source": "official URDF collision mesh supporting plane",
+          "support_vertex_count": 6
+        }
+      ],
+      "x": [
+        1.9196999758146698,
+        0.28959923892535966,
+        -0.27797952095265693,
+        0.2800357555217427,
+        0.03421265586208017,
+        0.3998811237519332,
+        0.20275686831920267,
+        0.8870784330435774,
+        0.34988438438006114,
+        -1.6673326666740451,
+        0.17434148394007773,
+        -2.5541273670515996,
+        0.0378949537657861,
+        0.019112640065270383,
+        0.11796452820640706
+      ],
+      "screen": {
+        "self_pairs": [],
+        "non_pinch_tool_pairs": [],
+        "pinch_pad_pairs": []
+      },
+      "collision_score": 0,
+      "closed_q": {
+        "right_middle_MCP_FE": -0.12,
+        "right_middle_MCP_AA": 0.12,
+        "right_middle_PIP": 0.04,
+        "right_middle_DIP": 0.04,
+        "right_ring_MCP_FE": -0.12,
+        "right_ring_MCP_AA": 0.24,
+        "right_ring_PIP": 0.04,
+        "right_ring_DIP": 0.04,
+        "right_pinky_MCP_FE": -0.12,
+        "right_pinky_MCP_AA": 0.33,
+        "right_pinky_PIP": 0.04,
+        "right_pinky_DIP": 0.04,
+        "right_pinky_CMC": 0.0,
+        "right_thumb_CMC_FE": 1.8971999040347198,
+        "right_thumb_CMC_AA": 0.2509374595600309,
+        "right_thumb_MCP_FE": -0.15407159914843133,
+        "right_thumb_MCP_AA": 0.2983033723016558,
+        "right_thumb_IP": 0.00020000000000000047,
+        "right_index_MCP_FE": 0.430974038662555,
+        "right_index_MCP_AA": 0.1989432123481785,
+        "right_index_PIP": 0.8643070661070831,
+        "right_index_DIP": 0.3997741677331571
+      },
+      "closed_contact_cost": 2.5266778160769134,
+      "closed_screen": {
+        "self_pairs": [],
+        "non_pinch_tool_pairs": [],
+        "pinch_pad_pairs": []
+      }
+    }
+  ]
+}

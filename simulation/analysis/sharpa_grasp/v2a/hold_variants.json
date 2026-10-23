@@ -1,0 +1,27 @@
+[
+  {
+    "name": "c0.2",
+    "closure_start": 0.2,
+    "closure_end": 0.2
+  },
+  {
+    "name": "c0.4",
+    "closure_start": 0.4,
+    "closure_end": 0.4
+  },
+  {
+    "name": "c0.6",
+    "closure_start": 0.6,
+    "closure_end": 0.6
+  },
+  {
+    "name": "c0.8",
+    "closure_start": 0.8,
+    "closure_end": 0.8
+  },
+  {
+    "name": "c1",
+    "closure_start": 1.0,
+    "closure_end": 1.0
+  }
+]

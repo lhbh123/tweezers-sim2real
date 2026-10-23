@@ -1,0 +1,478 @@
+{
+  "decimation": 8,
+  "episode_seconds": 36.0,
+  "initial_tip_clearance": 0.075,
+  "reset_xy_range": 0,
+  "target_lift": 0.06,
+  "max_wrist_step": 0.002,
+  "max_wrist_descent": 0.08,
+  "closure_bias": 0.7,
+  "closure_scale": 0.5,
+  "closure_min": -0.1,
+  "closure_max": 1.2,
+  "hand_smoothing": 0.15,
+  "natural_weight": 0.03,
+  "action_smooth_weight": 0.02,
+  "seed": 0,
+  "mode": "lift",
+  "reset_snapshot": "/mnt/workspace/tweezers-sim2real/models/snapshots/xhand_stable_grasp.json",
+  "work_xy": [
+    0.0,
+    0.48
+  ],
+  "aperture_reward_weight": 0.0,
+  "reset_tool_quaternion_wxyz": [
+    -0.000857288005450802,
+    0.0002415435982026038,
+    0.9659113543183825,
+    0.25887151699789995
+  ],
+  "require_palm_down": false,
+  "require_web_up": true,
+  "min_web_up_component": 0.35,
+  "max_palm_up_component": 0.25,
+  "require_tripod_support": false,
+  "monitor_grasp_contacts": false,
+  "require_face_pinch": true,
+  "grasp_contact_threshold_N": 0.003,
+  "support_vertical_threshold_N": 0.003,
+  "support_reward_weight": 0.5,
+  "independent_support_actions": true,
+  "index_support_action_rad": 0.008,
+  "middle_support_action_rad": 0.025,
+  "command_space_arm": true,
+  "tool_down_angle_range_deg": [
+    20,
+    70
+  ],
+  "action_semantics": [
+    "residual_wrist_dx",
+    "residual_wrist_dy",
+    "residual_wrist_dz",
+    "residual_closure",
+    "residual_index",
+    "residual_middle"
+  ],
+  "joint_names": [
+    "shoulder_pan_joint",
+    "shoulder_lift_joint",
+    "elbow_joint",
+    "wrist_1_joint",
+    "wrist_2_joint",
+    "wrist_3_joint",
+    "right_hand_index_bend_joint",
+    "right_hand_mid_joint1",
+    "right_hand_pinky_joint1",
+    "right_hand_ring_joint1",
+    "right_hand_thumb_bend_joint",
+    "right_hand_index_joint1",
+    "right_hand_mid_joint2",
+    "right_hand_pinky_joint2",
+    "right_hand_ring_joint2",
+    "right_hand_thumb_rota_joint1",
+    "right_hand_index_joint2",
+    "right_hand_thumb_rota_joint2"
+  ],
+  "robot_model": "UR5e + XHand",
+  "robot_asset_dir": "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right",
+  "palm_link": "right_hand_link",
+  "hand_root_link": "right_hand_link",
+  "arm_joint_names": [
+    "shoulder_pan_joint",
+    "shoulder_lift_joint",
+    "elbow_joint",
+    "wrist_1_joint",
+    "wrist_2_joint",
+    "wrist_3_joint"
+  ],
+  "finger_torsional_patch_settings": {
+    "torsional_patch_radius_m": 0.0,
+    "min_torsional_patch_radius_m": 0.0,
+    "solver": "TGS",
+    "model": "PhysX single-anchor torsional friction; finite elastomer contact-area approximation",
+    "colliders_env_0": []
+  },
+  "robot_self_collisions_enabled": true,
+  "filtered_mechanical_self_pairs": true,
+  "filtered_mechanical_pairs": [
+    [
+      "/World/envs/env_0/Robot/root_joint/wrist_3_link",
+      "/World/envs/env_0/Robot/root_joint/right_hand_index_rota_link1"
+    ],
+    [
+      "/World/envs/env_0/Robot/root_joint/wrist_3_link",
+      "/World/envs/env_0/Robot/root_joint/right_hand_thumb_rota_link1"
+    ]
+  ],
+  "tool_geometry": {
+    "length_m": 0.18,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "strip_thickness_m": 0.001,
+    "strip_width_m": 0.014,
+    "handle_width_m": 0.014,
+    "handle_length_m": 0.01,
+    "handle_mass_kg": 0.003,
+    "jaw_mass_kg": 0.006
+  },
+  "grasp_topology": {
+    "type": "thumb_index_outer_wide_face_pinch_optional_middle_web_backup",
+    "web_edge_axis_local": [
+      1.0,
+      0,
+      0
+    ],
+    "web_anchor_local": [
+      0.04270149,
+      0.015,
+      -0.065
+    ],
+    "palm_outward_axis_local": [
+      0,
+      1.0,
+      0
+    ],
+    "tail_web_contact_claimed": false
+  },
+  "backup_support_geometry": {
+    "q": [
+      1.4300000000000002,
+      0.7700000000000001
+    ],
+    "gap_m": 0.0023068692013158316,
+    "vertical_gap_m": 0.001052494473460574,
+    "horizontal_gap_m": 0.002052778822794724,
+    "side": "left",
+    "pitch": 60,
+    "roll": 0,
+    "web_z": 0.9778929030663347,
+    "palm_z": -0.127073510602744,
+    "middle_point_hand": [
+      0.008907871596515224,
+      0.09808697186088784,
+      -0.09814651277154035
+    ],
+    "tool_point_hand": [
+      0.010193248850537892,
+      0.09998935628413895,
+      -0.09837097731883511
+    ],
+    "tool_R": [
+      [
+        0.0,
+        0.8660254037844386,
+        0.5000000000000001
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.5000000000000001,
+        -0.8660254037844386
+      ]
+    ],
+    "semantics": "Below tool with initial gap; contact optional and only supports after slip. No continuous middle/web contact requirement."
+  },
+  "palm_collision": {
+    "shrink_wrap": true,
+    "max_convex_hulls": 64,
+    "voxel_resolution": 2000000,
+    "min_thickness_m": 0.0001,
+    "error_percentage": 1.0
+  },
+  "arm_reset_table_clearance_m": 0.015,
+  "arm_reset_IK_evidence": [
+    {
+      "q": {
+        "shoulder_pan_joint": 1.5588626839368454,
+        "shoulder_lift_joint": -1.530745290879708,
+        "elbow_joint": 2.637390234843532,
+        "wrist_1_joint": -1.435944957766247,
+        "wrist_2_joint": 2.6022970061805224,
+        "wrist_3_joint": 1.1563310898478791
+      },
+      "error": 1.4304616513742416e-14,
+      "success": true,
+      "table_clearance_by_link_m": {
+        "shoulder_link": 0.09859871715307236,
+        "upper_arm_link": 0.10192288164959576,
+        "forearm_link": 0.19758231430501255,
+        "wrist_1_link": 0.17377320465860496,
+        "wrist_2_link": 0.09945191230962594,
+        "wrist_3_link": 0.11434810118403435
+      },
+      "hand_table_clearance_by_link_m": {
+        "right_hand_link": 0.12222182965500392,
+        "right_hand_thumb_bend_link": 0.1796652887531652,
+        "right_hand_thumb_rota_link1": 0.16831386687512878,
+        "right_hand_thumb_rota_link2": 0.17191334842372402,
+        "right_hand_index_bend_link": 0.19057226063965516,
+        "right_hand_index_rota_link1": 0.1900232938015773,
+        "right_hand_index_rota_link2": 0.1850859117381468,
+        "right_hand_mid_link1": 0.16919671459080785,
+        "right_hand_mid_link2": 0.1630235279661732,
+        "right_hand_ring_link1": 0.15252201967232226,
+        "right_hand_ring_link2": 0.14827586506951798,
+        "right_hand_pinky_link1": 0.12940216526266132,
+        "right_hand_pinky_link2": 0.12323692224870224
+      }
+    },
+    {
+      "q": {
+        "shoulder_pan_joint": 1.56773495174519,
+        "shoulder_lift_joint": -1.528515942907886,
+        "elbow_joint": 2.63584077244818,
+        "wrist_1_joint": -1.44149941062666,
+        "wrist_2_joint": 2.6106855705718264,
+        "wrist_3_joint": 1.150664471619422
+      },
+      "error": 2.338376384636691e-14,
+      "success": true,
+      "table_clearance_by_link_m": {
+        "shoulder_link": 0.09859871715307236,
+        "upper_arm_link": 0.10191989895953907,
+        "forearm_link": 0.19742292370017772,
+        "wrist_1_link": 0.173529362971231,
+        "wrist_2_link": 0.09944834981611522,
+        "wrist_3_link": 0.11434810118403124
+      },
+      "hand_table_clearance_by_link_m": {
+        "right_hand_link": 0.12222182965500392,
+        "right_hand_thumb_bend_link": 0.1796652887531652,
+        "right_hand_thumb_rota_link1": 0.16831386687512878,
+        "right_hand_thumb_rota_link2": 0.17191334842372402,
+        "right_hand_index_bend_link": 0.19057226063965516,
+        "right_hand_index_rota_link1": 0.1900232938015773,
+        "right_hand_index_rota_link2": 0.1850859117381468,
+        "right_hand_mid_link1": 0.16919671459080785,
+        "right_hand_mid_link2": 0.1630235279661732,
+        "right_hand_ring_link1": 0.15252201967232226,
+        "right_hand_ring_link2": 0.14827586506951798,
+        "right_hand_pinky_link1": 0.12940216526266132,
+        "right_hand_pinky_link2": 0.12323692224870224
+      }
+    },
+    {
+      "q": {
+        "shoulder_pan_joint": 1.5499453988520218,
+        "shoulder_lift_joint": -1.5329547118593838,
+        "elbow_joint": 2.638944041836409,
+        "wrist_1_joint": -1.430549868088946,
+        "wrist_2_joint": 2.5938520169560517,
+        "wrist_3_joint": 1.1618684893717295
+      },
+      "error": 1.387653564857541e-14,
+      "success": true,
+      "table_clearance_by_link_m": {
+        "shoulder_link": 0.09859871715307235,
+        "upper_arm_link": 0.10192613472205618,
+        "forearm_link": 0.19773514643171447,
+        "wrist_1_link": 0.17400956730823458,
+        "wrist_2_link": 0.09945647744891158,
+        "wrist_3_link": 0.11434810118403561
+      },
+      "hand_table_clearance_by_link_m": {
+        "right_hand_link": 0.12222182965500392,
+        "right_hand_thumb_bend_link": 0.1796652887531652,
+        "right_hand_thumb_rota_link1": 0.16831386687512878,
+        "right_hand_thumb_rota_link2": 0.17191334842372402,
+        "right_hand_index_bend_link": 0.19057226063965516,
+        "right_hand_index_rota_link1": 0.1900232938015773,
+        "right_hand_index_rota_link2": 0.1850859117381468,
+        "right_hand_mid_link1": 0.16919671459080785,
+        "right_hand_mid_link2": 0.1630235279661732,
+        "right_hand_ring_link1": 0.15252201967232226,
+        "right_hand_ring_link2": 0.14827586506951798,
+        "right_hand_pinky_link1": 0.12940216526266132,
+        "right_hand_pinky_link2": 0.12323692224870224
+      }
+    },
+    {
+      "q": {
+        "shoulder_pan_joint": 1.5587555742710952,
+        "shoulder_lift_joint": -1.5351503975123704,
+        "elbow_joint": 2.642188358191428,
+        "wrist_1_joint": -1.436280110032063,
+        "wrist_2_joint": 2.602195650628819,
+        "wrist_3_joint": 1.1563985274274724
+      },
+      "error": 2.412863688814778e-14,
+      "success": true,
+      "table_clearance_by_link_m": {
+        "shoulder_link": 0.09859871715307236,
+        "upper_arm_link": 0.10192966051318947,
+        "forearm_link": 0.19758353640451953,
+        "wrist_1_link": 0.17377609471925148,
+        "wrist_2_link": 0.09945196146223338,
+        "wrist_3_link": 0.11434810118403776
+      },
+      "hand_table_clearance_by_link_m": {
+        "right_hand_link": 0.12222182965500392,
+        "right_hand_thumb_bend_link": 0.1796652887531652,
+        "right_hand_thumb_rota_link1": 0.16831386687512878,
+        "right_hand_thumb_rota_link2": 0.17191334842372402,
+        "right_hand_index_bend_link": 0.19057226063965516,
+        "right_hand_index_rota_link1": 0.1900232938015773,
+        "right_hand_index_rota_link2": 0.1850859117381468,
+        "right_hand_mid_link1": 0.16919671459080785,
+        "right_hand_mid_link2": 0.1630235279661732,
+        "right_hand_ring_link1": 0.15252201967232226,
+        "right_hand_ring_link2": 0.14827586506951798,
+        "right_hand_pinky_link1": 0.12940216526266132,
+        "right_hand_pinky_link2": 0.12323692224870224
+      }
+    },
+    {
+      "q": {
+        "shoulder_pan_joint": 1.558967898319953,
+        "shoulder_lift_joint": -1.5263752236214108,
+        "elbow_joint": 2.632584146257895,
+        "wrist_1_joint": -1.4355657994931776,
+        "wrist_2_joint": 2.602396566315644,
+        "wrist_3_joint": 1.1562648233190103
+      },
+      "error": 1.5796443762204847e-14,
+      "success": true,
+      "table_clearance_by_link_m": {
+        "shoulder_link": 0.09859871715307236,
+        "upper_arm_link": 0.10191731821338287,
+        "forearm_link": 0.19758120160351478,
+        "wrist_1_link": 0.1737703645097184,
+        "wrist_2_link": 0.09945186416534295,
+        "wrist_3_link": 0.11434810118403246
+      },
+      "hand_table_clearance_by_link_m": {
+        "right_hand_link": 0.12222182965500392,
+        "right_hand_thumb_bend_link": 0.1796652887531652,
+        "right_hand_thumb_rota_link1": 0.16831386687512878,
+        "right_hand_thumb_rota_link2": 0.17191334842372402,
+        "right_hand_index_bend_link": 0.19057226063965516,
+        "right_hand_index_rota_link1": 0.1900232938015773,
+        "right_hand_index_rota_link2": 0.1850859117381468,
+        "right_hand_mid_link1": 0.16919671459080785,
+        "right_hand_mid_link2": 0.1630235279661732,
+        "right_hand_ring_link1": 0.15252201967232226,
+        "right_hand_ring_link2": 0.14827586506951798,
+        "right_hand_pinky_link1": 0.12940216526266132,
+        "right_hand_pinky_link2": 0.12323692224870224
+      }
+    }
+  ],
+  "web_contact_region": {
+    "frame": "right_hand_link",
+    "center_m": [
+      0.04270149,
+      0.015,
+      -0.065
+    ],
+    "radius_m": 0.02
+  },
+  "grasp_support_temporal_aggregation": "mean_over_every_physics_substep_in_control_interval",
+  "face_pinch_assignment": {
+    "thumb": "right",
+    "index": "left"
+  },
+  "face_pinch_criteria": {
+    "width_margin_m": 0.002,
+    "axial_margin_m": 0.003,
+    "face_tolerance_m": 0.0004,
+    "min_inward_cos": 0.8660254,
+    "allow_tip_contact": false
+  },
+  "middle_web_support_requirement": "optional_backup_contacts_not_rewarded_or_required",
+  "robot_effort_limits_Nm": {
+    "shoulder_pan_joint": 150.0,
+    "shoulder_lift_joint": 150.0,
+    "elbow_joint": 150.0,
+    "wrist_1_joint": 28.0,
+    "wrist_2_joint": 28.0,
+    "wrist_3_joint": 28.0,
+    "right_hand_thumb_bend_joint": 1.1,
+    "right_hand_thumb_rota_joint1": 1.1,
+    "right_hand_thumb_rota_joint2": 0.4,
+    "right_hand_index_bend_joint": 0.4,
+    "right_hand_index_joint1": 1.1,
+    "right_hand_index_joint2": 0.4,
+    "right_hand_mid_joint1": 1.1,
+    "right_hand_mid_joint2": 0.4,
+    "right_hand_ring_joint1": 1.1,
+    "right_hand_ring_joint2": 0.4,
+    "right_hand_pinky_joint1": 1.1,
+    "right_hand_pinky_joint2": 0.4
+  },
+  "human_reference_method": "Human-reference opposing broad-face pinch; gravity-aware middle-finger backup with a tilted web and approximately level jaw tips",
+  "human_video_sha256": "65e58a0d4681cda096d963638fb101fee493bf6cf502f90f9a2d772e5229d15e",
+  "no_task_time_tool_or_block_state_writes": true,
+  "fixture_present": false,
+  "physics_dt": 0.0020833333333333333,
+  "arm_controller": "command_space_URDF_IK_exact_zero_hold",
+  "reset_snapshot_sha256": "683720cdd4498b1f8d71046470231a659261cbbb6346b108156899baef8d41e5",
+  "num_envs": 1,
+  "task_kind": "randomized_pick_transfer_place_v15",
+  "controller": "geometric_phase_controller_plus_PPO_residual",
+  "place_config": {
+    "xy_lower": [
+      -0.08,
+      0.48
+    ],
+    "xy_upper": [
+      0.22,
+      0.76
+    ],
+    "min_transfer_m": 0.12,
+    "travel_height_m": 0.08,
+    "goal_tolerance_m": 0.01,
+    "stable_seconds": 0.75,
+    "max_speed_m_s": 0.06,
+    "residual_xyz_m": 0.00012,
+    "residual_closure": 0.035,
+    "residual_index_rad": 0.002,
+    "residual_middle_rad": 0.006,
+    "retreat_closure": 0.8,
+    "open_closure": 0.7,
+    "closed_closure": 1.05,
+    "squeeze_min_jaw_force_N": 0.0,
+    "squeeze_force_hold_seconds": 0.25,
+    "release_extra_opening_max": 0.0,
+    "release_extra_opening_rate": 0.3,
+    "release_contact_clear_seconds": 0.0,
+    "withdraw_initial_speed_m_s": null,
+    "release_middle_joint_deltas": null,
+    "release_middle_ramp_seconds": 0.5,
+    "release_middle_delay_seconds": 0.8,
+    "release_track_tip": false
+  },
+  "phases": [
+    "settle",
+    "approach",
+    "descend",
+    "squeeze",
+    "lift",
+    "transfer",
+    "lower",
+    "release",
+    "withdraw",
+    "settle_at_goal"
+  ],
+  "initial_tool": "preheld at fixed HOME independent of randomized cube and goal",
+  "randomization": "continuous independent uniform XY, rejection only for minimum transfer distance",
+  "success_definition": {
+    "lifted_with_bilateral_contact_m": 0.045,
+    "continuous_bilateral_lift_s": 0.25,
+    "final_xy_error_m": 0.01,
+    "table_height_error_m": 0.0015,
+    "linear_speed_m_s": 0.01,
+    "angular_speed_rad_s": 0.5,
+    "tool_tip_above_block_m": 0.035,
+    "no_jaw_contact_N_max": 0.003,
+    "continuous_stability_s": 0.75,
+    "tool_must_remain_retained": true
+  },
+  "object_runtime_writes": false,
+  "middle_web_contact_required": false,
+  "squeeze_gate_force_source": "Actual block_jaw_contact_forces_w vector norms, not tactile grayscale or finger/tool force.",
+  "squeeze_gate_semantics": "Threshold 0 retains timed >=1 s gate. Positive threshold additionally requires both measured jaw forces >= threshold continuously for the configured duration; any deficient/nonfinite sample resets the streak. Existing three-ready-sample phase debounce and 12 s phase timeout remain."
+}

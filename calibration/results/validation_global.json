@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "type": "validation",
+  "created_utc": "2026-10-23T09:39:24.833545+00:00",
+  "passed": true,
+  "source_session": "/home/haojinkun/xqh_work/xhand-camera-calibration/data/validation_global",
+  "result_source": "results/global_extrinsics.json",
+  "thresholds": {
+    "reprojection_rms_px": 2.0,
+    "translation_m": 0.005,
+    "rotation_deg": 2.0
+  },
+  "statistics": {
+    "translation_m": {
+      "count": 6,
+      "mean": 0.0008953499329023828,
+      "median": 0.0008722376501903872,
+      "p95": 0.0011332511702883178,
+      "max": 0.0011366815770852945
+    },
+    "rotation_deg": {
+      "count": 6,
+      "mean": 0.20806478166108874,
+      "median": 0.19030856079816336,
+      "p95": 0.29016823027020566,
+      "max": 0.3081671288669297
+    },
+    "predicted_reprojection_rms_px": {
+      "count": 6,
+      "mean": 0.33888097194817624,
+      "median": 0.335423609707839,
+      "p95": 0.3789858018340604,
+      "max": 0.379672084881223
+    }
+  },
+  "views": [
+    {
+      "sample_id": "0000",
+      "translation_m": 0.0008458696397777838,
+      "rotation_deg": 0.17438885865341935,
+      "predicted_reprojection_rms_px": 0.3585985719789951
+    },
+    {
+      "sample_id": "0001",
+      "translation_m": 0.0008845525934924551,
+      "rotation_deg": 0.14904404636982335,
+      "predicted_reprojection_rms_px": 0.293679495464089
+    },
+    {
+      "sample_id": "0002",
+      "translation_m": 0.0005221131302730563,
+      "rotation_deg": 0.3081671288669297,
+      "predicted_reprojection_rms_px": 0.312248647436683
+    },
+    {
+      "sample_id": "0003",
+      "translation_m": 0.0011229599498973877,
+      "rotation_deg": 0.23617153448003353,
+      "predicted_reprojection_rms_px": 0.379672084881223
+    },
+    {
+      "sample_id": "0004",
+      "translation_m": 0.0008599227068883193,
+      "rotation_deg": 0.19047963501847995,
+      "predicted_reprojection_rms_px": 0.3769269526925724
+    },
+    {
+      "sample_id": "0005",
+      "translation_m": 0.0011366815770852945,
+      "rotation_deg": 0.19013748657784676,
+      "predicted_reprojection_rms_px": 0.31216007923549505
+    }
+  ],
+  "rejected": [],
+  "note": "Thresholds are user-adjustable checks, not an accuracy guarantee. Board must not have moved."
+}

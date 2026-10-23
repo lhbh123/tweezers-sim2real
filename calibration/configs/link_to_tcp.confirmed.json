@@ -1,0 +1,33 @@
+{
+  "reference_link": "wrist_3_link",
+  "verified": true,
+  "T_link_tcp": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "verification_scope": "Target USD fixed frames, installed Lab link-origin API, 10 actual PhysX reset-state poses and recorded UR5e TCP comparison. Not a dynamics/tracking test.",
+  "note": "Zero configured TCP corresponds to tool0. Evidence: verification/offline_asset_audit.json and runtime_verification.json.",
+  "source_urdf_sha256": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c"
+}

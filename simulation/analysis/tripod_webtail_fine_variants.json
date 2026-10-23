@@ -1,0 +1,98 @@
+[
+  {
+    "name": "c-0.1_ix-0.01_mid0",
+    "closure": -0.1,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c-0.1_ix-0.01_mid0.025",
+    "closure": -0.1,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  },
+  {
+    "name": "c-0.1_ix0.01_mid0",
+    "closure": -0.1,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c-0.1_ix0.01_mid0.025",
+    "closure": -0.1,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  },
+  {
+    "name": "c-0.05_ix-0.01_mid0",
+    "closure": -0.05,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c-0.05_ix-0.01_mid0.025",
+    "closure": -0.05,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  },
+  {
+    "name": "c-0.05_ix0.01_mid0",
+    "closure": -0.05,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c-0.05_ix0.01_mid0.025",
+    "closure": -0.05,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  },
+  {
+    "name": "c0.05_ix-0.01_mid0",
+    "closure": 0.05,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.05_ix-0.01_mid0.025",
+    "closure": 0.05,
+    "target_delta": {
+      "right_hand_index_joint1": -0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  },
+  {
+    "name": "c0.05_ix0.01_mid0",
+    "closure": 0.05,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.05_ix0.01_mid0.025",
+    "closure": 0.05,
+    "target_delta": {
+      "right_hand_index_joint1": 0.01,
+      "right_hand_mid_joint2": 0.025
+    }
+  }
+]

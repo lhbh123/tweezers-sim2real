@@ -1,0 +1,108 @@
+{
+  "sha": "e6c8c21861c759d22f87845bd27269de803d6991",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/trees/e6c8c21861c759d22f87845bd27269de803d6991",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eebab4bfad2af4c6842c9be9640b79366c4449f6",
+      "size": 43,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/eebab4bfad2af4c6842c9be9640b79366c4449f6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4783dfb41e94a2ca06c3354e05b4a0652cb99ec9",
+      "size": 1285,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/4783dfb41e94a2ca06c3354e05b4a0652cb99ec9"
+    },
+    {
+      "path": "wave_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cbca48339293e59b255c68070b32fe5d6dd62c2",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/trees/6cbca48339293e59b255c68070b32fe5d6dd62c2"
+    },
+    {
+      "path": "wave_01/adapter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82fb78a55c4530553caffeeed0ca4b66826a5cc9",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/trees/82fb78a55c4530553caffeeed0ca4b66826a5cc9"
+    },
+    {
+      "path": "wave_01/adapter/Flange-Interface.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63248ff411c8a42971badc559cf665130ac9860e",
+      "size": 131,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/63248ff411c8a42971badc559cf665130ac9860e"
+    },
+    {
+      "path": "wave_01/adapter/Flange-Interface.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d75f3d1837bfa0f8ccb91237bd47fa2c2872484",
+      "size": 405430,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/7d75f3d1837bfa0f8ccb91237bd47fa2c2872484"
+    },
+    {
+      "path": "wave_01/adapter/Internal-Interface.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c7dfb4f8877a1219843f09fe01825829f81d1fe",
+      "size": 131,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/2c7dfb4f8877a1219843f09fe01825829f81d1fe"
+    },
+    {
+      "path": "wave_01/adapter/Internal-Interface.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04abad5d31fb25d57f0729c44cb8ad83f658b27b",
+      "size": 415251,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/04abad5d31fb25d57f0729c44cb8ad83f658b27b"
+    },
+    {
+      "path": "wave_01/adapter/Wrist-Interface.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b40678b8132d4b3b2e73fb727ebef4dd475c77",
+      "size": 132,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/e9b40678b8132d4b3b2e73fb727ebef4dd475c77"
+    },
+    {
+      "path": "wave_01/adapter/Wrist-Interface.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32b5f594d89ea65e14b1e372b9abf614aa91017",
+      "size": 350128,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/a32b5f594d89ea65e14b1e372b9abf614aa91017"
+    },
+    {
+      "path": "wave_01/wave",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7fdd3d754154975febc2ac25f1a7a5aa0d86114",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/trees/f7fdd3d754154975febc2ac25f1a7a5aa0d86114"
+    },
+    {
+      "path": "wave_01/wave/wave-L-01.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b89e20835ff2d7d55fd07b21a79d8a83d2faece6",
+      "size": 134,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/b89e20835ff2d7d55fd07b21a79d8a83d2faece6"
+    },
+    {
+      "path": "wave_01/wave/wave-R-01.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c6d57a0027377ad7d51fc162ba68ccefff7926",
+      "size": 133,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpa-opencad-library/git/blobs/43c6d57a0027377ad7d51fc162ba68ccefff7926"
+    }
+  ],
+  "truncated": false
+}

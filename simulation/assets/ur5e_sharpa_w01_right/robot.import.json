@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "status": "imported_not_physics_validated",
+  "usd": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/ur5e_sharpa_w01_right/robot.usd",
+  "urdf_sha256": "31fe45e2b0760215fc7c74cca64e66c67fbee73734048bc980089be0abde7e5a",
+  "default_prim": "/ur5e_sharpa_w01_right",
+  "articulation_roots": [
+    "/ur5e_sharpa_w01_right/root_joint/root_joint"
+  ],
+  "returned_articulation_path": "/ur5e_sharpa_w01_right/root_joint",
+  "active_joint_count": 28,
+  "rigid_body_count": 29,
+  "collider_count": 35,
+  "rigid_body_paths": {
+    "base_link": "/ur5e_sharpa_w01_right/root_joint/base_link",
+    "shoulder_link": "/ur5e_sharpa_w01_right/root_joint/shoulder_link",
+    "upper_arm_link": "/ur5e_sharpa_w01_right/root_joint/upper_arm_link",
+    "forearm_link": "/ur5e_sharpa_w01_right/root_joint/forearm_link",
+    "wrist_1_link": "/ur5e_sharpa_w01_right/root_joint/wrist_1_link",
+    "wrist_2_link": "/ur5e_sharpa_w01_right/root_joint/wrist_2_link",
+    "wrist_3_link": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link",
+    "right_index_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_index_MCP_VL",
+    "right_index_PP": "/ur5e_sharpa_w01_right/root_joint/right_index_PP",
+    "right_index_MP": "/ur5e_sharpa_w01_right/root_joint/right_index_MP",
+    "right_index_DP": "/ur5e_sharpa_w01_right/root_joint/right_index_DP",
+    "right_middle_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_middle_MCP_VL",
+    "right_middle_PP": "/ur5e_sharpa_w01_right/root_joint/right_middle_PP",
+    "right_middle_MP": "/ur5e_sharpa_w01_right/root_joint/right_middle_MP",
+    "right_middle_DP": "/ur5e_sharpa_w01_right/root_joint/right_middle_DP",
+    "right_pinky_MC": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MC",
+    "right_pinky_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MCP_VL",
+    "right_pinky_PP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_PP",
+    "right_pinky_MP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MP",
+    "right_pinky_DP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP",
+    "right_ring_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_ring_MCP_VL",
+    "right_ring_PP": "/ur5e_sharpa_w01_right/root_joint/right_ring_PP",
+    "right_ring_MP": "/ur5e_sharpa_w01_right/root_joint/right_ring_MP",
+    "right_ring_DP": "/ur5e_sharpa_w01_right/root_joint/right_ring_DP",
+    "right_thumb_CMC_VL": "/ur5e_sharpa_w01_right/root_joint/right_thumb_CMC_VL",
+    "right_thumb_MC": "/ur5e_sharpa_w01_right/root_joint/right_thumb_MC",
+    "right_thumb_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_thumb_MCP_VL",
+    "right_thumb_PP": "/ur5e_sharpa_w01_right/root_joint/right_thumb_PP",
+    "right_thumb_DP": "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP"
+  },
+  "frame_paths": {
+    "base_link": "/ur5e_sharpa_w01_right/root_joint/base_link",
+    "shoulder_link": "/ur5e_sharpa_w01_right/root_joint/shoulder_link",
+    "upper_arm_link": "/ur5e_sharpa_w01_right/root_joint/upper_arm_link",
+    "forearm_link": "/ur5e_sharpa_w01_right/root_joint/forearm_link",
+    "wrist_1_link": "/ur5e_sharpa_w01_right/root_joint/wrist_1_link",
+    "wrist_2_link": "/ur5e_sharpa_w01_right/root_joint/wrist_2_link",
+    "wrist_3_link": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link",
+    "right_index_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_index_MCP_VL",
+    "right_index_PP": "/ur5e_sharpa_w01_right/root_joint/right_index_PP",
+    "right_index_MP": "/ur5e_sharpa_w01_right/root_joint/right_index_MP",
+    "right_index_DP": "/ur5e_sharpa_w01_right/root_joint/right_index_DP",
+    "right_middle_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_middle_MCP_VL",
+    "right_middle_PP": "/ur5e_sharpa_w01_right/root_joint/right_middle_PP",
+    "right_middle_MP": "/ur5e_sharpa_w01_right/root_joint/right_middle_MP",
+    "right_middle_DP": "/ur5e_sharpa_w01_right/root_joint/right_middle_DP",
+    "right_pinky_MC": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MC",
+    "right_pinky_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MCP_VL",
+    "right_pinky_PP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_PP",
+    "right_pinky_MP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_MP",
+    "right_pinky_DP": "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP",
+    "right_ring_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_ring_MCP_VL",
+    "right_ring_PP": "/ur5e_sharpa_w01_right/root_joint/right_ring_PP",
+    "right_ring_MP": "/ur5e_sharpa_w01_right/root_joint/right_ring_MP",
+    "right_ring_DP": "/ur5e_sharpa_w01_right/root_joint/right_ring_DP",
+    "right_thumb_CMC_VL": "/ur5e_sharpa_w01_right/root_joint/right_thumb_CMC_VL",
+    "right_thumb_MC": "/ur5e_sharpa_w01_right/root_joint/right_thumb_MC",
+    "right_thumb_MCP_VL": "/ur5e_sharpa_w01_right/root_joint/right_thumb_MCP_VL",
+    "right_thumb_PP": "/ur5e_sharpa_w01_right/root_joint/right_thumb_PP",
+    "right_thumb_DP": "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP",
+    "base_link_inertia": "/ur5e_sharpa_w01_right/root_joint/base_link/__frames/base_link_inertia",
+    "ft_frame": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/ft_frame",
+    "base": "/ur5e_sharpa_w01_right/root_joint/base_link/__frames/base",
+    "flange": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/flange",
+    "tool0": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/tool0",
+    "sharpa_sim_adapter": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/sharpa_sim_adapter",
+    "right_hand_flange": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/right_hand_flange",
+    "right_hand_wrist": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/right_hand_wrist",
+    "right_hand_C_MC": "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/__frames/right_hand_C_MC",
+    "right_thumb_elastomer": "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/__frames/right_thumb_elastomer",
+    "right_thumb_fingertip": "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/__frames/right_thumb_fingertip",
+    "right_index_elastomer": "/ur5e_sharpa_w01_right/root_joint/right_index_DP/__frames/right_index_elastomer",
+    "right_index_fingertip": "/ur5e_sharpa_w01_right/root_joint/right_index_DP/__frames/right_index_fingertip",
+    "right_middle_elastomer": "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/__frames/right_middle_elastomer",
+    "right_middle_fingertip": "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/__frames/right_middle_fingertip",
+    "right_ring_elastomer": "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/__frames/right_ring_elastomer",
+    "right_ring_fingertip": "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/__frames/right_ring_fingertip",
+    "right_pinky_elastomer": "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/__frames/right_pinky_elastomer",
+    "right_pinky_fingertip": "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/__frames/right_pinky_fingertip"
+  },
+  "fixed_frame_map": {
+    "base_link_inertia": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "ft_frame": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          3.4131025113115505e-42,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.224646799076922e-16,
+          0.0
+        ],
+        [
+          -1.2686020683398084e-42,
+          1.224646799076922e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "base": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "flange": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          -3.1911767191157996e-42,
+          1.0,
+          -2.220446049250313e-16,
+          0.0
+        ],
+        [
+          -2.220446049250313e-16,
+          2.220446049250313e-16,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          -1.2686020683398084e-42,
+          2.220446049250313e-16,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "tool0": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -2.2204460492503136e-16,
+          0.0
+        ],
+        [
+          2.2204460492503128e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.220446049250313e-16,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "sharpa_sim_adapter": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -2.2204460492503136e-16,
+          0.0
+        ],
+        [
+          2.2204460492503128e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.220446049250313e-16,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_flange": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -2.2204460492503136e-16,
+          0.0
+        ],
+        [
+          2.2204460492503128e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.220446049250313e-16,
+          0.0,
+          1.0,
+          0.019999999999999962
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_wrist": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -2.2204460492503136e-16,
+          0.0
+        ],
+        [
+          2.2204460492503128e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.220446049250313e-16,
+          0.0,
+          1.0,
+          0.020499999999999963
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_C_MC": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -2.220446049250313e-16,
+          -2.2204460492503136e-16,
+          0.0
+        ],
+        [
+          2.2204460492503128e-16,
+          1.0,
+          0.0,
+          -1.3877787807814457e-17
+        ],
+        [
+          2.220446049250313e-16,
+          0.0,
+          1.0,
+          0.04949999999999999
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_thumb_elastomer": {
+      "rigid_body_link": "right_thumb_DP",
+      "body_T_frame": [
+        [
+          -3.6732051033300733e-06,
+          -0.9999999999865075,
+          3.6732051032501875e-06,
+          5.551115123125783e-17
+        ],
+        [
+          -1.2562312938392257e-17,
+          -3.6732051033476967e-06,
+          -0.9999999999932535,
+          -5.551115123125783e-17
+        ],
+        [
+          0.9999999999932538,
+          -3.67320510324773e-06,
+          1.3492361823589983e-11,
+          -1.1102230246251565e-16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_thumb_fingertip": {
+      "rigid_body_link": "right_thumb_DP",
+      "body_T_frame": [
+        [
+          -3.673191610829449e-06,
+          -1.349241723464742e-11,
+          0.9999999999932535,
+          0.02761099999962746
+        ],
+        [
+          0.9999999999865071,
+          3.6732185956664955e-06,
+          3.6731916109200625e-06,
+          1.0142086603881495e-07
+        ],
+        [
+          -3.6732185957034076e-06,
+          0.9999999999932536,
+          -1.3234545029160825e-17,
+          1.0142086603881495e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_index_elastomer": {
+      "rigid_body_link": "right_index_DP",
+      "body_T_frame": [
+        [
+          -3.6732051033328003e-06,
+          -0.9999999999865076,
+          3.673205103249533e-06,
+          0.0
+        ],
+        [
+          -5.55110616858228e-17,
+          -3.6732051033328e-06,
+          -0.9999999999932538,
+          -1.1102230246251565e-16
+        ],
+        [
+          0.9999999999932537,
+          -3.673205103249532e-06,
+          1.3492401639746769e-11,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_index_fingertip": {
+      "rigid_body_link": "right_index_DP",
+      "body_T_frame": [
+        [
+          -3.6731916108445326e-06,
+          -1.3492435730309074e-11,
+          0.9999999999932536,
+          0.02600899999964912
+        ],
+        [
+          0.9999999999865075,
+          3.673218595604973e-06,
+          3.673191610906379e-06,
+          9.553639146453463e-08
+        ],
+        [
+          -3.673218595709659e-06,
+          0.9999999999932535,
+          -7.1959095319222015e-22,
+          9.553639154780136e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_middle_elastomer": {
+      "rigid_body_link": "right_middle_DP",
+      "body_T_frame": [
+        [
+          -3.608224821696247e-15,
+          -1.0000000000000002,
+          3.608224830031386e-15,
+          0.0
+        ],
+        [
+          -5.551135695593945e-17,
+          -3.608224830033034e-15,
+          -1.0000000000000002,
+          1.1102230246251565e-16
+        ],
+        [
+          1.0,
+          -3.608224351876679e-15,
+          -5.551143185823286e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_middle_fingertip": {
+      "rigid_body_link": "right_middle_DP",
+      "body_T_frame": [
+        [
+          -3.6637359812622175e-15,
+          8.335511287230732e-24,
+          1.0000000000000002,
+          0.026009257426250654
+        ],
+        [
+          1.0000000000000002,
+          3.5527134730758194e-15,
+          3.663735981263985e-15,
+          2.220446049250313e-16
+        ],
+        [
+          -3.5527129746083723e-15,
+          1.0,
+          -5.45899262543214e-23,
+          8.326672684688674e-17
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_ring_elastomer": {
+      "rigid_body_link": "right_ring_DP",
+      "body_T_frame": [
+        [
+          -3.6732051033328003e-06,
+          -0.9999999999865076,
+          3.673205103249533e-06,
+          0.0
+        ],
+        [
+          -5.55110616858228e-17,
+          -3.6732051033328e-06,
+          -0.9999999999932538,
+          0.0
+        ],
+        [
+          0.9999999999932537,
+          -3.673205103249532e-06,
+          1.3492401639746769e-11,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_ring_fingertip": {
+      "rigid_body_link": "right_ring_DP",
+      "body_T_frame": [
+        [
+          -3.673205103305031e-06,
+          -3.673205099724589e-06,
+          0.9999999999865076,
+          0.026009257425899435
+        ],
+        [
+          0.9999999999932538,
+          3.552726897356618e-15,
+          3.6732051033883115e-06,
+          9.553733715250701e-08
+        ],
+        [
+          -1.349600986457675e-11,
+          0.9999999999932537,
+          3.6732050996413075e-06,
+          9.553733711087364e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_pinky_elastomer": {
+      "rigid_body_link": "right_pinky_DP",
+      "body_T_frame": [
+        [
+          -3.6732051033328003e-06,
+          -0.9999999999865076,
+          3.6732051032495323e-06,
+          0.0
+        ],
+        [
+          -5.551159314649716e-17,
+          -3.6732051033327995e-06,
+          -0.9999999999932536,
+          0.0
+        ],
+        [
+          0.9999999999932536,
+          -3.6732051032495328e-06,
+          1.3492401639876008e-11,
+          -6.938893903907228e-18
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_pinky_fingertip": {
+      "rigid_body_link": "right_pinky_DP",
+      "body_T_frame": [
+        [
+          -3.6731916108445313e-06,
+          -1.3492435731093936e-11,
+          0.9999999999932537,
+          0.02600899999964912
+        ],
+        [
+          0.9999999999865073,
+          3.6732185956049743e-06,
+          3.673191610906378e-06,
+          9.553639157555693e-08
+        ],
+        [
+          -3.6732185957096603e-06,
+          0.9999999999932535,
+          4.254149473095781e-22,
+          9.553639152698468e-08
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "collision_coverage": {
+    "base_link": [
+      "/ur5e_sharpa_w01_right/root_joint/base_link/collisions/base/mesh"
+    ],
+    "shoulder_link": [
+      "/ur5e_sharpa_w01_right/root_joint/shoulder_link/collisions/shoulder/mesh"
+    ],
+    "upper_arm_link": [
+      "/ur5e_sharpa_w01_right/root_joint/upper_arm_link/collisions/upperarm/mesh"
+    ],
+    "forearm_link": [
+      "/ur5e_sharpa_w01_right/root_joint/forearm_link/collisions/forearm/mesh"
+    ],
+    "wrist_1_link": [
+      "/ur5e_sharpa_w01_right/root_joint/wrist_1_link/collisions/wrist1/mesh"
+    ],
+    "wrist_2_link": [
+      "/ur5e_sharpa_w01_right/root_joint/wrist_2_link/collisions/wrist2/mesh"
+    ],
+    "wrist_3_link": [
+      "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/collisions/wrist3/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/collisions/mesh_1/cylinder",
+      "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/collisions/wrist_collision/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/collisions/right_hand_C_MC/mesh"
+    ],
+    "right_index_MCP_VL": [
+      "/ur5e_sharpa_w01_right/root_joint/right_index_MCP_VL/collisions/MCP_VL/mesh"
+    ],
+    "right_index_PP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_index_PP/collisions/right_PP/mesh"
+    ],
+    "right_index_MP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_index_MP/collisions/right_MP/mesh"
+    ],
+    "right_index_DP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_index_DP/collisions/DP_HB1_4F/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/right_index_DP/collisions/elastomer_HB1_4F/mesh"
+    ],
+    "right_middle_MCP_VL": [
+      "/ur5e_sharpa_w01_right/root_joint/right_middle_MCP_VL/collisions/MCP_VL/mesh"
+    ],
+    "right_middle_PP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_middle_PP/collisions/right_PP/mesh"
+    ],
+    "right_middle_MP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_middle_MP/collisions/right_MP/mesh"
+    ],
+    "right_middle_DP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/collisions/DP_HB1_4F/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/collisions/elastomer_HB1_4F/mesh"
+    ],
+    "right_pinky_MC": [
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_MC/collisions/right_pinky_MC/mesh"
+    ],
+    "right_pinky_MCP_VL": [
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_MCP_VL/collisions/MCP_VL/mesh"
+    ],
+    "right_pinky_PP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_PP/collisions/right_PP/mesh"
+    ],
+    "right_pinky_MP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_MP/collisions/right_MP/mesh"
+    ],
+    "right_pinky_DP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/collisions/DP_HB1_4F/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/collisions/elastomer_HB1_4F/mesh"
+    ],
+    "right_ring_MCP_VL": [
+      "/ur5e_sharpa_w01_right/root_joint/right_ring_MCP_VL/collisions/MCP_VL/mesh"
+    ],
+    "right_ring_PP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_ring_PP/collisions/right_PP/mesh"
+    ],
+    "right_ring_MP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_ring_MP/collisions/right_MP/mesh"
+    ],
+    "right_ring_DP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/collisions/DP_HB1_4F/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/collisions/elastomer_HB1_4F/mesh"
+    ],
+    "right_thumb_CMC_VL": [],
+    "right_thumb_MC": [
+      "/ur5e_sharpa_w01_right/root_joint/right_thumb_MC/collisions/right_thumb_MC/mesh"
+    ],
+    "right_thumb_MCP_VL": [],
+    "right_thumb_PP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_thumb_PP/collisions/right_thumb_PP/mesh"
+    ],
+    "right_thumb_DP": [
+      "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/collisions/DP_HB1_TH/mesh",
+      "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/collisions/elastomer_HB1_TH/mesh"
+    ]
+  },
+  "deinstanced_prims": [
+    "/ur5e_sharpa_w01_right/root_joint/base_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/base_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/shoulder_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/shoulder_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/upper_arm_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/upper_arm_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/forearm_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/forearm_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_1_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_1_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_2_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_2_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/wrist_3_link/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_MCP_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_MCP_VL/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_PP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_PP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_MP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_MP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_DP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_index_DP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_MCP_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_MCP_VL/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_PP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_PP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_MP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_MP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_middle_DP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MC/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MC/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MCP_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MCP_VL/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_PP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_PP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_MP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_pinky_DP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_MCP_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_MCP_VL/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_PP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_PP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_MP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_MP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_ring_DP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_CMC_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_MC/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_MC/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_MCP_VL/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_PP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_PP/collisions",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/visuals",
+    "/ur5e_sharpa_w01_right/root_joint/right_thumb_DP/collisions"
+  ],
+  "official_collider_free_virtual_bodies": [
+    "right_thumb_CMC_VL",
+    "right_thumb_MCP_VL"
+  ],
+  "notes": [
+    "Official W01 model; not W02.",
+    "No physics timeline was played during import.",
+    "One world anchor at the UR5e base; hand attached through fixed mount only."
+  ]
+}

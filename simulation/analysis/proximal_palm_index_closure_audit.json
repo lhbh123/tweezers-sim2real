@@ -1,0 +1,70 @@
+{
+  "pair": [
+    "right_hand_link",
+    "right_hand_index_rota_link1"
+  ],
+  "samples": [
+    {
+      "closure": -0.1,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.0,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.1,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.20000000000000004,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.30000000000000004,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.4,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.5000000000000001,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.6000000000000001,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.7000000000000001,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.8,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 0.9,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    },
+    {
+      "closure": 1.0,
+      "triangle_pair_tests": 0,
+      "intersection_pair_count": 0
+    }
+  ],
+  "all_sampled_source_surfaces_disjoint": true,
+  "limitation": "Sampled closure values; not a proof for arbitrary future independent finger motion."
+}

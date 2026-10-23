@@ -1,0 +1,212 @@
+{
+  "run": "runs/sharpa_w01_natural_v6b_tilt40_hold",
+  "candidate": "close_release75",
+  "environment": 3,
+  "time_s": 4.0,
+  "timeseries_sha256": "b6960917be850e2cb176f96734c7b2f01b72be628d904a9efd405cbf339eb7c0",
+  "script_sha256": "07a611924a35ec7b873a409e28693703199c5bda2471c6fa91c14b8b5340bb3c",
+  "force_point_time_s": 4.0,
+  "middle_final_up_N": 0.23487292230129242,
+  "middle_last_1s_mean_up_N": 0.22994115948677063,
+  "middle_normal_contacts": [
+    {
+      "measured_normal_contact": {
+        "tool": "right",
+        "robot": "right_middle_DP",
+        "role": "middle",
+        "point_world": [
+          -0.3832756578922272,
+          0.8938648104667664,
+          0.9185956120491028
+        ],
+        "point_hand": [
+          0.07704263180494308,
+          -0.0006565302610397339,
+          0.13915996253490448
+        ],
+        "force_on_tool_N": [
+          0.17873382568359375,
+          0.3191717267036438,
+          0.06142066419124603
+        ],
+        "normal_world": [
+          -0.48185351490974426,
+          -0.8604639172554016,
+          -0.1655856817960739
+        ],
+        "separation_m": -1.9740898551390273e-06,
+        "radial_offset_world_z_m": -0.0022114813327789307,
+        "within_web_region": false,
+        "point_jaw_local_m": [
+          0.0005070790648460388,
+          0.006987599655985832,
+          0.055313192307949066
+        ],
+        "force_jaw_local_N": [
+          -0.2977481484413147,
+          -0.2211998999118805,
+          0.0023673921823501587
+        ],
+        "jaw_outer_face_sign": 1.0,
+        "jaw_face_is_tip": false,
+        "broad_face_width_margin_m": 1.2400560081005096e-05,
+        "broad_face_axial_margin_m": 0.055313192307949066,
+        "broad_face_outer_plane_error_m": 7.079041097313166e-06,
+        "broad_face_inward_alignment_cos": 0.8027073740959167,
+        "broad_face_geometric_candidate": false,
+        "broad_face_qualified": false,
+        "inward_force_component_N": 0.2977481484413147,
+        "closing_contact_torque_Nm": 0.01647060178220272
+      },
+      "source_surfaces": {
+        "right_middle_elastomer": {
+          "distance_m": 0.0009264778424964173,
+          "closest_world_m": [
+            -0.3840768358455303,
+            0.8934423320582864,
+            0.918790514779063
+          ],
+          "closest_local_m": [
+            0.0013716712162672698,
+            -0.02677136660047338,
+            0.004348376869255777
+          ],
+          "triangle_index": 1319,
+          "triangle_normal_world": [
+            0.869153730523333,
+            0.46907484206668026,
+            -0.15665434962838545
+          ]
+        },
+        "right_middle_DP": {
+          "distance_m": 0.0002664970416059992,
+          "closest_world_m": [
+            -0.3834700415532041,
+            0.8936850283807483,
+            0.9186258455913523
+          ],
+          "closest_local_m": [
+            0.027393263157386508,
+            -0.004585127587868667,
+            0.0014784912951544243
+          ],
+          "triangle_index": 1406,
+          "triangle_normal_world": [
+            0.8651676253322094,
+            0.46611564464890065,
+            -0.18498969130890802
+          ]
+        }
+      }
+    }
+  ],
+  "middle_friction_anchors": [
+    {
+      "tool": "right",
+      "robot": "right_middle_DP",
+      "role": "middle",
+      "point_world": [
+        -0.38327568769454956,
+        0.8938648104667664,
+        0.9185956716537476
+      ],
+      "point_hand": [
+        0.0770425945520401,
+        -0.0006565004587173462,
+        0.1391599476337433
+      ],
+      "force_on_tool_N": [
+        -0.06256866455078125,
+        0.001659264089539647,
+        0.1734522134065628
+      ],
+      "within_web_region": false,
+      "point_jaw_local_m": [
+        0.0005070753395557404,
+        0.006987608503550291,
+        0.055313121527433395
+      ],
+      "force_jaw_local_N": [
+        -0.004146479070186615,
+        0.0036087334156036377,
+        -0.18431784212589264
+      ],
+      "jaw_outer_face_sign": 1.0,
+      "jaw_face_is_tip": false,
+      "broad_face_width_margin_m": 1.239171251654625e-05,
+      "broad_face_axial_margin_m": 0.055313121527433395,
+      "broad_face_outer_plane_error_m": 7.075315807014704e-06,
+      "broad_face_inward_alignment_cos": 0.022486353293061256,
+      "broad_face_geometric_candidate": false,
+      "broad_face_qualified": false,
+      "inward_force_component_N": 0.004146479070186615,
+      "closing_contact_torque_Nm": 0.00013589167792815715
+    }
+  ],
+  "posture_geometry": {
+    "middle_DP_center_below_index_DP_m": 0.015969576060592905,
+    "source_centers_world_m": {
+      "right_middle_DP": [
+        -0.3947466982676918,
+        0.8871475866074318,
+        0.9222601810843407
+      ],
+      "right_middle_elastomer": [
+        -0.39438767550225484,
+        0.8910006168042266,
+        0.9220574325264347
+      ],
+      "right_index_DP": [
+        -0.386446439559187,
+        0.8844800336634566,
+        0.9382297571449336
+      ],
+      "right_index_elastomer": [
+        -0.385304701748933,
+        0.888143314400243,
+        0.9376884997282574
+      ]
+    },
+    "index_source_contact_target_world_m": [
+      -0.3824143512091863,
+      0.894328291033633,
+      0.9362975615366373
+    ],
+    "middle_contact_below_index_source_target_m": [
+      0.017701949487534563
+    ],
+    "middle_contact_below_local_jaw_axis_m": [
+      0.0022114813327789307
+    ]
+  },
+  "final_self_source_check": {
+    "min_distance_m": 0.0006275548632975535,
+    "nearest_pair": [
+      "right_index_PP",
+      "right_middle_PP"
+    ],
+    "intersections": []
+  },
+  "final_non_target_source_check": {
+    "min_distance_m": 4.205312569496304e-05,
+    "nearest_pair": [
+      "right_middle_DP",
+      "right_blade"
+    ],
+    "intersections": []
+  },
+  "final_middle_source_check": {
+    "min_distance_m": 4.205312569496304e-05,
+    "nearest_pair": [
+      "right_middle_DP",
+      "right_blade"
+    ],
+    "intersections": []
+  },
+  "last_1s_broad_face_qualification": 1.0,
+  "limitations": [
+    "Measured contact robot rigid-body name is merged DP; original elastomer versus rigid shell attribution is estimated from source triangle distance and normal.",
+    "FCL witness depth is not a maximum solid penetration depth; see PhysX measured separation and original surface distances.",
+    "This is one final state plus separately reported final-second forces, not full trajectory clearance or task success."
+  ]
+}

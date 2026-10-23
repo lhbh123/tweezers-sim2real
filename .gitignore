@@ -1,0 +1,29 @@
+# Environments and installation products
+.venv*/
+**/.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+env/local.env
+
+# Acquisitions and generated outputs stay on disk, outside code history.
+/calibration/data/
+/calibration/results/*
+!/calibration/results/*.json
+/calibration/configs/local.json
+/calibration/configs/*.local.json
+/simulation/runs/
+/verification/
+/archives/
+*.bag
+*.zip
+*.tar.gz
+*.bundle
+*.log
+
+# Historical imported source trees can include generated analysis files.
+/simulation/.cache/
+**/.DS_Store

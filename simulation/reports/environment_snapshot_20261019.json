@@ -1,0 +1,35 @@
+{
+  "system_analysis_python": {
+    "python": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+    "executable": "/usr/bin/python3",
+    "packages": {
+      "torch": "2.7.0a0+7c8ec84dab.nv25.3",
+      "numpy": "1.26.4",
+      "scipy": "1.15.2",
+      "Pillow": "11.1.0",
+      "imageio": null,
+      "imageio-ffmpeg": null,
+      "mediapipe": null,
+      "fonttools": "4.56.0",
+      "playwright": null
+    }
+  },
+  "human_media_python": {
+    "python": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+    "executable": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/.venv-human/bin/python",
+    "packages": {
+      "torch": null,
+      "numpy": "2.5.4",
+      "scipy": null,
+      "Pillow": "12.3.0",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.6.0",
+      "mediapipe": "1.1.1",
+      "fonttools": "4.67.0",
+      "playwright": "1.64.0"
+    }
+  },
+  "simulation_launcher": "/cpfs/user/lvzhaoyang/apps/bin/isaac-python",
+  "simulation_stack_as_recorded_in_project": "Isaac Lab 2.2.1 / Isaac Sim 5.0",
+  "scope": "Package metadata only; simulation runtime versions not re-probed and null means package absent in that interpreter."
+}

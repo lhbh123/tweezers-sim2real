@@ -1,0 +1,18 @@
+[
+  {
+    "name": "release_offset_open0.75",
+    "closure_start": 0.0,
+    "closure_end": 0.0,
+    "target_delta": {
+      "right_middle_MCP_FE": -0.03
+    }
+  },
+  {
+    "name": "release_offset_open0.65",
+    "closure_start": -0.09999999999999998,
+    "closure_end": -0.09999999999999998,
+    "target_delta": {
+      "right_middle_MCP_FE": -0.03
+    }
+  }
+]

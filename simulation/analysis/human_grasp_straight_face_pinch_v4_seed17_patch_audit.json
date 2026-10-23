@@ -1,0 +1,490 @@
+{
+  "config": "configs/human_grasp_straight_face_pinch_v4_seed17.json",
+  "source": "Original URDF/STL surfaces and nominal kinematic blade transforms; no dynamics claim",
+  "states": [
+    {
+      "state": "open",
+      "angle_rad": 0.05,
+      "face_patches": [
+        {
+          "role": "thumb",
+          "jaw": "right",
+          "maximum_source_halfspace_penetration_m": 0.00034547354809776867,
+          "source_point_jaw_local_m": [
+            0.00015452645190223134,
+            0.004738544488520363,
+            0.08083998671896896
+          ],
+          "projected_face_point_jaw_local_m": [
+            0.0005,
+            0.004738544488520363,
+            0.08083998671896896
+          ],
+          "width_edge_margin_m": 0.002261455511479637,
+          "axial_edge_margin_m": 0.08083998671896896,
+          "method": "Triangle polygons clipped to finite Y/Z wide-face footprint; extremal signed X distance. Not a volume-penetration measure."
+        },
+        {
+          "role": "index",
+          "jaw": "left",
+          "maximum_source_halfspace_penetration_m": 6.959941145967644e-05,
+          "source_point_jaw_local_m": [
+            -0.00043040058854032357,
+            0.0007088661915028952,
+            0.0735036331496214
+          ],
+          "projected_face_point_jaw_local_m": [
+            -0.0005,
+            0.0007088661915028952,
+            0.0735036331496214
+          ],
+          "width_edge_margin_m": 0.006291133808497105,
+          "axial_edge_margin_m": 0.0735036331496214,
+          "method": "Triangle polygons clipped to finite Y/Z wide-face footprint; extremal signed X distance. Not a volume-penetration measure."
+        }
+      ],
+      "closest_middle_backup": {
+        "link": "right_hand_mid_link2",
+        "tool_body": "left",
+        "part": "blade",
+        "source_gap_m": 0.024942488872802888,
+        "intersection_triangles": 0,
+        "nearest_finger_point_hand_m": [
+          0.008311854951083636,
+          0.09062572791758687,
+          -0.12562451629181803
+        ],
+        "nearest_tool_point_hand_m": [
+          0.014890088769599338,
+          0.10293888766365993,
+          -0.10495471493654325
+        ],
+        "finger_minus_tool_world_z_m": -0.0003280403551765714
+      },
+      "middle_backup_all_parts": [
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "handle",
+          "part": "straight_tail",
+          "source_gap_m": 0.046762349247988194,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.011749999873340126,
+            0.0098762268769142,
+            -0.10102129931168974
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03969134311701577,
+            0.02779461059132283,
+            -0.06808302112364327
+          ],
+          "finger_minus_tool_world_z_m": -0.016352913738781515
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "left",
+          "part": "blade",
+          "source_gap_m": 0.04307114830184786,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.010364922039210779,
+            0.039324899823115544,
+            -0.116749793456555
+          ],
+          "nearest_tool_point_hand_m": [
+            0.028665470433670348,
+            0.06120106002397466,
+            -0.08447523134692812
+          ],
+          "finger_minus_tool_world_z_m": -0.006029059924322068
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "left",
+          "part": "tip",
+          "source_gap_m": 0.10748239275655909,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            -0.00030000293999912775,
+            0.06305814875392317,
+            -0.13901924225075185
+          ],
+          "nearest_tool_point_hand_m": [
+            -0.0029570122284373404,
+            0.17050761047216517,
+            -0.13915426364323621
+          ],
+          "finger_minus_tool_world_z_m": 0.05746835804880064
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "right",
+          "part": "blade",
+          "source_gap_m": 0.054946613432432116,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.010364922039210779,
+            0.03207254544517206,
+            -0.11235651042810674
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03479568108254124,
+            0.05525062971314601,
+            -0.06893940838379067
+          ],
+          "finger_minus_tool_world_z_m": -0.011159889284282618
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "right",
+          "part": "tip",
+          "source_gap_m": 0.12051671559621938,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.0024837497631345837,
+            0.06290673743582498,
+            -0.13678791724674585
+          ],
+          "nearest_tool_point_hand_m": [
+            0.002483749763134556,
+            0.1817786258414948,
+            -0.11694470971948329
+          ],
+          "finger_minus_tool_world_z_m": 0.060075866218426484
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "handle",
+          "part": "straight_tail",
+          "source_gap_m": 0.0726883980805344,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.011194983772933473,
+            0.050593896104221964,
+            -0.13094599352988953
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03969134311701577,
+            0.02779461059132283,
+            -0.06808302112364327
+          ],
+          "finger_minus_tool_world_z_m": -0.03921314996875314
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "left",
+          "part": "blade",
+          "source_gap_m": 0.024942488872802888,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.008311854951083636,
+            0.09062572791758687,
+            -0.12562451629181803
+          ],
+          "nearest_tool_point_hand_m": [
+            0.014890088769599338,
+            0.10293888766365993,
+            -0.10495471493654325
+          ],
+          "finger_minus_tool_world_z_m": -0.0003280403551765714
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "left",
+          "part": "tip",
+          "source_gap_m": 0.07490180798290043,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.002714591492898738,
+            0.09589602711479266,
+            -0.13580383393329348
+          ],
+          "nearest_tool_point_hand_m": [
+            -0.0029570122284373404,
+            0.17050761047216517,
+            -0.13915426364323621
+          ],
+          "finger_minus_tool_world_z_m": 0.04334350411095768
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "right",
+          "part": "blade",
+          "source_gap_m": 0.04248559406306899,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.008456813447177393,
+            0.08982925308651053,
+            -0.1252889036478084
+          ],
+          "nearest_tool_point_hand_m": [
+            0.019797010930769507,
+            0.10690778484330221,
+            -0.08807668284660826
+          ],
+          "finger_minus_tool_world_z_m": -0.0027736705105656017
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "right",
+          "part": "tip",
+          "source_gap_m": 0.0876436617083312,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.003954748127493059,
+            0.09565740064018619,
+            -0.1331429247841731
+          ],
+          "nearest_tool_point_hand_m": [
+            0.002483749763134556,
+            0.1817786258414948,
+            -0.11694470971948329
+          ],
+          "finger_minus_tool_world_z_m": 0.04469466668439306
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "angle_rad": 0.01,
+      "face_patches": [
+        {
+          "role": "thumb",
+          "jaw": "right",
+          "maximum_source_halfspace_penetration_m": 0.0004438000116851322,
+          "source_point_jaw_local_m": [
+            5.6199988314867826e-05,
+            0.004733634937191985,
+            0.07975872551537964
+          ],
+          "projected_face_point_jaw_local_m": [
+            0.0005,
+            0.004733634937191985,
+            0.07975872551537964
+          ],
+          "width_edge_margin_m": 0.002266365062808015,
+          "axial_edge_margin_m": 0.07975872551537964,
+          "method": "Triangle polygons clipped to finite Y/Z wide-face footprint; extremal signed X distance. Not a volume-penetration measure."
+        },
+        {
+          "role": "index",
+          "jaw": "left",
+          "maximum_source_halfspace_penetration_m": 0.00016983753444837037,
+          "source_point_jaw_local_m": [
+            -0.00033016246555162964,
+            0.0015582554656587973,
+            0.07297833164497027
+          ],
+          "projected_face_point_jaw_local_m": [
+            -0.0005,
+            0.0015582554656587973,
+            0.07297833164497027
+          ],
+          "width_edge_margin_m": 0.005441744534341203,
+          "axial_edge_margin_m": 0.07297833164497027,
+          "method": "Triangle polygons clipped to finite Y/Z wide-face footprint; extremal signed X distance. Not a volume-penetration measure."
+        }
+      ],
+      "closest_middle_backup": {
+        "link": "right_hand_mid_link2",
+        "tool_body": "left",
+        "part": "blade",
+        "source_gap_m": 0.02840710054894263,
+        "intersection_triangles": 0,
+        "nearest_finger_point_hand_m": [
+          0.00831185495108365,
+          0.09062572791758686,
+          -0.125624516291818
+        ],
+        "nearest_tool_point_hand_m": [
+          0.015902073479473887,
+          0.1036322425281,
+          -0.10153753802605112
+        ],
+        "finger_minus_tool_world_z_m": -0.001006952992939202
+      },
+      "middle_backup_all_parts": [
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "handle",
+          "part": "straight_tail",
+          "source_gap_m": 0.046762349247988194,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.011749999873340126,
+            0.0098762268769142,
+            -0.10102129931168974
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03969134311701577,
+            0.02779461059132283,
+            -0.06808302112364327
+          ],
+          "finger_minus_tool_world_z_m": -0.016352913738781515
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "left",
+          "part": "blade",
+          "source_gap_m": 0.04448294814812865,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.0103649220392108,
+            0.03695938814763498,
+            -0.11520046616775893
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03019358720477328,
+            0.05807241764527031,
+            -0.08143959089573596
+          ],
+          "finger_minus_tool_world_z_m": -0.007803145713426864
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "left",
+          "part": "tip",
+          "source_gap_m": 0.11069299770076342,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            -0.00030000293999910693,
+            0.06305814875392317,
+            -0.13901924225075185
+          ],
+          "nearest_tool_point_hand_m": [
+            -0.0016054118083392022,
+            0.17360503690484402,
+            -0.13348560259719072
+          ],
+          "finger_minus_tool_world_z_m": 0.05762246968890034
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "right",
+          "part": "blade",
+          "source_gap_m": 0.05384398124016057,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.010364922039210793,
+            0.034540750796143764,
+            -0.11373542165814696
+          ],
+          "nearest_tool_point_hand_m": [
+            0.033257155658874694,
+            0.0590992369044875,
+            -0.07164028279675609
+          ],
+          "finger_minus_tool_world_z_m": -0.009067945238583723
+        },
+        {
+          "link": "right_hand_mid_link1",
+          "tool_body": "right",
+          "part": "tip",
+          "source_gap_m": 0.11696755257515208,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.0010235152587996926,
+            0.06290673743582499,
+            -0.1367879172467458
+          ],
+          "nearest_tool_point_hand_m": [
+            0.0010235152587996649,
+            0.17903061077645147,
+            -0.12276456544373156
+          ],
+          "finger_minus_tool_world_z_m": 0.05895084211518047
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "handle",
+          "part": "straight_tail",
+          "source_gap_m": 0.0726883980805344,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.011194983772933473,
+            0.050593896104221964,
+            -0.13094599352988953
+          ],
+          "nearest_tool_point_hand_m": [
+            0.03969134311701577,
+            0.02779461059132283,
+            -0.06808302112364327
+          ],
+          "finger_minus_tool_world_z_m": -0.03921314996875314
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "left",
+          "part": "blade",
+          "source_gap_m": 0.02840710054894263,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.00831185495108365,
+            0.09062572791758686,
+            -0.125624516291818
+          ],
+          "nearest_tool_point_hand_m": [
+            0.015902073479473887,
+            0.1036322425281,
+            -0.10153753802605112
+          ],
+          "finger_minus_tool_world_z_m": -0.001006952992939202
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "left",
+          "part": "tip",
+          "source_gap_m": 0.07785264722358871,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.0034441002490930156,
+            0.095948630321099,
+            -0.13572605438254143
+          ],
+          "nearest_tool_point_hand_m": [
+            -0.0016054118083392022,
+            0.17360503690484402,
+            -0.13348560259719072
+          ],
+          "finger_minus_tool_world_z_m": 0.04409933760688607
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "right",
+          "part": "blade",
+          "source_gap_m": 0.03911148991324311,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.008311854951083657,
+            0.09062572791758686,
+            -0.12562451629181798
+          ],
+          "nearest_tool_point_hand_m": [
+            0.0183798331167336,
+            0.10775629035234516,
+            -0.09193641320543805
+          ],
+          "finger_minus_tool_world_z_m": -0.0014837466268810976
+        },
+        {
+          "link": "right_hand_mid_link2",
+          "tool_body": "right",
+          "part": "tip",
+          "source_gap_m": 0.08399548988471157,
+          "intersection_triangles": 0,
+          "nearest_finger_point_hand_m": [
+            0.0035723321917466785,
+            0.09591092463301931,
+            -0.13459096086382208
+          ],
+          "nearest_tool_point_hand_m": [
+            0.0010235152587996649,
+            0.17903061077645147,
+            -0.12276456544373156
+          ],
+          "finger_minus_tool_world_z_m": 0.04429146864804538
+        }
+      ]
+    }
+  ]
+}

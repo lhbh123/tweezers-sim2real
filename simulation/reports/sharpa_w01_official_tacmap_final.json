@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "status": "simulation_and_media_validated",
+  "created_at_utc": "2026-10-19T13:39:18.247950+00:00",
+  "main_run": "runs/sharpa_w01_official_tacmap_matched_v2_video",
+  "request": "Run official Sharpa TacMap tactile simulation on natural W01 tweezers pick/place and deliver visualizations.",
+  "implementation": {
+    "official_repository": "https://github.com/sharpa-robotics/sharpa-tacmap",
+    "official_commit": "e4f8827407e15625368ef0b9cf5a72c44304e16b",
+    "official_sources": [
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/tacmap_sensor/sharpa_tacmap_vbts.py",
+        "sha256": "484680885ffc99a782f238a609da15f3adda0bf35ad195bc04a0093a4691eb5a"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/tacmap_sensor/sharpa_tacmap_cfg.py",
+        "sha256": "aaba373a0abbf4b0f3f2221aa0af941c25ee6b1ae8b84ff922b008cc482f316a"
+      },
+      {
+        "path": "/cpfs/user/lvzhaoyang/work/ai_rl/镊子使用/assets/sharpa_tactile/torch_jit_utils.py",
+        "sha256": "ecee6f3ae22a91e2c85dfb460618cf2581d29fc2d98cac5273eb3e5d75abb7f1"
+      }
+    ],
+    "runtime": "Actual unmodified SharpaTacmap instances for five fingers; official two-pass CPD, nonlinear quantization and Gaussian blur.",
+    "compatibility": "Pinned private IsaacLab multi-mesh ray-casting backport; no system install overwrite.",
+    "surface": "240x240 geometry-only nearest-triangle CAD-derived W01 inputs, not the original published npy arrays or hardware taxel calibration.",
+    "surface_directory": "assets/sharpa_tacmap_w01_matched_v2",
+    "reprojection_acceptance": "distance <= 2.5 mm and normal change <= 60 degrees; unsupported cells masked, no outward inflation, no trajectory or force fitting.",
+    "contact_physics": "Existing task rigid-body PhysX contact/materials unchanged; no fitted compliance added",
+    "targets": "Tweezer handle, left blade and right blade only; actual rigid transforms; no inter-finger or table TacMap.",
+    "independent_force_channel": "480 Hz raw PhysX contact positions, normal and friction vectors; no force used to generate TacMap."
+  },
+  "task_result": {
+    "episodes": 1,
+    "successes": 1,
+    "success_rate": 1.0,
+    "duration_s": [
+      25.633113861083984
+    ],
+    "max_lift_m": [
+      0.08421093225479126
+    ],
+    "final_xy_error_m": [
+      0.0009999745525419712
+    ]
+  },
+  "tacmap_result": {
+    "frames": 770,
+    "shape_per_finger": [
+      240,
+      240
+    ],
+    "dtype": "uint8",
+    "gray_range": [
+      0,
+      255
+    ],
+    "finger_statistics": [
+      {
+        "finger": "thumb",
+        "minimum": 0,
+        "maximum": 27,
+        "frames_with_nonzero_values": 770,
+        "nonzero_pixel_fraction": 0.008318452380952381
+      },
+      {
+        "finger": "index",
+        "minimum": 0,
+        "maximum": 5,
+        "frames_with_nonzero_values": 447,
+        "nonzero_pixel_fraction": 0.00019471500721500722
+      },
+      {
+        "finger": "middle",
+        "minimum": 0,
+        "maximum": 37,
+        "frames_with_nonzero_values": 165,
+        "nonzero_pixel_fraction": 0.0007834145021645022
+      },
+      {
+        "finger": "ring",
+        "minimum": 0,
+        "maximum": 0,
+        "frames_with_nonzero_values": 0,
+        "nonzero_pixel_fraction": 0.0
+      },
+      {
+        "finger": "pinky",
+        "minimum": 0,
+        "maximum": 0,
+        "frames_with_nonzero_values": 0,
+        "nonzero_pixel_fraction": 0.0
+      }
+    ]
+  },
+  "independent_validation": {
+    "run": "runs/sharpa_w01_official_tacmap_matched_v2_video",
+    "validation_commands": [
+      {
+        "command": [
+          "/usr/bin/python3",
+          "analysis/validate_pick_place.py",
+          "runs/sharpa_w01_official_tacmap_matched_v2_video",
+          "--geometry"
+        ],
+        "exit_code": 0,
+        "log": "runs/sharpa_w01_official_tacmap_matched_v2_video/validate_pick_place.log"
+      },
+      {
+        "command": [
+          "/usr/bin/python3",
+          "analysis/validate_sharpa_tacmap.py",
+          "runs/sharpa_w01_official_tacmap_matched_v2_video",
+          "--require-video",
+          "--require-task-success",
+          "--reference-run",
+          "runs/sharpa_w01_natural_v6d_video",
+          "--controls",
+          "runs/sharpa_official_tacmap_controls_matched_v1"
+        ],
+        "exit_code": 0,
+        "log": "runs/sharpa_w01_official_tacmap_matched_v2_video/validate_sharpa_tacmap.log"
+      },
+      {
+        "command": [
+          "/usr/bin/python3",
+          "analysis/audit_sharpa_tacmap_task_geometry.py",
+          "runs/sharpa_w01_official_tacmap_matched_v2_video"
+        ],
+        "exit_code": 0,
+        "log": "runs/sharpa_w01_official_tacmap_matched_v2_video/audit_sharpa_tacmap_task_geometry.log"
+      }
+    ],
+    "baseline_trajectory_sha256": "919d4c760be11ae11989cc31dc34fb548ff2b7a571110815992bf3b612ec0472",
+    "trajectory_sha256": "919d4c760be11ae11989cc31dc34fb548ff2b7a571110815992bf3b612ec0472",
+    "trajectory_identical_to_original_map_baseline": true,
+    "official_TacMap_validation_valid": true,
+    "official_TacMap_validation_checks": 288,
+    "runtime_algorithm": "Unmodified official SharpaTacmap class with pinned source and private IsaacLab compatibility engine.",
+    "surface_input": "Derived 240x240 surface maps from current official W01 CAD; original published maps and original-map baseline are retained separately.",
+    "physical_successes": 1,
+    "frames": 770,
+    "actual_finger_statistics": [
+      {
+        "finger": "thumb",
+        "minimum": 0,
+        "maximum": 27,
+        "frames_with_nonzero_values": 770,
+        "nonzero_pixel_fraction": 0.008318452380952381
+      },
+      {
+        "finger": "index",
+        "minimum": 0,
+        "maximum": 5,
+        "frames_with_nonzero_values": 447,
+        "nonzero_pixel_fraction": 0.00019471500721500722
+      },
+      {
+        "finger": "middle",
+        "minimum": 0,
+        "maximum": 37,
+        "frames_with_nonzero_values": 165,
+        "nonzero_pixel_fraction": 0.0007834145021645022
+      },
+      {
+        "finger": "ring",
+        "minimum": 0,
+        "maximum": 0,
+        "frames_with_nonzero_values": 0,
+        "nonzero_pixel_fraction": 0.0
+      },
+      {
+        "finger": "pinky",
+        "minimum": 0,
+        "maximum": 0,
+        "frames_with_nonzero_values": 0,
+        "nonzero_pixel_fraction": 0.0
+      }
+    ],
+    "independent_task_geometry": {
+      "valid": true,
+      "selected_frames": [
+        0,
+        40,
+        80,
+        121,
+        161,
+        202,
+        242,
+        283,
+        323,
+        364,
+        404,
+        445,
+        485,
+        526,
+        566,
+        607,
+        608,
+        647,
+        688,
+        712,
+        714,
+        723,
+        728,
+        769
+      ],
+      "finger_frame_checks": 120,
+      "maximum_code_error": 1,
+      "maximum_mean_code_error": 0.00024305555555555555,
+      "scope": "Selected task frames, including uniform timeline samples and each finger peak and maximal nonzero area; not every saved frame."
+    },
+    "middle_geometric_response_without_PhysX_force": {
+      "frame_mean_force_zero": {
+        "frames": 14,
+        "time_spans": [
+          {
+            "first_frame": 632,
+            "last_frame": 645,
+            "frames": 14,
+            "first_endpoint_time_s": 21.083333333333332,
+            "last_endpoint_time_s": 21.516666666666666
+          }
+        ],
+        "frame_indexes": [
+          632,
+          633,
+          634,
+          635,
+          636,
+          637,
+          638,
+          639,
+          640,
+          641,
+          642,
+          643,
+          644,
+          645
+        ]
+      },
+      "endpoint_substep_force_zero": {
+        "frames": 15,
+        "time_spans": [
+          {
+            "first_frame": 631,
+            "last_frame": 645,
+            "frames": 15,
+            "first_endpoint_time_s": 21.05,
+            "last_endpoint_time_s": 21.516666666666666
+          }
+        ],
+        "frame_indexes": [
+          631,
+          632,
+          633,
+          634,
+          635,
+          636,
+          637,
+          638,
+          639,
+          640,
+          641,
+          642,
+          643,
+          644,
+          645
+        ]
+      },
+      "all_frame_substeps_force_zero": {
+        "frames": 14,
+        "time_spans": [
+          {
+            "first_frame": 632,
+            "last_frame": 645,
+            "frames": 14,
+            "first_endpoint_time_s": 21.083333333333332,
+            "last_endpoint_time_s": 21.516666666666666
+          }
+        ],
+        "frame_indexes": [
+          632,
+          633,
+          634,
+          635,
+          636,
+          637,
+          638,
+          639,
+          640,
+          641,
+          642,
+          643,
+          644,
+          645
+        ]
+      }
+    },
+    "interpretation_limitations": [
+      "Geometric TacMap response is not a force measurement or a physical-support proof.",
+      "Derived surface registration is geometric CAD matching, not a calibrated hardware taxel map.",
+      "Unchanged physical trajectory preserves the previously reported source-mesh/collision-proxy discrepancies; sensor validity does not resolve them."
+    ],
+    "evidence_sha256": {
+      "runs/sharpa_w01_official_tacmap_matched_v2_video/validation.json": "b13ba29bde3b53074e7cdc16b4c72b51b3c58f8b53fe0e2703d4cb3d110947c7",
+      "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap_validation.json": "f12291ff982b16f31b2b2d89eb1f60ae9d936bc2dfce7952bdca688dbef7e971",
+      "runs/sharpa_w01_official_tacmap_matched_v2_video/independent_tacmap_task_geometry.json": "40bd54c1e34c2ebdbc2f2a8a2d74889b0da178493fd5071c9e1068d689fea5bf",
+      "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap_force_alignment.json": "53e98d44f1cc90056ecf94540a62d1a9b74275baa3ac7f6542e672db2be3a5df",
+      "runs/sharpa_official_tacmap_controls_matched_v1/controls_validation.json": "920fa34d242625a898c59cc23dc9bac70d7a0496de154357fcdd5f9068410a97",
+      "analysis/sharpa_tacmap/matched_v2_independent_surface_audit.json": "988b566d769bf2eb80b7a370bd59557b7ebd5ab3fec3c73a2d0b9c25907c74bc",
+      "analysis/sharpa_tacmap/negative_control_surface_mismatch.json": "3960ff7ddf8055fbe7c418d58937f773dbfd6c2a8ba55e8d2159b90aae6e82b2"
+    }
+  },
+  "comparisons": {
+    "original_map_run": "runs/sharpa_w01_official_tacmap_v1_video",
+    "original_map_result": "1/1 physical success, all five fingers all 770 maps zero; genuine runtime and geometry independently verified. Map-to-current-CAD mismatch is documented.",
+    "original_map_controls": "runs/sharpa_official_tacmap_controls_v4",
+    "matched_map_controls": "runs/sharpa_official_tacmap_controls_matched_v1",
+    "controls_scope": "8 real official sensor fixtures per surface set: TH/4F at separation1mm and nominal indentation0.1/0.5/1.0mm. Analytic reference zero pixel error. Not task support evidence.",
+    "soft_contact_probe": "runs/sharpa_w01_official_tacmap_compliant_probe_v1",
+    "soft_contact_result": "3 second probe, broad-face pinch true ~1.67%; not used as main physics, not a completed full-task success/failure result."
+  },
+  "limitations": [
+    "Quantized blurred geometric normal penetration, not pressure, force, FEM skin deformation or calibrated hardware millimetres.",
+    "CAD-derived surface input is an approximate correspondence, not a bijective UV/hardware taxel map.",
+    "Middle has14 nonzero map frames with all contributing physical substeps force-free; source geometry/collision discrepancy retained and annotated.",
+    "Preheld tweezers, one fixed case; no new random evaluation, PPO training, tool pickup from table or real-hardware validation.",
+    "Single Fabric initialization error recorded; all native/composite frames decode and selected first/phase/end frames visually normal."
+  ],
+  "media": {
+    "frozen": true,
+    "artifacts": [
+      {
+        "path": "outputs/sharpa_w01_official_tacmap_matched_v2.mp4",
+        "bytes": 15998818,
+        "sha256": "9b87fad0119bbb3f837518551bc39f8031db5d5556109aa9e01902f3ebf3014d"
+      },
+      {
+        "path": "outputs/sharpa_w01_official_tacmap_response.png",
+        "bytes": 339440,
+        "sha256": "a067a74378e6d794cb4b763850505bdec2a07b2181ef8b78b02fc5c0052525bf"
+      },
+      {
+        "path": "outputs/sharpa_w01_official_tacmap_matched_controls.png",
+        "bytes": 164982,
+        "sha256": "256430ee76780bc3cce42a6418ad0c81c1e5b27a0ea71ba9b47dd2bf69972806"
+      },
+      {
+        "path": "outputs/sharpa_w01_official_tacmap_matched_v2_cover.png",
+        "bytes": 356593,
+        "sha256": "a5cfe07e12af003eb242eb4735fb39fff9ef7fd032f07ac0a4c9cc9f095ad638"
+      },
+      {
+        "path": "outputs/sharpa_w01_official_tacmap_matched_v2_frame_00769.png",
+        "bytes": 360201,
+        "sha256": "f5dcb12a5d9caf9c0b8e5f796e6b983fa9e6c4b34b2639c0ad5bbdf56e4323d2"
+      }
+    ],
+    "checks": {
+      "all_native_frames_decoded": 770,
+      "all_composite_frames_decoded": 770,
+      "native_first3_and_phase5_6_7_8_9_visually_reviewed": true,
+      "no_black_native_frames": true,
+      "raw_source_hashes_match": true,
+      "task_and_force_and_official_tacmap_validations_passed": true
+    },
+    "warnings": [
+      "TacMap uint8 is geometric normal-penetration quantization and blur, not pressure or force.",
+      "Current W01 CAD-derived surface maps are not original official npy arrays.",
+      "Middle has 14 nonzero TacMap frames while all frame PhysX substeps have zero contact force; independently documented and annotated on response curve.",
+      "Single Fabric initialization error occurred before first progress record; complete decoded native frames and selected first/phase/end visual checks show no image corruption."
+    ]
+  },
+  "evidence": [
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/evaluation.json",
+      "bytes": 20587,
+      "sha256": "8af6f8b37095aaf688fddeeca5d3693aeb8d3b4c286c17cf8cc0851799ab9f2d"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap.json",
+      "bytes": 56350,
+      "sha256": "3c998de2840f3a4035b2f2e2943d1507045f9eca7ab4e2912be2bf633264c324"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap.npz",
+      "bytes": 4747584,
+      "sha256": "2e0c66d409a592512c65d83eba1cc395e5d0221b0360efcd12da737fcd21d0c6"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tactile.json",
+      "bytes": 8725,
+      "sha256": "ef48d50f7fc59d5a8540cf7bfce78d1102b66d848853006357b2ad35de67d432"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tactile.npz",
+      "bytes": 11837613,
+      "sha256": "cb192aa5005d353c0fe981822fe14d3eea7a0b2428420581a3ea15fa385bbdc8"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/trajectory.npz",
+      "bytes": 471249,
+      "sha256": "919d4c760be11ae11989cc31dc34fb548ff2b7a571110815992bf3b612ec0472"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/launch.json",
+      "bytes": 3282,
+      "sha256": "27d8e9a589fb80ba6645ab002cf1c5f4a757c977a2f06c2ead59722f6bf43006"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/validation.json",
+      "bytes": 1807,
+      "sha256": "b13ba29bde3b53074e7cdc16b4c72b51b3c58f8b53fe0e2703d4cb3d110947c7"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap_validation.json",
+      "bytes": 108954,
+      "sha256": "f12291ff982b16f31b2b2d89eb1f60ae9d936bc2dfce7952bdca688dbef7e971"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tactile_validation.json",
+      "bytes": 12006,
+      "sha256": "84a6bf589dcf5292b56c87cc305d68f11b4ca8ea5697fade87a1aa4525ed6df9"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/independent_tacmap_task_geometry.json",
+      "bytes": 38183,
+      "sha256": "40bd54c1e34c2ebdbc2f2a8a2d74889b0da178493fd5071c9e1068d689fea5bf"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/tacmap_force_alignment.json",
+      "bytes": 15349,
+      "sha256": "53e98d44f1cc90056ecf94540a62d1a9b74275baa3ac7f6542e672db2be3a5df"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_matched_v2_video/independent_validation_summary.json",
+      "bytes": 6387,
+      "sha256": "87a87ef479087e66f1a265f1e00217cacc6b18c4fe4b7ef9a81e4832889d88e3"
+    },
+    {
+      "path": "assets/sharpa_tacmap_w01_matched_v2/manifest.json",
+      "bytes": 8262,
+      "sha256": "ec3b4d1c03828cd51bafe4024bd513f4776ae748fd4ddd714aeca6f3508c2971"
+    },
+    {
+      "path": "analysis/sharpa_tacmap/matched_v2_independent_surface_audit.json",
+      "bytes": 11686,
+      "sha256": "988b566d769bf2eb80b7a370bd59557b7ebd5ab3fec3c73a2d0b9c25907c74bc"
+    },
+    {
+      "path": "analysis/sharpa_tacmap/rejected_candidate_history.json",
+      "bytes": 2137,
+      "sha256": "d07fc0193c2f6a90440e9446349359957dfa9e46b2ff0cfba5424425a08c2a59"
+    },
+    {
+      "path": "analysis/sharpa_tacmap/surface_alignment.json",
+      "bytes": 11267,
+      "sha256": "817e31fa7914e4cdddf39c88b423d7cf1999fb3cf8d2a7f2cbd85bebc4029552"
+    },
+    {
+      "path": "analysis/sharpa_tacmap/natural_v6d_geometry.json",
+      "bytes": 5294346,
+      "sha256": "7fe23505188116566e39420f0839deb76b2a5a1d3bd98abd2f1eefeec433a38a"
+    },
+    {
+      "path": "analysis/sharpa_tacmap/negative_control_surface_mismatch.json",
+      "bytes": 3006,
+      "sha256": "3960ff7ddf8055fbe7c418d58937f773dbfd6c2a8ba55e8d2159b90aae6e82b2"
+    },
+    {
+      "path": "runs/sharpa_official_tacmap_controls_matched_v1/controls_validation.json",
+      "bytes": 34036,
+      "sha256": "920fa34d242625a898c59cc23dc9bac70d7a0496de154357fcdd5f9068410a97"
+    },
+    {
+      "path": "runs/sharpa_official_tacmap_controls_v4/controls_validation.json",
+      "bytes": 22361,
+      "sha256": "3afaba1e4bc3fe67ae5ed1eb0d357399cb1a3425ad521c59f242a1656a1aee7d"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_v1_video/tacmap_validation.json",
+      "bytes": 80290,
+      "sha256": "e4974de223618502c8ca3745b8eaae8038125d90066729ec5d510362652bc903"
+    },
+    {
+      "path": "runs/sharpa_w01_official_tacmap_compliant_probe_v1/contact_material_binding_audit.json",
+      "bytes": 16659,
+      "sha256": "92091437ae397320f4bac8b8e8cfec299f8579657bbfbdd1d379061d7ef7373c"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_matched_v2.json",
+      "bytes": 63571,
+      "sha256": "c71d597b6b1a5ee0da7efe0b4056db491eee8b147982a996cc8aa0881011d671"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_matched_v2_media_audit.json",
+      "bytes": 1835,
+      "sha256": "60bc47e0bdf8ed6c4350369b4248a6bb63e6b35bdb23eeb82abaf856513bffcc"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_matched_v2_decode_audit.json",
+      "bytes": 385,
+      "sha256": "45599979d5ccfb39739efbb145756304bd1413b87ac6b313f30e0897e50f1a79"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_matched_v2_native_video_audit.json",
+      "bytes": 1907,
+      "sha256": "e93d4c9e90add4c76ca18f5adf51cda8fb77bae8d4c339005cc604d21898f52b"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_response.json",
+      "bytes": 15650,
+      "sha256": "e6cff069f26b5fc26760f1d006eb1fcb9d3f90cc6a980ead4f215b3f87bbf4e6"
+    },
+    {
+      "path": "outputs/sharpa_w01_official_tacmap_matched_controls.json",
+      "bytes": 19672,
+      "sha256": "56346f3ff493254f43c9b5f5bd78bc3d626f4c11840a9b18e79b1a2a15a6fa63"
+    },
+    {
+      "path": "README_SHARPA_W01_NATURAL.md",
+      "bytes": 21150,
+      "sha256": "561f538096525d18ef3070d9f3eac063a1227376dd7f627c109076f00ce5209f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19130,
+      "sha256": "7519dd286fae4641c4438e1c1926a105e88f54893000bb7d4954543d0d40e0f7"
+    },
+    {
+      "path": "scripts/run_sharpa_w01.sh",
+      "bytes": 4024,
+      "sha256": "7c294a732c22a5c42b7b46f25be27b0b46e32f2a61df45da4061bb8215e9ad48"
+    }
+  ],
+  "reproduce_command": "scripts/run_sharpa_w01.sh --out runs/NEW_TACMAP_RUN --pose configs/sharpa_w01_natural_v6d_tacmap_matched_v2.json --cases configs/sharpa_w01_hard_case.json --camera-config configs/sharpa_w01_tacmap_cameras.json --tacmap --tactile --record-substeps --episode-seconds 40 --device cuda:0",
+  "delivery_record": "reports/sharpa_w01_official_tacmap_delivery.json (written separately after successful uploads)",
+  "bundle": "outputs/sharpa_w01_official_tacmap_data.zip; compact data/evidence bundle, not a complete Isaac installation; individual SHA256 and omitted-file inventory inside."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "backup_-0.3",
+    "closure_start": 0,
+    "closure_end": 0,
+    "closure_schedule": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1.5,
+        -0.3
+      ],
+      [
+        3,
+        -0.3
+      ],
+      [
+        3.5,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  },
+  {
+    "name": "retracted_-0.3",
+    "closure_start": 0,
+    "closure_end": 0,
+    "closure_schedule": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1.5,
+        -0.3
+      ],
+      [
+        3,
+        -0.3
+      ],
+      [
+        3.5,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    "initial_delta": {
+      "right_hand_mid_joint1": -0.42999541759490967,
+      "right_hand_mid_joint2": -0.019984006881713867
+    },
+    "target_delta": {
+      "right_hand_mid_joint1": -0.43000006675720215,
+      "right_hand_mid_joint2": -0.019999980926513672
+    }
+  }
+]

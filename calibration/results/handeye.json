@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "type": "handeye",
+  "created_utc": "2026-10-23T09:29:39.997304+00:00",
+  "source_session": "/home/haojinkun/xqh_work/xhand-camera-calibration/data/handeye_wrist",
+  "camera": {
+    "serial": "260322272800",
+    "expected_model": "D405",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "model": "RealSense D405",
+    "stream": "color",
+    "format": "bgr8",
+    "firmware": "5.17.0.10",
+    "factory_intrinsics": {
+      "width": 640,
+      "height": 480,
+      "fx": 393.6855773925781,
+      "fy": 393.1253967285156,
+      "cx": 324.22430419921875,
+      "cy": 244.115966796875,
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "coefficients": [
+        -0.05310627445578575,
+        0.05576562136411667,
+        -0.0005511727067641914,
+        0.00048147179768420756,
+        -0.018590731546282768
+      ]
+    },
+    "sensor_settings": [
+      {
+        "sensor": "Stereo Module",
+        "options_at_start": {
+          "exposure": 33000.0,
+          "gain": 16.0,
+          "enable_auto_exposure": 1.0,
+          "white_balance": 4600.0,
+          "enable_auto_white_balance": 1.0
+        }
+      }
+    ]
+  },
+  "board": {
+    "frame_id": "table_board_v1_do_not_move",
+    "squares_x": 7,
+    "squares_y": 10,
+    "square_length_m": 0.027366667,
+    "marker_length_m": 0.019704,
+    "dictionary": "DICT_5X5_100",
+    "min_corners": 12
+  },
+  "robot": {
+    "ip": "192.168.7.102",
+    "reference_frame": "configured_tcp",
+    "tcp_offset_flange_to_tcp_m_rotvec": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "tcp_configuration_verified": true,
+    "max_linear_speed_m_s": 0.002,
+    "max_angular_speed_rad_s": 0.01,
+    "max_joint_change_rad": 0.002,
+    "settle_seconds": 0.3
+  },
+  "intrinsics_source": "/home/haojinkun/xqh_work/xhand-camera-calibration/results/wrist_intrinsics_v3.json",
+  "intrinsics": {
+    "K": [
+      [
+        391.31708924952096,
+        0.0,
+        315.57508633459497
+      ],
+      [
+        0.0,
+        395.6596457535806,
+        248.99264670005275
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      -0.06087898071850814,
+      0.05005516173378767,
+      0.0012915831700868103,
+      -0.0053219511617687894,
+      -0.013516738018887338
+    ]
+  },
+  "T_TCP_Cw": [
+    [
+      -0.5993513571093201,
+      -0.7962173146382829,
+      0.08255869791498743,
+      -0.08395250871874797
+    ],
+    [
+      0.5478669337293918,
+      -0.48321445319979395,
+      -0.6828950249817161,
+      -0.0001328282856494012
+    ],
+    [
+      0.5836263990406625,
+      -0.3640628793066192,
+      0.725836377053261,
+      0.04722166864728152
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_B_Q": [
+    [
+      -0.03298585650462794,
+      -0.9994141389765531,
+      -0.009127545366175435,
+      0.18726931079906947
+    ],
+    [
+      -0.9993743978246484,
+      0.033098362624857984,
+      -0.012462398010630552,
+      -0.6369206481788376
+    ],
+    [
+      0.012757203583781955,
+      0.008710752281456513,
+      -0.9998806811572137,
+      0.022856245030002782
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "park",
+  "initial": {
+    "T_TCP_Cw": [
+      [
+        -0.6038981250509663,
+        -0.791287093778687,
+        0.09576946162116429,
+        -0.09329604700683701
+      ],
+      [
+        0.5468365497934554,
+        -0.49872841212484564,
+        -0.6724877387353756,
+        0.00293466937830969
+      ],
+      [
+        0.5798938199100903,
+        -0.35374384257356484,
+        0.7338858572498681,
+        0.04668400166098445
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T_B_Q": [
+      [
+        -0.040829673340551556,
+        -0.9991645606910398,
+        -0.001765908827151174,
+        0.17961287733440814
+      ],
+      [
+        -0.9987847164899235,
+        0.04086285302329738,
+        -0.027555713544381875,
+        -0.6396259032524476
+      ],
+      [
+        0.027604852490956865,
+        0.000638671964590316,
+        -0.9996187094172831,
+        0.023739398578988418
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "refinement": {
+    "enabled": true,
+    "success": true,
+    "evaluations": 6,
+    "cost": 454.95428025337606,
+    "message": "`ftol` termination condition is satisfied."
+  },
+  "motion_excitation": {
+    "max_relative_rotation_deg": 28.518132981108653,
+    "rotation_axis_singular_values": [
+      3.681308244912969,
+      2.650171621085953,
+      1.222311458584176
+    ],
+    "second_to_first_axis_ratio": 0.7198994066166841
+  },
+  "training_consistency": {
+    "translation_m": {
+      "count": 30,
+      "mean": 0.0015433807341677455,
+      "median": 0.0015594258325900172,
+      "p95": 0.002702378226925691,
+      "max": 0.003295424739133727
+    },
+    "rotation_deg": {
+      "count": 30,
+      "mean": 0.36043577846943914,
+      "median": 0.30609047099176906,
+      "p95": 0.8639248371099981,
+      "max": 0.942786092000343
+    },
+    "predicted_reprojection_rms_px": {
+      "count": 30,
+      "mean": 0.9832574354395811,
+      "median": 0.9492340531276259,
+      "p95": 1.3888224245973722,
+      "max": 1.4856627668883906
+    }
+  },
+  "views": [
+    {
+      "sample_id": "0000",
+      "translation_m": 0.0009651121210881794,
+      "rotation_deg": 0.2063373767823975,
+      "predicted_reprojection_rms_px": 0.9074853633687524
+    },
+    {
+      "sample_id": "0001",
+      "translation_m": 0.0014072783066862947,
+      "rotation_deg": 0.1883416061044122,
+      "predicted_reprojection_rms_px": 1.044935305424815
+    },
+    {
+      "sample_id": "0002",
+      "translation_m": 0.0009660248961056833,
+      "rotation_deg": 0.3224078580147892,
+      "predicted_reprojection_rms_px": 0.7962376436223261
+    },
+    {
+      "sample_id": "0003",
+      "translation_m": 0.00031872569470325863,
+      "rotation_deg": 0.2869128907217124,
+      "predicted_reprojection_rms_px": 0.7307336876886462
+    },
+    {
+      "sample_id": "0004",
+      "translation_m": 0.0016396083377504412,
+      "rotation_deg": 0.33769302179950855,
+      "predicted_reprojection_rms_px": 0.9661746155289711
+    },
+    {
+      "sample_id": "0005",
+      "translation_m": 0.0014792433274295933,
+      "rotation_deg": 0.4913982180564902,
+      "predicted_reprojection_rms_px": 0.9322934907262806
+    },
+    {
+      "sample_id": "0006",
+      "translation_m": 0.001967846915786407,
+      "rotation_deg": 0.36843965284779273,
+      "predicted_reprojection_rms_px": 0.9780999009306499
+    },
+    {
+      "sample_id": "0007",
+      "translation_m": 0.00039496889129255185,
+      "rotation_deg": 0.3243807779786489,
+      "predicted_reprojection_rms_px": 1.0892391071878293
+    },
+    {
+      "sample_id": "0008",
+      "translation_m": 0.0010206941430942508,
+      "rotation_deg": 0.2085471771477774,
+      "predicted_reprojection_rms_px": 0.9116316257642338
+    },
+    {
+      "sample_id": "0009",
+      "translation_m": 0.000787284096289135,
+      "rotation_deg": 0.2906344843674082,
+      "predicted_reprojection_rms_px": 0.8421797783893302
+    },
+    {
+      "sample_id": "0010",
+      "translation_m": 0.0007831543862933023,
+      "rotation_deg": 0.16075544214454923,
+      "predicted_reprojection_rms_px": 0.8215016341180148
+    },
+    {
+      "sample_id": "0011",
+      "translation_m": 0.001244668347040399,
+      "rotation_deg": 0.42687101263841776,
+      "predicted_reprojection_rms_px": 1.037419460316028
+    },
+    {
+      "sample_id": "0012",
+      "translation_m": 0.00220415325090575,
+      "rotation_deg": 0.1879403920117718,
+      "predicted_reprojection_rms_px": 1.4856627668883906
+    },
+    {
+      "sample_id": "0013",
+      "translation_m": 0.0009301300218192423,
+      "rotation_deg": 0.43741082716236673,
+      "predicted_reprojection_rms_px": 1.1310812355846462
+    },
+    {
+      "sample_id": "0014",
+      "translation_m": 0.0007811287245149017,
+      "rotation_deg": 0.264008389775978,
+      "predicted_reprojection_rms_px": 1.0322101416844296
+    },
+    {
+      "sample_id": "0015",
+      "translation_m": 0.001853018030023738,
+      "rotation_deg": 0.3524152254871218,
+      "predicted_reprojection_rms_px": 0.8367075997302451
+    },
+    {
+      "sample_id": "0016",
+      "translation_m": 0.0010826027655992103,
+      "rotation_deg": 0.3503020276107815,
+      "predicted_reprojection_rms_px": 0.880348526961157
+    },
+    {
+      "sample_id": "0017",
+      "translation_m": 0.001283771002563392,
+      "rotation_deg": 0.20585666652012558,
+      "predicted_reprojection_rms_px": 0.7994040999746455
+    },
+    {
+      "sample_id": "0018",
+      "translation_m": 0.0021175839641313717,
+      "rotation_deg": 0.2715808281350761,
+      "predicted_reprojection_rms_px": 0.7471875946783061
+    },
+    {
+      "sample_id": "0019",
+      "translation_m": 0.0022575715128581642,
+      "rotation_deg": 0.2954513928282873,
+      "predicted_reprojection_rms_px": 0.7780181180782852
+    },
+    {
+      "sample_id": "0020",
+      "translation_m": 0.0020069306180229853,
+      "rotation_deg": 0.23582873404212606,
+      "predicted_reprojection_rms_px": 0.9937675565938194
+    },
+    {
+      "sample_id": "0021",
+      "translation_m": 0.002766217497441285,
+      "rotation_deg": 0.3167295491552508,
+      "predicted_reprojection_rms_px": 1.1956080583006439
+    },
+    {
+      "sample_id": "0022",
+      "translation_m": 0.003295424739133727,
+      "rotation_deg": 0.2509390227310582,
+      "predicted_reprojection_rms_px": 1.1905019092122806
+    },
+    {
+      "sample_id": "0023",
+      "translation_m": 0.0026243524518510773,
+      "rotation_deg": 0.1587466132674344,
+      "predicted_reprojection_rms_px": 0.8287852915106716
+    },
+    {
+      "sample_id": "0024",
+      "translation_m": 0.0016546926127600687,
+      "rotation_deg": 0.8390143178381527,
+      "predicted_reprojection_rms_px": 0.8737110240000369
+    },
+    {
+      "sample_id": "0025",
+      "translation_m": 0.0011552857100109917,
+      "rotation_deg": 0.8843061710596901,
+      "predicted_reprojection_rms_px": 1.059679611260767
+    },
+    {
+      "sample_id": "0026",
+      "translation_m": 0.0017167601256999514,
+      "rotation_deg": 0.5325783791535741,
+      "predicted_reprojection_rms_px": 0.829141760546721
+    },
+    {
+      "sample_id": "0027",
+      "translation_m": 0.0019305388406692368,
+      "rotation_deg": 0.942786092000343,
+      "predicted_reprojection_rms_px": 1.0150142823224901
+    },
+    {
+      "sample_id": "0028",
+      "translation_m": 0.0017568269985860261,
+      "rotation_deg": 0.44847022248215035,
+      "predicted_reprojection_rms_px": 1.3080660543933629
+    },
+    {
+      "sample_id": "0029",
+      "translation_m": 0.0019098236948817454,
+      "rotation_deg": 0.2259889842179833,
+      "predicted_reprojection_rms_px": 1.4548958184006533
+    }
+  ],
+  "rejected": [],
+  "warnings": [
+    "Training consistency is not independent validation. Collect a separate validation session."
+  ]
+}

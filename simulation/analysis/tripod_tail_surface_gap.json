@@ -1,0 +1,681 @@
+{
+  "source_config": "configs/human_grasp_tripod_seed57.json",
+  "method": "Exact feature distances between visible bridge box and source palm triangles.",
+  "candidates": [
+    {
+      "handle_width_m": 0.012,
+      "handle_length_m": 0.006,
+      "surface_distance_m": 0.0030519434564616156,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042458934524389445,
+        0.014272023396371077,
+        -0.07917500169902428
+      ],
+      "closest_tail_point_hand": [
+        0.04549095773023685,
+        0.01458309047936885,
+        -0.0793313072028204
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0030320232058474034,
+        0.0003110670829977735,
+        -0.0001563055037961253
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0011257875982526961,
+        2.7946662510835752e-06,
+        0.00283671523683641
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.01419575486761873
+    },
+    {
+      "handle_width_m": 0.012,
+      "handle_length_m": 0.012,
+      "surface_distance_m": 0.0030519434564616156,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042458934524389445,
+        0.014272023396371077,
+        -0.07917500169902428
+      ],
+      "closest_tail_point_hand": [
+        0.04549095773023685,
+        0.01458309047936885,
+        -0.0793313072028204
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0030320232058474034,
+        0.0003110670829977735,
+        -0.0001563055037961253
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0011257875982526961,
+        2.7946662510835752e-06,
+        0.00283671523683641
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.01419575486761873
+    },
+    {
+      "handle_width_m": 0.012,
+      "handle_length_m": 0.016,
+      "surface_distance_m": 0.0030519434564616156,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042458934524389445,
+        0.014272023396371077,
+        -0.07917500169902428
+      ],
+      "closest_tail_point_hand": [
+        0.04549095773023685,
+        0.01458309047936885,
+        -0.0793313072028204
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0030320232058474034,
+        0.0003110670829977735,
+        -0.0001563055037961253
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0011257875982526961,
+        2.7946662510835752e-06,
+        0.00283671523683641
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.01419575486761873
+    },
+    {
+      "handle_width_m": 0.012,
+      "handle_length_m": 0.02,
+      "surface_distance_m": 0.0030519434564616156,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042458934524389445,
+        0.014272023396371077,
+        -0.07917500169902428
+      ],
+      "closest_tail_point_hand": [
+        0.04549095773023685,
+        0.01458309047936885,
+        -0.0793313072028204
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0030320232058474034,
+        0.0003110670829977735,
+        -0.0001563055037961253
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0011257875982526961,
+        2.7946662510835752e-06,
+        0.00283671523683641
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.01419575486761873
+    },
+    {
+      "handle_width_m": 0.012,
+      "handle_length_m": 0.025,
+      "surface_distance_m": 0.0030519434564616156,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042458934524389445,
+        0.014272023396371077,
+        -0.07917500169902428
+      ],
+      "closest_tail_point_hand": [
+        0.04549095773023685,
+        0.01458309047936885,
+        -0.0793313072028204
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0030320232058474034,
+        0.0003110670829977735,
+        -0.0001563055037961253
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0011257875982526961,
+        2.7946662510835752e-06,
+        0.00283671523683641
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.01419575486761873
+    },
+    {
+      "handle_width_m": 0.014,
+      "handle_length_m": 0.006,
+      "surface_distance_m": 0.0020818051071427256,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04248513523356492,
+        0.014103110811234987,
+        -0.07900291554443255
+      ],
+      "closest_tail_point_hand": [
+        0.0445533522516569,
+        0.014315297259407115,
+        -0.07910953534283947
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0020682170180919834,
+        0.0002121864481721275,
+        -0.00010661979840692615
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0007679271929623564,
+        1.9063100471149682e-06,
+        0.00193499268639871
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.014033276999560486
+    },
+    {
+      "handle_width_m": 0.014,
+      "handle_length_m": 0.012,
+      "surface_distance_m": 0.0020818051071427256,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04248513523356492,
+        0.014103110811234987,
+        -0.07900291554443255
+      ],
+      "closest_tail_point_hand": [
+        0.0445533522516569,
+        0.014315297259407115,
+        -0.07910953534283947
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0020682170180919834,
+        0.0002121864481721275,
+        -0.00010661979840692615
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0007679271929623564,
+        1.9063100471149682e-06,
+        0.00193499268639871
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.014033276999560486
+    },
+    {
+      "handle_width_m": 0.014,
+      "handle_length_m": 0.016,
+      "surface_distance_m": 0.0020818051071427256,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04248513523356492,
+        0.014103110811234987,
+        -0.07900291554443255
+      ],
+      "closest_tail_point_hand": [
+        0.0445533522516569,
+        0.014315297259407115,
+        -0.07910953534283947
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0020682170180919834,
+        0.0002121864481721275,
+        -0.00010661979840692615
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0007679271929623564,
+        1.9063100471149682e-06,
+        0.00193499268639871
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.014033276999560486
+    },
+    {
+      "handle_width_m": 0.014,
+      "handle_length_m": 0.02,
+      "surface_distance_m": 0.0020818051071427256,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04248513523356492,
+        0.014103110811234987,
+        -0.07900291554443255
+      ],
+      "closest_tail_point_hand": [
+        0.0445533522516569,
+        0.014315297259407115,
+        -0.07910953534283947
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0020682170180919834,
+        0.0002121864481721275,
+        -0.00010661979840692615
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0007679271929623564,
+        1.9063100471149682e-06,
+        0.00193499268639871
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.014033276999560486
+    },
+    {
+      "handle_width_m": 0.014,
+      "handle_length_m": 0.025,
+      "surface_distance_m": 0.0020818051071427256,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04248513523356492,
+        0.014103110811234987,
+        -0.07900291554443255
+      ],
+      "closest_tail_point_hand": [
+        0.0445533522516569,
+        0.014315297259407115,
+        -0.07910953534283947
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0020682170180919834,
+        0.0002121864481721275,
+        -0.00010661979840692615
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.0007679271929623564,
+        1.9063100471149682e-06,
+        0.00193499268639871
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.014033276999560486
+    },
+    {
+      "handle_width_m": 0.016,
+      "handle_length_m": 0.006,
+      "surface_distance_m": 0.0011116667578238374,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04251133594274039,
+        0.013934198226098898,
+        -0.07883082938984082
+      ],
+      "closest_tail_point_hand": [
+        0.043615746773076954,
+        0.01404750403944538,
+        -0.07888776348285856
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0011044108303365635,
+        0.00011330581334648149,
+        -5.693409301774088e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00041006678767202277,
+        1.017953843133991e-06,
+        0.0010332701359610083
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013873137121704935
+    },
+    {
+      "handle_width_m": 0.016,
+      "handle_length_m": 0.012,
+      "surface_distance_m": 0.0011116667578238374,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04251133594274039,
+        0.013934198226098898,
+        -0.07883082938984082
+      ],
+      "closest_tail_point_hand": [
+        0.043615746773076954,
+        0.01404750403944538,
+        -0.07888776348285856
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0011044108303365635,
+        0.00011330581334648149,
+        -5.693409301774088e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00041006678767202277,
+        1.017953843133991e-06,
+        0.0010332701359610083
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013873137121704935
+    },
+    {
+      "handle_width_m": 0.016,
+      "handle_length_m": 0.016,
+      "surface_distance_m": 0.0011116667578238374,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04251133594274039,
+        0.013934198226098898,
+        -0.07883082938984082
+      ],
+      "closest_tail_point_hand": [
+        0.043615746773076954,
+        0.01404750403944538,
+        -0.07888776348285856
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0011044108303365635,
+        0.00011330581334648149,
+        -5.693409301774088e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00041006678767202277,
+        1.017953843133991e-06,
+        0.0010332701359610083
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013873137121704935
+    },
+    {
+      "handle_width_m": 0.016,
+      "handle_length_m": 0.02,
+      "surface_distance_m": 0.0011116667578238374,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04251133594274039,
+        0.013934198226098898,
+        -0.07883082938984082
+      ],
+      "closest_tail_point_hand": [
+        0.043615746773076954,
+        0.01404750403944538,
+        -0.07888776348285856
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0011044108303365635,
+        0.00011330581334648149,
+        -5.693409301774088e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00041006678767202277,
+        1.017953843133991e-06,
+        0.0010332701359610083
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013873137121704935
+    },
+    {
+      "handle_width_m": 0.016,
+      "handle_length_m": 0.025,
+      "surface_distance_m": 0.0011116667578238374,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04251133594274039,
+        0.013934198226098898,
+        -0.07883082938984082
+      ],
+      "closest_tail_point_hand": [
+        0.043615746773076954,
+        0.01404750403944538,
+        -0.07888776348285856
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0011044108303365635,
+        0.00011330581334648149,
+        -5.693409301774088e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00041006678767202277,
+        1.017953843133991e-06,
+        0.0010332701359610083
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013873137121704935
+    },
+    {
+      "handle_width_m": 0.017,
+      "handle_length_m": 0.006,
+      "surface_distance_m": 0.0006265975831643926,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042524436297328126,
+        0.013849741933530856,
+        -0.07874478631254496
+      ],
+      "closest_tail_point_hand": [
+        0.04314694403378698,
+        0.013913607429464514,
+        -0.0787768775528681
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0006225077364588535,
+        6.386549593365848e-05,
+        -3.2091240323134373e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00023113658502684983,
+        5.737757411558626e-07,
+        0.0005824088607421593
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013793969421839036
+    },
+    {
+      "handle_width_m": 0.017,
+      "handle_length_m": 0.012,
+      "surface_distance_m": 0.0006265975831643926,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042524436297328126,
+        0.013849741933530856,
+        -0.07874478631254496
+      ],
+      "closest_tail_point_hand": [
+        0.04314694403378698,
+        0.013913607429464514,
+        -0.0787768775528681
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0006225077364588535,
+        6.386549593365848e-05,
+        -3.2091240323134373e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00023113658502684983,
+        5.737757411558626e-07,
+        0.0005824088607421593
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013793969421839036
+    },
+    {
+      "handle_width_m": 0.017,
+      "handle_length_m": 0.016,
+      "surface_distance_m": 0.0006265975831643926,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042524436297328126,
+        0.013849741933530856,
+        -0.07874478631254496
+      ],
+      "closest_tail_point_hand": [
+        0.04314694403378698,
+        0.013913607429464514,
+        -0.0787768775528681
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0006225077364588535,
+        6.386549593365848e-05,
+        -3.2091240323134373e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00023113658502684983,
+        5.737757411558626e-07,
+        0.0005824088607421593
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013793969421839036
+    },
+    {
+      "handle_width_m": 0.017,
+      "handle_length_m": 0.02,
+      "surface_distance_m": 0.0006265975831643926,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042524436297328126,
+        0.013849741933530856,
+        -0.07874478631254496
+      ],
+      "closest_tail_point_hand": [
+        0.04314694403378698,
+        0.013913607429464514,
+        -0.0787768775528681
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0006225077364588535,
+        6.386549593365848e-05,
+        -3.2091240323134373e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00023113658502684983,
+        5.737757411558626e-07,
+        0.0005824088607421593
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013793969421839036
+    },
+    {
+      "handle_width_m": 0.017,
+      "handle_length_m": 0.025,
+      "surface_distance_m": 0.0006265975831643926,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.042524436297328126,
+        0.013849741933530856,
+        -0.07874478631254496
+      ],
+      "closest_tail_point_hand": [
+        0.04314694403378698,
+        0.013913607429464514,
+        -0.0787768775528681
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.0006225077364588535,
+        6.386549593365848e-05,
+        -3.2091240323134373e-05
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        0.00023113658502684983,
+        5.737757411558626e-07,
+        0.0005824088607421593
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013793969421839036
+    },
+    {
+      "handle_width_m": 0.018,
+      "handle_length_m": 0.006,
+      "surface_distance_m": 0.0001415284085049498,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04253753665191586,
+        0.013765285640962811,
+        -0.0786587432352491
+      ],
+      "closest_tail_point_hand": [
+        0.04267814129449701,
+        0.013779710819483645,
+        -0.07866599162287764
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.00014060464258115052,
+        1.4425178520833734e-05,
+        -7.2483876285417415e-06
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        5.220638238168332e-05,
+        1.2959763916458799e-07,
+        0.00013154758552331552
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013715417128735955
+    },
+    {
+      "handle_width_m": 0.018,
+      "handle_length_m": 0.012,
+      "surface_distance_m": 0.0001415284085049498,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04253753665191586,
+        0.013765285640962811,
+        -0.0786587432352491
+      ],
+      "closest_tail_point_hand": [
+        0.04267814129449701,
+        0.013779710819483645,
+        -0.07866599162287764
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.00014060464258115052,
+        1.4425178520833734e-05,
+        -7.2483876285417415e-06
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        5.220638238168332e-05,
+        1.2959763916458799e-07,
+        0.00013154758552331552
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013715417128735955
+    },
+    {
+      "handle_width_m": 0.018,
+      "handle_length_m": 0.016,
+      "surface_distance_m": 0.0001415284085049498,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04253753665191586,
+        0.013765285640962811,
+        -0.0786587432352491
+      ],
+      "closest_tail_point_hand": [
+        0.04267814129449701,
+        0.013779710819483645,
+        -0.07866599162287764
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.00014060464258115052,
+        1.4425178520833734e-05,
+        -7.2483876285417415e-06
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        5.220638238168332e-05,
+        1.2959763916458799e-07,
+        0.00013154758552331552
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013715417128735955
+    },
+    {
+      "handle_width_m": 0.018,
+      "handle_length_m": 0.02,
+      "surface_distance_m": 0.0001415284085049498,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04253753665191586,
+        0.013765285640962811,
+        -0.0786587432352491
+      ],
+      "closest_tail_point_hand": [
+        0.04267814129449701,
+        0.013779710819483645,
+        -0.07866599162287764
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.00014060464258115052,
+        1.4425178520833734e-05,
+        -7.2483876285417415e-06
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        5.220638238168332e-05,
+        1.2959763916458799e-07,
+        0.00013154758552331552
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013715417128735955
+    },
+    {
+      "handle_width_m": 0.018,
+      "handle_length_m": 0.025,
+      "surface_distance_m": 0.0001415284085049498,
+      "source_palm_intersecting_triangles": 0,
+      "closest_palm_point_hand": [
+        0.04253753665191586,
+        0.013765285640962811,
+        -0.0786587432352491
+      ],
+      "closest_tail_point_hand": [
+        0.04267814129449701,
+        0.013779710819483645,
+        -0.07866599162287764
+      ],
+      "tail_minus_palm_gap_vector_hand": [
+        0.00014060464258115052,
+        1.4425178520833734e-05,
+        -7.2483876285417415e-06
+      ],
+      "tail_minus_palm_gap_vector_world": [
+        5.220638238168332e-05,
+        1.2959763916458799e-07,
+        0.00013154758552331552
+      ],
+      "closest_palm_distance_to_web_anchor_m": 0.013715417128735955
+    }
+  ]
+}

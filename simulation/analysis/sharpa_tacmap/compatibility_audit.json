@@ -1,0 +1,86 @@
+{
+  "compatibility_status": "import_and_five_finger_initialization_verified; live dynamic task and controls being tested independently",
+  "active_isaaclab": "2.2.1",
+  "active_isaac_sim": "5.0.0",
+  "vendor_commit": "37ddf626871758333d6ed89cf64ad702aef127d0",
+  "vendor_repository": "https://github.com/isaac-sim/IsaacLab",
+  "vendor_license": "BSD-3-Clause",
+  "vendor_license_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/LICENSE",
+  "vendor_files": [
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/LICENSE",
+      "sha256": "df351ebfa8af317bf5a9ad83df63a8b68e4f5c04b71f30767cdb27aa434eac62",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster.py",
+      "sha256": "8ec8313b9cd6068e65f41057d569f1d303ced1859860e77368b27d7fc6cf815b",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_cfg.py",
+      "sha256": "46066ef99f81073605b6cf3726180d12f417b00912ad5fc158c56f6dd895236a",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/multi_mesh_ray_caster_data.py",
+      "sha256": "002d629a93b1ab9b12b77c19c0f4d6fbeed7ae30260b7799f0a3f2f0dc126aad",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_cast_utils.py",
+      "sha256": "fe585b817897f2d6e1c58a99c266436a2d7242b737e544997c164bbaee621f84",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py",
+      "sha256": "b6a84cb0e506f4a4724d3262e0f533ccb31d75128e1e46282220fcfa688e286c",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/sim/utils/transforms.py",
+      "sha256": "5ec30a60599aff82725f43c8968c3d8619adb4b94ccc141f552bf69b683371d0",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/mesh.py",
+      "sha256": "ff1d7ba23e26b5c2eea4ae63e4ef9df0e4b3c7d8c7554658d0d4677a51ff0db2",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/kernels.py",
+      "sha256": "b38780baabb26b035595e6b6710e26381a18e99ed3bfbbc82887321aee7f82bf",
+      "matches_download_manifest": true
+    },
+    {
+      "path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/src/sharpa_tacmap_vendor/isaaclab_232/source/isaaclab/isaaclab/utils/warp/ops.py",
+      "sha256": "6202538ae05e3f424a0dfdd4df7e00cc272e4213827cceafa5a0a72df8baea84",
+      "matches_download_manifest": true
+    }
+  ],
+  "all_manifest_hashes_match": true,
+  "official_sharpa_commit": "e4f8827407e15625368ef0b9cf5a72c44304e16b",
+  "official_sharpa_algorithm_git_status": "",
+  "official_sharpa_source_unchanged": true,
+  "compatibility_api": "from sharpa_tacmap_compat import enable_compat; enable_compat() after SimulationApp startup and before SharpaTacmap import",
+  "scope": [
+    "New RayCaster and Warp implementation stay under private _sharpa_isaaclab232 namespace.",
+    "Only missing isaaclab sim transform, mesh, dynamic ray and MultiMesh APIs are added to the process.",
+    "No system IsaacLab source file or official Sharpa file edited.",
+    "Existing static RayCaster remains unchanged."
+  ],
+  "conditions_and_limits": [
+    "Targets must be exact body-local geometry; current TacmapRaySurface children have identity transform under the live rigid-body targets. Nonzero target child offsets are avoided due upstream offset algebra.",
+    "Sensor attaches to actual PhysX distal rigid body and uses URDF distal-to-elastomer offset in world camera convention; no non-rigid USD headless pose fallback used in the task.",
+    "XformPrimView adapter only bridges constructor vocabulary to Sim5 XFormPrim. Dynamic non-physics USD tracking is not claimed.",
+    "Official config inherits MultiMeshRayCaster class_type; instantiate SharpaTacmap(cfg) explicitly.",
+    "Official constructor initializes its base twice. Source is preserved; recording must check one frame increment per requested update. Lifecycle cache cleanup in long-lived repeated sensor creation is not validated.",
+    "Official surface maps use millimetres; correction_scale=.001; TH uses thumb files, other four use 4F_*_origin files, for the right hand.",
+    "Offset tuples must contain Python float, not numpy.float64, to preserve upstream default float32 math.",
+    "resolution_step=1 yields 240x240 and 9x9 Gaussian; step3 also gives valid odd kernel; steps2/4 produce invalid even kernels in upstream torchvision code.",
+    "Zero point/normal cells are invalid surface samples. Keep raw output intact; validity mask is metadata.",
+    "Official output is uint8 after nonlinear quantization then GaussianBlur. Values are not force, pressure, or unfiltered linear millimetres.",
+    "No FEM/material stiffness solve is introduced; original rigid-body physics and contact offsets are unmodified.",
+    "TH/4F public maps and current W01 elastomer geometry can differ; report physical-force channels separately from official geometry TacMap."
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "sha": "7a30b37b93e53e8a5836a07808e13767ad8aca8b",
+  "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/7a30b37b93e53e8a5836a07808e13767ad8aca8b",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c956fdcd5f5a9b4c432462f4fadc07081647fa3",
+      "size": 124,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/7c956fdcd5f5a9b4c432462f4fadc07081647fa3"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135dac3114f337c40b2add779264949c6e5d277d",
+      "size": 10727,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/135dac3114f337c40b2add779264949c6e5d277d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597180bec56fe864333a99f07804530f0682a8a3",
+      "size": 2445,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/597180bec56fe864333a99f07804530f0682a8a3"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059c755ff6e39f54b828447eff12a0be3d612632",
+      "size": 960,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/059c755ff6e39f54b828447eff12a0be3d612632"
+    },
+    {
+      "path": "checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bfad2b3f8e483b6b173d8aaff19597e84626f15",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/5bfad2b3f8e483b6b173d8aaff19597e84626f15"
+    },
+    {
+      "path": "checkpoints/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "deform_imgs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3065187f9ee1ee46cc05eec8878788cb1f3779f8",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/3065187f9ee1ee46cc05eec8878788cb1f3779f8"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_155608_027.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fffa53615341ec0ba86f7877f17587364e0f2109",
+      "size": 8571,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/fffa53615341ec0ba86f7877f17587364e0f2109"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160004_483.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e793fe9c04c1203826c0e5f1b8b80cb4f5515073",
+      "size": 3197,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/e793fe9c04c1203826c0e5f1b8b80cb4f5515073"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160200_488.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ca03f8daa43a7d64c34e2ed1ea6d0a40b69f7d63",
+      "size": 4505,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/ca03f8daa43a7d64c34e2ed1ea6d0a40b69f7d63"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160254_700.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a105ca2231439efc30eb087eab57dc5d007d19b6",
+      "size": 4548,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/a105ca2231439efc30eb087eab57dc5d007d19b6"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160300_337.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1f60457cfebf4990e741741275e3168dd0d9afb",
+      "size": 4960,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/e1f60457cfebf4990e741741275e3168dd0d9afb"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160340_671.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7a2a57090ebefdb2439c07e28db1b88b5a4e5883",
+      "size": 3780,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/7a2a57090ebefdb2439c07e28db1b88b5a4e5883"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160422_562.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d4bd14197ae679a357c281f2ec8209c6db7c48f4",
+      "size": 4286,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/d4bd14197ae679a357c281f2ec8209c6db7c48f4"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160447_353.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61e751222c79bdc3522e25ea4b935705cdf99a38",
+      "size": 3745,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/61e751222c79bdc3522e25ea4b935705cdf99a38"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160449_414.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "27ed1d09d69837fe96c586c8b97d82c048e7d8b3",
+      "size": 3744,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/27ed1d09d69837fe96c586c8b97d82c048e7d8b3"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160536_353.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f55f52b86737e6165d826e6dd3e7898f97f5809d",
+      "size": 3663,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/f55f52b86737e6165d826e6dd3e7898f97f5809d"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160604_493.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ca3083966a1cdedb260be26491d09055191f5c0d",
+      "size": 6974,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/ca3083966a1cdedb260be26491d09055191f5c0d"
+    },
+    {
+      "path": "deform_imgs/deform_ch1_20260227_160617_551.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae71bd2329afd5881d05ff1e32463a3e75748887",
+      "size": 10088,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/ae71bd2329afd5881d05ff1e32463a3e75748887"
+    },
+    {
+      "path": "demo_reconstruction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5cf334a30ad40da1385bb25be33918a5e5238c",
+      "size": 3935,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/4e5cf334a30ad40da1385bb25be33918a5e5238c"
+    },
+    {
+      "path": "outputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bfad2b3f8e483b6b173d8aaff19597e84626f15",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/5bfad2b3f8e483b6b173d8aaff19597e84626f15"
+    },
+    {
+      "path": "outputs/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1110b7661e977c416e6dcc998a82f39fcc03cf69",
+      "size": 91,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/1110b7661e977c416e6dcc998a82f39fcc03cf69"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbd664d7c68cad2cededb012d7d327b15998288f",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/cbd664d7c68cad2cededb012d7d327b15998288f"
+    },
+    {
+      "path": "scripts/download_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a871d20ec69def7b157d1210ef1dcc0220d117fb",
+      "size": 1586,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/a871d20ec69def7b157d1210ef1dcc0220d117fb"
+    },
+    {
+      "path": "sharpawave_deform_encoder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bd71aa2c7d636030b088e8c12e7efc915e09b8f",
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/trees/9bd71aa2c7d636030b088e8c12e7efc915e09b8f"
+    },
+    {
+      "path": "sharpawave_deform_encoder/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ddd6133a3a13b97330e62800a0301ee2f9d62d",
+      "size": 357,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/33ddd6133a3a13b97330e62800a0301ee2f9d62d"
+    },
+    {
+      "path": "sharpawave_deform_encoder/autoencoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c4efe44bd263ba6f7734df781456e1f64b673f",
+      "size": 878,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/e0c4efe44bd263ba6f7734df781456e1f64b673f"
+    },
+    {
+      "path": "sharpawave_deform_encoder/decoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abd02a47bb418646f388e429f42c4b63ff073bb8",
+      "size": 3187,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/abd02a47bb418646f388e429f42c4b63ff073bb8"
+    },
+    {
+      "path": "sharpawave_deform_encoder/encoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a065b2e4848fda994c7b9aeded2e1f401c78487",
+      "size": 1947,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/7a065b2e4848fda994c7b9aeded2e1f401c78487"
+    },
+    {
+      "path": "sharpawave_deform_encoder/weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d330f1573ea99a6b47d9fe6196a55784690b78c8",
+      "size": 3736,
+      "url": "https://api.github.com/repos/sharpa-robotics/sharpawave-deform-encoder/git/blobs/d330f1573ea99a6b47d9fe6196a55784690b78c8"
+    }
+  ],
+  "truncated": false
+}

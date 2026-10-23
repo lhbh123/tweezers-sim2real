@@ -1,0 +1,70 @@
+[
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v2_seed21.json",
+    "seed": 21,
+    "open_self_clear": true,
+    "unexpected_open": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 4
+      }
+    ],
+    "min_open_table_clearance_m": 0.0183270481770752,
+    "tail_palm_gap_m": 4.504424738131879e-05,
+    "closed_self_clear": true,
+    "unexpected_closed": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 4
+      }
+    ]
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v2_seed22.json",
+    "seed": 22,
+    "open_self_clear": true,
+    "unexpected_open": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 7
+      }
+    ],
+    "min_open_table_clearance_m": 0.0181996938609299,
+    "tail_palm_gap_m": 8.322360293559583e-05,
+    "closed_self_clear": true,
+    "unexpected_closed": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 7
+      }
+    ]
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v2_seed17.json",
+    "seed": 17,
+    "open_self_clear": true,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": 0.01820832375792525,
+    "tail_palm_gap_m": 0.0006683567900551303,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v2_seed12.json",
+    "seed": 12,
+    "open_self_clear": false,
+    "unexpected_open": [],
+    "min_open_table_clearance_m": 0.018492008191675735,
+    "tail_palm_gap_m": 0.00391610532519664,
+    "closed_self_clear": true,
+    "unexpected_closed": []
+  }
+]

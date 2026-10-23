@@ -1,0 +1,15 @@
+{
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/configuration/robot_base.usd": "2022a740c5de5d40340f503129f06b0ccdcc7e21686436c193e85e6d5fbd9052",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/configuration/robot_physics.usd": "b37819cdd808d1d0c50c7f81417e95c7d69c918e1fc2fbc7e0cbface7a528524",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/configuration/robot_robot.usd": "ca02d41e0b9da7a2e17513df2f492cdf398962b83a1299aa26b3aad32d759c16",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/configuration/robot_sensor.usd": "4eb9982aa73e2043c181560797ecb1f339305865a6ea171121d274693531530e",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/model_audit.json": "8f7bcf3370403ce9e776c3a54724bdeb0f1ffbdd23ad5af8f3853bed06982b73",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/provenance.json": "335bf6d231617154ead15feb53e04285e2bf1c13c5e39ac973019c1e68c0d97e",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/robot.import.json": "a7741f5dfcf1581b4a90fc7881159916530ab74324b8885de1e7fdd7fd7bc982",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/robot.urdf": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/robot.usd": "efd05a3435ff53abdc53838932bc816759747ea81f14be68c09d93f921da1271",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/source_mesh_contact_audit.json": "5d9429988181f8f467684410c75f539bf39b5efcd4d55bc274ad341667352c0c",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/sources/spider/xhand_right.urdf": "bd596ccb96612f4ce933f1d6b0f40c3e9e354367cd7ca58a3ff4909f63f6c213",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/ur5e.urdf": "7a292508412ecc08e78edc9997d02390e729b576edf8a63f5fc58fd52d793fc9",
+  "/mnt/workspace/tweezers-sim2real/assets/ur5e_xhand_right/xhand_right.urdf": "2d62a9340eae59d8ee3d5f07184ea3590e1b9229532730eac06e005fa4fcf5c7"
+}

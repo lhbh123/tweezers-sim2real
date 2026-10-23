@@ -1,0 +1,327 @@
+{
+  "checked_at_utc": "2026-10-19T09:12:29.136004+00:00",
+  "request": "Replace XHand with Sharpa Wave W02 and preserve tactile sensing in existing Isaac Lab 2.2.1 / Isaac Sim 5 simulation",
+  "finding": "No publicly downloadable, model-identifiable W02 simulation asset was located in the checked sources. Public Sharpa robot assets identify wave_01 and the inspected right-hand URDF has 22 movable joints, inconsistent with the official W02 21-DoF specification.",
+  "status": "blocked_by_exact_model_asset_availability; no W01 substitution performed",
+  "official_w02_specification": {
+    "source": "https://www.sharpa.com/pages/w02",
+    "manufacturer_claims": {
+      "active_dof": 21,
+      "dimensions_mm": [
+        188,
+        87.5,
+        40
+      ],
+      "mass_kg": "<0.75",
+      "fingertip_tactile": "Dynamic Tactile Array; 5 mN to 30 N, 1 mm spatial resolution",
+      "whole_hand_tactile": "Electronic skin on fingers and palm; 0.1 to 20 N, 5 mm spatial resolution"
+    },
+    "launch_source": "https://www.sharpa.com/blogs/news/sharpa-launches-three-flagship-products-at-iros-pushing-the-boundaries-of-dexterous-manipulation",
+    "launch_date": "2026-09-28"
+  },
+  "public_asset_repository": {
+    "url": "https://github.com/sharpa-robotics/sharpa-urdf-usd-xml",
+    "commit": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+    "top_model_directory": "wave_01",
+    "branches": [
+      "main"
+    ],
+    "tags": [
+      "v4.0.0",
+      "v1.0.0"
+    ],
+    "releases": [
+      "v1.0.0"
+    ],
+    "license": "Apache-2.0",
+    "license_evidence": "analysis/sharpa_research/license.txt",
+    "inspected_urdf": "analysis/sharpa_research/right_urdf.txt",
+    "inspected_urdf_sha256": "261c1a5284e04bc9690e0f5ac39d7a7cace0a16d335d663a1d3c7fcf4e4daf31",
+    "movable_joint_count": 22,
+    "interface_manifest": "analysis/sharpa_research/wave01_interface.json",
+    "usable_w02_usd_or_urdf_path": null
+  },
+  "official_repository_inventory": [
+    {
+      "repository": "sharpa-robotics/.github",
+      "default_branch": "main",
+      "sha": "87a783d1ccfef4363e4efd5be09860a3b9c81ff3",
+      "entries": 9,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/.github_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-community",
+      "default_branch": "main",
+      "sha": "8c9e037d1253a8cdfbae8918a9e68f688574e8e2",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-community_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-wave-firmware",
+      "default_branch": "main",
+      "sha": "2f68d6911ac36714f49f53c0a6c2b14e85bbaaf5",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-wave-firmware_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-manus-sdk",
+      "default_branch": "main",
+      "sha": "b87bff567c82905dd591d91f08be59fb90a604df",
+      "entries": 2235,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-manus-sdk_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-tacmap",
+      "default_branch": "main",
+      "sha": "e4f8827407e15625368ef0b9cf5a72c44304e16b",
+      "entries": 44,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-tacmap_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-wave-sdk",
+      "default_branch": "main",
+      "sha": "1c48c44ab7aa08e495bf603e8b68dc5290d01328",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-wave-sdk_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-pilot",
+      "default_branch": "main",
+      "sha": "50de66e65294fa540dd715488785b78402eb93dd",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-pilot_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-opencad-library",
+      "default_branch": "main",
+      "sha": "e6c8c21861c759d22f87845bd27269de803d6991",
+      "entries": 13,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-opencad-library_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-urdf-usd-xml",
+      "default_branch": "main",
+      "sha": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+      "entries": 329,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-urdf-usd-xml_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-rl-lab",
+      "default_branch": "main",
+      "sha": "95ccda3d948801bb5da4cb7ffea766e03067a63b",
+      "entries": 97,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-rl-lab_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-tactile-sensor-assets",
+      "default_branch": "master",
+      "sha": "865530a98a0ca0e69d177f2121833f8bb3ed94de",
+      "entries": 13,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-tactile-sensor-assets_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-vision-retargeting-sdk",
+      "default_branch": "main",
+      "sha": "73ac80e980b980b11d8853b874f8efea79095add",
+      "entries": 326,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-vision-retargeting-sdk_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpawave-deform-encoder",
+      "default_branch": "main",
+      "sha": "7a30b37b93e53e8a5836a07808e13767ad8aca8b",
+      "entries": 31,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpawave-deform-encoder_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/WM-Craftnet",
+      "default_branch": "main",
+      "sha": "7a200ba759f981b7540acffe930d4036bbb3159e",
+      "entries": 276,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/WM-Craftnet_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/pilotvr-privacy",
+      "default_branch": "main",
+      "sha": "6ee590447dcf7ddfdd3882d38b125dd68630e3f1",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/pilotvr-privacy_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-avatar-app",
+      "default_branch": "main",
+      "sha": "bd4a8cd2e589c4acae17cd69ec22a894b8f11a34",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-avatar-app_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-avatar-sdk",
+      "default_branch": "main",
+      "sha": "4c8c40e285ecf827b7d957e815a9dd8c61ce9460",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-avatar-sdk_tree.json"
+    },
+    {
+      "repository": "sharpa-robotics/sharpa-avatar-ae01-firmware",
+      "default_branch": "main",
+      "sha": "1b7d78ceb69a9be0451a68985967a3e288407c02",
+      "entries": 1,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/sharpa-avatar-ae01-firmware_tree.json"
+    }
+  ],
+  "official_repo_count": 18,
+  "fork_and_pr_tree_checks": [
+    {
+      "scope": "fork_Anthony827624_tree",
+      "sha": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+      "entries": 329,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_Anthony827624_tree.json"
+    },
+    {
+      "scope": "fork_Carttyl_tree",
+      "sha": "3e953f588ba9954cebaa720aaa4cee06a43a068e",
+      "entries": 306,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_Carttyl_tree.json"
+    },
+    {
+      "scope": "fork_EvanHon1818_tree",
+      "sha": "0d19cac602f46456b819e4b6a2c09a74982c9a3e",
+      "entries": 329,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_EvanHon1818_tree.json"
+    },
+    {
+      "scope": "fork_IrvingF7_tree",
+      "sha": "2076a3a23b7bbe89642d516b2ed67be02cd07771",
+      "entries": 306,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_IrvingF7_tree.json"
+    },
+    {
+      "scope": "fork_huozeyu-sharpa_tree",
+      "sha": "6eea427eb24189519f32b9f21674cd534d3f973c",
+      "entries": 308,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_huozeyu-sharpa_tree.json"
+    },
+    {
+      "scope": "fork_lunwk_tree",
+      "sha": "3e953f588ba9954cebaa720aaa4cee06a43a068e",
+      "entries": 306,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/fork_lunwk_tree.json"
+    },
+    {
+      "scope": "pr_1_tree",
+      "sha": "2076a3a23b7bbe89642d516b2ed67be02cd07771",
+      "entries": 306,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/pr_1_tree.json"
+    },
+    {
+      "scope": "pr_3_tree",
+      "sha": "1c94fca048bfd63a3c93cc1ffd84d8f7d2271999",
+      "entries": 308,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/pr_3_tree.json"
+    },
+    {
+      "scope": "pr_4_tree",
+      "sha": "911b48812a14d50a6d880e1278b3dde62d08a3c3",
+      "entries": 332,
+      "truncated": false,
+      "w02_path_matches": [],
+      "evidence_file": "analysis/sharpa_research/pr_4_tree.json"
+    }
+  ],
+  "fork_count": 6,
+  "open_pr_count": 3,
+  "github_repository_searches": [
+    {
+      "query": "sharpa w02",
+      "result_count": 0,
+      "url": "https://api.github.com/search/repositories?q=sharpa+w02",
+      "evidence": "analysis/sharpa_research/third_party_search.json"
+    },
+    {
+      "query": "sharpa wave_02",
+      "result_count": 0,
+      "url": "https://api.github.com/search/repositories?q=sharpa+wave_02",
+      "evidence": "analysis/sharpa_research/wave02_search.json"
+    }
+  ],
+  "web_searches": [
+    "\"Sharpa W02\" URDF",
+    "\"Sharpa W02\" USD simulation",
+    "\"sharpa\" \"wave_02\"",
+    "\"sharpa\" \"wave_02\" OR \"w02\" \"github.com\""
+  ],
+  "web_search_result": "Found official W02 product/launch pages, hardware specifications and press coverage; no identified downloadable W02 robot simulation assets.",
+  "official_tactile_sources": [
+    "https://github.com/sharpa-robotics/sharpa-tacmap",
+    "https://github.com/sharpa-robotics/sharpa-tactile-sensor-assets",
+    "https://github.com/sharpa-robotics/sharpa-rl-lab"
+  ],
+  "official_tactile_model_scope": "The checked repositories expose the existing Sharpa fingertip TacMap/DTA sensor examples; no identified W02 whole-hand e-skin layout/calibration asset was located.",
+  "downloads": {
+    "w01_clone": "Explicitly stopped after exact model mismatch; no checkout remains",
+    "w01_archive": "assets/sharpa_wave/official.zip.partial, incomplete 1301576 bytes; not usable",
+    "download_processes_remaining": false,
+    "installed_dependencies": []
+  },
+  "limitations": [
+    "Path-name scans of all repository trees and targeted inspection of the official hand URDF, README, release metadata and PR titles are evidence of what was found, not proof that no private or differently named W02 asset exists anywhere.",
+    "Neither whole-hand e-skin calibration nor W02 link inertias, collision geometry, joint axes/limits can be inferred reliably from the public marketing dimensions.",
+    "Scaling W01 and locking one joint would be an approximation and must not be presented as an official W02 simulation."
+  ],
+  "needed_to_complete_exact_request": [
+    "W02 URDF/USD/MJCF with link geometry, inertias, joint axes/limits and model identity",
+    "W02 fingertip tactile and full-hand e-skin surface placement/calibration or permission to use an explicitly labeled simulated contact approximation"
+  ]
+}

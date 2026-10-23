@@ -1,0 +1,74 @@
+[
+  {
+    "key": "thumb_visual",
+    "usd_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/sharpawave/right_sharpa_wave.usda",
+    "prim_path": "/Right_Sharpa_Wave/right_thumb_elastomer/visuals/thumb_elastomer_surface/mesh",
+    "sensor_prim_path": "/Right_Sharpa_Wave/right_thumb_elastomer",
+    "bounds_m": [
+      [
+        -0.008217004127800456,
+        -0.03020467236638069,
+        -0.006757270079106084
+      ],
+      [
+        0.008216043934226041,
+        -0.011137676425278187,
+        0.00878668390214444
+      ]
+    ]
+  },
+  {
+    "key": "thumb_collision",
+    "usd_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/sharpawave/right_sharpa_wave.usda",
+    "prim_path": "/Right_Sharpa_Wave/right_thumb_elastomer/collisions/thumb_elastomer/mesh",
+    "sensor_prim_path": "/Right_Sharpa_Wave/right_thumb_elastomer",
+    "bounds_m": [
+      [
+        -0.008217044174671164,
+        -0.030198905616998672,
+        -0.006757270079106084
+      ],
+      [
+        0.008216202259063726,
+        -0.011140556074678898,
+        0.00878668390214444
+      ]
+    ]
+  },
+  {
+    "key": "index_visual",
+    "usd_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/sharpawave/right_sharpa_wave.usda",
+    "prim_path": "/Right_Sharpa_Wave/right_index_elastomer/visuals/elastomer_surface/mesh",
+    "sensor_prim_path": "/Right_Sharpa_Wave/right_index_elastomer",
+    "bounds_m": [
+      [
+        -0.007179175037890683,
+        -0.026650000363588333,
+        -0.005763107445091009
+      ],
+      [
+        0.007177737541496743,
+        -0.008907954208552837,
+        0.0066003077663481236
+      ]
+    ]
+  },
+  {
+    "key": "index_collision",
+    "usd_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/assets/sharpa_tactile/assets/sharpawave/right_sharpa_wave.usda",
+    "prim_path": "/Right_Sharpa_Wave/right_index_elastomer/collisions/elastomer/mesh",
+    "sensor_prim_path": "/Right_Sharpa_Wave/right_index_elastomer",
+    "bounds_m": [
+      [
+        -0.007178844418376695,
+        -0.026650000363588333,
+        -0.005763107445091009
+      ],
+      [
+        0.007178846281021823,
+        -0.008910546079277992,
+        0.0066003077663481236
+      ]
+    ]
+  }
+]

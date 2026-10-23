@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "repository": "https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git",
+      "commit": "89bbe795f38a7ab00fb66fe8831dfff79dc99edf",
+      "content": "UR5e xacro, YAML and visual/collision meshes",
+      "license": "BSD-3-Clause; see sources/ur_description/LICENSE and README.md"
+    },
+    {
+      "repository": "https://github.com/facebookresearch/spider.git",
+      "commit": "71238456bf97a7eeb3d0471aa31974e2d404d4ae",
+      "urdf_git_blob": "b833f40d4598b149d4f544ad9be06097cd264c33",
+      "content": "XHAND1 right URDF and referenced STL assets",
+      "license": "CC-BY-NC-4.0 repository declaration; see sources/spider/LICENSE"
+    }
+  ],
+  "generator": "scripts/fetch_ur5e_xhand.py",
+  "xacro_version": "2.1.1",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "angle": "rad"
+  },
+  "modifications": [
+    "Official ur5e xacro expanded without ROS package lookup dependency.",
+    "Removed official world/base_joint; simulator creates the single base anchor.",
+    "Source mesh paths resolved to versioned local files.",
+    "Removed six tiny SolidWorks coordinate-marker geometries/inertias, retained fixed frames.",
+    "Added an explicit SI-unit aluminium simulation adapter with analytic inertia."
+  ],
+  "files": [
+    {
+      "path": "sources/spider/LICENSE",
+      "bytes": 458,
+      "sha256": "f135c4b13c6fb305da4a85db33556e08abb2b1385aff7d450ce362fe481e527c"
+    },
+    {
+      "path": "sources/spider/README.md",
+      "bytes": 13151,
+      "sha256": "b93cdb790e12a065a124251a6401863b74235989daeb20719ae2d76a5fac9210"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_ee_link.STL",
+      "bytes": 6484,
+      "sha256": "f9d6b9cc15c565f548e51c65a25f9f5232f2e052a58c5dbe816dd91f97ee1691"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_index_bend_link.STL",
+      "bytes": 164784,
+      "sha256": "8969bc01d636eb86d64d8e5ae81fc9530392fbaf1e99d01ea700cad16739e809"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_index_rota_link1.STL",
+      "bytes": 691384,
+      "sha256": "aa81e5c7a89339893f8ce3c109ad44f5da9e81b067f655bf85a8c94a15170560"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_index_rota_link2.STL",
+      "bytes": 395584,
+      "sha256": "1978ac4ba6eb13bba2fb7a03e6b7ad16ad9c22fce6cac4b71c2620650bbe7110"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_index_rota_tip.STL",
+      "bytes": 6484,
+      "sha256": "8859c91d2694df7548e81cf3b236e1e3e6d3820281820135672fd05fd47655c5"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_link.STL",
+      "bytes": 1033984,
+      "sha256": "990938909f1c2743425f425433f8d73352160072a82d81aa21fb8f73918cdc38"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_mid_link1.STL",
+      "bytes": 691384,
+      "sha256": "b9ece604072b09b00b14dca913f7adcfe86f81067eb511d08c4d995bf057aa1d"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_mid_link2.STL",
+      "bytes": 395584,
+      "sha256": "4a451a017695c88bac5028d04618b77efe3e0105839698126078aff18db33bad"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_mid_tip.STL",
+      "bytes": 6484,
+      "sha256": "2a388d4e095beafa003075ceea50ba93aa0c08304d41e40aea84991577cb2e87"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_pinky_link1.STL",
+      "bytes": 691384,
+      "sha256": "d8d95abf22c08b0cb19bf17f6dc70ef5ad10c2c0476d6155ddf545fd80b6f7b8"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_pinky_link2.STL",
+      "bytes": 395584,
+      "sha256": "e45d273473af9a3c6e7920cbea599c3fd28b796dbbd92104ba051633da96e4ce"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_pinky_tip.STL",
+      "bytes": 6484,
+      "sha256": "f179fe01ad735fb38fa71f0be0a2ead3f83798658c47b276be642de7fd272045"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_ring_link1.STL",
+      "bytes": 691384,
+      "sha256": "cc6449f3311c0c6066921c088630611d0d96c786e3a0976b57cf74443ac459ae"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_ring_link2.STL",
+      "bytes": 395584,
+      "sha256": "93fc89a8ed9c9cbc4bd1ef0ee6e251ab6064ff61776be66e0cd69497015be09d"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_ring_tip.STL",
+      "bytes": 6484,
+      "sha256": "f70d7ad040feaf3d39a326b21036c1cf90fcea41aef0439164d8bf21b5adefb9"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_thumb_bend_link.STL",
+      "bytes": 296884,
+      "sha256": "128a534a22c58c34ba091365daf5cf3310d576386033623ff7c3ba0e4bcdfa75"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_thumb_rota_link1.STL",
+      "bytes": 697884,
+      "sha256": "1fe3c9615f90eccd012b5fed8b3aba1f1de68987f03d643367b53740530e1a63"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_thumb_rota_link2.STL",
+      "bytes": 398584,
+      "sha256": "25c5ae9613658b5a73a45e6ae96369cfb0dac83742285849dfb35d04c450db19"
+    },
+    {
+      "path": "sources/spider/assets/right_hand_thumb_rota_tip.STL",
+      "bytes": 6484,
+      "sha256": "2f078506d71fce7f7e0f92a2754f2382488f44044f4572dc0b2d04410259f579"
+    },
+    {
+      "path": "sources/spider/xhand_right.urdf",
+      "bytes": 22593,
+      "sha256": "bd596ccb96612f4ce933f1d6b0f40c3e9e354367cd7ca58a3ff4909f63f6c213"
+    },
+    {
+      "path": "sources/ur_description/LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8"
+    },
+    {
+      "path": "sources/ur_description/README.md",
+      "bytes": 3986,
+      "sha256": "627f8565e83a44102af73da8faadcb4d948bf24b4970d3dfae72dda8775ea750"
+    },
+    {
+      "path": "sources/ur_description/config/ur5e/default_kinematics.yaml",
+      "bytes": 649,
+      "sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc"
+    },
+    {
+      "path": "sources/ur_description/config/ur5e/joint_limits.yaml",
+      "bytes": 2869,
+      "sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7"
+    },
+    {
+      "path": "sources/ur_description/config/ur5e/physical_parameters.yaml",
+      "bytes": 2428,
+      "sha256": "0e58b89069d8d87b24cce0c2c02832d88de0f3229baf42916953ce1c71f0fa2d"
+    },
+    {
+      "path": "sources/ur_description/config/ur5e/visual_parameters.yaml",
+      "bytes": 2393,
+      "sha256": "87e8adba0d4e40cc9a994e7ca2264671cc6b6c732649b675b553639cb275a16d"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/base.stl",
+      "bytes": 21084,
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/forearm.stl",
+      "bytes": 53284,
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/shoulder.stl",
+      "bytes": 70084,
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/upperarm.stl",
+      "bytes": 99684,
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/wrist1.stl",
+      "bytes": 59584,
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/wrist2.stl",
+      "bytes": 67584,
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/collision/wrist3.stl",
+      "bytes": 7184,
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/base.dae",
+      "bytes": 358056,
+      "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/forearm.dae",
+      "bytes": 1140937,
+      "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/shoulder.dae",
+      "bytes": 1797083,
+      "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/upperarm.dae",
+      "bytes": 3082486,
+      "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/wrist1.dae",
+      "bytes": 1334663,
+      "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/wrist2.dae",
+      "bytes": 1554839,
+      "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e"
+    },
+    {
+      "path": "sources/ur_description/meshes/ur5e/visual/wrist3.dae",
+      "bytes": 66077,
+      "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba"
+    },
+    {
+      "path": "sources/ur_description/package.xml",
+      "bytes": 3488,
+      "sha256": "fb8dc76afa1b2ac0c631295e575bc1655df6131fa82864c354e969d48260ecad"
+    },
+    {
+      "path": "sources/ur_description/urdf/inc/ur_common.xacro",
+      "bytes": 19909,
+      "sha256": "91b5a8c55c3a0b04ff0d8abe74fbaf7635966e903e9e978cec473bf88234f9fd"
+    },
+    {
+      "path": "sources/ur_description/urdf/inc/ur_joint_control.xacro",
+      "bytes": 4099,
+      "sha256": "5b18f42b31d3fcd7916abefc59a2959c484d2cae0fb766dfe782708c9d39743d"
+    },
+    {
+      "path": "sources/ur_description/urdf/inc/ur_sensors.xacro",
+      "bytes": 825,
+      "sha256": "d774af270ece1a55b89e688aece885886f48d69d2de912d19d66cf82d294880e"
+    },
+    {
+      "path": "sources/ur_description/urdf/inc/ur_transmissions.xacro",
+      "bytes": 2669,
+      "sha256": "85096b2102ef26cb11313956e9ba737f3fae63a0b702108f8cf3253de1cdadf3"
+    },
+    {
+      "path": "sources/ur_description/urdf/ros2_control_mock_hardware.xacro",
+      "bytes": 1075,
+      "sha256": "cf8e5c28d07fbe49bcf61a8f83b19f89aa534a5bb7c4b31832505421609bc234"
+    },
+    {
+      "path": "sources/ur_description/urdf/ur.urdf.xacro",
+      "bytes": 2153,
+      "sha256": "d2eb6b60edf4c18b347c0612598f3c2b95fd0b189cf16fdb8c2f2ac119a0a82f"
+    },
+    {
+      "path": "sources/ur_description/urdf/ur_macro.xacro",
+      "bytes": 18813,
+      "sha256": "2683ddcc2db392116d69ac775e4d6dd1c7b3d420f9eca926bd10cf43a1ce8b35"
+    },
+    {
+      "path": "sources/ur_description/urdf/ur_mocked.urdf.xacro",
+      "bytes": 2851,
+      "sha256": "f194ebc2350b35f325eb17c1c235f10247e81f83a5d6b5a1658962322f90f473"
+    }
+  ],
+  "generated_sha256": {
+    "robot.urdf": "dcae9013db4789ae2cd5fe7c67f34d122c9e24089b58bbfb2acb7d38bffe950c",
+    "ur5e.urdf": "7a292508412ecc08e78edc9997d02390e729b576edf8a63f5fc58fd52d793fc9",
+    "xhand_right.urdf": "2d62a9340eae59d8ee3d5f07184ea3590e1b9229532730eac06e005fa4fcf5c7"
+  }
+}

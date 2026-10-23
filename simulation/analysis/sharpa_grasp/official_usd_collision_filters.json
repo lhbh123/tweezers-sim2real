@@ -1,0 +1,666 @@
+[
+  {
+    "prim": "/right_sharpa_wave/right_hand_wrist/collisions/wrist_collision/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_hand_flange_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_hand_wrist_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_MCP_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_MCP_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_PIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_DIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_elastomer_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_index_fingertip_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_MCP_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_MCP_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_PIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_DIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_elastomer_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_middle_fingertip_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_CMC",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_MCP_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_MCP_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_PIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_DIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_elastomer_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_pinky_fingertip_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_MCP_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_MCP_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_PIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_DIP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_elastomer_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_ring_fingertip_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_CMC_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_CMC_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_MCP_FE",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_MCP_AA",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_IP",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_elastomer_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/joints/right_thumb_fingertip_fix_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_hand_C_MC",
+    "relationships": [
+      {
+        "name": "physics:filteredPairs",
+        "targets": [
+          "/right_sharpa_wave/right_thumb_MC",
+          "/right_sharpa_wave/right_index_PP",
+          "/right_sharpa_wave/right_middle_PP",
+          "/right_sharpa_wave/right_ring_PP",
+          "/right_sharpa_wave/right_pinky_PP"
+        ]
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "prim": "/right_sharpa_wave/right_hand_C_MC/collisions/right_hand_C_MC/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_index_MCP_VL/collisions/MCP_VL/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_index_PP/collisions/right_PP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_index_MP/collisions/right_MP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_index_DP/collisions/DP_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_index_elastomer/collisions/elastomer_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_middle_MCP_VL/collisions/MCP_VL/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_middle_PP/collisions/right_PP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_middle_MP/collisions/right_MP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_middle_DP/collisions/DP_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_middle_elastomer/collisions/elastomer_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_MC",
+    "relationships": [
+      {
+        "name": "physics:filteredPairs",
+        "targets": [
+          "/right_sharpa_wave/right_pinky_PP"
+        ]
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_MC/collisions/right_pinky_MC/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_MCP_VL/collisions/MCP_VL/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_PP/collisions/right_PP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_MP/collisions/right_MP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_DP/collisions/DP_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_pinky_elastomer/collisions/elastomer_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_ring_MCP_VL/collisions/MCP_VL/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_ring_PP/collisions/right_PP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_ring_MP/collisions/right_MP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_ring_DP/collisions/DP_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_ring_elastomer/collisions/elastomer_HB1_4F/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_thumb_MC",
+    "relationships": [
+      {
+        "name": "physics:filteredPairs",
+        "targets": [
+          "/right_sharpa_wave/right_thumb_PP"
+        ]
+      }
+    ],
+    "attributes": []
+  },
+  {
+    "prim": "/right_sharpa_wave/right_thumb_MC/collisions/right_thumb_MC/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_thumb_PP/collisions/right_thumb_PP/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_thumb_DP/collisions/DP_HB1_TH/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/right_thumb_elastomer/collisions/elastomer_HB1_TH/mesh",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "True"
+      }
+    ]
+  },
+  {
+    "prim": "/right_sharpa_wave/root_joint",
+    "relationships": [],
+    "attributes": [
+      {
+        "name": "physics:collisionEnabled",
+        "value": "False"
+      },
+      {
+        "name": "physxArticulation:enabledSelfCollisions",
+        "value": "False"
+      }
+    ]
+  }
+]

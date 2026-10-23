@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "type": "opencv_intrinsics",
+  "created_utc": "2026-10-23T09:22:04.216045+00:00",
+  "source_session": "/home/haojinkun/xqh_work/xhand-camera-calibration/data/intrinsics_global_v3",
+  "camera": {
+    "serial": "147122078108",
+    "expected_model": "D435",
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "model": "RealSense D435",
+    "stream": "color",
+    "format": "bgr8",
+    "firmware": "5.16.0.1",
+    "factory_intrinsics": {
+      "width": 640,
+      "height": 480,
+      "fx": 607.0804443359375,
+      "fy": 606.4393310546875,
+      "cx": 322.630126953125,
+      "cy": 242.50436401367188,
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "coefficients": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "sensor_settings": [
+      {
+        "sensor": "Stereo Module",
+        "options_at_start": {
+          "exposure": 8500.0,
+          "gain": 16.0,
+          "enable_auto_exposure": 1.0
+        }
+      },
+      {
+        "sensor": "RGB Camera",
+        "options_at_start": {
+          "exposure": 166.0,
+          "gain": 64.0,
+          "enable_auto_exposure": 1.0,
+          "white_balance": 4600.0,
+          "enable_auto_white_balance": 1.0
+        }
+      }
+    ]
+  },
+  "board": {
+    "frame_id": "table_board_v1_do_not_move",
+    "squares_x": 7,
+    "squares_y": 10,
+    "square_length_m": 0.027366667,
+    "marker_length_m": 0.019704,
+    "dictionary": "DICT_5X5_100",
+    "min_corners": 12
+  },
+  "distortion_model": "opencv_brown_conrady",
+  "coefficient_order": [
+    "k1",
+    "k2",
+    "p1",
+    "p2",
+    "k3"
+  ],
+  "K": [
+    [
+      594.4565297246601,
+      0.0,
+      323.7908547289574
+    ],
+    [
+      0.0,
+      602.628349027675,
+      228.20541936589913
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "D": [
+    0.10160045479349644,
+    -0.20334671736349624,
+    -0.008337325716963058,
+    0.0015850817150658066,
+    -0.1327585815578626
+  ],
+  "training_rms_px": 0.680040846989421,
+  "holdout_rms_px": {
+    "count": 10,
+    "mean": 0.7686468201919635,
+    "median": 0.6866061138785198,
+    "p95": 1.4364962031962538,
+    "max": 1.7265219572451038
+  },
+  "views": [
+    {
+      "sample_id": "0001",
+      "split": "train",
+      "corners": 51,
+      "reprojection_rms_px": 0.26716285615789737
+    },
+    {
+      "sample_id": "0002",
+      "split": "train",
+      "corners": 50,
+      "reprojection_rms_px": 0.3753311256751855
+    },
+    {
+      "sample_id": "0003",
+      "split": "train",
+      "corners": 32,
+      "reprojection_rms_px": 0.5329675273581845
+    },
+    {
+      "sample_id": "0004",
+      "split": "train",
+      "corners": 32,
+      "reprojection_rms_px": 0.40137622950300816
+    },
+    {
+      "sample_id": "0006",
+      "split": "train",
+      "corners": 14,
+      "reprojection_rms_px": 0.4807845257919953
+    },
+    {
+      "sample_id": "0007",
+      "split": "train",
+      "corners": 49,
+      "reprojection_rms_px": 0.522689645606701
+    },
+    {
+      "sample_id": "0008",
+      "split": "train",
+      "corners": 23,
+      "reprojection_rms_px": 0.2038532564761458
+    },
+    {
+      "sample_id": "0009",
+      "split": "train",
+      "corners": 38,
+      "reprojection_rms_px": 0.5945058329239937
+    },
+    {
+      "sample_id": "0011",
+      "split": "train",
+      "corners": 50,
+      "reprojection_rms_px": 0.4356388917187702
+    },
+    {
+      "sample_id": "0012",
+      "split": "train",
+      "corners": 19,
+      "reprojection_rms_px": 0.42572113173432513
+    },
+    {
+      "sample_id": "0013",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.28717973768017296
+    },
+    {
+      "sample_id": "0014",
+      "split": "train",
+      "corners": 36,
+      "reprojection_rms_px": 0.4498803768229693
+    },
+    {
+      "sample_id": "0016",
+      "split": "train",
+      "corners": 38,
+      "reprojection_rms_px": 0.28865087582602794
+    },
+    {
+      "sample_id": "0017",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.5904392870401522
+    },
+    {
+      "sample_id": "0018",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.7727869791160613
+    },
+    {
+      "sample_id": "0019",
+      "split": "train",
+      "corners": 45,
+      "reprojection_rms_px": 0.4955426343071133
+    },
+    {
+      "sample_id": "0021",
+      "split": "train",
+      "corners": 25,
+      "reprojection_rms_px": 0.8106262124864496
+    },
+    {
+      "sample_id": "0022",
+      "split": "train",
+      "corners": 47,
+      "reprojection_rms_px": 0.5212623226983396
+    },
+    {
+      "sample_id": "0023",
+      "split": "train",
+      "corners": 31,
+      "reprojection_rms_px": 0.45814065101566126
+    },
+    {
+      "sample_id": "0024",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 1.0685534576865054
+    },
+    {
+      "sample_id": "0026",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.6908298166859559
+    },
+    {
+      "sample_id": "0027",
+      "split": "train",
+      "corners": 44,
+      "reprojection_rms_px": 0.8309804784164216
+    },
+    {
+      "sample_id": "0028",
+      "split": "train",
+      "corners": 51,
+      "reprojection_rms_px": 1.36660028000217
+    },
+    {
+      "sample_id": "0029",
+      "split": "train",
+      "corners": 47,
+      "reprojection_rms_px": 1.0917449588178534
+    },
+    {
+      "sample_id": "0031",
+      "split": "train",
+      "corners": 43,
+      "reprojection_rms_px": 0.8926721071558394
+    },
+    {
+      "sample_id": "0032",
+      "split": "train",
+      "corners": 25,
+      "reprojection_rms_px": 0.5542359156200434
+    },
+    {
+      "sample_id": "0033",
+      "split": "train",
+      "corners": 29,
+      "reprojection_rms_px": 0.3469352436567822
+    },
+    {
+      "sample_id": "0034",
+      "split": "train",
+      "corners": 34,
+      "reprojection_rms_px": 0.6915727880690095
+    },
+    {
+      "sample_id": "0036",
+      "split": "train",
+      "corners": 50,
+      "reprojection_rms_px": 0.6773553861696221
+    },
+    {
+      "sample_id": "0037",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.7924028980821817
+    },
+    {
+      "sample_id": "0038",
+      "split": "train",
+      "corners": 37,
+      "reprojection_rms_px": 1.2840982476186784
+    },
+    {
+      "sample_id": "0039",
+      "split": "train",
+      "corners": 24,
+      "reprojection_rms_px": 0.5062095440473274
+    },
+    {
+      "sample_id": "0041",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.5423282312559019
+    },
+    {
+      "sample_id": "0042",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.5353148526648378
+    },
+    {
+      "sample_id": "0043",
+      "split": "train",
+      "corners": 54,
+      "reprojection_rms_px": 0.8016342224636792
+    },
+    {
+      "sample_id": "0044",
+      "split": "train",
+      "corners": 51,
+      "reprojection_rms_px": 0.5645373831097117
+    },
+    {
+      "sample_id": "0046",
+      "split": "train",
+      "corners": 53,
+      "reprojection_rms_px": 0.6035331918354381
+    },
+    {
+      "sample_id": "0047",
+      "split": "train",
+      "corners": 48,
+      "reprojection_rms_px": 0.629238959689287
+    },
+    {
+      "sample_id": "0048",
+      "split": "train",
+      "corners": 17,
+      "reprojection_rms_px": 0.48986409391172925
+    },
+    {
+      "sample_id": "0049",
+      "split": "train",
+      "corners": 51,
+      "reprojection_rms_px": 0.47208943555632127
+    },
+    {
+      "sample_id": "0000",
+      "split": "holdout",
+      "corners": 53,
+      "reprojection_rms_px": 0.24738206593388898
+    },
+    {
+      "sample_id": "0005",
+      "split": "holdout",
+      "corners": 53,
+      "reprojection_rms_px": 0.7439329646152735
+    },
+    {
+      "sample_id": "0010",
+      "split": "holdout",
+      "corners": 53,
+      "reprojection_rms_px": 0.5025447997401173
+    },
+    {
+      "sample_id": "0015",
+      "split": "holdout",
+      "corners": 49,
+      "reprojection_rms_px": 1.082020281580994
+    },
+    {
+      "sample_id": "0020",
+      "split": "holdout",
+      "corners": 48,
+      "reprojection_rms_px": 0.48208888120979376
+    },
+    {
+      "sample_id": "0025",
+      "split": "holdout",
+      "corners": 15,
+      "reprojection_rms_px": 1.7265219572451038
+    },
+    {
+      "sample_id": "0030",
+      "split": "holdout",
+      "corners": 53,
+      "reprojection_rms_px": 0.7553137220734677
+    },
+    {
+      "sample_id": "0035",
+      "split": "holdout",
+      "corners": 44,
+      "reprojection_rms_px": 1.0815053126820187
+    },
+    {
+      "sample_id": "0040",
+      "split": "holdout",
+      "corners": 28,
+      "reprojection_rms_px": 0.629279263141766
+    },
+    {
+      "sample_id": "0045",
+      "split": "holdout",
+      "corners": 53,
+      "reprojection_rms_px": 0.4358789536972115
+    }
+  ],
+  "rejected": [],
+  "corner_bounds_normalized": [
+    [
+      0.030962908267974855,
+      0.08461767832438151
+    ],
+    [
+      0.952877140045166,
+      0.9455513000488281
+    ]
+  ],
+  "warnings": [
+    "At least one holdout view exceeds 1 px RMS; inspect images and model"
+  ],
+  "note": "Holdout PnP refits board pose only. It does not refit K or D; low RMS alone does not prove metric accuracy."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "add0",
+    "closure_start": 0,
+    "closure_end": 0
+  },
+  {
+    "name": "add0.05",
+    "closure_start": 0.05,
+    "closure_end": 0.05
+  },
+  {
+    "name": "add0.1",
+    "closure_start": 0.1,
+    "closure_end": 0.1
+  },
+  {
+    "name": "add0.15",
+    "closure_start": 0.15,
+    "closure_end": 0.15
+  },
+  {
+    "name": "add0.2",
+    "closure_start": 0.2,
+    "closure_end": 0.2
+  },
+  {
+    "name": "add0.3",
+    "closure_start": 0.3,
+    "closure_end": 0.3
+  },
+  {
+    "name": "add0.4",
+    "closure_start": 0.4,
+    "closure_end": 0.4
+  }
+]

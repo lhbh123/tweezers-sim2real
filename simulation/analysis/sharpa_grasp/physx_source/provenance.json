@@ -1,0 +1,18 @@
+{
+  "upstream": "https://github.com/NVIDIA-Omniverse/PhysX",
+  "branch": "main",
+  "retrieved_utc": "2026-10-19",
+  "purpose": "Cross-check API documentation for single-anchor torsional friction behavior; source is not linked into the installed Isaac Sim binary.",
+  "sources": [
+    {
+      "file": "analysis/sharpa_grasp/physx_source/DyDynamics.cpp",
+      "url": "https://raw.githubusercontent.com/NVIDIA-Omniverse/PhysX/main/physx/source/lowleveldynamics/src/DyDynamics.cpp",
+      "sha256": "b2d988019f05f8eb006c703fc0a28809fed83e3dc6f7dd36f1987899dfa0222e"
+    },
+    {
+      "file": "analysis/sharpa_grasp/physx_source/DyTGSContactPrep.cpp",
+      "url": "https://raw.githubusercontent.com/NVIDIA-Omniverse/PhysX/main/physx/source/lowleveldynamics/src/DyTGSContactPrep.cpp",
+      "sha256": "b9190781c0da1509c1e6883aed1d9bfbed03336e20fa02eb5a92d2b6f5fba3ee"
+    }
+  ]
+}

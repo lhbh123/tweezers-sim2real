@@ -1,0 +1,130 @@
+[
+  {
+    "name": "c0.5_ix0.005_mid-0.04",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.005,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.5_ix0.005_mid0",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.005,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.5_ix0.015_mid-0.04",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.015,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.5_ix0.015_mid0",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.015,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.5_ix0.03_mid-0.04",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.03,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.5_ix0.03_mid0",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.03,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.5_ix0.05_mid-0.04",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.05,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.5_ix0.05_mid0",
+    "closure": 0.5,
+    "target_delta": {
+      "right_hand_index_joint1": 0.05,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.8_ix0.005_mid-0.04",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.005,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.8_ix0.005_mid0",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.005,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.8_ix0.015_mid-0.04",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.015,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.8_ix0.015_mid0",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.015,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.8_ix0.03_mid-0.04",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.03,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.8_ix0.03_mid0",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.03,
+      "right_hand_mid_joint2": 0
+    }
+  },
+  {
+    "name": "c0.8_ix0.05_mid-0.04",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.05,
+      "right_hand_mid_joint2": -0.04
+    }
+  },
+  {
+    "name": "c0.8_ix0.05_mid0",
+    "closure": 0.8,
+    "target_delta": {
+      "right_hand_index_joint1": 0.05,
+      "right_hand_mid_joint2": 0
+    }
+  }
+]

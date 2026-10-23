@@ -1,0 +1,1320 @@
+{
+  "schema_version": 3,
+  "method": "Actual three-finger plus visible web-tail support, re-settled with a constant physical arm target on the clear near-table arm branch; no fixture or external tool force",
+  "q_reference": {
+    "right_hand_thumb_bend_joint": 1.2375715970993042,
+    "right_hand_thumb_rota_joint1": 0.8310607075691223,
+    "right_hand_thumb_rota_joint2": 0.14035294950008392,
+    "right_hand_index_bend_joint": 0.11999130994081497,
+    "right_hand_index_joint1": 0.9215214252471924,
+    "right_hand_index_joint2": 1.1820497512817383,
+    "right_hand_mid_joint1": 1.314245343208313,
+    "right_hand_mid_joint2": 0.2263658344745636,
+    "right_hand_ring_joint1": 0.5365580916404724,
+    "right_hand_ring_joint2": 0.8500000238418579,
+    "right_hand_pinky_joint1": 0.4899679720401764,
+    "right_hand_pinky_joint2": 0.8500000238418579
+  },
+  "q_open": {
+    "right_hand_thumb_bend_joint": 1.2375715970993042,
+    "right_hand_thumb_rota_joint1": 0.8310607075691223,
+    "right_hand_thumb_rota_joint2": 0.14035294950008392,
+    "right_hand_index_bend_joint": 0.11999130994081497,
+    "right_hand_index_joint1": 0.9215214252471924,
+    "right_hand_index_joint2": 1.1820497512817383,
+    "right_hand_mid_joint1": 1.314245343208313,
+    "right_hand_mid_joint2": 0.2263658344745636,
+    "right_hand_ring_joint1": 0.5365580916404724,
+    "right_hand_ring_joint2": 0.8500000238418579,
+    "right_hand_pinky_joint1": 0.4899679720401764,
+    "right_hand_pinky_joint2": 0.8500000238418579
+  },
+  "q_closed": {
+    "right_hand_thumb_bend_joint": 1.2392943336032498,
+    "right_hand_thumb_rota_joint1": 0.8545931624108797,
+    "right_hand_thumb_rota_joint2": 0.15006961317014594,
+    "right_hand_index_bend_joint": 0.12002220407365677,
+    "right_hand_index_joint1": 0.9502137771242629,
+    "right_hand_index_joint2": 1.188745979301211,
+    "right_hand_mid_joint1": 1.314245343208313,
+    "right_hand_mid_joint2": 0.2263658344745636,
+    "right_hand_ring_joint1": 0.5365580916404724,
+    "right_hand_ring_joint2": 0.8500000238418579,
+    "right_hand_pinky_joint1": 0.4899679720401764,
+    "right_hand_pinky_joint2": 0.8500000238418579
+  },
+  "closure_delta": {
+    "right_hand_thumb_bend_joint": 0.00172273650394561,
+    "right_hand_thumb_rota_joint1": 0.023532454841757366,
+    "right_hand_thumb_rota_joint2": 0.00971666367006202,
+    "right_hand_index_bend_joint": 3.089413284179665e-05,
+    "right_hand_index_joint1": 0.028692351877070532,
+    "right_hand_index_joint2": 0.006696228019472672,
+    "right_hand_mid_joint1": 0.0,
+    "right_hand_mid_joint2": 0.0,
+    "right_hand_ring_joint1": 0.0,
+    "right_hand_ring_joint2": 0.0,
+    "right_hand_pinky_joint1": 0.0,
+    "right_hand_pinky_joint2": 0.0
+  },
+  "T_hand_tool": [
+    [
+      -0.6904557254994281,
+      0.5984273761748051,
+      -0.4063933643277118,
+      0.04904328260052215
+    ],
+    [
+      0.07536525177404436,
+      0.6182549120184008,
+      0.7823560203578385,
+      0.03457163556653653
+    ],
+    [
+      0.7194379542045951,
+      0.5095542554131578,
+      -0.47197827369514495,
+      -0.07708627719567951
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tool_pinch_z": 0.08671691228920059,
+  "soft_bounds": {
+    "right_hand_thumb_bend_joint": [
+      0.2,
+      1.4
+    ],
+    "right_hand_thumb_rota_joint1": [
+      -0.65,
+      1.42
+    ],
+    "right_hand_thumb_rota_joint2": [
+      0.05,
+      1.55
+    ],
+    "right_hand_index_bend_joint": [
+      -0.14,
+      0.14
+    ],
+    "right_hand_index_joint1": [
+      0.1,
+      1.45
+    ],
+    "right_hand_index_joint2": [
+      0.1,
+      1.6
+    ],
+    "right_hand_mid_joint1": [
+      0.1,
+      1.35
+    ],
+    "right_hand_mid_joint2": [
+      0.1,
+      1.55
+    ],
+    "right_hand_ring_joint1": [
+      0.1,
+      1.25
+    ],
+    "right_hand_ring_joint2": [
+      0.1,
+      1.25
+    ],
+    "right_hand_pinky_joint1": [
+      0.1,
+      1.25
+    ],
+    "right_hand_pinky_joint2": [
+      0.1,
+      1.25
+    ]
+  },
+  "human_joint_prior": {
+    "right_hand_thumb_bend_joint": 0.2767802762984184,
+    "right_hand_thumb_rota_joint1": 0.8128828756471819,
+    "right_hand_thumb_rota_joint2": 0.3878348904072624,
+    "right_hand_index_bend_joint": 0.0,
+    "right_hand_index_joint1": 0.600041293497234,
+    "right_hand_index_joint2": 1.6,
+    "right_hand_mid_joint1": 0.5480382938941759,
+    "right_hand_mid_joint2": 1.55,
+    "right_hand_ring_joint1": 0.5942634878096659,
+    "right_hand_ring_joint2": 1.25,
+    "right_hand_pinky_joint1": 0.5166132965305215,
+    "right_hand_pinky_joint2": 1.25
+  },
+  "human_evidence": {
+    "landmarks_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/references/human/landmarks.json",
+    "landmarks_sha256": "465d00c6ad00b2ecc5f32a152dd62e038bff02e6414d28fd34050ad483f00f7a",
+    "source_url": "https://www.med.upenn.edu/microsurgery/videos",
+    "video_sha256": "65e58a0d4681cda096d963638fb101fee493bf6cf502f90f9a2d772e5229d15e",
+    "selected_time_range_s": [
+      222.01345833333332,
+      222.01345833333332
+    ],
+    "selected_frame_count": 1,
+    "selected_frame_indices": [
+      5323
+    ],
+    "estimator_methods": [
+      "MediaPipe HandLandmarker IMAGE mode, CPU, monocular learned 3D estimate"
+    ],
+    "confidence_note": "A MediaPipe handedness score is not landmark-location accuracy. Occluded points remain model estimates.",
+    "frame_diagnostics": [
+      {
+        "time_s": 222.01345833333332,
+        "handedness": "Right",
+        "frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s.jpg",
+        "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s_hand0_landmarks.jpg",
+        "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+        "hand_role": "tweezer_hand",
+        "confidence": 0.9537556171417236,
+        "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+        "landmark_field": "pixel_xy_joint_angle_proxies",
+        "world_3d_used_for_strong_supervision": false,
+        "canonicalization": {
+          "world_to_palm_basis_columns": [
+            [
+              -0.7184046835151099,
+              0.6852912942953946,
+              -0.11945941849221345
+            ],
+            [
+              -0.2317341822579717,
+              -0.3976877570248363,
+              -0.8877745866411045
+            ],
+            [
+              -0.655891743717501,
+              -0.6100985902913543,
+              0.44450616491531164
+            ]
+          ],
+          "wrist_middle_mcp_length_input_units": 0.11255276768416793,
+          "reflection_to_positive_flexion": false
+        },
+        "measured_finger_angles": {
+          "thumb": {
+            "mcp_flexion_rad": 0.0571211051936738,
+            "pip_flexion_rad": 0.2515315025887275,
+            "dip_flexion_rad": 0.05133956162904948,
+            "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+          },
+          "index": {
+            "mcp_flexion_rad": 0.600041293497234,
+            "pip_flexion_rad": 1.3278201922652788,
+            "dip_flexion_rad": 0.5597593258026866
+          },
+          "mid": {
+            "mcp_flexion_rad": 0.5480382938941759,
+            "pip_flexion_rad": 1.3618340401566331,
+            "dip_flexion_rad": 0.548229561385119
+          },
+          "ring": {
+            "mcp_flexion_rad": 0.5942634878096659,
+            "pip_flexion_rad": 1.3212044829534775,
+            "dip_flexion_rad": 0.5185813584920852
+          },
+          "pinky": {
+            "mcp_flexion_rad": 0.5166132965305215,
+            "pip_flexion_rad": 1.300151381924918,
+            "dip_flexion_rad": 0.6132782424089156
+          }
+        },
+        "raw_robot_joint_prior": {
+          "right_hand_thumb_bend_joint": 0.2767802762984184,
+          "right_hand_thumb_rota_joint1": 0.8128828756471819,
+          "right_hand_thumb_rota_joint2": 0.3878348904072624,
+          "right_hand_index_bend_joint": 0.0,
+          "right_hand_index_joint1": 0.600041293497234,
+          "right_hand_index_joint2": 1.6076998551666222,
+          "right_hand_mid_joint1": 0.5480382938941759,
+          "right_hand_mid_joint2": 1.6359488208491926,
+          "right_hand_ring_joint1": 0.5942634878096659,
+          "right_hand_ring_joint2": 1.58049516219952,
+          "right_hand_pinky_joint1": 0.5166132965305215,
+          "right_hand_pinky_joint2": 1.6067905031293757
+        },
+        "canonical_landmarks": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.20317896058884005,
+            0.2513569681935953,
+            -0.3927244658869096
+          ],
+          [
+            0.20107146627071068,
+            0.3203047482980947,
+            -0.6050081898082441
+          ],
+          [
+            0.20768914067945,
+            0.5569050812561698,
+            -0.9683182654175005
+          ],
+          [
+            -0.03832153045109247,
+            0.5867093241442797,
+            -1.1067959510068417
+          ],
+          [
+            0.1414596352459991,
+            0.09081533014056589,
+            -1.0844835000897926
+          ],
+          [
+            0.020771095731996474,
+            0.13025018544509284,
+            -1.3531986645781964
+          ],
+          [
+            -0.01554843288441706,
+            0.15380330577719206,
+            -1.459700038816748
+          ],
+          [
+            -0.034560798840174135,
+            0.41796469519166046,
+            -1.2696200983346564
+          ],
+          [
+            -3.28859191397177e-17,
+            -4.49904635034125e-18,
+            -1.0
+          ],
+          [
+            -0.1361404786517944,
+            0.037801813502000826,
+            -1.2708884151428672
+          ],
+          [
+            -0.1913354146348006,
+            0.25252877121285056,
+            -1.1934645833852198
+          ],
+          [
+            -0.30424805008781464,
+            0.38114772343368564,
+            -1.1223656681501855
+          ],
+          [
+            -0.25358972608145897,
+            -0.04925630378582075,
+            -0.924351712343166
+          ],
+          [
+            -0.24912384173777494,
+            0.13032747729038957,
+            -1.0085398616035577
+          ],
+          [
+            -0.3518889380643956,
+            0.2708491370943376,
+            -0.8908530338645214
+          ],
+          [
+            -0.40627633569183735,
+            0.29647730865364724,
+            -0.8843653475090231
+          ],
+          [
+            -0.42591479582778224,
+            0.09081533014056589,
+            -0.6447055271953132
+          ],
+          [
+            -0.3273366028598384,
+            0.15147578162337672,
+            -0.7881100610202778
+          ],
+          [
+            -0.33216010009432256,
+            0.3203332715413036,
+            -0.8427565913752234
+          ],
+          [
+            -0.27946029315114396,
+            0.3232229159581983,
+            -0.7733166118779744
+          ]
+        ]
+      }
+    ]
+  },
+  "tool_geometry": {
+    "length_m": 0.16,
+    "hinge_offset_m": 0.0045,
+    "open_angle_rad": 0.05,
+    "strip_thickness_m": 0.001,
+    "strip_width_m": 0.012,
+    "handle_length_m": 0.006,
+    "handle_extension": {
+      "start_m": [
+        0.0,
+        0.0,
+        -0.003
+      ],
+      "end_m": [
+        0.004,
+        -0.007159069180488584,
+        -0.022
+      ],
+      "width_x_m": 0.012,
+      "width_y_m": 0.012
+    },
+    "handle_mass_kg": 0.005,
+    "jaw_mass_kg": 0.006
+  },
+  "grasp_topology": {
+    "type": "thumb_index_opposition_middle_lower_edge_support",
+    "web_edge_axis_local": [
+      1.0,
+      0,
+      0
+    ],
+    "web_anchor_local": [
+      0.04270149,
+      0.015,
+      -0.065
+    ],
+    "web_anchor_definition": "Source palm STL +X ray at y=.015,z=-.065, between thumb base z=-.0305 and index MCP z=-.0899; radial proxy for the first web, not deformable human tissue",
+    "palm_outward_axis_local": [
+      0,
+      1,
+      0
+    ],
+    "web_surface_normal_local": [
+      0.98812553,
+      0.15300295,
+      0.01407275
+    ],
+    "tool_tail_point_hand": [
+      0.04230090669722955,
+      0.01736037310087288,
+      -0.06929865861081559
+    ],
+    "tail_to_web_vector_hand": [
+      -0.00040058330277045057,
+      0.002360373100872882,
+      -0.004298658610815589
+    ],
+    "tail_web_contact_claimed": true,
+    "tail_web_source_surface_gap_m": 0.0,
+    "tail_actual_nearest_palm_point_hand": [
+      0.042300974721608056,
+      0.017360394023154917,
+      -0.06929861574920422
+    ],
+    "tail_to_palm_gap_vector_hand": [
+      -6.802437850506049e-08,
+      -2.0922282035346074e-08,
+      -4.286161137123656e-08
+    ],
+    "tail_to_palm_gap_vector_world": [
+      -2.2082558420876257e-08,
+      1.591648684739386e-08,
+      -7.849332293851841e-08
+    ],
+    "tail_web_contact_scope": "Constant-target settled seed only; separately verify Task-zero and task movement",
+    "tail_corner_source_palm_depth_m": 0.0004958519004013974
+  },
+  "web_contact_region": {
+    "frame": "right_hand_link",
+    "center_m": [
+      0.04270149,
+      0.015,
+      -0.065
+    ],
+    "radius_m": 0.02
+  },
+  "web_up_axis_hand": [
+    1,
+    0,
+    0
+  ],
+  "preferred_tool_world_R": [
+    [
+      0.035092645469675846,
+      0.6248567340848349,
+      0.7799503625890389
+    ],
+    [
+      0.9993570675990419,
+      -0.027677056412174425,
+      -0.02279105061643677
+    ],
+    [
+      0.0073455887295239,
+      0.7802487054889555,
+      -0.6254262545728516
+    ]
+  ],
+  "preferred_hand_world_R": [
+    [
+      0.032734806014908246,
+      0.9991643729687778,
+      -0.024474236761850676
+    ],
+    [
+      -0.6973123856544803,
+      0.04037460527468567,
+      0.7156293230868691
+    ],
+    [
+      0.7160194615288215,
+      -0.006359798646350112,
+      0.6980513474474168
+    ]
+  ],
+  "preferred_orientation": {
+    "tool_pitch_deg": 38.71348024834819,
+    "palm_normal_w": [
+      0.9991643729687778,
+      0.04037460527468567,
+      -0.006359798646350112
+    ],
+    "web_edge_axis_world": [
+      0.032734806014908246,
+      -0.6973123856544803,
+      0.7160194615288215
+    ]
+  },
+  "geometry_validation": {
+    "source_snapshot": "runs/tripod_horizontal_hold12/closure0_copy0_snapshot.json",
+    "source_geometry_audit": "runs/tripod_horizontal_hold12/neartable_reference_source_geometry.json",
+    "tail_corner_overlap_depth_m": 0.0004958519004013974,
+    "self_collision": {
+      "checked_nonadjacent_pairs": 66,
+      "all_source_surfaces_disjoint": true,
+      "hull_overlap_candidates": [
+        {
+          "links": [
+            "right_hand_link",
+            "right_hand_index_rota_link1"
+          ],
+          "separated": false,
+          "method": "hull halfspaces",
+          "solver_success": true,
+          "hull_intersection_ball_radius_m": 0.005556210412958423,
+          "triangle_pair_tests": 0,
+          "triangle_surface_intersection_pairs": 0
+        }
+      ]
+    },
+    "actual_tool_hand_intersections": [
+      {
+        "link": "right_hand_link",
+        "body": "handle",
+        "part": "extension",
+        "source_triangle_intersections": 5
+      }
+    ],
+    "hard_limit_min_margin_rad": 0.05596352666616439,
+    "cold_reset_verified": false,
+    "interpretation": "Actual source geometry audited after re-settling; localized tail overlap is quantified, not hidden."
+  },
+  "source_fit": {
+    "seed": 57,
+    "width": 0.012,
+    "mid_arm_sign": -1,
+    "loss": 0.3656063183912023,
+    "q": {
+      "right_hand_thumb_bend_joint": 1.236279574504077,
+      "right_hand_thumb_rota_joint1": 0.8134113296493334,
+      "right_hand_thumb_rota_joint2": 0.13306545767545314,
+      "right_hand_index_bend_joint": 0.11996814079155292,
+      "right_hand_index_joint1": 0.8950022006239151,
+      "right_hand_index_joint2": 1.1770275410397872,
+      "right_hand_mid_joint1": 1.3019242788049215,
+      "right_hand_mid_joint2": 0.10000000000000002,
+      "right_hand_ring_joint1": 0.5365580926857996,
+      "right_hand_ring_joint2": 0.85,
+      "right_hand_pinky_joint1": 0.4899679779183129,
+      "right_hand_pinky_joint2": 0.85
+    },
+    "T": [
+      [
+        0.07071132193727109,
+        0.9376054785799461,
+        -0.34043483295155685,
+        0.05154085853334015
+      ],
+      [
+        0.47763675343240153,
+        0.26779321996173505,
+        0.8367496179342311,
+        0.01905567031973367
+      ],
+      [
+        0.8757071660780443,
+        -0.22177185998091953,
+        -0.4288988242000259,
+        -0.07540769536623765
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "contact_patches": [
+      {
+        "link": "right_hand_thumb_rota_link2",
+        "point": [
+          0.044,
+          2.168404344971009e-19,
+          -0.006651469692177602
+        ],
+        "normal": [
+          0.4191697999397375,
+          0.037843193359447844,
+          -0.907118829886603
+        ]
+      },
+      {
+        "link": "right_hand_index_rota_link2",
+        "point": [
+          0.0,
+          0.005,
+          -0.04051517100807719
+        ],
+        "normal": [
+          -0.0379108403040029,
+          0.6256357412020529,
+          -0.7791936136275774
+        ]
+      },
+      {
+        "link": "right_hand_mid_link2",
+        "point": [
+          0.007192251948915182,
+          2.710505431213761e-20,
+          -0.036
+        ],
+        "normal": [
+          0.9720117202118865,
+          0.07421567877909273,
+          -0.22290188154003482
+        ]
+      }
+    ],
+    "contact_hand": [
+      [
+        0.021024766229347427,
+        0.10029786679176728,
+        -0.10631583989080926
+      ],
+      [
+        0.023056569669168477,
+        0.08317010045955495,
+        -0.11845738313436899
+      ],
+      [
+        0.011192251948915183,
+        0.09658487222959022,
+        -0.12528462846536034
+      ]
+    ],
+    "normal_hand": [
+      [
+        -0.3940619312903749,
+        -0.4047528547129023,
+        -0.8251607848834404
+      ],
+      [
+        0.07292449421442736,
+        0.3815490419755158,
+        0.9214674962857541
+      ],
+      [
+        0.9720117202118865,
+        0.23049004203319348,
+        0.04547038920292959
+      ]
+    ],
+    "target_hand": [
+      [
+        0.02102610981353858,
+        0.10029772492396061,
+        -0.10631659507512349
+      ],
+      [
+        0.023047378713149724,
+        0.08316860093039995,
+        -0.11845479184919736
+      ],
+      [
+        0.011200132105141494,
+        0.0965873185879709,
+        -0.1252843405422019
+      ]
+    ],
+    "target_inward_normal_hand": [
+      [
+        -0.07071132193727109,
+        -0.47763675343240153,
+        -0.8757071660780443
+      ],
+      [
+        0.07071132193727109,
+        0.47763675343240153,
+        0.8757071660780443
+      ],
+      [
+        0.9376054785799461,
+        0.26779321996173505,
+        -0.22177185998091953
+      ]
+    ],
+    "contact_z": [
+      0.0916243322757208,
+      0.08180949230268038,
+      0.09999999999999984
+    ],
+    "contact_error_m": [
+      1.547788196672031e-06,
+      9.666282587741139e-06,
+      8.25617533867532e-06
+    ],
+    "normal_error_deg": [
+      19.302125119867377,
+      6.102060009617798,
+      15.633933057935629
+    ],
+    "root_web_distance_m": 0.014244403134107696,
+    "web_up_tool_y_cosine": 0.9376054785799461,
+    "q_vector": [
+      1.2369271767895482,
+      0.8219188867998475,
+      0.13653065628337335,
+      0.11999999999999998,
+      0.8960290834555167,
+      1.1772717968504698,
+      1.3441647500593739,
+      0.10000000000000002
+    ],
+    "optimizer_x": [
+      1.2369271767895482,
+      0.8219188867998475,
+      0.13653065628337335,
+      0.11999999999999998,
+      0.8960290834555167,
+      1.1772717968504698,
+      1.3441647500593739,
+      0.10000000000000002,
+      -1.3557613553334842,
+      -1.5576427680331963,
+      -0.5891310051122434,
+      0.05154085853334015,
+      0.01905567031973367,
+      -0.07540769536623765,
+      0.0916243322757208,
+      0.08180949230268038,
+      0.09999999999999984
+    ],
+    "human_prior": {
+      "right_hand_thumb_bend_joint": 0.2767802762984184,
+      "right_hand_thumb_rota_joint1": 0.8128828756471819,
+      "right_hand_thumb_rota_joint2": 0.3878348904072624,
+      "right_hand_index_bend_joint": 0.0,
+      "right_hand_index_joint1": 0.600041293497234,
+      "right_hand_index_joint2": 1.6,
+      "right_hand_mid_joint1": 0.5480382938941759,
+      "right_hand_mid_joint2": 1.55,
+      "right_hand_ring_joint1": 0.5942634878096659,
+      "right_hand_ring_joint2": 1.25,
+      "right_hand_pinky_joint1": 0.5166132965305215,
+      "right_hand_pinky_joint2": 1.25
+    },
+    "human_evidence": {
+      "landmarks_path": "/cpfs/user/lvzhaoyang/work/ai_rl/\u954a\u5b50\u4f7f\u7528/references/human/landmarks.json",
+      "landmarks_sha256": "465d00c6ad00b2ecc5f32a152dd62e038bff02e6414d28fd34050ad483f00f7a",
+      "source_url": "https://www.med.upenn.edu/microsurgery/videos",
+      "video_sha256": "65e58a0d4681cda096d963638fb101fee493bf6cf502f90f9a2d772e5229d15e",
+      "selected_time_range_s": [
+        222.01345833333332,
+        222.01345833333332
+      ],
+      "selected_frame_count": 1,
+      "selected_frame_indices": [
+        5323
+      ],
+      "estimator_methods": [
+        "MediaPipe HandLandmarker IMAGE mode, CPU, monocular learned 3D estimate"
+      ],
+      "confidence_note": "A MediaPipe handedness score is not landmark-location accuracy. Occluded points remain model estimates.",
+      "frame_diagnostics": [
+        {
+          "time_s": 222.01345833333332,
+          "handedness": "Right",
+          "frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s.jpg",
+          "annotated_frame_path": "references/human/keyframes/KXDHa39Z-2s_222.013s_hand0_landmarks.jpg",
+          "visual_review": "Original/landmark overlay inspected in contact sheet; 220s inspected full-size; teaching context checked against source captions and on-screen correction.",
+          "hand_role": "tweezer_hand",
+          "confidence": 0.9537556171417236,
+          "occlusion_notes": "Instrument and thumb obscure middle-finger support and several proximal joints; ring/little distal segments partly visible but their depth is ambiguous. Model inferred all 3D depths.",
+          "landmark_field": "pixel_xy_joint_angle_proxies",
+          "world_3d_used_for_strong_supervision": false,
+          "canonicalization": {
+            "world_to_palm_basis_columns": [
+              [
+                -0.7184046835151099,
+                0.6852912942953946,
+                -0.11945941849221345
+              ],
+              [
+                -0.2317341822579717,
+                -0.3976877570248363,
+                -0.8877745866411045
+              ],
+              [
+                -0.655891743717501,
+                -0.6100985902913543,
+                0.44450616491531164
+              ]
+            ],
+            "wrist_middle_mcp_length_input_units": 0.11255276768416793,
+            "reflection_to_positive_flexion": false
+          },
+          "measured_finger_angles": {
+            "thumb": {
+              "mcp_flexion_rad": 0.0571211051936738,
+              "pip_flexion_rad": 0.2515315025887275,
+              "dip_flexion_rad": 0.05133956162904948,
+              "occluded_depth_regularization": "0.25 pixel-angle proxy + 0.75 geometric robot prior (.35,1,.5); not a measured 3-D thumb posture"
+            },
+            "index": {
+              "mcp_flexion_rad": 0.600041293497234,
+              "pip_flexion_rad": 1.3278201922652788,
+              "dip_flexion_rad": 0.5597593258026866
+            },
+            "mid": {
+              "mcp_flexion_rad": 0.5480382938941759,
+              "pip_flexion_rad": 1.3618340401566331,
+              "dip_flexion_rad": 0.548229561385119
+            },
+            "ring": {
+              "mcp_flexion_rad": 0.5942634878096659,
+              "pip_flexion_rad": 1.3212044829534775,
+              "dip_flexion_rad": 0.5185813584920852
+            },
+            "pinky": {
+              "mcp_flexion_rad": 0.5166132965305215,
+              "pip_flexion_rad": 1.300151381924918,
+              "dip_flexion_rad": 0.6132782424089156
+            }
+          },
+          "raw_robot_joint_prior": {
+            "right_hand_thumb_bend_joint": 0.2767802762984184,
+            "right_hand_thumb_rota_joint1": 0.8128828756471819,
+            "right_hand_thumb_rota_joint2": 0.3878348904072624,
+            "right_hand_index_bend_joint": 0.0,
+            "right_hand_index_joint1": 0.600041293497234,
+            "right_hand_index_joint2": 1.6076998551666222,
+            "right_hand_mid_joint1": 0.5480382938941759,
+            "right_hand_mid_joint2": 1.6359488208491926,
+            "right_hand_ring_joint1": 0.5942634878096659,
+            "right_hand_ring_joint2": 1.58049516219952,
+            "right_hand_pinky_joint1": 0.5166132965305215,
+            "right_hand_pinky_joint2": 1.6067905031293757
+          },
+          "canonical_landmarks": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.20317896058884005,
+              0.2513569681935953,
+              -0.3927244658869096
+            ],
+            [
+              0.20107146627071068,
+              0.3203047482980947,
+              -0.6050081898082441
+            ],
+            [
+              0.20768914067945,
+              0.5569050812561698,
+              -0.9683182654175005
+            ],
+            [
+              -0.03832153045109247,
+              0.5867093241442797,
+              -1.1067959510068417
+            ],
+            [
+              0.1414596352459991,
+              0.09081533014056589,
+              -1.0844835000897926
+            ],
+            [
+              0.020771095731996474,
+              0.13025018544509284,
+              -1.3531986645781964
+            ],
+            [
+              -0.01554843288441706,
+              0.15380330577719206,
+              -1.459700038816748
+            ],
+            [
+              -0.034560798840174135,
+              0.41796469519166046,
+              -1.2696200983346564
+            ],
+            [
+              -3.28859191397177e-17,
+              -4.49904635034125e-18,
+              -1.0
+            ],
+            [
+              -0.1361404786517944,
+              0.037801813502000826,
+              -1.2708884151428672
+            ],
+            [
+              -0.1913354146348006,
+              0.25252877121285056,
+              -1.1934645833852198
+            ],
+            [
+              -0.30424805008781464,
+              0.38114772343368564,
+              -1.1223656681501855
+            ],
+            [
+              -0.25358972608145897,
+              -0.04925630378582075,
+              -0.924351712343166
+            ],
+            [
+              -0.24912384173777494,
+              0.13032747729038957,
+              -1.0085398616035577
+            ],
+            [
+              -0.3518889380643956,
+              0.2708491370943376,
+              -0.8908530338645214
+            ],
+            [
+              -0.40627633569183735,
+              0.29647730865364724,
+              -0.8843653475090231
+            ],
+            [
+              -0.42591479582778224,
+              0.09081533014056589,
+              -0.6447055271953132
+            ],
+            [
+              -0.3273366028598384,
+              0.15147578162337672,
+              -0.7881100610202778
+            ],
+            [
+              -0.33216010009432256,
+              0.3203332715413036,
+              -0.8427565913752234
+            ],
+            [
+              -0.27946029315114396,
+              0.3232229159581983,
+              -0.7733166118779744
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Single-view reference does not uniquely determine3D posture.",
+    "Visible bent tail is an engineered tool adaptation.",
+    "Actual source tail corner overlap is 0.495852mm; not a zero-penetration certificate.",
+    "Positive held-state support does not prove cold-reset preservation or successful cube lifting."
+  ],
+  "seed_contact_targets_before_free_settling": {
+    "thumb": {
+      "link": "right_hand_thumb_rota_link2",
+      "arm_sign": 1,
+      "point_body": [
+        0.0005149922537705248,
+        0.004592320102025211,
+        0.08945233460937885
+      ],
+      "point_hand": [
+        0.02611147687964509,
+        0.09955002362943005,
+        -0.10642698517370375
+      ],
+      "point_link": [
+        0.043440729379654035,
+        -0.004886744078248698,
+        -0.006346413400024152
+      ],
+      "gap_m": 1.4992253770524798e-05,
+      "role": "squeeze right blade outer side"
+    },
+    "index": {
+      "link": "right_hand_index_rota_link2",
+      "arm_sign": -1,
+      "point_body": [
+        -0.0005149989073294281,
+        -0.000499382433217076,
+        0.08354018828341862
+      ],
+      "point_hand": [
+        0.022027139396417796,
+        0.08432596045087806,
+        -0.11911883690425484
+      ],
+      "point_link": [
+        -0.0009437844273634538,
+        0.003834141418337747,
+        -0.041200615465641084
+      ],
+      "gap_m": 1.499890732942807e-05,
+      "role": "squeeze left blade outer side"
+    },
+    "middle": {
+      "link": "right_hand_mid_link2",
+      "arm_sign": -1,
+      "point_body": [
+        -0.0005,
+        -0.006014847353144474,
+        0.1034720647384894
+      ],
+      "point_hand": [
+        0.01000914731188568,
+        0.09903807401017944,
+        -0.12729330068756933
+      ],
+      "point_link": [
+        0.00600914731188568,
+        0.002301931682141833,
+        -0.03890950619554009
+      ],
+      "gap_m": 1.4847353144473857e-05,
+      "role": "support blade lower edge from radial middle surface"
+    }
+  },
+  "contact_targets": {
+    "thumb": {
+      "link": "right_hand_thumb_rota_link2",
+      "body": "right",
+      "part": "blade",
+      "point_hand": [
+        0.019446147599318814,
+        0.09274807898554518,
+        -0.1002272801300693
+      ],
+      "point_link": [
+        0.03463495673497351,
+        0.0007608769759874103,
+        -0.009284447005451849
+      ],
+      "tool_point_body": [
+        0.0005,
+        0.006,
+        0.0685607178836171
+      ],
+      "source_surface_gap_m": 0.00048483949464939283,
+      "evidence": "Nearest actual source mesh/finite blade pair; raw PhysX force contacts are separate evidence."
+    },
+    "index": {
+      "link": "right_hand_index_rota_link2",
+      "body": "left",
+      "part": "blade",
+      "point_hand": [
+        0.021339945298718934,
+        0.08437603098049551,
+        -0.11745960043320117
+      ],
+      "point_link": [
+        -0.0018506840569898477,
+        0.00379558280110358,
+        -0.04109594970941547
+      ],
+      "tool_point_body": [
+        -0.0005,
+        -0.006,
+        0.06927053395689972
+      ],
+      "source_surface_gap_m": 0.000712221222201588,
+      "evidence": "Nearest actual source mesh/finite blade pair; raw PhysX force contacts are separate evidence."
+    },
+    "middle": {
+      "link": "right_hand_mid_link2",
+      "body": "right",
+      "part": "blade",
+      "point_hand": [
+        0.0050313092490257075,
+        0.0980913233989282,
+        -0.11599519626787952
+      ],
+      "point_link": [
+        0.0010313092490257074,
+        0.007530440966795966,
+        -0.037408992255442086
+      ],
+      "tool_point_body": [
+        -0.0005,
+        -0.006,
+        0.08598013064934754
+      ],
+      "source_surface_gap_m": 0.0010949140460825393,
+      "evidence": "Nearest actual source mesh/finite blade pair; raw PhysX force contacts are separate evidence."
+    }
+  },
+  "q_geometry_actual": {
+    "right_hand_thumb_bend_joint": 1.2391260862350464,
+    "right_hand_thumb_rota_joint1": 0.8227492570877075,
+    "right_hand_thumb_rota_joint2": 0.1372719705104828,
+    "right_hand_index_bend_joint": 0.1190364733338356,
+    "right_hand_index_joint1": 0.9145186543464661,
+    "right_hand_index_joint2": 1.1809213161468506,
+    "right_hand_mid_joint1": 1.313927412033081,
+    "right_hand_mid_joint2": 0.2262318879365921,
+    "right_hand_ring_joint1": 0.5365650653839111,
+    "right_hand_ring_joint2": 0.8499871492385864,
+    "right_hand_pinky_joint1": 0.48997196555137634,
+    "right_hand_pinky_joint2": 0.8499975800514221
+  },
+  "palm_collision": {
+    "shrink_wrap": true,
+    "max_convex_hulls": 64,
+    "voxel_resolution": 2000000,
+    "min_thickness_m": 0.0001,
+    "error_percentage": 1.0
+  },
+  "initial_state_source": {
+    "snapshot": "runs/tripod_horizontal_hold12/closure0_copy0_snapshot.json",
+    "snapshot_sha256": "eabd32358e4d06e3e2852be44b5f75f420e7d3511ea66d7a8ff990ec7eec9c4a",
+    "previous_reference": "analysis/tripod_pinch_only_v2.json",
+    "q_reference_semantics": "exact snapshot servo q_target; all old closure/independent offsets absorbed; closure0 is this target",
+    "q_geometry_semantics": "actual hand q from same near-table settled snapshot",
+    "initial_rigid_body_transforms_hand": {
+      "handle": [
+        [
+          -0.6904557254994281,
+          0.5984273761748051,
+          -0.4063933643277118,
+          0.04904328260052215
+        ],
+        [
+          0.07536525177404436,
+          0.6182549120184008,
+          0.7823560203578385,
+          0.03457163556653653
+        ],
+        [
+          0.7194379542045951,
+          0.5095542554131578,
+          -0.47197827369514495,
+          -0.07708627719567951
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "left": [
+        [
+          -0.6934194588639195,
+          0.600331867348953,
+          -0.39846091792569577,
+          0.052137713235315686
+        ],
+        [
+          0.08418623873842018,
+          0.6167225115953873,
+          0.7826659701932589,
+          0.03425065733381216
+        ],
+        [
+          0.7155991414723378,
+          0.5091708875581914,
+          -0.4781870721665913,
+          -0.08030384296397797
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "right": [
+        [
+          -0.6714069836625033,
+          0.5987955120355657,
+          -0.43664241325744374,
+          0.04593613156180587
+        ],
+        [
+          0.04090054622447416,
+          0.6182324648352371,
+          0.78493042031908,
+          0.03490922395239565
+        ],
+        [
+          0.7399593283470108,
+          0.5091488526843722,
+          -0.43957665793627937,
+          -0.07385055980652977
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "zero_velocity_reset_recommended": true,
+    "snapshot_required_for_matching_geometric_initialization": true,
+    "cold_reset_validation_status": "pending separate actual Task-zero cold reset with original feedback controller"
+  },
+  "mass_model": {
+    "handle_total_kg": 0.005,
+    "each_jaw_kg": 0.006,
+    "total_tool_kg": 0.017,
+    "note": "Visible bridge and bent tail are one Handle body with5g total mass. No new geometry or mass change from v1."
+  },
+  "arm_reset_table_clearance_m": 0.015,
+  "arm_reset_seed": [
+    0.14259186653653083,
+    -1.2513845285257557,
+    2.3736438724426567,
+    -0.6938985214961044,
+    2.804012059721977,
+    1.672087654876157
+  ],
+  "arm_reset_seed_provenance": "reports/tripod_ik_workspace.json; source-mesh-clear inverse branch, same wrist transform, no hand/tool orientation change.",
+  "verified_seed_physics": {
+    "name": "closure0_copy0",
+    "closure": 0.0,
+    "initial_closure": 0.0,
+    "reachable": true,
+    "retained": true,
+    "stable_hold": true,
+    "three_digit_support": false,
+    "four_role_support": false,
+    "first_loss_s": -1.0,
+    "min_tool_table_clearance_m": 0.11701029539108276,
+    "max_cube_contact_N": 0.0,
+    "last_1s_position_range_m": [
+      6.556510925292969e-06,
+      8.761882781982422e-06,
+      7.3909759521484375e-06
+    ],
+    "last_1s_rotation_range_deg": 0.07912936061620712,
+    "last_1s_contact_fraction_by_group": {
+      "thumb": 1.0,
+      "index": 1.0,
+      "middle": 0.6528066528066528,
+      "wrist_palm": 1.0,
+      "other": 0.0
+    },
+    "last_1s_normal_force_mean_by_group_N": {
+      "thumb": [
+        -0.5431553700981417,
+        -0.34980169923786314,
+        -0.6621366114725442
+      ],
+      "index": [
+        0.2504546495460423,
+        0.706323441249665,
+        0.6355980275326608
+      ],
+      "middle": [
+        0.013712810812327525,
+        0.027316533664644167,
+        0.020686376528326025
+      ],
+      "wrist_palm": [
+        0.0015396714853577842,
+        -0.01403506505041695,
+        0.014429471076983114
+      ],
+      "other": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "last_1s_friction_force_mean_by_group_N": {
+      "thumb": [
+        -0.11316196670806086,
+        -0.38570082708108944,
+        0.2965904124499359
+      ],
+      "index": [
+        0.3596407327483449,
+        0.03851268600029658,
+        -0.18451301137028017
+      ],
+      "middle": [
+        0.006216714320192574,
+        -0.032603160766429676,
+        0.03893172353885588
+      ],
+      "wrist_palm": [
+        0.024830103591433,
+        0.010038065333744673,
+        0.007144831197630138
+      ],
+      "other": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "last_1s_total_upward_support_by_group_N": {
+      "thumb": -0.3655461990226083,
+      "index": 0.4510850161623806,
+      "middle": 0.0596181000671819,
+      "wrist_palm": 0.021574302274613252,
+      "other": 0.0
+    },
+    "last_1s_middle_upward_support_fraction_gt3mN": 0.6548856548856549,
+    "last_1s_middle_contact_under_tool_axis_fraction": 0.6715176715176715,
+    "last_1s_web_region_contact_fraction": 1.0,
+    "last_1s_web_upward_support_fraction_gt3mN": 1.0,
+    "last_1s_web_upward_support_mean_N": 0.021574302254937186,
+    "last_1s_web_up_axis_z_min": 0.7160191475285032,
+    "last_1s_tool_down_angle_deg_range": [
+      38.71070460282941,
+      38.716791254955744
+    ],
+    "final_palm_normal_w": [
+      0.9991644024848938,
+      0.040374577045440674,
+      -0.00635981559753418
+    ],
+    "final_tip_net_projected_gap_m": 0.01576424017548561,
+    "final_tip_spread_axis_w": [
+      0.017812561243772507,
+      0.9998413324356079,
+      -6.216093606781214e-05
+    ],
+    "last_1s_total_support_over_tool_weight": 0.9997674615017126,
+    "last_1s_reported_handle_speed_mean_mps": 0.0028723212890326977,
+    "last_1s_position_difference_speed_mean_mps": 0.0005741186905652285
+  },
+  "control_probe_note": "Derived diagnostic: pinch synergy changes only thumb/index; middle MCP/PIP receive independent explicit target offsets. Geometry, source hand target and passive spring unchanged."
+}

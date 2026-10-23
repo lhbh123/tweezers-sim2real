@@ -1,0 +1,630 @@
+{
+  "status": "pass",
+  "checks": "static XML/mesh/inertia audit only; no physics trial",
+  "root_links": [
+    "base_link"
+  ],
+  "active_joint_count": 18,
+  "mass_kg": 22.975066239870507,
+  "links": [
+    {
+      "name": "base_link",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "base_link_inertia",
+      "mass_kg": 4.0,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/base.stl",
+        "sources/ur_description/meshes/ur5e/visual/base.dae"
+      ]
+    },
+    {
+      "name": "shoulder_link",
+      "mass_kg": 3.761,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/shoulder.stl",
+        "sources/ur_description/meshes/ur5e/visual/shoulder.dae"
+      ]
+    },
+    {
+      "name": "upper_arm_link",
+      "mass_kg": 8.058,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/upperarm.stl",
+        "sources/ur_description/meshes/ur5e/visual/upperarm.dae"
+      ]
+    },
+    {
+      "name": "forearm_link",
+      "mass_kg": 2.846,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/forearm.stl",
+        "sources/ur_description/meshes/ur5e/visual/forearm.dae"
+      ]
+    },
+    {
+      "name": "wrist_1_link",
+      "mass_kg": 1.37,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/wrist1.stl",
+        "sources/ur_description/meshes/ur5e/visual/wrist1.dae"
+      ]
+    },
+    {
+      "name": "wrist_2_link",
+      "mass_kg": 1.3,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/wrist2.stl",
+        "sources/ur_description/meshes/ur5e/visual/wrist2.dae"
+      ]
+    },
+    {
+      "name": "wrist_3_link",
+      "mass_kg": 0.365,
+      "collision_count": 1,
+      "meshes": [
+        "sources/ur_description/meshes/ur5e/collision/wrist3.stl",
+        "sources/ur_description/meshes/ur5e/visual/wrist3.dae"
+      ]
+    },
+    {
+      "name": "ft_frame",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "base",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "flange",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "tool0",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "xhand_adapter",
+      "mass_kg": 0.15268140296446395,
+      "collision_count": 1,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_link",
+      "mass_kg": 0.530025137189824,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_link.STL"
+      ]
+    },
+    {
+      "name": "right_hand_ee_link",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_thumb_bend_link",
+      "mass_kg": 0.0098552942780609,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_thumb_bend_link.STL"
+      ]
+    },
+    {
+      "name": "right_hand_thumb_rota_link1",
+      "mass_kg": 0.153264803291678,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_thumb_rota_link1.STL"
+      ]
+    },
+    {
+      "name": "right_hand_thumb_rota_link2",
+      "mass_kg": 0.0374003730407777,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_thumb_rota_link2.STL"
+      ]
+    },
+    {
+      "name": "right_hand_thumb_rota_tip",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_index_bend_link",
+      "mass_kg": 0.0677836037392839,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_index_bend_link.STL"
+      ]
+    },
+    {
+      "name": "right_hand_index_rota_link1",
+      "mass_kg": 0.0630216027459696,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_index_rota_link1.STL"
+      ]
+    },
+    {
+      "name": "right_hand_index_rota_link2",
+      "mass_kg": 0.0179923076356481,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_index_rota_link2.STL"
+      ]
+    },
+    {
+      "name": "right_hand_index_rota_tip",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_mid_link1",
+      "mass_kg": 0.0630216005457211,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_mid_link1.STL"
+      ]
+    },
+    {
+      "name": "right_hand_mid_link2",
+      "mass_kg": 0.0179923076388667,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_mid_link2.STL"
+      ]
+    },
+    {
+      "name": "right_hand_mid_tip",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_ring_link1",
+      "mass_kg": 0.0630216021699602,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_ring_link1.STL"
+      ]
+    },
+    {
+      "name": "right_hand_ring_link2",
+      "mass_kg": 0.0179922978524175,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_ring_link2.STL"
+      ]
+    },
+    {
+      "name": "right_hand_ring_tip",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    },
+    {
+      "name": "right_hand_pinky_link1",
+      "mass_kg": 0.0630215991316208,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_pinky_link1.STL"
+      ]
+    },
+    {
+      "name": "right_hand_pinky_link2",
+      "mass_kg": 0.0179923076462156,
+      "collision_count": 1,
+      "meshes": [
+        "sources/spider/assets/right_hand_pinky_link2.STL"
+      ]
+    },
+    {
+      "name": "right_hand_pinky_tip",
+      "mass_kg": 0.0,
+      "collision_count": 0,
+      "meshes": []
+    }
+  ],
+  "fixed_frame_map": {
+    "base_link_inertia": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "ft_frame": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0
+        ],
+        [
+          0.0,
+          1.2246467991473532e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "base": {
+      "rigid_body_link": "base_link",
+      "body_T_frame": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          0.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "flange": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          3.749399456654644e-33,
+          1.0,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "tool0": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -6.123233995736766e-17,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          1.0,
+          -3.749399456654644e-33,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "xhand_adapter": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          -6.123233995736766e-17,
+          -6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          1.0,
+          -3.749399456654644e-33,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_link": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          6.123233995736765e-17,
+          6.123233995736767e-17,
+          -1.2246467991473532e-18
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          -1.224646799147353e-16,
+          -7.498798913309288e-35
+        ],
+        [
+          6.123233995736766e-17,
+          1.224646799147353e-16,
+          -1.0,
+          0.02
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_ee_link": {
+      "rigid_body_link": "wrist_3_link",
+      "body_T_frame": [
+        [
+          1.0,
+          6.123233995736765e-17,
+          6.123233995736767e-17,
+          -5.204748896376252e-18
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          -1.224646799147353e-16,
+          7.960204194457797e-18
+        ],
+        [
+          6.123233995736766e-17,
+          1.224646799147353e-16,
+          -1.0,
+          0.085
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_thumb_rota_tip": {
+      "rigid_body_link": "right_hand_thumb_rota_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0504024546888781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_index_rota_tip": {
+      "rigid_body_link": "right_hand_index_rota_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0424999999999993
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_mid_tip": {
+      "rigid_body_link": "right_hand_mid_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.042107
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_ring_tip": {
+      "rigid_body_link": "right_hand_ring_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0424999999999994
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_hand_pinky_tip": {
+      "rigid_body_link": "right_hand_pinky_link2",
+      "body_T_frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0425
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "errors": []
+}

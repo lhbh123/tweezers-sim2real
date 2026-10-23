@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hold25",
+    "closure_start": 0.25,
+    "closure_end": 0.25
+  },
+  {
+    "name": "hold45",
+    "closure_start": 0.45,
+    "closure_end": 0.45
+  },
+  {
+    "name": "hold65",
+    "closure_start": 0.65,
+    "closure_end": 0.65
+  },
+  {
+    "name": "hold80",
+    "closure_start": 0.8,
+    "closure_end": 0.8
+  },
+  {
+    "name": "ramp35_80",
+    "closure_start": 0.35,
+    "closure_end": 0.8
+  },
+  {
+    "name": "ramp50_100",
+    "closure_start": 0.5,
+    "closure_end": 1.0
+  },
+  {
+    "name": "ramp70_100",
+    "closure_start": 0.7,
+    "closure_end": 1.0
+  }
+]

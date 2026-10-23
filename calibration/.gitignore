@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+data/
+results/*
+!results/*.json
+configs/local.json
+configs/*.local.json
+*.bag
+*.zip

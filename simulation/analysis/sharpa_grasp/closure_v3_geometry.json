@@ -1,0 +1,212 @@
+[
+  {
+    "closure": 0.0,
+    "nominal_jaw_angle": 0.05,
+    "expected_tip_inner_gap_m": 0.02524406313798906,
+    "pad_support_plane_gap_m": [
+      7.999926874059649e-05,
+      7.999925950262499e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.09999999999999999,
+    "nominal_jaw_angle": 0.045000000000000005,
+    "expected_tip_inner_gap_m": 0.02352077317214494,
+    "pad_support_plane_gap_m": [
+      7.228635116501847e-05,
+      7.93025799087077e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.19999999999999998,
+    "nominal_jaw_angle": 0.04000000000000001,
+    "expected_tip_inner_gap_m": 0.02179712018772781,
+    "pad_support_plane_gap_m": [
+      6.719879358216274e-05,
+      7.875643242807873e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.3,
+    "nominal_jaw_angle": 0.034999999999999996,
+    "expected_tip_inner_gap_m": 0.020073147275972498,
+    "pad_support_plane_gap_m": [
+      6.48034222145294e-05,
+      7.836324506592385e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.39999999999999997,
+    "nominal_jaw_angle": 0.030000000000000006,
+    "expected_tip_inner_gap_m": 0.018348897536112015,
+    "pad_support_plane_gap_m": [
+      6.516734670028446e-05,
+      7.812544009633271e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.49999999999999994,
+    "nominal_jaw_angle": 0.025,
+    "expected_tip_inner_gap_m": 0.01662441407430005,
+    "pad_support_plane_gap_m": [
+      6.54327973741986e-05,
+      7.804543398058639e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.6,
+    "nominal_jaw_angle": 0.020000000000000004,
+    "expected_tip_inner_gap_m": 0.014899740002533335,
+    "pad_support_plane_gap_m": [
+      6.848902595710249e-05,
+      7.812563728477884e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.7,
+    "nominal_jaw_angle": 0.015000000000000003,
+    "expected_tip_inner_gap_m": 0.013174918437573832,
+    "pad_support_plane_gap_m": [
+      7.446337435949857e-05,
+      7.836845459854858e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.7999999999999999,
+    "nominal_jaw_angle": 0.010000000000000004,
+    "expected_tip_inner_gap_m": 0.011449992499870835,
+    "pad_support_plane_gap_m": [
+      8.342412064640814e-05,
+      7.877628445364382e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.8999999999999999,
+    "nominal_jaw_angle": 0.0050000000000000044,
+    "expected_tip_inner_gap_m": 0.009725005312482942,
+    "pad_support_plane_gap_m": [
+      9.543968801339897e-05,
+      7.9351519241877e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 0.9999999999999999,
+    "nominal_jaw_angle": 5.551115123125783e-18,
+    "expected_tip_inner_gap_m": 0.008,
+    "pad_support_plane_gap_m": [
+      0.00011057861127411472,
+      8.009654513480013e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 1.0999999999999999,
+    "nominal_jaw_angle": -0.004999999999999994,
+    "expected_tip_inner_gap_m": 0.006275019687464975,
+    "pad_support_plane_gap_m": [
+      0.00012890950232724574,
+      8.101374200172873e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 1.2,
+    "nominal_jaw_angle": -0.009999999999999998,
+    "expected_tip_inner_gap_m": 0.004550107499295836,
+    "pad_support_plane_gap_m": [
+      0.0001472677628159419,
+      8.210548332948653e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 1.2999999999999998,
+    "nominal_jaw_angle": -0.014999999999999993,
+    "expected_tip_inner_gap_m": 0.002825306558207452,
+    "pad_support_plane_gap_m": [
+      0.00016882835802388418,
+      8.337413614116496e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  },
+  {
+    "closure": 1.4,
+    "nominal_jaw_angle": -0.019999999999999997,
+    "expected_tip_inner_gap_m": 0.0011006599841335107,
+    "pad_support_plane_gap_m": [
+      0.00019374372047892274,
+      8.482206091563194e-05
+    ],
+    "screen": {
+      "self_pairs": [],
+      "non_pinch_tool_pairs": [],
+      "pinch_pad_pairs": []
+    }
+  }
+]

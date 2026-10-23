@@ -1,0 +1,50 @@
+[
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v6_seed21.json",
+    "seed": 21,
+    "open_self_clear": true,
+    "unexpected_open": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 10
+      }
+    ],
+    "min_open_table_clearance_m": 0.01922211648237726,
+    "tail_palm_gap_m": 6.99149240467669e-05,
+    "closed_self_clear": true,
+    "unexpected_closed": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 10
+      }
+    ]
+  },
+  {
+    "config": "configs/human_grasp_straight_face_pinch_v6_seed17.json",
+    "seed": 17,
+    "open_self_clear": true,
+    "unexpected_open": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 8
+      }
+    ],
+    "min_open_table_clearance_m": 0.018764453533105185,
+    "tail_palm_gap_m": 4.651698723818878e-06,
+    "closed_self_clear": true,
+    "unexpected_closed": [
+      {
+        "body": "handle",
+        "part": "straight_tail",
+        "link": "right_hand_link",
+        "triangle_intersections": 8
+      }
+    ]
+  }
+]

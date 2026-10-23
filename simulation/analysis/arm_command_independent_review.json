@@ -1,0 +1,58 @@
+{
+  "files_sha256": {
+    "src/arm_command.py": "3c64b9aa2e2583b8b94438ce17ce45a3f72e6216d80a0f5272dcc995b6e29080",
+    "src/rl_task.py": "2ec4e3cea475aead670cdf6176657ec74c1d834715f21478d111e7bb9eb7eac9",
+    "scripts/train_rl.py": "6d6639415e6fbd758b2ab9853f4d72e2a993a0f464acab0c2e379ab6737369f9"
+  },
+  "arm_command_state_mutation_calls": [],
+  "source_fk_max_matrix_error": 6.661338147750939e-16,
+  "independent_central_difference_jacobian_max_error": 1.8053591954725334e-10,
+  "zero_command_bitwise_target_hold": true,
+  "q_and_reference_inputs_unchanged": true,
+  "random32_near_pose_2mm_component_steps": {
+    "max_translation_error_m": 8.918341893381719e-06,
+    "max_orientation_error_rad": 2.4796684396152506e-06
+  },
+  "six_directions_150steps_float32": {
+    "max_joint_step_rad": 0.02500009536743164,
+    "min_joint_hard_limit_margin_rad": 0.5638017654418945,
+    "max_workspace_excess_m": 8.940696716308594e-08,
+    "max_orientation_drift_rad": 0.058611178440609396
+  },
+  "review_findings": [
+    {
+      "severity": "info",
+      "location": "src/arm_command.py:43\u201359",
+      "finding": "Computes only q targets. No scene, rigid-object, force, torque, fixture, or simulator-state writes."
+    },
+    {
+      "severity": "info",
+      "location": "src/rl_task.py:218\u2013219,335\u2013339",
+      "finding": "Reset reference is target FK; Cartesian delta and FK share base axes. Current scene Robot base has translation only, so axes match world. A future rotated base would require rotating world deltas."
+    },
+    {
+      "severity": "info",
+      "location": "src/arm_command.py:46\u201359",
+      "finding": "Position target is clamped in command space; final nonlinear two-iteration FK can have a small numerical boundary residual. Joint targets are limited to URDF bounds and <=0.025rad per control interval."
+    },
+    {
+      "severity": "limitation",
+      "location": "src/arm_command.py:59",
+      "finding": "Exact zero retains all previous actuator targets, including preload; it intentionally does not re-centre based on measured actual q. Mechanical disturbances remain handled by articulation position actuators."
+    },
+    {
+      "severity": "limitation",
+      "location": "src/arm_command.py:43\u201359",
+      "finding": "Workspace limits constrain commanded FK, not every actual tool/finger point; this is not collision avoidance or a proof of task contact stability during motion."
+    }
+  ],
+  "checks": {
+    "no_simulation_state_write_api": true,
+    "fk_correct": true,
+    "jacobian_correct": true,
+    "exact_zero_hold": true,
+    "no_input_mutation": true,
+    "joint_bounds_preserved": true,
+    "joint_step_cap_preserved": true
+  }
+}
