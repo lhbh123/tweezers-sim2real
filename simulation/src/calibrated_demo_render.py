@@ -15,7 +15,7 @@ def pose_matrix(position, wxyz):
 
 
 class CalibratedDemoRenderer:
-    def __init__(self, scene, rig_path, world_base_path, out, control_dt):
+    def __init__(self, scene, rig_path, world_base_path, out, control_dt, mount_perturbations=None):
         import carb
         import imageio.v2 as imageio
         from pxr import Gf, Sdf, UsdGeom, UsdLux, UsdShade
@@ -61,7 +61,13 @@ class CalibratedDemoRenderer:
                 UsdShade.MaterialBindingAPI.Apply(prim).Bind(
                     UsdShade.Material.Get(scene.stage, '/World/Materials/' + name))
         carb.settings.get_settings().set('/rtx/post/aa/op', 0)
-        self.rig = CalibratedCameraRig(rig_path, scene, T_world_base, image_mode='rectified')
+        effective_rig_path=Path(rig_path)
+        if mount_perturbations is not None:
+            from episode_randomization import perturb_camera_rig
+            effective=perturb_camera_rig(json.loads(Path(rig_path).read_text()),mount_perturbations)
+            effective_rig_path=self.out/'camera_rig_effective.json'
+            effective_rig_path.write_text(json.dumps(effective,indent=2)+'\n')
+        self.rig = CalibratedCameraRig(effective_rig_path, scene, T_world_base, image_mode='rectified')
         wrist = self.rig.rig['cameras']['wrist']
         self.T_link_tcp = self.rig.T_link_camera @ np.linalg.inv(np.asarray(wrist['T_TCP_Cw']))
         self.rig.update(0)
@@ -76,9 +82,9 @@ class CalibratedDemoRenderer:
         carb.settings.get_settings().set('/rtx/post/aa/op', 0)
         manifest = dict(image_mode='rectified', resolution=[640, 480], video_fps=self.fps,
                         T_world_base=T_world_base.tolist(),
-                        rig=json.loads(Path(rig_path).read_text()),
+                        rig=self.rig.rig,
                         source_files={str(Path(p).resolve()): hashlib.sha256(Path(p).read_bytes()).hexdigest()
-                                      for p in [rig_path, world_base_path]},
+                                      for p in dict.fromkeys([rig_path, world_base_path,effective_rig_path])},
                         cameras={name: dict(video=f'{name}.mp4', first_frame=f'{name}_first.png',
                                             last_frame=f'{name}_last.png') for name in self.rig.cameras},
                         joint_names=scene.robot.joint_names,
@@ -88,7 +94,7 @@ class CalibratedDemoRenderer:
         (self.out / 'camera_manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
         print('CALIBRATED_CAMERAS_READY', str(self.out), flush=True)
 
-    def frame(self):
+    def frame(self, observation_index=None, control_step=None):
         self.rig.update(0)
         self.scene.sim.render()
         images = self.rig.rgb()
@@ -106,6 +112,8 @@ class CalibratedDemoRenderer:
                    T_world_TCP=(T_world_link @ self.T_link_tcp).tolist(),
                    T_world_Cw=(T_world_link @ self.rig.T_link_camera).tolist(),
                    T_world_Cg=(self.rig.T_world_base @ np.asarray(self.rig.rig['cameras']['global']['T_B_Cg'])).tolist())
+        if observation_index is not None:
+            row.update(observation_index=observation_index,control_step=control_step)
         self.records.write(json.dumps(row) + '\n')
         self.last_images = images
         self.frame_index += 1

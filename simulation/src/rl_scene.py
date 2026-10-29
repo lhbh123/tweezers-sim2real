@@ -59,7 +59,8 @@ class BatchedTweezersScene:
                  self_collisions=True, filter_mechanical_self_pairs=True,
                  tool_width=None, bridge_width=None, solver_velocity_iterations=2,
                  enable_grasp_support=False, enable_face_metrics=False,
-                 table_size=(1.10, .80, .04), table_center_xy=(.35, 0.)):
+                 table_size=(1.10, .80, .04), table_center_xy=(.35, 0.),
+                 block_xy=None):
         self.num_envs, self.device, self.dt = int(num_envs), str(device), float(dt)
         self.table_height = float(table_height)
         self.table_size = np.asarray(table_size, dtype=float)
@@ -287,7 +288,10 @@ class BatchedTweezersScene:
             drive.CreateDampingAttr(float(spring_damping * math.pi / 180))
             drive.CreateTargetPositionAttr(float(sign * np.rad2deg(self.open_angle)))
             drive.CreateMaxForceAttr(.2)
-        self.block_initial_T = transform([tool_position[0], tool_position[1], table_height+.0061])
+        block_xy = np.asarray(tool_position[:2] if block_xy is None else block_xy, dtype=float)
+        if block_xy.shape != (2,) or not np.isfinite(block_xy).all():
+            raise ValueError('Block position requires a finite XY pair')
+        self.block_initial_T = transform([*block_xy, table_height+.0061])
         self._rigid(base + '/Block', self.block_initial_T, block_mass)
         self._box(base+'/Block/Shape', (.012, .012, .012), (0., 0., 0.), self._block_mat)
 

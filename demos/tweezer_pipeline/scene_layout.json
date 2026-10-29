@@ -1,0 +1,50 @@
+{
+  "table_size_m": [
+    0.8,
+    1.1,
+    0.04
+  ],
+  "table_center_xy_m": [
+    0.0,
+    0.35
+  ],
+  "table_height_m": 0.72,
+  "home_xy_m": [
+    0.0,
+    0.48
+  ],
+  "start_xy_m": [
+    [
+      0.22,
+      0.48
+    ]
+  ],
+  "goal_xy_m": [
+    [
+      -0.08,
+      0.76
+    ]
+  ],
+  "rack_root_xyz_m": [
+    0.2,
+    0.62,
+    1.0
+  ],
+  "rack_offset_y_m": 0.1,
+  "physics": {
+    "spring": 5.0,
+    "spring_damping": 0.02,
+    "hand_stiffness": 10.0,
+    "hand_damping": 0.3,
+    "finger_friction": 1.4,
+    "solver_iterations": 64,
+    "solver_velocity_iterations": 8,
+    "contact_offset": 0.0002,
+    "simplify_arm_collisions": false,
+    "enable_grasp_support": true,
+    "enable_face_metrics": true
+  },
+  "cameras": "Original calibrated wrist/global camera rig; no recentering",
+  "physics_reference": "run_calibrated_demo.sh and run_pick_place.py defaults",
+  "pickup_distribution_shift": "Original calibrated-demo physics and block start, plus explicit rack/tool Y translation, differ from pickup training"
+}

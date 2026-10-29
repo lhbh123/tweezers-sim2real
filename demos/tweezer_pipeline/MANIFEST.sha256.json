@@ -1,0 +1,19 @@
+{
+  "source_run": "simulation/runs/tweezer_pipeline_calibrated_20261029_111556",
+  "files": {
+    "README.md": "f4d5dd3fcfab9a4913b62c499a38dc6f38a4d5da7001a9bb75f72cf29c9f03d4",
+    "camera_manifest.json": "63643690252ec0590e97659125cb1ed186fdc79747dc8551355060db3efd4abd",
+    "camera_recording.json": "78258824e1f84542b51650de39343c9128ed9f51d3787479a9ff01e549aee5b1",
+    "evaluation.json": "d61494532814eff0af7356e9e9899421cc6ffa0fd97a0d0a2b95699dcc5a626e",
+    "global.mp4": "bc9a1494d2589fcbaf68cf290c045a50e289cab0b338624c568cf14b3151b9d8",
+    "global_first.png": "3cfba428fe86caa1ef5dc3252f2ea50d6c2e0e80a0e56ceeec759389f5c7d9be",
+    "global_last.png": "07e2ee5f05e189d81250e197c3ec87f54e9bc80a46c2e90cd45b60550696a352",
+    "global_preview.gif": "9494401cdd8946679e19dfca16556fef64fcb5f44084a3d9e76a805ff44bdc31",
+    "media_verification.json": "c5ec284ed79e65b6a9d9ae0c9b3b3c1dfe0f62b34b3e0564d90e0b2d3fc926ed",
+    "scene_layout.json": "2ce26538d4e93709d19486273d29dc86adf1ca9dcbb6c49031bb8ba34bdebd10",
+    "source_check.json": "2882a2b807da481188f8ee3c881f9297d4eddddccdc83cdb369de4c68385d9b9",
+    "wrist.mp4": "f0d65eb4975d3138c54ba47220522ff6cac264bb39628db85da6a19f9a7a7fcf",
+    "wrist_first.png": "da56c542b95ee2d4c6322b32f5e3b350605adbdf4aaabfeaf07f51f3989af484",
+    "wrist_last.png": "ccf46498caf94b05741f2ff35fbb65233807de63c74e1a4165c0c436dc704edd"
+  }
+}

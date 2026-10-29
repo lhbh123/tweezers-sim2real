@@ -1,0 +1,67 @@
+{
+  "episodes": [
+    {
+      "episode": 0,
+      "pickup_success": true,
+      "place_success": true,
+      "success": true,
+      "handoff": {
+        "state_max_abs_differences": {
+          "joint_pos": 0.0,
+          "joint_vel": 0.0,
+          "handle_root_state_w": 0.0,
+          "left_root_state_w": 0.0,
+          "right_root_state_w": 0.0,
+          "block_root_state_w": 0.0
+        },
+        "continuous": true,
+        "snapshot_restored": false
+      },
+      "pickup_duration_s": 21.566666666666666,
+      "pickup_max_phase": 5,
+      "pickup_failure_causes": [],
+      "pickup_timeout": false,
+      "place_duration_s": 23.516666666666666,
+      "place_max_phase": 9,
+      "place_failure": false,
+      "place_phase_timeout": false,
+      "place_timeout": false,
+      "robot_rack_collision": false,
+      "goal_error_m": 0.0006155878072604537,
+      "block_grasped_once": true
+    }
+  ],
+  "successes": 1,
+  "count": 1,
+  "pickup_phases": [
+    "pregrasp",
+    "approach",
+    "grasp",
+    "lift_clear",
+    "transfer_home",
+    "handoff_check"
+  ],
+  "place_phases": [
+    "settle",
+    "approach",
+    "descend",
+    "squeeze",
+    "lift",
+    "transfer",
+    "lower",
+    "release",
+    "withdraw",
+    "settle_at_goal"
+  ],
+  "physics": "Original calibrated demo settings throughout both stages; passive rack added; no physics reset at handoff",
+  "start_xy_m": [
+    0.22,
+    0.48
+  ],
+  "goal_xy_m": [
+    -0.08,
+    0.76
+  ],
+  "camera_mode": "calibrated_wrist_global",
+  "trajectory_action_layout": "9 columns: pickup all 9; place first 6 and last 3 zero"
+}

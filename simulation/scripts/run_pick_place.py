@@ -73,6 +73,9 @@ p.add_argument('--camera-config');p.add_argument('--record-substeps',action='sto
 p.add_argument('--calibrated-rig',help='Verified camera_rig_isaac.json; records rectified wrist/global RGB')
 p.add_argument('--world-base',help='Verified world_base_isaac.json for the selected scene')
 p.add_argument('--scene-layout',help='JSON with table dimensions/centre, tool spawn, HOME XY and reset tool yaw')
+p.add_argument('--training-data',action='store_true',help='Record aligned single-env training transitions with initial RGB and joint command targets')
+p.add_argument('--skip-scene-export',action='store_true',help='Skip large expanded final_scene.usda output')
+p.add_argument('--episode-randomization',help='Sampled preheld initialization and local camera mount perturbations JSON')
 # Lens plugins must be registered before AppLauncher/omni/pxr import USD.
 camera_args,_=p.parse_known_args()
 if camera_args.calibrated_rig:
@@ -88,6 +91,10 @@ if a.calibrated_rig:
     a.kit_args+=' --enable omni.usd.schema.omni_lens_distortion'
 elif a.world_base:
     p.error('--world-base requires --calibrated-rig')
+if a.training_data and not a.calibrated_rig:
+    p.error('--training-data requires --calibrated-rig')
+if a.episode_randomization and not (a.training_data and a.calibrated_rig):
+    p.error('--episode-randomization requires --training-data and --calibrated-rig')
 if (a.tacmap_diagnostics or a.tacmap_diagnostic_rays) and not a.tacmap:
     p.error('--tacmap-diagnostics/--tacmap-diagnostic-rays require --tacmap')
 out=ROOT/a.out;out.mkdir(parents=True,exist_ok=False);source=out/'source';source.mkdir()
@@ -98,6 +105,8 @@ files += [Path(value).resolve() for value in [a.camera_config,a.cases,a.scene_la
 if a.calibrated_rig:
     files += [ROOT/'src/calibrated_demo_render.py',Path(a.calibrated_rig).resolve(),Path(a.world_base).resolve(),
               calibrated_examples/'isaac_camera_rig.py',calibrated_examples/'isaac_camera_bootstrap.py']
+if a.training_data:files.append(ROOT/'src/training_record.py')
+if a.episode_randomization:files.extend([ROOT/'src/episode_randomization.py',Path(a.episode_randomization).resolve()])
 if a.tactile or a.tacmap:files.extend([ROOT/'src/sharpa_tactile.py',ROOT/'src/sharpa_materials.py'])
 if a.tacmap:files.extend([ROOT/'src/sharpa_tacmap.py',ROOT/'src/sharpa_tacmap_compat.py'])
 if a.contact_shapes:files.append(ROOT/'src/sharpa_contact_shapes.py')
@@ -133,7 +142,7 @@ scene=BatchedTweezersScene(num_envs=a.num_envs,device=a.device,dt=1/480,pose_jso
     table_size=tuple(layout.get('table_size_m',[1.10,.80,.04])),table_center_xy=tuple(layout.get('table_center_xy_m',[.35,0.])),
     spring=a.spring,spring_damping=.02,hand_stiffness=a.hand_stiffness,hand_damping=a.hand_damping,finger_friction=a.finger_friction,solver_iterations=64,solver_velocity_iterations=8,
     contact_offset=.0002,simplify_arm_collisions=False,enable_grasp_support=True,enable_face_metrics=True)
-cfg=TaskConfig(decimation=8,episode_seconds=a.episode_seconds,initial_tip_clearance=.075,reset_xy_range=0,
+cfg=TaskConfig(decimation=8,episode_seconds=a.episode_seconds,initial_tip_clearance=float(layout.get('initial_tip_clearance_m',.075)),reset_xy_range=0,
     closure_bias=a.open_closure,closure_scale=max(.5,abs(a.closed_closure-a.open_closure)+.05),closure_min=-.1,closure_max=max(1.2,a.closed_closure+.1),reset_snapshot=str(snapshot),
     require_web_up=pose_config.get('task_orientation',{}).get('require_web_up',True),max_palm_up_component=pose_config.get('task_orientation',{}).get('max_palm_up_component',.25),require_face_pinch=True,independent_support_actions=True,
     index_support_action_rad=.008,middle_support_action_rad=.025,command_space_arm=True,tool_down_angle_range_deg=tuple(pose_config.get('task_orientation',{}).get('tool_down_angle_range_deg',[20,70])),seed=a.seed,
@@ -147,6 +156,15 @@ env=PickPlaceTask(scene,cfg,PickPlaceConfig(xy_lower=tuple(a.xy_lower),xy_upper=
 if a.cases:
     env.reset_override=json.loads(Path(a.cases).read_text());assert len(env.reset_override['start'])==a.num_envs
 obs=env.reset()
+episode_settings=json.loads(Path(a.episode_randomization).read_text()) if a.episode_randomization else None
+if episode_settings:
+    from episode_randomization import initialize_preheld_episode
+    env.episode_randomization=episode_settings
+    try:
+        obs=initialize_preheld_episode(env,episode_settings,out)
+    except Exception:
+        scene.close();app.close()
+        raise
 (out/'scene_layout.json').write_text(json.dumps(dict(table_size_m=scene.table_size.tolist(),table_center_xy_m=scene.table_center_xy.tolist(),
     table_height_m=scene.table_height,home_xy_m=list(cfg.work_xy),tool_yaw_deg=layout_yaw,
     start_xy_m=(env.start[:,:2]-scene.env_origins[:,:2]).cpu().tolist(),goal_xy_m=(env.goal[:,:2]-scene.env_origins[:,:2]).cpu().tolist()),indent=2)+'\n')
@@ -186,7 +204,8 @@ else:
                 xf=UsdGeom.Xformable(cube);xf.AddTranslateOp().Set(Gf.Vec3d(g[0]+offset[0],g[1]+offset[1],scene.table_height+float(scene.env_origins[i,2])+.0005));xf.AddScaleOp().Set(Gf.Vec3f(size[0],size[1],.0004));cube.CreateDisplayColorAttr([Gf.Vec3f(.1,.95,.3)]);UsdShade.MaterialBindingAPI.Apply(cube.GetPrim()).Bind(material)
         if a.calibrated_rig:
             from calibrated_demo_render import CalibratedDemoRenderer
-            renderer=CalibratedDemoRenderer(scene,a.calibrated_rig,a.world_base,out,control_dt=env.dt)
+            renderer=CalibratedDemoRenderer(scene,a.calibrated_rig,a.world_base,out,control_dt=env.dt,
+                mount_perturbations=episode_settings['cameras'] if episode_settings else None)
         else:
             from probe_render import ProbeRenderer
             renderer=ProbeRenderer(scene,a.camera_config,out)
@@ -213,6 +232,12 @@ else:
                     raise RuntimeError('Force-map and TacMap source surfaces differ for '+sensor['finger'])
         print('OFFICIAL_TACMAP_READY',json.dumps({'sensors':len(tacmap_reader.sensors),'resolution':tacmap_reader.resolution}),flush=True)
     record_execution_source_provenance(out,files,hashes,'after_imports_and_setup')
+    training_recorder=None
+    if a.training_data:
+        from training_record import TrainingRecorder
+        training_recorder=TrainingRecorder(env,out,renderer.T_link_tcp)
+        renderer.frame(observation_index=0,control_step=-1)
+        training_recorder.frame(0)
     scene.capture_grasp_substeps=a.record_substeps
     live=torch.ones(env.num_envs,dtype=torch.bool,device=env.device);success=torch.zeros_like(live)
     final_error=torch.full((env.num_envs,),float('nan'),device=env.device);duration=torch.zeros_like(final_error);max_phase=env.phase.clone();max_lift=env.episode_max_lift.clone()
@@ -225,6 +250,7 @@ else:
         action=torch.zeros((env.num_envs,env.action_size),device=env.device) if policy is None else policy.act(obs)
         active=live.clone();action[~live]=0
         obs,reward,done,info=env.step(action,auto_reset=False);m=info['measurements'];s=m['state']
+        if training_recorder:training_recorder.record_transition(action,reward,done,info)
         success|=env.episode_success&active;max_phase=torch.maximum(max_phase,torch.where(active,env.phase,max_phase));max_lift=torch.maximum(max_lift,torch.where(active,m['lift'],max_lift));duration+=active*env.dt
         for k,v in [('block',s['block_root_state_w']),('tip',m['tip']),('phase',env.phase),('applied',info['applied_action']),('residual',action),('goal_error',info['goal_error']),('lift',m['lift']),('both',m['both']),('retained',m['grip_error']),('face',m['face_pinch_ok']),('success',env.episode_success),('q',s['joint_pos']),('tool',s['tool_root_state_w']),('left',s['left_root_state_w']),('right',s['right_root_state_w']),('active',active),('normal_angle',m['tool_down_angle_deg']),('forces',m['forces']),('orientation_ok',m['orientation_ok']),('orientation_error',m['orientation_error']),('palm_normal',m['palm_normal_w']),('web_axis',m['web_side_axis_w']),('release_extra_opening',env.release_extra_opening)]:arrays[k].append(v.cpu().numpy().copy())
         arrays['release_middle_blend'].append(env.release_middle_blend.cpu().numpy().copy())
@@ -232,8 +258,13 @@ else:
             arrays[key].append(m[key].cpu().numpy().copy())
         if raw:raw.write(json.dumps(dict(time=(step+1)*env.dt,substeps=scene.grasp_contact_substeps))+'\n')
         just=live&done;final_error[just]=info['goal_error'][just];live&=~done
-        if renderer and (step%2==0 or not bool(live.any())):
-            renderer.frame();render_control_steps.append(step)
+        render_due=((step+1)%2==0 if training_recorder else step%2==0) or not bool(live.any())
+        if renderer and render_due:
+            if training_recorder:
+                renderer.frame(observation_index=step+1,control_step=step)
+                training_recorder.frame(step+1)
+            else:renderer.frame()
+            render_control_steps.append(step)
         if tacmap_reader is not None and (step%2==0 or not bool(live.any())):
             tacmap_reader.record((step+1)*env.dt,step)
         if step%120==119:print('PICK_PLACE_PROGRESS',round((step+1)*env.dt,1),'phase',torch.bincount(env.phase,minlength=10).tolist(),'success',int(success.sum()),'live',int(live.sum()),'tip_error_max_mm',float((env.target_tip-m['tip']).norm(dim=-1)[live].max()*1000) if bool(live.any()) else 0,flush=True)
@@ -243,6 +274,7 @@ else:
         # Completed evaluation rows are frozen in accounting; no reset affects scored traces.
     if raw:raw.close()
     if renderer:renderer.close()
+    if training_recorder:training_recorder.close()
     if tactile_reader is not None:
         frame_times = ((np.asarray(render_control_steps)+1)*env.dt if render_control_steps
                        else np.asarray(tacmap_reader.times) if tacmap_reader is not None else None)
@@ -251,7 +283,9 @@ else:
     np.savez_compressed(out/'trajectory.npz',**{k:np.stack(v) for k,v in arrays.items()},start=starts,goal=goals,dt=env.dt,origins=scene.env_origins.cpu().numpy(),render_control_steps=np.array(render_control_steps,dtype=np.int64))
     report=dict(algorithm='nominal_geometric_controller' if policy is None else 'goal_conditioned_residual_PPO_with_geometric_phase_controller',checkpoint=a.evaluate,checkpoint_sha256=hashlib.sha256(Path(a.evaluate).read_bytes()).hexdigest() if policy is not None else None,checkpoint_iterations=ckpt.get('iteration') if policy is not None else None,checkpoint_transitions=ckpt.get('samples') if policy is not None else None,seed=a.seed,episodes=env.num_envs,successes=int(success.sum()),success_rate=float(success.float().mean()),success_per_env=success.tolist(),start=starts.tolist(),goal=goals.tolist(),final_xy_error_m=final_error.tolist(),duration_s=duration.tolist(),max_phase=max_phase.tolist(),max_lift_m=max_lift.tolist(),task=env.metadata())
     report['execution_source_provenance_file']='execution_source_provenance.json'
-    (out/'evaluation.json').write_text(json.dumps(report,indent=2));scene.stage.Export(str(out/'final_scene.usda'));print('PICK_PLACE_RESULT',json.dumps({k:report[k] for k in ['successes','episodes','max_phase','final_xy_error_m']}),flush=True)
+    (out/'evaluation.json').write_text(json.dumps(report,indent=2))
+    if not a.skip_scene_export:scene.stage.Export(str(out/'final_scene.usda'))
+    print('PICK_PLACE_RESULT',json.dumps({k:report[k] for k in ['successes','episodes','max_phase','final_xy_error_m']}),flush=True)
 if contact_shape_reader is not None:contact_shape_reader.close()
 record_execution_source_provenance(out,files,hashes,'before_shutdown')
 scene.close();app.close()

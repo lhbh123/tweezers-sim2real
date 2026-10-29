@@ -1,0 +1,34 @@
+{
+  "source_run": "simulation/runs/tweezer_pipeline_calibrated_20261029_111556",
+  "videos": {
+    "global": {
+      "frames_decoded": 1354,
+      "fps": 30.0,
+      "resolution": [
+        640,
+        480
+      ],
+      "matches_original": true
+    },
+    "wrist": {
+      "frames_decoded": 1354,
+      "fps": 30.0,
+      "resolution": [
+        640,
+        480
+      ],
+      "matches_original": true
+    }
+  },
+  "gif": {
+    "frames_decoded": 226,
+    "resolution": [
+      480,
+      360
+    ],
+    "duration_s": 22.6,
+    "speed_multiplier": 2,
+    "bytes": 6857060,
+    "loop": 0
+  }
+}
